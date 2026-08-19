@@ -28,7 +28,9 @@ function rankQuestions(items, key, label, unit, rng, { groups = 60, groupSize = 
       difficulty: direction === "desc" && g < 3 ? 0.2 : 0.55,
       source: { dataset: "wikidata-municipality-master", refs: slice.map((m) => m.code) },
       meta: Object.fromEntries(slice.map((m) => [m.name, `${formatValue(m[key], unit)}`])),
-      trivia: `${label}比較: ${slice.map((m) => `${m.name} ${formatValue(m[key], unit)}`).join(" / ")}`,
+      // 全国順位のレンジも添える（g番目のグループ=ソート済みリストのg*4+1位〜g*4+4位相当）。
+      // 単なる数値比較より「全国トップ10前後」等の相対的な位置づけが分かった方が印象に残る。
+      trivia: `${label}比較: ${slice.map((m) => `${m.name} ${formatValue(m[key], unit)}`).join(" / ")}（全国${direction === "desc" ? "上位" : "下位"}${g * groupSize + 1}〜${g * groupSize + groupSize}位相当）`,
     });
   }
   return questions;
@@ -69,10 +71,10 @@ function prefectureExtremeQuestions(municipalities, key, label, unit, direction,
       tags: ["city-fact", "pref-extreme", key, direction, pref],
       difficulty: 0.4,
       source: { dataset: "wikidata-municipality-master", refs: [winner.code] },
-      trivia: `${pref}内の${label}: ${sorted
+      trivia: `${pref}内の${label}${direction === "desc" ? "上位" : "下位"}: ${sorted
         .slice(0, 4)
         .map((m) => `${m.name} ${formatValue(m[key], unit)}`)
-        .join(" / ")}`,
+        .join(" / ")}（${pref}には市区町村が${list.length}ある）`,
     });
   }
   return questions;

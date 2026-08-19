@@ -9,7 +9,8 @@
 // 付いていることが多い。無理に切り詰めず正式表記のまま出題し、popularName（世間一般に
 // 知られる略称・地名の核）はtriviaでの補足に使う。
 export const CURATED_DISTRICT_READINGS = [
-  { name: "神木本町", prefecture: "神奈川県", city: "川崎市宮前区" },
+  { name: "神木本町", prefecture: "神奈川県", city: "川崎市宮前区",
+    trivia: "日本武尊（ヤマトタケル）にまつわる縁起が伝わる「神木山等覚院」に由来するとされる地名。" },
   { name: "放出東", prefecture: "大阪府", city: "大阪市鶴見区", popularName: "放出",
     trivia: "「放出」は大阪の有名な難読地名。鶴見区の放出東・城東区の放出西に分かれる。" },
   { name: "十三本町", prefecture: "大阪府", city: "大阪市淀川区", popularName: "十三",

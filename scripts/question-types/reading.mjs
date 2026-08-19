@@ -113,19 +113,19 @@ const CURATED_HARD_READINGS = [
   { name: "蕨市", prefecture: "埼玉県", kana: "わらびし", note: "植物のワラビに由来するとされる地名（諸説あり）。日本一面積の小さい市。" },
   { name: "邑楽町", prefecture: "群馬県", kana: "おうらまち", note: "古代の邑楽郡に由来。「おうら」という読みは古い日本語の発音の名残とされる。" },
   // 追加分（Wikipedia「◯◯地方の難読地名一覧」からの厳選、2026-08-20。近畿〜九州・沖縄）
-  { name: "木曽岬町", prefecture: "三重県", kana: "きそさきちょう" },
+  { name: "木曽岬町", prefecture: "三重県", kana: "きそさきちょう", note: "木曽三川（木曽川・長良川・揖斐川）の河口の岬に位置することに由来。三重県で唯一、木曽川を挟んで愛知県側と地続きの飛び地状の立地。" },
   { name: "斑鳩町", prefecture: "奈良県", kana: "いかるがちょう", note: "聖徳太子ゆかりの地。「斑鳩」はイカルという鳥の群れる里という意味とされる。" },
-  { name: "若桜町", prefecture: "鳥取県", kana: "わかさまち" },
+  { name: "若桜町", prefecture: "鳥取県", kana: "わかさまち", note: "若桜街道の宿場町として栄えた。江戸期からの土蔵群が残る「蔵通り」で知られる。" },
   { name: "海士町", prefecture: "島根県", kana: "あまちょう", note: "隠岐諸島の島。「海士」で漁師を意味する言葉に由来。" },
-  { name: "知夫村", prefecture: "島根県", kana: "ちぶむら" },
-  { name: "神石高原町", prefecture: "広島県", kana: "じんせきこうげんちょう" },
-  { name: "阿武町", prefecture: "山口県", kana: "あぶちょう" },
-  { name: "土庄町", prefecture: "香川県", kana: "とのしょうちょう" },
+  { name: "知夫村", prefecture: "島根県", kana: "ちぶむら", note: "隠岐諸島・知夫里島にある、日本で最も人口の少ない村の一つ。" },
+  { name: "神石高原町", prefecture: "広島県", kana: "じんせきこうげんちょう", note: "2004年に神石郡4町村が合併して誕生。標高400〜700mの高原地帯でブランド和牛「神石牛」の産地。" },
+  { name: "阿武町", prefecture: "山口県", kana: "あぶちょう", note: "阿武川流域の町。2022年、村への新型コロナ給付金4630万円を誤って全額振り込んでしまった事件で全国的なニュースになった。" },
+  { name: "土庄町", prefecture: "香川県", kana: "とのしょうちょう", note: "小豆島西部に位置する。世界一狭い海峡としてギネス認定された「土渕海峡」（幅9.93m）がある。" },
   { name: "檮原町", prefecture: "高知県", kana: "ゆすはらちょう", note: "「檮」は「梼」の異体字で、日常ではほぼ使われない珍しい漢字。" },
-  { name: "奈半利町", prefecture: "高知県", kana: "なはりちょう" },
+  { name: "奈半利町", prefecture: "高知県", kana: "なはりちょう", note: "土佐藩の木材集散地として栄えた港町。土佐くろしお鉄道ごめん・なはり線の終着駅。" },
   { name: "いちき串木野市", prefecture: "鹿児島県", kana: "いちきくしきのし", note: "2005年に市来町と串木野市が合併して誕生。ひらがな+漢字の合成地名。" },
-  { name: "姶良市", prefecture: "鹿児島県", kana: "あいらし" },
-  { name: "曽於市", prefecture: "鹿児島県", kana: "そおし" },
+  { name: "姶良市", prefecture: "鹿児島県", kana: "あいらし", note: "2010年に姶良郡の3町が合併して誕生。桜島の北側、錦江湾に面する。" },
+  { name: "曽於市", prefecture: "鹿児島県", kana: "そおし", note: "2005年に曽於郡の3町が合併して誕生。宮崎県境に位置し、肉用牛の飼育頭数で全国屈指。" },
   { name: "豊見城市", prefecture: "沖縄県", kana: "とみぐすくし", note: "琉球王国時代の豊見城グスク（城）に由来。「城」を「ぐすく」と読むのは沖縄独特。" },
 ];
 
@@ -186,13 +186,30 @@ export function generate(changes, currentMunicipalities, seed) {
   return questions;
 }
 
+// アイヌ語の代表的な地名要素。北海道・東北北部の地名に頻出する（末尾一致で判定）。
+const AINU_ROOTS = [
+  { suffix: "べつ", meaning: "川" },
+  { suffix: "ぺつ", meaning: "川" },
+  { suffix: "ない", meaning: "川・沢" },
+  { suffix: "こたん", meaning: "村・集落" },
+  { suffix: "うし", meaning: "〜のある所" },
+  { suffix: "しゃり", meaning: "葦原" },
+];
+
+function ainuRootNote(kana) {
+  const core = kana.replace(/(ちょう|まち|むら|そん|し)$/, "");
+  const hit = AINU_ROOTS.find((r) => core.endsWith(r.suffix));
+  return hit ? `末尾の「${hit.suffix}」はアイヌ語で「${hit.meaning}」を表す要素とされる。` : "";
+}
+
 function triviaFor(h) {
   if (h.note) return h.note;
   if (h.prefecture === "北海道" || h.prefecture === "青森県") {
-    return `${h.prefecture}の地名の多くはアイヌ語由来。「${h.kana}」も漢字の音訓読みではなく、アイヌ語の発音に漢字を当てはめたもの。`;
+    const rootNote = ainuRootNote(h.kana);
+    return `${h.prefecture}の地名の多くはアイヌ語由来。「べつ・ぺつ」は川、「ない」も川や沢を意味するアイヌ語で道内の地名に頻出する。${rootNote}「${h.kana}」も漢字の音訓読みではなく、アイヌ語の発音に漢字を当てはめたもの。`;
   }
   if (h.prefecture === "沖縄県") {
-    return `沖縄県の地名は琉球方言（琉球語）由来が多い。「村」を本土のように「むら」ではなく「そん」と読むのも沖縄独特。`;
+    return `沖縄県の地名は琉球方言（琉球語）由来が多い。「村」を本土のように「むら」ではなく「そん」、「城」を「ぐすく」と読む（琉球王国時代の城塞に由来）のも沖縄独特。`;
   }
   return "全国的に「難読市区町村」として知られる地名。";
 }

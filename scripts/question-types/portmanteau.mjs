@@ -5,6 +5,7 @@
 // ここでは「合併で全く新しい名前が付いた」ケース全般をポートマントー枠として扱う。
 import { makePrng, shuffle, pickN } from "../../lib/prng.mjs";
 import { collectEvents } from "../../lib/reason-parser.mjs";
+import { toEraLabel, isHeiseiMerger } from "../../lib/era.mjs";
 
 export function findBrandNewMerges(changes) {
   const events = collectEvents(changes);
@@ -34,7 +35,7 @@ export function generate(changes, seed) {
       tags: ["portmanteau", ev.prefecture, ev.effectiveDate.slice(0, 4)],
       difficulty: 0.7,
       source: { dataset: "municipality-history", refs: [ev.raw] },
-      trivia: `${ev.effectiveDate}、${ev.prefecture}: ${oldsLabel}が合併し「${ev.new.name}」が誕生した。`,
+      trivia: `${toEraLabel(ev.effectiveDate)}、${ev.prefecture}。${isHeiseiMerger(ev.effectiveDate) ? "「平成の大合併」の一つ。" : ""}${oldsLabel}が合併し「${ev.new.name}」が誕生した。`,
     });
   }
   return questions;

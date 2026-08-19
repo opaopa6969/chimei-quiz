@@ -56,11 +56,21 @@ function difficultyOf(g) {
   return Math.max(0, Math.min(1, 1 - (n - 2) * 0.25));
 }
 
-// 各地の人口を添えて「同じ名前でもこんなに違う」を見せる周辺知識
+// 各地の人口・面積・人口密度を添えて「同じ名前でもこんなに違う」を見せる周辺知識
 function triviaOf(g) {
   const parts = g.list.map((m) => {
     const pop = m.population != null ? `人口約${m.population.toLocaleString("ja-JP")}人` : "人口データなし";
-    return `${m.prefecture}${m.name}（${pop}）`;
+    const area = m.areaKm2 != null ? `面積${m.areaKm2.toFixed(1)}km²` : null;
+    const density =
+      m.population != null && m.areaKm2 > 0 ? `人口密度${Math.round(m.population / m.areaKm2).toLocaleString("ja-JP")}人/km²` : null;
+    const detail = [pop, area, density].filter(Boolean).join("・");
+    return `${m.prefecture}${m.name}（${detail}）`;
   });
-  return `全国に${g.prefectures.length}箇所の「${g.name}」: ${parts.join(" / ")}`;
+  const biggest = [...g.list].filter((m) => m.population != null).sort((a, b) => b.population - a.population)[0];
+  const smallest = [...g.list].filter((m) => m.population != null).sort((a, b) => a.population - b.population)[0];
+  const gapNote =
+    biggest && smallest && biggest !== smallest && smallest.population > 0
+      ? ` 人口差は約${Math.round(biggest.population / smallest.population)}倍（${biggest.prefecture}${biggest.name} vs ${smallest.prefecture}${smallest.name}）。`
+      : "";
+  return `全国に${g.prefectures.length}箇所の「${g.name}」: ${parts.join(" / ")}${gapNote}`;
 }

@@ -4,6 +4,7 @@
 import { collectEvents } from "../../lib/reason-parser.mjs";
 import { sameCategoryPool } from "./distractors.mjs";
 import { makePrng, shuffle } from "../../lib/prng.mjs";
+import { toEraLabel, isHeiseiMerger } from "../../lib/era.mjs";
 
 export function generate(changes, currentMunicipalities, seed) {
   const rng = makePrng(seed ?? "timeline-reason");
@@ -28,7 +29,7 @@ export function generate(changes, currentMunicipalities, seed) {
         tags: ["timeline-reason", "merge", ev.prefecture, ev.effectiveDate.slice(0, 4)],
         difficulty: difficultyOf(ev),
         source: { dataset: "municipality-history", refs: [ev.raw] },
-        trivia: `${ev.effectiveDate}、${ev.prefecture}: ${ev.raw.replace(/\n/g, " / ")}`,
+        trivia: triviaFor(ev),
       });
     } else if (ev.kind === "absorb") {
       const distractors = sameCategoryPool(currentNameList, new Set([ev.new.name, ...ev.olds.map((o) => o.name)]), 3, rng);
@@ -43,6 +44,7 @@ export function generate(changes, currentMunicipalities, seed) {
         tags: ["timeline-reason", "absorb", ev.prefecture, ev.effectiveDate.slice(0, 4)],
         difficulty: difficultyOf(ev),
         source: { dataset: "municipality-history", refs: [ev.raw] },
+        trivia: triviaFor(ev),
       });
     }
   }
@@ -56,4 +58,10 @@ function difficultyOf(ev) {
   const base = heisei ? 0.4 : 0.6;
   const scaleCount = Math.max(0, 0.2 - ev.olds.length * 0.03);
   return Math.max(0, Math.min(1, base + scaleCount));
+}
+
+function triviaFor(ev) {
+  const eraNote = toEraLabel(ev.effectiveDate);
+  const heiseiNote = isHeiseiMerger(ev.effectiveDate) ? "「平成の大合併」（2003〜2010年）の一つ。" : "";
+  return `${eraNote}、${ev.prefecture}。${heiseiNote}${ev.raw.replace(/\n/g, " / ")}`;
 }

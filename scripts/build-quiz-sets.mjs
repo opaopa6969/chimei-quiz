@@ -23,12 +23,20 @@ const { changes } = JSON.parse(readFileSync(path.join(DATA_DIR, "municipality-ch
 const { municipalities } = JSON.parse(readFileSync(path.join(DATA_DIR, "municipality-master.json"), "utf8"));
 const { entries: loreEntries } = JSON.parse(readFileSync(path.join(DATA_DIR, "lore-entries.json"), "utf8"));
 const { districts } = JSON.parse(readFileSync(path.join(DATA_DIR, "district-readings.json"), "utf8"));
+// vanished-city-facts.jsonはfetch-vanished-city-facts.mjs実行前は存在しないので、
+// 未生成でもbuild:data全体が止まらないようフォールバックする（trivia拡充が無いだけで動く）。
+let vanishedCityFacts = [];
+try {
+  vanishedCityFacts = JSON.parse(readFileSync(path.join(DATA_DIR, "vanished-city-facts.json"), "utf8")).facts;
+} catch {
+  console.warn("vanished-city-facts.json が無いので vanished の trivia 拡充なしでビルドします（scripts/fetch-vanished-city-facts.mjs 参照）");
+}
 
 mkdirSync(QUIZ_DIR, { recursive: true });
 
 const SETS = {
   "same-name": sameName.generate(municipalities, "same-name-v1"),
-  vanished: vanished.generate(changes, municipalities, "vanished-v1"),
+  vanished: vanished.generate(changes, municipalities, "vanished-v1", vanishedCityFacts),
   "timeline-reason": timelineReason.generate(changes, municipalities, "timeline-reason-v1"),
   portmanteau: portmanteau.generate(changes, "portmanteau-v1"),
   reading: reading.generate(changes, municipalities, "reading-v1"),

@@ -10,6 +10,7 @@
 import { collectEvents } from "../../lib/reason-parser.mjs";
 import { sameCategoryPool } from "./distractors.mjs";
 import { makePrng, shuffle, pickN } from "../../lib/prng.mjs";
+import { toEraLabel, isHeiseiMerger } from "../../lib/era.mjs";
 
 export function findVanished(changes, currentKeys) {
   const events = collectEvents(changes);
@@ -35,16 +36,24 @@ export function findVanished(changes, currentKeys) {
   return [...vanishedMap.values()];
 }
 
-export function generate(changes, currentMunicipalities, seed) {
+// cityFacts: [{name, prefecture, extract}]（Wikipedia由来、fetch-vanished-city-facts.mjs参照）。
+// 「その村が何で有名だったか・特色は？」という要望に応え、統合の事実だけでなく
+// どんな街だったかの説明を添える。町村まで含む1543件全部のクロールは非現実的なので、
+// まず規模の大きい「市」52件にだけ用意している（他は改正事由の原文のみ）。
+export function generate(changes, currentMunicipalities, seed, cityFacts = []) {
   const rng = makePrng(seed ?? "vanished");
   const currentKeys = new Set(currentMunicipalities.map((m) => `${m.name}|${m.prefecture}`));
   const vanished = findVanished(changes, currentKeys);
   const currentNameList = currentMunicipalities.map((m) => m.name);
+  const factByKey = new Map(cityFacts.map((f) => [`${f.name}|${f.prefecture}`, f.extract]));
 
   const questions = [];
   for (const v of vanished) {
     const distractors = sameCategoryPool(currentNameList, new Set([v.name]), 3, rng);
     const choices = shuffle([v.name, ...distractors], rng);
+    const extract = factByKey.get(`${v.name}|${v.prefecture}`);
+    const heiseiNote = isHeiseiMerger(v.lastDate) ? "「平成の大合併」の一つ。" : "";
+    const mergeInfo = `${toEraLabel(v.lastDate)}に${v.becameName}になった。${heiseiNote}${v.raw.replace(/\n/g, " / ")}`;
 
     questions.push({
       type: "vanished",
@@ -57,7 +66,7 @@ export function generate(changes, currentMunicipalities, seed) {
       difficulty: 0.6, // 消滅は基本的に難しめ（存在しないものを選ぶ形式のため）
       source: { dataset: "municipality-history", refs: [v.raw] },
       meta: { prefecture: v.prefecture, lastDate: v.lastDate, becameName: v.becameName },
-      trivia: `${v.prefecture}${v.name}は${v.lastDate}に${v.becameName}になった。${v.raw.replace(/\n/g, " / ")}`,
+      trivia: extract ? `${extract} ${mergeInfo}` : `${v.prefecture}${v.name}は${mergeInfo}`,
     });
   }
   return questions;
