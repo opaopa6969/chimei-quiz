@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useCallback } from "react";
+import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Player } from "@remotion/player";
 import { ResultBanner } from "./remotion/compositions/ResultBanner";
 import { pickIntroComponent, introProps } from "./remotion/pick-intro.js";
@@ -8,6 +8,36 @@ const FPS = 30;
 const INTRO_FRAMES = 75; // 2.5秒
 const RESULT_FRAMES = 60; // 2秒
 
+// @remotion/player の <Player> は onEnded という直接propを持たない（渡しても黙って無視される）。
+// 正しいAPIは ref 経由の player.addEventListener("ended", handler)。
+// フェーズが動画の最後で止まって進まなくなるバグの原因だったので、ref+useEffectで登録する。
+// 加えて、何らかの理由でイベントが取れない場合に画面が完全に止まらないよう、
+// durationInFrames分の時間が経ったら強制的に進めるタイマーを保険として併用する（二重発火防止のガード付き）。
+function usePlayerEndedEvent(playerRef, active, durationFrames, fps, onEnded) {
+  const latestOnEnded = useRef(onEnded);
+  latestOnEnded.current = onEnded;
+
+  useEffect(() => {
+    if (!active) return;
+    let advanced = false;
+    const advance = () => {
+      if (advanced) return;
+      advanced = true;
+      latestOnEnded.current();
+    };
+
+    const player = playerRef.current;
+    if (player) player.addEventListener("ended", advance);
+    const timer = setTimeout(advance, (durationFrames / fps) * 1000 + 300);
+
+    return () => {
+      advanced = true; // アンマウント後にタイマーが発火しても何もしない
+      if (player) player.removeEventListener("ended", advance);
+      clearTimeout(timer);
+    };
+  }, [active, playerRef, durationFrames, fps]);
+}
+
 export function GameScreen({ questions, onFinish }) {
   const [index, setIndex] = useState(0);
   const [phase, setPhase] = useState("intro"); // "intro" | "choices" | "result"
@@ -16,6 +46,9 @@ export function GameScreen({ questions, onFinish }) {
   const [maxCombo, setMaxCombo] = useState(0);
   const [lastResult, setLastResult] = useState(null); // { correct, answerLabel, scoreGained }
   const [answered, setAnswered] = useState(null); // クリックされた選択肢（連打防止）
+
+  const introPlayerRef = useRef(null);
+  const resultPlayerRef = useRef(null);
 
   const question = questions[index];
   const IntroComponent = useMemo(() => pickIntroComponent(question), [question]);
@@ -49,6 +82,10 @@ export function GameScreen({ questions, onFinish }) {
     setLastResult(null);
   }, [index, questions.length, onFinish, score, lastResult, maxCombo]);
 
+  // フェーズ＋設問が切り替わるたびに、その時点でマウントされているPlayerへ ended リスナーを付け直す
+  usePlayerEndedEvent(introPlayerRef, phase === "intro", INTRO_FRAMES, FPS, () => setPhase("choices"));
+  usePlayerEndedEvent(resultPlayerRef, phase === "result", RESULT_FRAMES, FPS, handleResultEnded);
+
   return (
     <div className="screen game-screen">
       <div className="hud">
@@ -61,6 +98,7 @@ export function GameScreen({ questions, onFinish }) {
         {phase === "intro" && (
           <Player
             key={`intro-${question.id}`}
+            ref={introPlayerRef}
             component={IntroComponent}
             inputProps={introInputProps}
             durationInFrames={INTRO_FRAMES}
@@ -71,7 +109,6 @@ export function GameScreen({ questions, onFinish }) {
             autoPlay
             loop={false}
             controls={false}
-            onEnded={() => setPhase("choices")}
           />
         )}
         {phase === "choices" && (
@@ -80,6 +117,7 @@ export function GameScreen({ questions, onFinish }) {
         {phase === "result" && lastResult && (
           <Player
             key={`result-${question.id}`}
+            ref={resultPlayerRef}
             component={ResultBanner}
             inputProps={lastResult}
             durationInFrames={RESULT_FRAMES}
@@ -90,7 +128,6 @@ export function GameScreen({ questions, onFinish }) {
             autoPlay
             loop={false}
             controls={false}
-            onEnded={handleResultEnded}
           />
         )}
       </div>
