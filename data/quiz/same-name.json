@@ -1,0 +1,1534 @@
+{
+  "type": "same-name",
+  "count": 57,
+  "questions": [
+    {
+      "type": "same-name",
+      "id": "same-name-伊達市-北海道",
+      "prompt": "「伊達市」は福島県の他にどこにある？",
+      "choices": [
+        "愛媛県",
+        "長崎県",
+        "岐阜県",
+        "北海道"
+      ],
+      "answer": "北海道",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "北海道",
+        "福島県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "012335",
+          "072133"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-伊達市-福島県",
+      "prompt": "「伊達市」は北海道の他にどこにある？",
+      "choices": [
+        "神奈川県",
+        "香川県",
+        "青森県",
+        "福島県"
+      ],
+      "answer": "福島県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "北海道",
+        "福島県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "012335",
+          "072133"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-松前町-北海道",
+      "prompt": "「松前町」は愛媛県の他にどこにある？",
+      "choices": [
+        "北海道",
+        "群馬県",
+        "和歌山県",
+        "福井県"
+      ],
+      "answer": "北海道",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "北海道",
+        "愛媛県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "013315",
+          "384011"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-松前町-愛媛県",
+      "prompt": "「松前町」は北海道の他にどこにある？",
+      "choices": [
+        "島根県",
+        "愛媛県",
+        "秋田県",
+        "石川県"
+      ],
+      "answer": "愛媛県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "北海道",
+        "愛媛県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "013315",
+          "384011"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-森町-北海道",
+      "prompt": "「森町」は静岡県の他にどこにある？",
+      "choices": [
+        "沖縄県",
+        "北海道",
+        "福井県",
+        "和歌山県"
+      ],
+      "answer": "北海道",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "北海道",
+        "静岡県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "013455",
+          "224618"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-森町-静岡県",
+      "prompt": "「森町」は北海道の他にどこにある？",
+      "choices": [
+        "新潟県",
+        "静岡県",
+        "山梨県",
+        "秋田県"
+      ],
+      "answer": "静岡県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "北海道",
+        "静岡県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "013455",
+          "224618"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-日高町-北海道",
+      "prompt": "「日高町」は和歌山県の他にどこにある？",
+      "choices": [
+        "北海道",
+        "群馬県",
+        "山口県",
+        "島根県"
+      ],
+      "answer": "北海道",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "北海道",
+        "和歌山県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "016012",
+          "303828"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-日高町-和歌山県",
+      "prompt": "「日高町」は北海道の他にどこにある？",
+      "choices": [
+        "三重県",
+        "山梨県",
+        "群馬県",
+        "和歌山県"
+      ],
+      "answer": "和歌山県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "北海道",
+        "和歌山県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "016012",
+          "303828"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-清水町-北海道",
+      "prompt": "「清水町」は静岡県の他にどこにある？",
+      "choices": [
+        "広島県",
+        "奈良県",
+        "北海道",
+        "山形県"
+      ],
+      "answer": "北海道",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "北海道",
+        "静岡県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "016365",
+          "223417"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-清水町-静岡県",
+      "prompt": "「清水町」は北海道の他にどこにある？",
+      "choices": [
+        "山梨県",
+        "熊本県",
+        "静岡県",
+        "和歌山県"
+      ],
+      "answer": "静岡県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "北海道",
+        "静岡県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "016365",
+          "223417"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-池田町-北海道",
+      "prompt": "「池田町」は福井県の他にどこにある？",
+      "choices": [
+        "北海道",
+        "福島県",
+        "宮崎県",
+        "福岡県"
+      ],
+      "answer": "北海道",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "北海道",
+        "福井県",
+        "長野県",
+        "岐阜県"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "016446",
+          "183822",
+          "204811",
+          "214043"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-池田町-福井県",
+      "prompt": "「池田町」は北海道の他にどこにある？",
+      "choices": [
+        "香川県",
+        "鹿児島県",
+        "富山県",
+        "福井県"
+      ],
+      "answer": "福井県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "北海道",
+        "福井県",
+        "長野県",
+        "岐阜県"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "016446",
+          "183822",
+          "204811",
+          "214043"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-池田町-長野県",
+      "prompt": "「池田町」は北海道の他にどこにある？",
+      "choices": [
+        "沖縄県",
+        "長野県",
+        "岩手県",
+        "富山県"
+      ],
+      "answer": "長野県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "北海道",
+        "福井県",
+        "長野県",
+        "岐阜県"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "016446",
+          "183822",
+          "204811",
+          "214043"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-池田町-岐阜県",
+      "prompt": "「池田町」は北海道の他にどこにある？",
+      "choices": [
+        "新潟県",
+        "岐阜県",
+        "高知県",
+        "静岡県"
+      ],
+      "answer": "岐阜県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "北海道",
+        "福井県",
+        "長野県",
+        "岐阜県"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "016446",
+          "183822",
+          "204811",
+          "214043"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-南部町-青森県",
+      "prompt": "「南部町」は山梨県の他にどこにある？",
+      "choices": [
+        "青森県",
+        "京都府",
+        "富山県",
+        "三重県"
+      ],
+      "answer": "青森県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "青森県",
+        "山梨県",
+        "鳥取県"
+      ],
+      "difficulty": 0.75,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "024457",
+          "193666",
+          "313891"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-南部町-山梨県",
+      "prompt": "「南部町」は青森県の他にどこにある？",
+      "choices": [
+        "山梨県",
+        "京都府",
+        "愛媛県",
+        "石川県"
+      ],
+      "answer": "山梨県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "青森県",
+        "山梨県",
+        "鳥取県"
+      ],
+      "difficulty": 0.75,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "024457",
+          "193666",
+          "313891"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-南部町-鳥取県",
+      "prompt": "「南部町」は青森県の他にどこにある？",
+      "choices": [
+        "長野県",
+        "高知県",
+        "沖縄県",
+        "鳥取県"
+      ],
+      "answer": "鳥取県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "青森県",
+        "山梨県",
+        "鳥取県"
+      ],
+      "difficulty": 0.75,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "024457",
+          "193666",
+          "313891"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-川崎町-宮城県",
+      "prompt": "「川崎町」は福岡県の他にどこにある？",
+      "choices": [
+        "岩手県",
+        "香川県",
+        "宮城県",
+        "長崎県"
+      ],
+      "answer": "宮城県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "宮城県",
+        "福岡県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "043249",
+          "406058"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-川崎町-福岡県",
+      "prompt": "「川崎町」は宮城県の他にどこにある？",
+      "choices": [
+        "福岡県",
+        "兵庫県",
+        "岐阜県",
+        "奈良県"
+      ],
+      "answer": "福岡県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "宮城県",
+        "福岡県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "043249",
+          "406058"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-美里町-宮城県",
+      "prompt": "「美里町」は埼玉県の他にどこにある？",
+      "choices": [
+        "富山県",
+        "三重県",
+        "宮城県",
+        "高知県"
+      ],
+      "answer": "宮城県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "宮城県",
+        "埼玉県",
+        "熊本県"
+      ],
+      "difficulty": 0.75,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "045055",
+          "113816",
+          "433489"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-美里町-埼玉県",
+      "prompt": "「美里町」は宮城県の他にどこにある？",
+      "choices": [
+        "長野県",
+        "埼玉県",
+        "青森県",
+        "香川県"
+      ],
+      "answer": "埼玉県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "宮城県",
+        "埼玉県",
+        "熊本県"
+      ],
+      "difficulty": 0.75,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "045055",
+          "113816",
+          "433489"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-美里町-熊本県",
+      "prompt": "「美里町」は宮城県の他にどこにある？",
+      "choices": [
+        "和歌山県",
+        "山口県",
+        "熊本県",
+        "大分県"
+      ],
+      "answer": "熊本県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "宮城県",
+        "埼玉県",
+        "熊本県"
+      ],
+      "difficulty": 0.75,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "045055",
+          "113816",
+          "433489"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-美郷町-秋田県",
+      "prompt": "「美郷町」は島根県の他にどこにある？",
+      "choices": [
+        "千葉県",
+        "山梨県",
+        "福島県",
+        "秋田県"
+      ],
+      "answer": "秋田県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "秋田県",
+        "島根県",
+        "宮崎県"
+      ],
+      "difficulty": 0.75,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "054348",
+          "324485",
+          "454311"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-美郷町-島根県",
+      "prompt": "「美郷町」は秋田県の他にどこにある？",
+      "choices": [
+        "愛知県",
+        "北海道",
+        "大分県",
+        "島根県"
+      ],
+      "answer": "島根県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "秋田県",
+        "島根県",
+        "宮崎県"
+      ],
+      "difficulty": 0.75,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "054348",
+          "324485",
+          "454311"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-美郷町-宮崎県",
+      "prompt": "「美郷町」は秋田県の他にどこにある？",
+      "choices": [
+        "愛知県",
+        "鳥取県",
+        "宮崎県",
+        "熊本県"
+      ],
+      "answer": "宮崎県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "秋田県",
+        "島根県",
+        "宮崎県"
+      ],
+      "difficulty": 0.75,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "054348",
+          "324485",
+          "454311"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-朝日町-山形県",
+      "prompt": "「朝日町」は富山県の他にどこにある？",
+      "choices": [
+        "北海道",
+        "栃木県",
+        "山形県",
+        "岐阜県"
+      ],
+      "answer": "山形県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "山形県",
+        "富山県",
+        "三重県"
+      ],
+      "difficulty": 0.75,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "063231",
+          "163431",
+          "243434"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-朝日町-富山県",
+      "prompt": "「朝日町」は山形県の他にどこにある？",
+      "choices": [
+        "富山県",
+        "長野県",
+        "千葉県",
+        "和歌山県"
+      ],
+      "answer": "富山県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "山形県",
+        "富山県",
+        "三重県"
+      ],
+      "difficulty": 0.75,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "063231",
+          "163431",
+          "243434"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-朝日町-三重県",
+      "prompt": "「朝日町」は山形県の他にどこにある？",
+      "choices": [
+        "三重県",
+        "岐阜県",
+        "広島県",
+        "茨城県"
+      ],
+      "answer": "三重県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "山形県",
+        "富山県",
+        "三重県"
+      ],
+      "difficulty": 0.75,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "063231",
+          "163431",
+          "243434"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-金山町-山形県",
+      "prompt": "「金山町」は福島県の他にどこにある？",
+      "choices": [
+        "岩手県",
+        "和歌山県",
+        "山形県",
+        "徳島県"
+      ],
+      "answer": "山形県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "山形県",
+        "福島県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "063614",
+          "074454"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-金山町-福島県",
+      "prompt": "「金山町」は山形県の他にどこにある？",
+      "choices": [
+        "大阪府",
+        "群馬県",
+        "福島県",
+        "北海道"
+      ],
+      "answer": "福島県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "山形県",
+        "福島県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "063614",
+          "074454"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-川西町-山形県",
+      "prompt": "「川西町」は奈良県の他にどこにある？",
+      "choices": [
+        "山形県",
+        "長野県",
+        "福井県",
+        "山梨県"
+      ],
+      "answer": "山形県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "山形県",
+        "奈良県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "063827",
+          "293610"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-川西町-奈良県",
+      "prompt": "「川西町」は山形県の他にどこにある？",
+      "choices": [
+        "沖縄県",
+        "奈良県",
+        "千葉県",
+        "三重県"
+      ],
+      "answer": "奈良県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "山形県",
+        "奈良県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "063827",
+          "293610"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-小国町-山形県",
+      "prompt": "「小国町」は熊本県の他にどこにある？",
+      "choices": [
+        "山形県",
+        "石川県",
+        "福井県",
+        "岩手県"
+      ],
+      "answer": "山形県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "山形県",
+        "熊本県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "064017",
+          "434248"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-小国町-熊本県",
+      "prompt": "「小国町」は山形県の他にどこにある？",
+      "choices": [
+        "熊本県",
+        "山梨県",
+        "大阪府",
+        "宮城県"
+      ],
+      "answer": "熊本県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "山形県",
+        "熊本県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "064017",
+          "434248"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-昭和村-福島県",
+      "prompt": "「昭和村」は群馬県の他にどこにある？",
+      "choices": [
+        "石川県",
+        "香川県",
+        "徳島県",
+        "福島県"
+      ],
+      "answer": "福島県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "福島県",
+        "群馬県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "074462",
+          "104485"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-昭和村-群馬県",
+      "prompt": "「昭和村」は福島県の他にどこにある？",
+      "choices": [
+        "富山県",
+        "高知県",
+        "鹿児島県",
+        "群馬県"
+      ],
+      "answer": "群馬県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "福島県",
+        "群馬県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "074462",
+          "104485"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-南牧村-群馬県",
+      "prompt": "「南牧村」は長野県の他にどこにある？",
+      "choices": [
+        "高知県",
+        "茨城県",
+        "群馬県",
+        "宮城県"
+      ],
+      "answer": "群馬県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "群馬県",
+        "長野県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "103837",
+          "203050"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-南牧村-長野県",
+      "prompt": "「南牧村」は群馬県の他にどこにある？",
+      "choices": [
+        "長野県",
+        "山口県",
+        "埼玉県",
+        "福井県"
+      ],
+      "answer": "長野県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "群馬県",
+        "長野県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "103837",
+          "203050"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-高山村-群馬県",
+      "prompt": "「高山村」は長野県の他にどこにある？",
+      "choices": [
+        "群馬県",
+        "東京都",
+        "福島県",
+        "岡山県"
+      ],
+      "answer": "群馬県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "群馬県",
+        "長野県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "104281",
+          "205435"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-高山村-長野県",
+      "prompt": "「高山村」は群馬県の他にどこにある？",
+      "choices": [
+        "長野県",
+        "岐阜県",
+        "神奈川県",
+        "北海道"
+      ],
+      "answer": "長野県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "群馬県",
+        "長野県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "104281",
+          "205435"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-明和町-群馬県",
+      "prompt": "「明和町」は三重県の他にどこにある？",
+      "choices": [
+        "山梨県",
+        "島根県",
+        "石川県",
+        "群馬県"
+      ],
+      "answer": "群馬県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "群馬県",
+        "三重県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "105228",
+          "244422"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-明和町-三重県",
+      "prompt": "「明和町」は群馬県の他にどこにある？",
+      "choices": [
+        "山口県",
+        "三重県",
+        "長崎県",
+        "福島県"
+      ],
+      "answer": "三重県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "群馬県",
+        "三重県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "105228",
+          "244422"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-府中市-東京都",
+      "prompt": "「府中市」は広島県の他にどこにある？",
+      "choices": [
+        "栃木県",
+        "高知県",
+        "東京都",
+        "和歌山県"
+      ],
+      "answer": "東京都",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "東京都",
+        "広島県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "132063",
+          "342084"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-府中市-広島県",
+      "prompt": "「府中市」は東京都の他にどこにある？",
+      "choices": [
+        "埼玉県",
+        "和歌山県",
+        "愛知県",
+        "広島県"
+      ],
+      "answer": "広島県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "東京都",
+        "広島県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "132063",
+          "342084"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-美浜町-福井県",
+      "prompt": "「美浜町」は愛知県の他にどこにある？",
+      "choices": [
+        "熊本県",
+        "鹿児島県",
+        "福井県",
+        "佐賀県"
+      ],
+      "answer": "福井県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "福井県",
+        "愛知県",
+        "和歌山県"
+      ],
+      "difficulty": 0.75,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "184420",
+          "234460",
+          "303810"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-美浜町-愛知県",
+      "prompt": "「美浜町」は福井県の他にどこにある？",
+      "choices": [
+        "徳島県",
+        "愛知県",
+        "長野県",
+        "奈良県"
+      ],
+      "answer": "愛知県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "福井県",
+        "愛知県",
+        "和歌山県"
+      ],
+      "difficulty": 0.75,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "184420",
+          "234460",
+          "303810"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-美浜町-和歌山県",
+      "prompt": "「美浜町」は福井県の他にどこにある？",
+      "choices": [
+        "和歌山県",
+        "佐賀県",
+        "埼玉県",
+        "香川県"
+      ],
+      "answer": "和歌山県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "福井県",
+        "愛知県",
+        "和歌山県"
+      ],
+      "difficulty": 0.75,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "184420",
+          "234460",
+          "303810"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-川上村-長野県",
+      "prompt": "「川上村」は奈良県の他にどこにある？",
+      "choices": [
+        "鹿児島県",
+        "長野県",
+        "富山県",
+        "大分県"
+      ],
+      "answer": "長野県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "長野県",
+        "奈良県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "203041",
+          "294527"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-川上村-奈良県",
+      "prompt": "「川上村」は長野県の他にどこにある？",
+      "choices": [
+        "愛媛県",
+        "秋田県",
+        "茨城県",
+        "奈良県"
+      ],
+      "answer": "奈良県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "長野県",
+        "奈良県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "203041",
+          "294527"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-高森町-長野県",
+      "prompt": "「高森町」は熊本県の他にどこにある？",
+      "choices": [
+        "長野県",
+        "福島県",
+        "香川県",
+        "宮崎県"
+      ],
+      "answer": "長野県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "長野県",
+        "熊本県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "204030",
+          "434281"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-高森町-熊本県",
+      "prompt": "「高森町」は長野県の他にどこにある？",
+      "choices": [
+        "石川県",
+        "滋賀県",
+        "熊本県",
+        "秋田県"
+      ],
+      "answer": "熊本県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "長野県",
+        "熊本県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "204030",
+          "434281"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-日野町-滋賀県",
+      "prompt": "「日野町」は鳥取県の他にどこにある？",
+      "choices": [
+        "福岡県",
+        "広島県",
+        "富山県",
+        "滋賀県"
+      ],
+      "answer": "滋賀県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "滋賀県",
+        "鳥取県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "253839",
+          "314021"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-日野町-鳥取県",
+      "prompt": "「日野町」は滋賀県の他にどこにある？",
+      "choices": [
+        "岩手県",
+        "香川県",
+        "鳥取県",
+        "青森県"
+      ],
+      "answer": "鳥取県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "滋賀県",
+        "鳥取県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "253839",
+          "314021"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-太子町-大阪府",
+      "prompt": "「太子町」は兵庫県の他にどこにある？",
+      "choices": [
+        "大阪府",
+        "宮崎県",
+        "高知県",
+        "山形県"
+      ],
+      "answer": "大阪府",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "大阪府",
+        "兵庫県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "273813",
+          "284645"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-太子町-兵庫県",
+      "prompt": "「太子町」は大阪府の他にどこにある？",
+      "choices": [
+        "石川県",
+        "山形県",
+        "愛媛県",
+        "兵庫県"
+      ],
+      "answer": "兵庫県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "大阪府",
+        "兵庫県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "273813",
+          "284645"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-広川町-和歌山県",
+      "prompt": "「広川町」は福岡県の他にどこにある？",
+      "choices": [
+        "愛媛県",
+        "埼玉県",
+        "佐賀県",
+        "和歌山県"
+      ],
+      "answer": "和歌山県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "和歌山県",
+        "福岡県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "303623",
+          "405442"
+        ]
+      }
+    },
+    {
+      "type": "same-name",
+      "id": "same-name-広川町-福岡県",
+      "prompt": "「広川町」は和歌山県の他にどこにある？",
+      "choices": [
+        "福岡県",
+        "山形県",
+        "香川県",
+        "広島県"
+      ],
+      "answer": "福岡県",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "same-name",
+        "和歌山県",
+        "福岡県"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "303623",
+          "405442"
+        ]
+      }
+    }
+  ]
+}

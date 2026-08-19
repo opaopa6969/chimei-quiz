@@ -1,0 +1,16 @@
+{
+  "name": "chimei-quiz",
+  "version": "0.1.0",
+  "description": "日本の地名・自治体変遷まわりの雑学クイズゲーム（同名地名・合併タイムライン・難読地名など）",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build:data": "node scripts/extract-municipality-data.mjs && node scripts/extract-lore-data.mjs && node scripts/fetch-wikidata-municipalities.mjs && node scripts/build-quiz-sets.mjs",
+    "start": "node server.js",
+    "test": "node --test test/"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
