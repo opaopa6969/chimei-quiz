@@ -43,6 +43,7 @@ export function generate(municipalities, seed) {
         difficulty: difficultyOf(g),
         source: { dataset: "wikidata-municipality-master", refs: g.list.map((x) => x.code) },
         meta: { name: g.name, givenPref },
+        trivia: triviaOf(g),
       });
     }
   }
@@ -53,4 +54,13 @@ export function generate(municipalities, seed) {
 function difficultyOf(g) {
   const n = g.prefectures.length;
   return Math.max(0, Math.min(1, 1 - (n - 2) * 0.25));
+}
+
+// 各地の人口を添えて「同じ名前でもこんなに違う」を見せる周辺知識
+function triviaOf(g) {
+  const parts = g.list.map((m) => {
+    const pop = m.population != null ? `人口約${m.population.toLocaleString("ja-JP")}人` : "人口データなし";
+    return `${m.prefecture}${m.name}（${pop}）`;
+  });
+  return `全国に${g.prefectures.length}箇所の「${g.name}」: ${parts.join(" / ")}`;
 }

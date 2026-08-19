@@ -34,6 +34,7 @@ export function generate(changes, seed) {
       tags: ["portmanteau", ev.prefecture, ev.effectiveDate.slice(0, 4)],
       difficulty: 0.7,
       source: { dataset: "municipality-history", refs: [ev.raw] },
+      trivia: `${ev.effectiveDate}、${ev.prefecture}: ${oldsLabel}が合併し「${ev.new.name}」が誕生した。`,
     });
   }
   return questions;

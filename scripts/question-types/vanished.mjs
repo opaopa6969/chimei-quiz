@@ -57,6 +57,7 @@ export function generate(changes, currentMunicipalities, seed) {
       difficulty: 0.6, // 消滅は基本的に難しめ（存在しないものを選ぶ形式のため）
       source: { dataset: "municipality-history", refs: [v.raw] },
       meta: { prefecture: v.prefecture, lastDate: v.lastDate, becameName: v.becameName },
+      trivia: `${v.prefecture}${v.name}は${v.lastDate}に${v.becameName}になった。${v.raw.replace(/\n/g, " / ")}`,
     });
   }
   return questions;

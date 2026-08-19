@@ -40,7 +40,7 @@ function usePlayerEndedEvent(playerRef, active, durationFrames, fps, onEnded) {
 
 export function GameScreen({ questions, onFinish }) {
   const [index, setIndex] = useState(0);
-  const [phase, setPhase] = useState("intro"); // "intro" | "choices" | "result"
+  const [phase, setPhase] = useState("intro"); // "intro" | "choices" | "result" | "trivia"
   const [score, setScore] = useState(0);
   const [combo, setCombo] = useState(0);
   const [maxCombo, setMaxCombo] = useState(0);
@@ -71,7 +71,14 @@ export function GameScreen({ questions, onFinish }) {
     [answered, combo, question]
   );
 
+  // 結果演出（動画）が終わったら、すぐ次の問題に進めず、周辺知識を読むための静的画面を挟む。
+  // 「教育的なゲームなので正解/不正解だけでなく周辺知識も見せる」という要望に応え、
+  // 自分のペースで読めるよう「次へ」ボタンで進める形にする（自動送りにしない）。
   const handleResultEnded = useCallback(() => {
+    setPhase("trivia");
+  }, []);
+
+  const advanceAfterTrivia = useCallback(() => {
     if (index + 1 >= questions.length) {
       onFinish({ score: score + (lastResult?.scoreGained ?? 0), maxCombo, total: questions.length });
       return;
@@ -129,6 +136,23 @@ export function GameScreen({ questions, onFinish }) {
             loop={false}
             controls={false}
           />
+        )}
+        {phase === "trivia" && lastResult && (
+          <div className={`trivia-panel ${lastResult.correct ? "correct" : "incorrect"}`}>
+            <div className="trivia-verdict">
+              {lastResult.correct ? "せいかい！" : "ざんねん…"}
+              {!lastResult.correct && <span className="trivia-answer">　正解は「{lastResult.answerLabel}」</span>}
+            </div>
+            {question.trivia && (
+              <div className="trivia-body">
+                <span className="trivia-icon">💡</span>
+                {question.trivia}
+              </div>
+            )}
+            <button className="start-btn trivia-next-btn" onClick={advanceAfterTrivia}>
+              {index + 1 >= questions.length ? "結果を見る" : "次の問題へ"}
+            </button>
+          </div>
         )}
       </div>
 

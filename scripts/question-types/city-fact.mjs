@@ -19,6 +19,7 @@ function rankQuestions(items, key, label, unit, rng, groupSize = 4, groups = 12)
       difficulty: g < 3 ? 0.2 : 0.6, // 上位（有名）ほど易しい
       source: { dataset: "wikidata-municipality-master", refs: slice.map((m) => m.code) },
       meta: Object.fromEntries(slice.map((m) => [m.name, `${m[key]}${unit}`])),
+      trivia: `${label}比較: ${slice.map((m) => `${m.name} ${m[key]?.toLocaleString("ja-JP")}${unit}`).join(" / ")}`,
     });
   }
   return questions;

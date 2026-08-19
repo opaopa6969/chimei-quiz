@@ -119,6 +119,7 @@ export function generate(loreEntries, seed) {
       tags: ["lore-trivia", entry.category, ...(entry.region?.pref ?? ["nationwide"])],
       difficulty: 0.5,
       source: { dataset: "address-lore", refs: [entry.id] },
+      trivia: entry.source?.book ? `出典: ${entry.source.book.join(" / ")}` : entry.excerpt?.replace(/^#[^\n]*\n?/, "").slice(0, 100) ?? "",
     });
   }
   return questions;

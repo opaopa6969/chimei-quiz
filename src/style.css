@@ -75,6 +75,22 @@ h1 { font-size: 28px; margin: 8px 0 4px; }
   display: flex; align-items: center; justify-content: center;
 }
 
+.trivia-panel {
+  border-radius: 16px; padding: 32px; min-height: 340px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; gap: 16px;
+}
+.trivia-panel.correct { background: linear-gradient(135deg,#0b6b46,#123f2c); }
+.trivia-panel.incorrect { background: linear-gradient(135deg,#7a1f1f,#3c1414); }
+.trivia-verdict { font-size: 30px; font-weight: 900; }
+.trivia-answer { font-size: 18px; font-weight: 400; opacity: 0.9; }
+.trivia-body {
+  background: rgba(0,0,0,0.25); border-radius: 12px; padding: 16px 20px;
+  font-size: 15px; line-height: 1.7; max-width: 640px; text-align: left;
+}
+.trivia-icon { margin-right: 6px; }
+.trivia-next-btn { margin-top: 4px; }
+
 .choices {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 12px; width: 100%;

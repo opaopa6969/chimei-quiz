@@ -61,8 +61,24 @@ const CURATED_HARD_READINGS = [
   { name: "中頓別町", prefecture: "北海道", kana: "なかとんべつちょう" },
   { name: "浜頓別町", prefecture: "北海道", kana: "はまとんべつちょう" },
   { name: "幌延町", prefecture: "北海道", kana: "ほろのべちょう" },
+  // 北海道 追加分（Wikipedia「北海道の難読地名一覧」からの厳選、2026-08-20）
+  { name: "厚沢部町", prefecture: "北海道", kana: "あっさぶちょう" },
+  { name: "南幌町", prefecture: "北海道", kana: "なんぽろちょう" },
+  { name: "浦臼町", prefecture: "北海道", kana: "うらうすちょう" },
+  { name: "新十津川町", prefecture: "北海道", kana: "しんとつかわちょう" },
+  { name: "比布町", prefecture: "北海道", kana: "ぴっぷちょう" },
+  { name: "占冠村", prefecture: "北海道", kana: "しむかっぷむら" },
+  { name: "和寒町", prefecture: "北海道", kana: "わっさむちょう" },
+  { name: "壮瞥町", prefecture: "北海道", kana: "そうべつちょう" },
+  { name: "平取町", prefecture: "北海道", kana: "びらとりちょう" },
+  { name: "士幌町", prefecture: "北海道", kana: "しほろちょう" },
+  { name: "上士幌町", prefecture: "北海道", kana: "かみしほろちょう" },
+  { name: "豊頃町", prefecture: "北海道", kana: "とよころちょう" },
+  { name: "厚岸町", prefecture: "北海道", kana: "あっけしちょう" },
   // 青森県
   { name: "六ヶ所村", prefecture: "青森県", kana: "ろっかしょむら" },
+  { name: "六戸町", prefecture: "青森県", kana: "ろくのへまち" },
+  { name: "東北町", prefecture: "青森県", kana: "とうほくまち" },
   // 沖縄県（村を「そん」と読む点も難読ポイント）
   { name: "今帰仁村", prefecture: "沖縄県", kana: "なきじんそん" },
   { name: "北谷町", prefecture: "沖縄県", kana: "ちゃたんちょう" },
@@ -88,13 +104,28 @@ const CURATED_HARD_READINGS = [
   { name: "伊平屋村", prefecture: "沖縄県", kana: "いへやそん" },
   { name: "伊是名村", prefecture: "沖縄県", kana: "いぜなそん" },
   // 本州（全国的に「難読市」として知られるもの）
-  { name: "廿日市市", prefecture: "広島県", kana: "はつかいちし" },
-  { name: "八街市", prefecture: "千葉県", kana: "やちまたし" },
-  { name: "匝瑳市", prefecture: "千葉県", kana: "そうさし" },
-  { name: "各務原市", prefecture: "岐阜県", kana: "かかみがはらし" },
-  { name: "潮来市", prefecture: "茨城県", kana: "いたこし" },
-  { name: "蕨市", prefecture: "埼玉県", kana: "わらびし" },
-  { name: "邑楽町", prefecture: "群馬県", kana: "おうらまち" },
+  { name: "廿日市市", prefecture: "広島県", kana: "はつかいちし", note: "「廿」は「二十」の意。20日に市が立った町という由来とされる。" },
+  { name: "八街市", prefecture: "千葉県", kana: "やちまたし", note: "明治期の下総台地開墾地の一つ。開墾順に初富・二和…と数字が入った地名が並び、8番目が「八街」。" },
+  { name: "匝瑳市", prefecture: "千葉県", kana: "そうさし", note: "古代の匝瑳郡に由来する地名。「匝」「瑳」ともに日常ではほぼ使われない珍しい漢字。" },
+  { name: "各務原市", prefecture: "岐阜県", kana: "かかみがはらし", note: "古代豪族「各務氏」に由来するとされる地名。" },
+  { name: "潮来市", prefecture: "茨城県", kana: "いたこし", note: "元は「板来（いたこ）」の字が当てられた水郷地帯の地名。" },
+  { name: "蕨市", prefecture: "埼玉県", kana: "わらびし", note: "植物のワラビに由来するとされる地名（諸説あり）。日本一面積の小さい市。" },
+  { name: "邑楽町", prefecture: "群馬県", kana: "おうらまち", note: "古代の邑楽郡に由来。「おうら」という読みは古い日本語の発音の名残とされる。" },
+  // 追加分（Wikipedia「◯◯地方の難読地名一覧」からの厳選、2026-08-20。近畿〜九州・沖縄）
+  { name: "木曽岬町", prefecture: "三重県", kana: "きそさきちょう" },
+  { name: "斑鳩町", prefecture: "奈良県", kana: "いかるがちょう", note: "聖徳太子ゆかりの地。「斑鳩」はイカルという鳥の群れる里という意味とされる。" },
+  { name: "若桜町", prefecture: "鳥取県", kana: "わかさまち" },
+  { name: "海士町", prefecture: "島根県", kana: "あまちょう", note: "隠岐諸島の島。「海士」で漁師を意味する言葉に由来。" },
+  { name: "知夫村", prefecture: "島根県", kana: "ちぶむら" },
+  { name: "神石高原町", prefecture: "広島県", kana: "じんせきこうげんちょう" },
+  { name: "阿武町", prefecture: "山口県", kana: "あぶちょう" },
+  { name: "土庄町", prefecture: "香川県", kana: "とのしょうちょう" },
+  { name: "檮原町", prefecture: "高知県", kana: "ゆすはらちょう", note: "「檮」は「梼」の異体字で、日常ではほぼ使われない珍しい漢字。" },
+  { name: "奈半利町", prefecture: "高知県", kana: "なはりちょう" },
+  { name: "いちき串木野市", prefecture: "鹿児島県", kana: "いちきくしきのし", note: "2005年に市来町と串木野市が合併して誕生。ひらがな+漢字の合成地名。" },
+  { name: "姶良市", prefecture: "鹿児島県", kana: "あいらし" },
+  { name: "曽於市", prefecture: "鹿児島県", kana: "そおし" },
+  { name: "豊見城市", prefecture: "沖縄県", kana: "とみぐすくし", note: "琉球王国時代の豊見城グスク（城）に由来。「城」を「ぐすく」と読むのは沖縄独特。" },
 ];
 
 // municipality-changesから ("name|prefecture" -> kana) の対応を作る（誤答プール・公式読みの照合用）。
@@ -125,7 +156,7 @@ export function generate(changes, currentMunicipalities, seed) {
     if (official && official !== w.kana) {
       console.warn(`[reading] 読み不一致: ${w.name}(${w.prefecture}) キュレーション=${w.kana} 公式=${official} → 公式を採用`);
     }
-    hard.push({ name: w.name, prefecture: w.prefecture, kana: official ?? w.kana });
+    hard.push({ name: w.name, prefecture: w.prefecture, kana: official ?? w.kana, note: w.note });
   }
 
   const hardKeys = new Set(hard.map((h) => `${h.name}|${h.prefecture}`));
@@ -148,7 +179,19 @@ export function generate(changes, currentMunicipalities, seed) {
       tags: ["reading", h.prefecture],
       difficulty: 0.6,
       source: { dataset: "curated-hard-readings + municipality-history", refs: [`${h.name}(${h.prefecture})`] },
+      trivia: triviaFor(h),
     });
   }
   return questions;
+}
+
+function triviaFor(h) {
+  if (h.note) return h.note;
+  if (h.prefecture === "北海道" || h.prefecture === "青森県") {
+    return `${h.prefecture}の地名の多くはアイヌ語由来。「${h.kana}」も漢字の音訓読みではなく、アイヌ語の発音に漢字を当てはめたもの。`;
+  }
+  if (h.prefecture === "沖縄県") {
+    return `沖縄県の地名は琉球方言（琉球語）由来が多い。「村」を本土のように「むら」ではなく「そん」と読むのも沖縄独特。`;
+  }
+  return "全国的に「難読市区町村」として知られる地名。";
 }

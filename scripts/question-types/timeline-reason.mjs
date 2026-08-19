@@ -28,6 +28,7 @@ export function generate(changes, currentMunicipalities, seed) {
         tags: ["timeline-reason", "merge", ev.prefecture, ev.effectiveDate.slice(0, 4)],
         difficulty: difficultyOf(ev),
         source: { dataset: "municipality-history", refs: [ev.raw] },
+        trivia: `${ev.effectiveDate}、${ev.prefecture}: ${ev.raw.replace(/\n/g, " / ")}`,
       });
     } else if (ev.kind === "absorb") {
       const distractors = sameCategoryPool(currentNameList, new Set([ev.new.name, ...ev.olds.map((o) => o.name)]), 3, rng);
