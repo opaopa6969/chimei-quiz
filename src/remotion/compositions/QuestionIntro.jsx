@@ -10,6 +10,7 @@ const THEME = {
   reading: { bg: "linear-gradient(135deg,#402417,#6b3d24)", emoji: "📖" },
   "city-fact": { bg: "linear-gradient(135deg,#0e3a4a,#166a85)", emoji: "🏙️" },
   "lore-trivia": { bg: "linear-gradient(135deg,#332a12,#5c4a1f)", emoji: "📚" },
+  "parser-structure": { bg: "linear-gradient(135deg,#1f2e33,#37545c)", emoji: "🧵" },
 };
 const DEFAULT_THEME = { bg: "linear-gradient(135deg,#1b1f2a,#2e3550)", emoji: "❓" };
 

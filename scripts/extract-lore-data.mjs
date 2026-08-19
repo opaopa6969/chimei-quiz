@@ -28,8 +28,10 @@ if (!srcPath) {
 const idx = JSON.parse(readFileSync(srcPath, "utf8"));
 const rawEntries = idx.entries ?? idx;
 
-// クイズ向き: 人間向けの雑学・地誌プロファイル・座標系系（機械可読な正規表現ルールそのものは除く）
-const QUIZ_FRIENDLY_CATEGORIES = new Set(["region-profile", "coordinate-system", "historical-reference"]);
+// クイズ向き: 人間向けの雑学・地誌プロファイル・座標系系・パーサ設計語彙
+// （parser-tokenは元々machine向けだが、「免」「地割」等の地域特殊語彙自体がクイズのネタになる。
+//  usage=machineでも除外しない。parser-structure.mjs参照）
+const QUIZ_FRIENDLY_CATEGORIES = new Set(["region-profile", "coordinate-system", "historical-reference", "parser-token"]);
 
 const entries = rawEntries.map((e) => ({
   id: e.id,
@@ -44,7 +46,7 @@ const entries = rawEntries.map((e) => ({
   confidence: e.confidence ?? null,
   tags: e.tags ?? [],
   excerpt: e.excerpt ?? "",
-  quizFriendly: e.usage !== "machine" && QUIZ_FRIENDLY_CATEGORIES.has(e.category),
+  quizFriendly: QUIZ_FRIENDLY_CATEGORIES.has(e.category),
 }));
 
 const quizFriendlyCount = entries.filter((e) => e.quizFriendly).length;

@@ -11,6 +11,7 @@ import * as portmanteau from "./question-types/portmanteau.mjs";
 import * as reading from "./question-types/reading.mjs";
 import * as cityFact from "./question-types/city-fact.mjs";
 import * as loreTrivia from "./question-types/lore-trivia.mjs";
+import * as parserStructure from "./question-types/parser-structure.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, "..", "data");
@@ -31,6 +32,7 @@ const SETS = {
   reading: reading.generate(changes, municipalities, "reading-v1"),
   "city-fact": cityFact.generate(municipalities, "city-fact-v1"),
   "lore-trivia": loreTrivia.generate(loreEntries, "lore-trivia-v1"),
+  "parser-structure": parserStructure.generate(loreEntries, "parser-structure-v1"),
 };
 
 let total = 0;
