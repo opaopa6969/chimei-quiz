@@ -2,21 +2,27 @@
 // municipality-history の改正事由テキスト（merge/absorb/seidoイベント）から
 // 「合併・編入・市制施行で名前が変わった旧市町村名」を集め、それが
 // municipality-master（Wikidata現存自治体一覧）に無ければ「消えた市町村」として採用する。
+//
+// name だけで現存判定すると、過去に存在した同名の別県の自治体（例: 沖縄県「東村」は現存するが、
+// 群馬県等にもかつて同名の「東村」があり廃止済み）を「現存する」と誤判定して見逃すことがある
+// （reading.mjs で見つかった同種のバグ、詳細はそちら参照）。市町村合併は都道府県内で完結するため、
+// name+施行時の都道府県 で判定する。
 import { collectEvents } from "../../lib/reason-parser.mjs";
 import { sameCategoryPool } from "./distractors.mjs";
 import { makePrng, shuffle, pickN } from "../../lib/prng.mjs";
 
-export function findVanished(changes, currentNames) {
+export function findVanished(changes, currentKeys) {
   const events = collectEvents(changes);
-  const vanishedMap = new Map(); // name -> {name, prefecture, lastDate, reasonRaw}
+  const vanishedMap = new Map(); // "name|prefecture" -> {name, prefecture, lastDate, reasonRaw}
 
   for (const ev of events) {
     for (const old of ev.olds) {
-      if (currentNames.has(old.name)) continue; // 今も同名の自治体が存在するなら「消えた」とは言えない
+      const key = `${old.name}|${ev.prefecture}`;
+      if (currentKeys.has(key)) continue; // 今も同じ県に同名の自治体が存在するなら「消えた」とは言えない
       if (!/[市町村]$/.test(old.name)) continue; // 郡・支庁等の上位区分は対象外
-      const prev = vanishedMap.get(old.name);
+      const prev = vanishedMap.get(key);
       if (!prev || ev.effectiveDate > prev.lastDate) {
-        vanishedMap.set(old.name, {
+        vanishedMap.set(key, {
           name: old.name,
           prefecture: ev.prefecture,
           lastDate: ev.effectiveDate,
@@ -31,8 +37,8 @@ export function findVanished(changes, currentNames) {
 
 export function generate(changes, currentMunicipalities, seed) {
   const rng = makePrng(seed ?? "vanished");
-  const currentNames = new Set(currentMunicipalities.map((m) => m.name));
-  const vanished = findVanished(changes, currentNames);
+  const currentKeys = new Set(currentMunicipalities.map((m) => `${m.name}|${m.prefecture}`));
+  const vanished = findVanished(changes, currentKeys);
   const currentNameList = currentMunicipalities.map((m) => m.name);
 
   const questions = [];
@@ -42,7 +48,7 @@ export function generate(changes, currentMunicipalities, seed) {
 
     questions.push({
       type: "vanished",
-      id: `vanished-${v.name}`,
+      id: `vanished-${v.name}-${v.prefecture}`,
       prompt: "次のうち、現在は存在しない市町村はどれ？",
       choices,
       answer: v.name,
