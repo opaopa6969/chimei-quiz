@@ -14,7 +14,8 @@ import * as loreTrivia from "./question-types/lore-trivia.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, "..", "data");
-const QUIZ_DIR = path.join(DATA_DIR, "quiz");
+// 生成した設問セットは実行時にfetchするので public/ 配下に置く（バンドルに埋め込まない）。
+const QUIZ_DIR = path.join(__dirname, "..", "public", "data", "quiz");
 
 const { changes } = JSON.parse(readFileSync(path.join(DATA_DIR, "municipality-changes.json"), "utf8"));
 const { municipalities } = JSON.parse(readFileSync(path.join(DATA_DIR, "municipality-master.json"), "utf8"));

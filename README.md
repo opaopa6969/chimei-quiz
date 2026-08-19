@@ -18,13 +18,33 @@
 ## セットアップ
 
 ```bash
-npm run build:data   # Wikidata/municipality-history/address-loreからdata/quiz/*.jsonを生成
-npm start             # http://localhost:8090 でプレイ画面（実装中）
+npm install
+npm run dev            # 開発サーバー http://localhost:8094 （Vite、ホットリロード）
+
+# 本番相当
+npm run build           # dist/ にビルド
+npm start                # http://localhost:8094 （server.jsがdist/を配信）
+```
+
+設問データ（`public/data/quiz/*.json`）はコミット済みなので、上記だけならネット接続不要。
+データを作り直す場合のみ:
+
+```bash
+npm run build:data   # Wikidata/municipality-history/address-loreからpublic/data/quiz/*.jsonを再生成
 ```
 
 `build:data` はネットワークアクセス（Wikidata Query Service）と、`municipality-history` /
 `address-lore` のローカルclone（`~/work/adoyose-workspace/` 配下、環境変数で上書き可）を要する。
-生成物 `data/*.json` はrepoにコミット済みなので、`npm start` だけならネット接続不要。
+
+## ゲームの中身
+
+- Remotion（`@remotion/player`）で出題演出を出してから4択に答える形式
+- カテゴリ（同名地名・消えた市町村・自治体変遷推理・合成地名・難読地名・ご当地トリビア・
+  住所地誌トリビア・ぜんぶミックス）と問題数（5/10/20問）を選んでスタート
+- コンボ・難易度ボーナス込みのスコア制
+
+**注記**: ブラウザでの実際の見た目・Remotion演出の描画結果はheadless環境では確認できていない
+（`npm run build` の成功・ロジックのユニットテスト・静的配信の疎通は確認済み）。
 
 ## ドキュメント
 

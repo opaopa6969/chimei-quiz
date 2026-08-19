@@ -42,6 +42,7 @@ export function generate(municipalities, seed) {
         tags: ["same-name", ...g.prefectures],
         difficulty: difficultyOf(g),
         source: { dataset: "wikidata-municipality-master", refs: g.list.map((x) => x.code) },
+        meta: { name: g.name, givenPref },
       });
     }
   }

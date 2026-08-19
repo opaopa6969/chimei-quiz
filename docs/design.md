@@ -42,12 +42,15 @@
 ```
 scripts/extract-municipality-data.mjs  → data/municipality-changes.json（4,491件そのまま構造化）
 scripts/extract-lore-data.mjs          → data/lore-entries.json（address-loreの該当エントリ）
-scripts/fetch-wikidata-facts.mjs       → data/city-facts.json（段階拡充、要ネット接続）
-scripts/build-quiz-sets.mjs            → data/quiz/*.json（上記から設問セットを機械生成）
+scripts/fetch-wikidata-municipalities.mjs → data/municipality-master.json（現存自治体・人口・面積、Wikidata）
+scripts/build-quiz-sets.mjs            → public/data/quiz/*.json（上記から設問セットを機械生成）
 ```
 
-`npm run build:data` で一括実行。生成物は `data/` 配下にコミットする
-（外部ソースの原本リポジトリが手元にない環境でも `npm start` だけで動かすため）。
+`npm run build:data` で一括実行。生成物は `data/`（中間データ）と `public/data/quiz/`
+（実行時にfrontendがfetchする最終データ）にコミットする
+（外部ソースの原本リポジトリが手元にない環境でも `npm run build && npm start` だけで動かすため）。
+`public/` 配下に置くのは、Viteでバンドルに埋め込まず実行時fetchにするため
+（`all.json` が1.8MBあり、JSバンドルに含めるとロードが重くなる）。
 
 ## スキーマ（例）
 
@@ -66,23 +69,29 @@ scripts/build-quiz-sets.mjs            → data/quiz/*.json（上記から設問
 ```
 
 ```jsonc
-// data/quiz/same-name.json の1問
+// public/data/quiz/same-name.json の1問（実際の生成結果）
 {
   "type": "same-name",
-  "id": "same-name-fuchu",
-  "prompt": "府中市は東京都の他にどこにある？",
-  "choices": ["広島県", "京都府", "福岡県", "静岡県"],
-  "answer": "広島県",
-  "source": "municipality-history"
+  "id": "same-name-府中市-東京都",
+  "prompt": "「府中市」は広島県の他にどこにある？",
+  "choices": ["栃木県", "高知県", "東京都", "和歌山県"],
+  "answer": "東京都",
+  "source": { "dataset": "wikidata-municipality-master", "refs": ["132063", "342084"] },
+  "meta": { "name": "府中市", "givenPref": "広島県" }
 }
 ```
 
 ## 決定論・再現性
 
-クイズの出題順・選択肢シャッフルは seed 付き PRNG を使う（`Math.random` は使わない）。
-同じ seed なら同じ問題セットが再現される（デイリークイズの日付seedにも使える）。
-※ game-engine-suite の suite-contract は住所ドメインには直接は適用しないが、
-決定論方針は流用する（テスト容易性のため）。
+**設問の生成**（`scripts/build-quiz-sets.mjs` とその配下）は seed 付き PRNG のみを使い、
+`Math.random` は使わない。同じ入力データなら毎回同じ設問セット・選択肢の並びが生成される
+（`lib/prng.mjs` の mulberry32）。※ game-engine-suite の suite-contract は住所ドメインには
+直接は適用しないが、決定論方針は流用する（テスト容易性のため）。
+
+**実行時のセッション選択**（`src/quiz-engine.js` の `buildSession`）も seed を受け取れば決定論的
+（デイリークイズ等に使える）。ただし通常プレイでは `App.jsx` が `Math.random()` を混ぜたseedを渡し、
+毎回違う問題セットになるようにしている（同じ問題ばかり出るとプレイ体験として単調なため） — ここは
+意図的な使い分けで、生成ロジック自体の非決定性ではない。
 
 ## デプロイ
 

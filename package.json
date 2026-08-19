@@ -6,11 +6,23 @@
   "private": true,
   "scripts": {
     "build:data": "node scripts/extract-municipality-data.mjs && node scripts/extract-lore-data.mjs && node scripts/fetch-wikidata-municipalities.mjs && node scripts/build-quiz-sets.mjs",
+    "dev": "vite",
+    "build": "vite build",
     "start": "node server.js",
     "test": "node --test test/"
   },
   "license": "MIT",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.190",
+    "@remotion/player": "^4.0.190"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11",
+    "@vitejs/plugin-react": "^4.3.4"
   }
 }

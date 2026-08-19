@@ -1,4 +1,6 @@
 # chimei-quiz — node:20-slim にホストのコードをマウントして起動（tetsugoと同じ方式）。
+# dist/ はgitignore対象（ビルド成果物）なので、起動のたびに install+build してから配信する
+# （data/quiz/*.jsonはコミット済みなのでbuild:dataは不要、`vite build`のみ）。
 # 起動:   docker compose -f /home/opa/work/chimei-quiz/deploy/docker-compose.yml up -d
 # 再起動: 同 up -d --force-recreate（promote の rsync 後に）
 services:
@@ -6,7 +8,7 @@ services:
     image: node:20-slim
     container_name: chimei-quiz
     working_dir: /app
-    command: ["node", "server.js"]
+    command: ["sh", "-c", "npm install && npm run build && node server.js"]
     ports:
       - "8094:8094"
     volumes:
