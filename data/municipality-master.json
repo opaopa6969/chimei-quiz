@@ -1,7 +1,7 @@
 {
   "source": "Wikidata SPARQL (P429 地方公共団体コード, CC0)",
   "fetchedVia": "query.wikidata.org/sparql",
-  "count": 1755,
+  "count": 1754,
   "municipalities": [
     {
       "code": "011002",
@@ -184,7 +184,7 @@
       "name": "根室市",
       "prefecture": "北海道",
       "population": 24858,
-      "areaKm2": 506.25,
+      "areaKm2": 411.41,
       "wikidataId": "Q502205"
     },
     {
@@ -551,7 +551,7 @@
       "code": "014061",
       "name": "古平町",
       "prefecture": "北海道",
-      "population": 3155,
+      "population": 2901,
       "areaKm2": 188.36,
       "wikidataId": "Q524318"
     },
@@ -842,14 +842,6 @@
       "population": 1386,
       "areaKm2": 767.04,
       "wikidataId": "Q1355616"
-    },
-    {
-      "code": "014800",
-      "name": "留萌振興局",
-      "prefecture": "北海道",
-      "population": 46371,
-      "areaKm2": 3445.89,
-      "wikidataId": "Q1151453"
     },
     {
       "code": "014818",
@@ -1711,7 +1703,7 @@
       "code": "024082",
       "name": "東北町",
       "prefecture": "青森県",
-      "population": 19106,
+      "population": 16322,
       "areaKm2": 326.5,
       "wikidataId": "Q1194394"
     },
@@ -2088,7 +2080,7 @@
       "name": "石巻市",
       "prefecture": "宮城県",
       "population": 138856,
-      "areaKm2": 554.55,
+      "areaKm2": 0.0005545499999999999,
       "wikidataId": "Q270814"
     },
     {
@@ -2560,7 +2552,7 @@
       "name": "山形市",
       "prefecture": "山形県",
       "population": 247234,
-      "areaKm2": 381340000,
+      "areaKm2": 381.34,
       "wikidataId": "Q205526"
     },
     {
@@ -3239,7 +3231,7 @@
       "code": "075426",
       "name": "楢葉町",
       "prefecture": "福島県",
-      "population": 3937,
+      "population": 0,
       "areaKm2": 103.45,
       "wikidataId": "Q1354867"
     },
@@ -3247,7 +3239,7 @@
       "code": "075434",
       "name": "富岡町",
       "prefecture": "福島県",
-      "population": 1292,
+      "population": 0,
       "areaKm2": 68.39,
       "wikidataId": "Q1023943"
     },
@@ -3263,7 +3255,7 @@
       "code": "075451",
       "name": "大熊町",
       "prefecture": "福島県",
-      "population": 10004,
+      "population": 196,
       "areaKm2": 78.71,
       "wikidataId": "Q385311"
     },
@@ -3279,7 +3271,7 @@
       "code": "075477",
       "name": "浪江町",
       "prefecture": "福島県",
-      "population": 937,
+      "population": 0,
       "areaKm2": 223.1,
       "wikidataId": "Q1023937"
     },
@@ -3287,7 +3279,7 @@
       "code": "075485",
       "name": "葛尾村",
       "prefecture": "福島県",
-      "population": 420,
+      "population": 0,
       "areaKm2": 84.37,
       "wikidataId": "Q1352137"
     },
@@ -3303,7 +3295,7 @@
       "code": "075647",
       "name": "飯舘村",
       "prefecture": "福島県",
-      "population": 1452,
+      "population": 0,
       "areaKm2": 230.13,
       "wikidataId": "Q674500"
     },
@@ -3311,7 +3303,7 @@
       "code": "082015",
       "name": "水戸市",
       "prefecture": "茨城県",
-      "population": 270823,
+      "population": 270445,
       "areaKm2": 217.32,
       "wikidataId": "Q204249"
     },
@@ -3439,7 +3431,7 @@
       "code": "082210",
       "name": "ひたちなか市",
       "prefecture": "茨城県",
-      "population": 155680,
+      "population": 154311,
       "areaKm2": 99.97,
       "wikidataId": "Q696772"
     },
@@ -4207,7 +4199,7 @@
       "code": "112071",
       "name": "秩父市",
       "prefecture": "埼玉県",
-      "population": 66955,
+      "population": 59326,
       "areaKm2": 577.83,
       "wikidataId": "Q647079"
     },
@@ -6207,7 +6199,7 @@
       "code": "163236",
       "name": "立山町",
       "prefecture": "富山県",
-      "population": 27466,
+      "population": 24697,
       "areaKm2": 307.29,
       "wikidataId": "Q670189"
     },
@@ -6568,7 +6560,7 @@
       "name": "南アルプス市",
       "prefecture": "山梨県",
       "population": 69642,
-      "areaKm2": 264140000,
+      "areaKm2": 264.14,
       "wikidataId": "Q824000"
     },
     {
@@ -6632,7 +6624,7 @@
       "name": "早川町",
       "prefecture": "山梨県",
       "population": 935,
-      "areaKm2": 369860000,
+      "areaKm2": 369.85999999999996,
       "wikidataId": "Q1204436"
     },
     {
@@ -6744,7 +6736,7 @@
       "name": "松本市",
       "prefecture": "長野県",
       "population": 239115,
-      "areaKm2": 978770000,
+      "areaKm2": 978.77,
       "wikidataId": "Q213324"
     },
     {
@@ -7688,7 +7680,7 @@
       "name": "静岡市",
       "prefecture": "静岡県",
       "population": 685589,
-      "areaKm2": 1411900000,
+      "areaKm2": 1411.8999999999999,
       "wikidataId": "Q174691"
     },
     {
@@ -7704,7 +7696,7 @@
       "name": "沼津市",
       "prefecture": "静岡県",
       "population": 187653,
-      "areaKm2": 186960000,
+      "areaKm2": 186.95999999999998,
       "wikidataId": "Q241037"
     },
     {
@@ -7712,7 +7704,7 @@
       "name": "熱海市",
       "prefecture": "静岡県",
       "population": 35276,
-      "areaKm2": 61780000,
+      "areaKm2": 61.779999999999994,
       "wikidataId": "Q653364"
     },
     {
@@ -7720,7 +7712,7 @@
       "name": "三島市",
       "prefecture": "静岡県",
       "population": 107416,
-      "areaKm2": 62130000,
+      "areaKm2": 62.129999999999995,
       "wikidataId": "Q653478"
     },
     {
@@ -7728,7 +7720,7 @@
       "name": "富士宮市",
       "prefecture": "静岡県",
       "population": 127252,
-      "areaKm2": 389080000,
+      "areaKm2": 389.08,
       "wikidataId": "Q496072"
     },
     {
@@ -7744,7 +7736,7 @@
       "name": "島田市",
       "prefecture": "静岡県",
       "population": 95198,
-      "areaKm2": 315880000,
+      "areaKm2": 315.88,
       "wikidataId": "Q605256"
     },
     {
@@ -7752,7 +7744,7 @@
       "name": "富士市",
       "prefecture": "静岡県",
       "population": 243739,
-      "areaKm2": 244950000,
+      "areaKm2": 244.95,
       "wikidataId": "Q328613"
     },
     {
@@ -7760,7 +7752,7 @@
       "name": "磐田市",
       "prefecture": "静岡県",
       "population": 165688,
-      "areaKm2": 164080000,
+      "areaKm2": 164.07999999999998,
       "wikidataId": "Q386651"
     },
     {
@@ -7768,7 +7760,7 @@
       "name": "焼津市",
       "prefecture": "静岡県",
       "population": 136028,
-      "areaKm2": 164080000,
+      "areaKm2": 164.07999999999998,
       "wikidataId": "Q696783"
     },
     {
@@ -7784,7 +7776,7 @@
       "name": "藤枝市",
       "prefecture": "静岡県",
       "population": 140947,
-      "areaKm2": 194060000,
+      "areaKm2": 194.06,
       "wikidataId": "Q734432"
     },
     {
@@ -7808,7 +7800,7 @@
       "name": "下田市",
       "prefecture": "静岡県",
       "population": 20499,
-      "areaKm2": 104710000,
+      "areaKm2": 104.71,
       "wikidataId": "Q653402"
     },
     {
@@ -7992,7 +7984,7 @@
       "name": "岡崎市",
       "prefecture": "愛知県",
       "population": 385376,
-      "areaKm2": 387200000,
+      "areaKm2": 387.2,
       "wikidataId": "Q242783"
     },
     {
@@ -8000,7 +7992,7 @@
       "name": "一宮市",
       "prefecture": "愛知県",
       "population": 378108,
-      "areaKm2": 113820000,
+      "areaKm2": 113.82,
       "wikidataId": "Q270810"
     },
     {
@@ -8008,7 +8000,7 @@
       "name": "瀬戸市",
       "prefecture": "愛知県",
       "population": 127327,
-      "areaKm2": 111610000,
+      "areaKm2": 111.61,
       "wikidataId": "Q499493"
     },
     {
@@ -8016,7 +8008,7 @@
       "name": "半田市",
       "prefecture": "愛知県",
       "population": 117544,
-      "areaKm2": 47420000,
+      "areaKm2": 47.419999999999995,
       "wikidataId": "Q463171"
     },
     {
@@ -8024,7 +8016,7 @@
       "name": "春日井市",
       "prefecture": "愛知県",
       "population": 306449,
-      "areaKm2": 92780000,
+      "areaKm2": 92.78,
       "wikidataId": "Q26101"
     },
     {
@@ -8040,7 +8032,7 @@
       "name": "津島市",
       "prefecture": "愛知県",
       "population": 60908,
-      "areaKm2": 25090000,
+      "areaKm2": 25.09,
       "wikidataId": "Q816736"
     },
     {
@@ -8056,7 +8048,7 @@
       "name": "刈谷市",
       "prefecture": "愛知県",
       "population": 153178,
-      "areaKm2": 50390000,
+      "areaKm2": 50.39,
       "wikidataId": "Q389515"
     },
     {
@@ -8064,7 +8056,7 @@
       "name": "豊田市",
       "prefecture": "愛知県",
       "population": 422106,
-      "areaKm2": 918320000,
+      "areaKm2": 918.3199999999999,
       "wikidataId": "Q201117"
     },
     {
@@ -8080,7 +8072,7 @@
       "name": "西尾市",
       "prefecture": "愛知県",
       "population": 168992,
-      "areaKm2": 161220000,
+      "areaKm2": 161.22,
       "wikidataId": "Q317844"
     },
     {
@@ -8096,7 +8088,7 @@
       "name": "犬山市",
       "prefecture": "愛知県",
       "population": 72926,
-      "areaKm2": 74900000,
+      "areaKm2": 74.89999999999999,
       "wikidataId": "Q503411"
     },
     {
@@ -8128,7 +8120,7 @@
       "name": "稲沢市",
       "prefecture": "愛知県",
       "population": 134938,
-      "areaKm2": 79350000,
+      "areaKm2": 79.35,
       "wikidataId": "Q389562"
     },
     {
@@ -8136,7 +8128,7 @@
       "name": "新城市",
       "prefecture": "愛知県",
       "population": 43620,
-      "areaKm2": 499230000,
+      "areaKm2": 499.22999999999996,
       "wikidataId": "Q694923"
     },
     {
@@ -8160,7 +8152,7 @@
       "name": "知多市",
       "prefecture": "愛知県",
       "population": 83881,
-      "areaKm2": 45760000,
+      "areaKm2": 45.76,
       "wikidataId": "Q495826"
     },
     {
@@ -8176,7 +8168,7 @@
       "name": "尾張旭市",
       "prefecture": "愛知県",
       "population": 82336,
-      "areaKm2": 21030000,
+      "areaKm2": 21.029999999999998,
       "wikidataId": "Q694893"
     },
     {
@@ -8184,7 +8176,7 @@
       "name": "高浜市",
       "prefecture": "愛知県",
       "population": 48685,
-      "areaKm2": 13000000,
+      "areaKm2": 13,
       "wikidataId": "Q816734"
     },
     {
@@ -8192,7 +8184,7 @@
       "name": "岩倉市",
       "prefecture": "愛知県",
       "population": 47975,
-      "areaKm2": 10470000,
+      "areaKm2": 10.469999999999999,
       "wikidataId": "Q648275"
     },
     {
@@ -8200,7 +8192,7 @@
       "name": "豊明市",
       "prefecture": "愛知県",
       "population": 69389,
-      "areaKm2": 23220000,
+      "areaKm2": 23.22,
       "wikidataId": "Q817280"
     },
     {
@@ -8208,7 +8200,7 @@
       "name": "日進市",
       "prefecture": "愛知県",
       "population": 92823,
-      "areaKm2": 34910000,
+      "areaKm2": 34.91,
       "wikidataId": "Q696777"
     },
     {
@@ -8216,7 +8208,7 @@
       "name": "田原市",
       "prefecture": "愛知県",
       "population": 59015,
-      "areaKm2": 191120000,
+      "areaKm2": 191.12,
       "wikidataId": "Q501891"
     },
     {
@@ -8272,7 +8264,7 @@
       "name": "長久手市",
       "prefecture": "愛知県",
       "population": 62473,
-      "areaKm2": 21550000,
+      "areaKm2": 21.55,
       "wikidataId": "Q930396"
     },
     {
@@ -9007,7 +8999,7 @@
       "code": "271403",
       "name": "堺市",
       "prefecture": "大阪府",
-      "population": 827277,
+      "population": 824408,
       "areaKm2": 149.83,
       "wikidataId": "Q193428"
     },
@@ -9344,7 +9336,7 @@
       "name": "神戸市",
       "prefecture": "兵庫県",
       "population": 1521707,
-      "areaKm2": 552230000,
+      "areaKm2": 552.23,
       "wikidataId": "Q48320"
     },
     {
@@ -9503,7 +9495,7 @@
       "code": "282219",
       "name": "丹波篠山市",
       "prefecture": "兵庫県",
-      "population": 40708,
+      "population": 39245,
       "areaKm2": 377.61,
       "wikidataId": "Q877169"
     },
@@ -9712,7 +9704,7 @@
       "name": "桜井市",
       "prefecture": "奈良県",
       "population": 54346,
-      "areaKm2": 98920000,
+      "areaKm2": 98.92,
       "wikidataId": "Q127026"
     },
     {
@@ -11848,7 +11840,7 @@
       "name": "福岡市",
       "prefecture": "福岡県",
       "population": 1603043,
-      "areaKm2": 340030000,
+      "areaKm2": 340.03,
       "wikidataId": "Q26600"
     },
     {
@@ -12063,7 +12055,7 @@
       "code": "402311",
       "name": "那珂川市",
       "prefecture": "福岡県",
-      "population": 50201,
+      "population": 50186,
       "areaKm2": 74.99,
       "wikidataId": "Q1206001"
     },
@@ -12391,7 +12383,7 @@
       "code": "412104",
       "name": "神埼市",
       "prefecture": "佐賀県",
-      "population": 31365,
+      "population": 30686,
       "areaKm2": 125.13,
       "wikidataId": "Q990392"
     },
@@ -12480,7 +12472,7 @@
       "name": "長崎市",
       "prefecture": "長崎県",
       "population": 404656,
-      "areaKm2": 406350000,
+      "areaKm2": 406.34999999999997,
       "wikidataId": "Q38234"
     },
     {
@@ -12488,7 +12480,7 @@
       "name": "佐世保市",
       "prefecture": "長崎県",
       "population": 242664,
-      "areaKm2": 426.06,
+      "areaKm2": 364.04,
       "wikidataId": "Q328000"
     },
     {
@@ -13376,7 +13368,7 @@
       "name": "鹿児島市",
       "prefecture": "鹿児島県",
       "population": 593754,
-      "areaKm2": 547050000,
+      "areaKm2": 547.05,
       "wikidataId": "Q15674"
     },
     {
@@ -13471,7 +13463,7 @@
       "code": "462195",
       "name": "いちき串木野市",
       "prefecture": "鹿児島県",
-      "population": 27080,
+      "population": 25441,
       "areaKm2": 112.29,
       "wikidataId": "Q15725"
     },
@@ -13671,7 +13663,7 @@
       "code": "465305",
       "name": "徳之島町",
       "prefecture": "鹿児島県",
-      "population": 11324,
+      "population": 10194,
       "areaKm2": 104.92,
       "wikidataId": "Q1350985"
     },
@@ -13687,7 +13679,7 @@
       "code": "465321",
       "name": "伊仙町",
       "prefecture": "鹿児島県",
-      "population": 6476,
+      "population": 5958,
       "areaKm2": 62.71,
       "wikidataId": "Q1205986"
     },

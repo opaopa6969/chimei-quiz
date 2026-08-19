@@ -2,7 +2,7 @@ import React, { useCallback, useState } from "react";
 import { StartScreen } from "./StartScreen.jsx";
 import { GameScreen } from "./GameScreen.jsx";
 import { ResultScreen } from "./ResultScreen.jsx";
-import { loadQuestions, buildSession, todaySeed } from "./quiz-engine.js";
+import { loadQuestions, buildSession, buildMixedSession, todaySeed } from "./quiz-engine.js";
 
 export function App() {
   const [stage, setStage] = useState("start"); // "start" | "loading" | "playing" | "result" | "error"
@@ -17,7 +17,9 @@ export function App() {
     try {
       const questions = await loadQuestions(type);
       const seed = `${type}-${count}-${todaySeed()}-${Math.floor(Math.random() * 1e9)}`;
-      const session = buildSession(questions, count, seed);
+      // "all"はカテゴリ別の問題数に大きな差がある（vanishedだけで全体の半分近く）ので、
+      // 単純ランダムだと偏った出題になる。均等に混ぜるbuildMixedSessionを使う。
+      const session = type === "all" ? buildMixedSession(questions, count, seed) : buildSession(questions, count, seed);
       if (session.length === 0) throw new Error("この カテゴリには出題できる問題がありません");
       setSessionQuestions(session);
       setStage("playing");

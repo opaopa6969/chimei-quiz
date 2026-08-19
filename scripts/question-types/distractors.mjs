@@ -23,3 +23,47 @@ export function sameCategoryPool(pool, exclude, n, rng) {
   const filtered = pool.filter((v) => !exclude.has(v));
   return pickN(filtered, n, rng);
 }
+
+// 読みクイズ用の誤答戦略。「東村」の正解が「ひがしそん」なのに、誤答が「さがみはらし」
+// 「みのぶちょう」のような全然関係ない読みだと、消去法で一発で分かってしまい難読クイズとして
+// 機能しない、とユーザーから指摘があった（実例）。
+// 対策1: 末尾の行政区分（市/町/村/区）が同じ読みだけを誤答プールに絞る（村の問題には村の読みだけ）。
+// 対策2: 「町」は「まち/ちょう」、「村」は「むら/そん」で読みが割れる。正解と同じ表記で
+//   別の読み方をでっち上げた「引っ掛け」を1つ混ぜる（例: ひがしそん → ひがしむら）。
+const SUFFIX_KANJI_CLASS = [
+  { suffix: "市", readings: ["し"] },
+  { suffix: "区", readings: ["く"] },
+  { suffix: "町", readings: ["ちょう", "まち"] },
+  { suffix: "村", readings: ["そん", "むら"] },
+];
+
+function classify(name) {
+  return SUFFIX_KANJI_CLASS.find((c) => name.endsWith(c.suffix)) ?? null;
+}
+
+// 正解の kana が持つ末尾読み（ちょう/まち/そん/むら）を、同クラスの別の読みに挿げ替えた誤答。
+// 例: name="東村", kana="ひがしそん" → cls=村(そん/むら) → "ひがしむら" を返す。生成できなければnull。
+function swapSuffixReading(name, kana) {
+  const cls = classify(name);
+  if (!cls || cls.readings.length < 2) return null;
+  const matched = cls.readings.find((r) => kana.endsWith(r));
+  if (!matched) return null;
+  const alt = cls.readings.find((r) => r !== matched);
+  return kana.slice(0, -matched.length) + alt;
+}
+
+// name/kana のペア配列から、正解と同じ行政区分（市/町/村/区）の読みだけに絞ったプールを作る。
+// 同クラスの候補が少なすぎる場合は全体プールにフォールバックする。
+export function readingConfusion(correctName, correctKana, pool, n, rng) {
+  const cls = classify(correctName);
+  const samClassPool = cls ? pool.filter(({ name }) => name.endsWith(cls.suffix)).map((p) => p.kana) : [];
+  const basePool = samClassPool.length >= n ? samClassPool : pool.map((p) => p.kana);
+
+  const swapped = swapSuffixReading(correctName, correctKana);
+  const rest = pickN(
+    basePool.filter((k) => k !== correctKana && k !== swapped),
+    swapped ? n - 1 : n,
+    rng
+  );
+  return swapped ? [swapped, ...rest] : rest;
+}

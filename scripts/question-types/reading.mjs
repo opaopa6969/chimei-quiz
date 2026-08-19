@@ -15,7 +15,8 @@
 // （例: 沖縄県「東村」＝ひがしそん、は現存するが、群馬県等にもかつて「東村」＝あずまむら、
 // があり廃止済み）を誤って拾うことがある。そのため name+prefecture で照合する
 // （このバグは実際にユーザー報告「下関市が難読は変」の調査中に発見・修正した）。
-import { makePrng, shuffle, pickN } from "../../lib/prng.mjs";
+import { makePrng, shuffle } from "../../lib/prng.mjs";
+import { readingConfusion } from "./distractors.mjs";
 
 // { name, prefecture, kana } — kanaは公式データが無い場合のフォールバック。
 // 北海道・沖縄の町村はアイヌ語/琉球語由来で「一般的な音訓では読めない」ものが大半、
@@ -162,11 +163,11 @@ export function generate(changes, currentMunicipalities, seed) {
   const hardKeys = new Set(hard.map((h) => `${h.name}|${h.prefecture}`));
   const easyPool = [...officialKana.entries()]
     .filter(([key]) => !hardKeys.has(key))
-    .map(([, kana]) => kana);
+    .map(([key, kana]) => ({ name: key.split("|")[0], kana }));
 
   const questions = [];
   for (const h of hard) {
-    const distractors = pickN(easyPool, 3, rng);
+    const distractors = readingConfusion(h.name, h.kana, easyPool, 3, rng);
     const choices = shuffle([h.kana, ...distractors], rng);
 
     questions.push({
@@ -175,7 +176,7 @@ export function generate(changes, currentMunicipalities, seed) {
       prompt: `「${h.name}」の読み方は？`,
       choices,
       answer: h.kana,
-      distractorStrategy: "curatedHardReadings",
+      distractorStrategy: "readingConfusion",
       tags: ["reading", h.prefecture],
       difficulty: 0.6,
       source: { dataset: "curated-hard-readings + municipality-history", refs: [`${h.name}(${h.prefecture})`] },

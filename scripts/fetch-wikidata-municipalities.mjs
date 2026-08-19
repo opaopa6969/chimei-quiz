@@ -15,12 +15,22 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = path.join(__dirname, "..", "data", "municipality-master.json");
 
 const SPARQL = `
-SELECT ?item ?itemLabel ?code ?population ?area ?prefLabel WHERE {
+SELECT ?item ?itemLabel ?code ?population ?areaAmount ?areaUnit ?prefLabel WHERE {
   ?item wdt:P429 ?code.
   # 政令指定都市の行政区（Q137773「日本の区」）は除外。東京都特別区（Q5327704）は自治体として残す。
   FILTER NOT EXISTS { ?item wdt:P31 wd:Q137773 }
+  # 支庁・振興局（Q850450、北海道の広域行政機関。基礎自治体ではない）も除外。
+  FILTER NOT EXISTS { ?item wdt:P31 wd:Q850450 }
   OPTIONAL { ?item wdt:P1082 ?population. }
-  OPTIONAL { ?item wdt:P2046 ?area. }
+  # 面積は単位（km²/m²等）がアイテムによって不統一なので、量とその単位を別々に取得して
+  # JS側で正規化する。単純に wdt:P2046 で数値だけ取ると、m²で入力された値がkm²扱いになる
+  # 単位バグが発生する（実際に早川町等41件で発覚した。詳細はfixupArea参照）。
+  OPTIONAL {
+    ?item p:P2046 ?areaStmt.
+    ?areaStmt psv:P2046 ?areaNode.
+    ?areaNode wikibase:quantityAmount ?areaAmount.
+    ?areaNode wikibase:quantityUnit ?areaUnit.
+  }
   # 都道府県(Q50337)まで1ホップ（市の場合）/ 2ホップ（町村→郡→都道府県の場合）で辿る
   OPTIONAL {
     { ?item wdt:P131 ?pref. ?pref wdt:P31 wd:Q50337. }
@@ -30,6 +40,25 @@ SELECT ?item ?itemLabel ?code ?population ?area ?prefLabel WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "ja,en". }
 }
 `;
+
+// Wikidataの単位QID → km²への倍率
+const AREA_UNIT_TO_KM2 = {
+  "http://www.wikidata.org/entity/Q712226": 1, // square kilometre
+  "http://www.wikidata.org/entity/Q25343": 1e-6, // square metre
+  "http://www.wikidata.org/entity/Q35852": 0.01, // hectare
+};
+
+function normalizeAreaKm2(amount, unitUri) {
+  if (amount == null) return null;
+  const value = Number(amount);
+  if (!unitUri) return value; // 単位不明はそのまま（従来通り）
+  const factor = AREA_UNIT_TO_KM2[unitUri];
+  if (factor == null) {
+    console.warn(`[fetch-wikidata-municipalities] 未知の面積単位: ${unitUri} (amount=${amount})`);
+    return value;
+  }
+  return value * factor;
+}
 
 // 全国地方公共団体コードの先頭2桁 → 都道府県。北海道は振興局を挟んで3ホップ必要なケースがあり
 // SPARQL側のprefLabel取得が一部抜けるので、コード先頭2桁からの補完で確実に埋める。
@@ -69,7 +98,7 @@ for (const b of json.results.bindings) {
     name: b.itemLabel?.value ?? "",
     prefecture: b.prefLabel?.value ?? "",
     population: b.population ? Number(b.population.value) : null,
-    areaKm2: b.area ? Number(b.area.value) : null,
+    areaKm2: normalizeAreaKm2(b.areaAmount?.value, b.areaUnit?.value),
     wikidataId: b.item?.value?.split("/").pop() ?? null,
   });
 }

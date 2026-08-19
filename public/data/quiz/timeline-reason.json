@@ -7,10 +7,10 @@
       "id": "timeline-absorb-亀田市-1973-12-01",
       "prompt": "「亀田市」が編入されたのはどこ？",
       "choices": [
-        "姫島村",
-        "浦河町",
-        "八百津町",
-        "函館市"
+        "広島市",
+        "尾鷲市",
+        "函館市",
+        "大崎町"
       ],
       "answer": "函館市",
       "distractorStrategy": "sameCategoryPool",
@@ -33,10 +33,10 @@
       "id": "timeline-absorb-戸井町・恵山町・椴法華村・南茅部町-2004-12-01",
       "prompt": "「戸井町・恵山町・椴法華村・南茅部町」が編入されたのはどこ？",
       "choices": [
-        "函館市",
-        "芸西村",
-        "日出町",
-        "霧島市"
+        "名張市",
+        "魚津市",
+        "有田町",
+        "函館市"
       ],
       "answer": "函館市",
       "distractorStrategy": "sameCategoryPool",
@@ -59,10 +59,10 @@
       "id": "timeline-absorb-東鷹栖町-1971-03-02",
       "prompt": "「東鷹栖町」が編入されたのはどこ？",
       "choices": [
-        "旭川市",
-        "久喜市",
-        "宇土市",
-        "高山村"
+        "泉大津市",
+        "富士宮市",
+        "小谷村",
+        "旭川市"
       ],
       "answer": "旭川市",
       "distractorStrategy": "sameCategoryPool",
@@ -85,10 +85,10 @@
       "id": "timeline-merge-釧路市-2005-10-11",
       "prompt": "釧路市・阿寒町・音別町が合併して誕生したのは？",
       "choices": [
-        "和泉市",
         "釧路市",
-        "弥彦村",
-        "魚沼市"
+        "鳩山町",
+        "勝浦町",
+        "有田町"
       ],
       "answer": "釧路市",
       "distractorStrategy": "sameCategoryPool",
@@ -112,10 +112,10 @@
       "id": "timeline-merge-北見市-2006-03-05",
       "prompt": "北見市・端野町・留辺蘂町・常呂町が合併して誕生したのは？",
       "choices": [
-        "海老名市",
-        "上勝町",
-        "甲斐市",
-        "北見市"
+        "北見市",
+        "嘉麻市",
+        "広川町",
+        "京丹後市"
       ],
       "answer": "北見市",
       "distractorStrategy": "sameCategoryPool",
@@ -139,10 +139,10 @@
       "id": "timeline-absorb-北村・栗沢町-2006-03-27",
       "prompt": "「北村・栗沢町」が編入されたのはどこ？",
       "choices": [
-        "向日市",
-        "小郡市",
         "岩見沢市",
-        "淡路市"
+        "飯塚市",
+        "福崎町",
+        "池田町"
       ],
       "answer": "岩見沢市",
       "distractorStrategy": "sameCategoryPool",
@@ -165,10 +165,10 @@
       "id": "timeline-merge-士別市-2005-09-01",
       "prompt": "士別市・朝日町が合併して誕生したのは？",
       "choices": [
+        "男鹿市",
+        "奥多摩町",
         "士別市",
-        "豊橋市",
-        "平塚市",
-        "入善町"
+        "滝上町"
       ],
       "answer": "士別市",
       "distractorStrategy": "sameCategoryPool",
@@ -192,10 +192,10 @@
       "id": "timeline-merge-名寄市-2006-03-27",
       "prompt": "名寄市・風連町が合併して誕生したのは？",
       "choices": [
-        "越前市",
-        "豊田市",
-        "大宜味村",
-        "名寄市"
+        "名寄市",
+        "下諏訪町",
+        "紀北町",
+        "釜石市"
       ],
       "answer": "名寄市",
       "distractorStrategy": "sameCategoryPool",
@@ -219,10 +219,10 @@
       "id": "timeline-merge-滝川市-1971-04-01",
       "prompt": "滝川市・江部乙町が合併して誕生したのは？",
       "choices": [
-        "長泉町",
-        "栄町",
-        "滝川市",
-        "稲美町"
+        "岩舟町",
+        "上尾市",
+        "白鷹町",
+        "滝川市"
       ],
       "answer": "滝川市",
       "distractorStrategy": "sameCategoryPool",
@@ -246,10 +246,10 @@
       "id": "timeline-absorb-大滝村-2006-03-01",
       "prompt": "「大滝村」が編入されたのはどこ？",
       "choices": [
-        "松川村",
-        "岩泉町",
         "伊達市",
-        "仙台市"
+        "千歳市",
+        "大任町",
+        "姶良市"
       ],
       "answer": "伊達市",
       "distractorStrategy": "sameCategoryPool",
@@ -272,10 +272,10 @@
       "id": "timeline-absorb-厚田村・浜益村-2005-10-01",
       "prompt": "「厚田村・浜益村」が編入されたのはどこ？",
       "choices": [
-        "富田林市",
-        "江別市",
-        "延岡市",
-        "石狩市"
+        "石狩市",
+        "串間市",
+        "湯沢町",
+        "下諏訪町"
       ],
       "answer": "石狩市",
       "distractorStrategy": "sameCategoryPool",
@@ -298,10 +298,10 @@
       "id": "timeline-merge-北斗市-2006-02-01",
       "prompt": "上磯町・大野町が合併して誕生したのは？",
       "choices": [
-        "喜界町",
-        "七ヶ宿町",
-        "本庄市",
-        "北斗市"
+        "北斗市",
+        "那珂川市",
+        "多度津町",
+        "湯沢町"
       ],
       "answer": "北斗市",
       "distractorStrategy": "sameCategoryPool",
@@ -326,9 +326,9 @@
       "prompt": "砂原町・森町が合併して誕生したのは？",
       "choices": [
         "森町",
-        "成田市",
-        "池田町",
-        "中間市"
+        "多気町",
+        "海陽町",
+        "陸別町"
       ],
       "answer": "森町",
       "distractorStrategy": "sameCategoryPool",
@@ -352,10 +352,10 @@
       "id": "timeline-merge-八雲町-2005-10-01",
       "prompt": "八雲町・熊石町が合併して誕生したのは？",
       "choices": [
-        "東吾妻町",
-        "五所川原市",
-        "練馬区",
-        "八雲町"
+        "有田市",
+        "八雲町",
+        "武蔵村山市",
+        "七ヶ浜町"
       ],
       "answer": "八雲町",
       "distractorStrategy": "sameCategoryPool",
@@ -379,10 +379,10 @@
       "id": "timeline-merge-せたな町-2005-09-01",
       "prompt": "大成町・瀬棚町・北檜山町が合併して誕生したのは？",
       "choices": [
-        "三宅村",
-        "中川町",
+        "赤井川村",
+        "清里町",
         "せたな町",
-        "興部町"
+        "小坂町"
       ],
       "answer": "せたな町",
       "distractorStrategy": "sameCategoryPool",
@@ -406,9 +406,9 @@
       "id": "timeline-merge-枝幸町-2006-03-20",
       "prompt": "枝幸町・歌登町が合併して誕生したのは？",
       "choices": [
-        "留萌振興局",
-        "御宿町",
-        "蘭越町",
+        "幌加内町",
+        "つくば市",
+        "神石高原町",
         "枝幸町"
       ],
       "answer": "枝幸町",
@@ -433,10 +433,10 @@
       "id": "timeline-merge-大空町-2006-03-31",
       "prompt": "東藻琴村・女満別町が合併して誕生したのは？",
       "choices": [
+        "益田市",
+        "遠野市",
         "大空町",
-        "与那原町",
-        "勝央町",
-        "中頓別町"
+        "武豊町"
       ],
       "answer": "大空町",
       "distractorStrategy": "sameCategoryPool",
@@ -460,10 +460,10 @@
       "id": "timeline-merge-遠軽町-2005-10-01",
       "prompt": "生田原町・遠軽町・丸瀬布町・白滝村が合併して誕生したのは？",
       "choices": [
+        "碧南市",
+        "野木町",
         "遠軽町",
-        "敦賀市",
-        "新庄村",
-        "斑鳩町"
+        "中標津町"
       ],
       "answer": "遠軽町",
       "distractorStrategy": "sameCategoryPool",
@@ -487,10 +487,10 @@
       "id": "timeline-merge-湧別町-2009-10-05",
       "prompt": "上湧別町・湧別町が合併して誕生したのは？",
       "choices": [
-        "室蘭市",
-        "大淀町",
-        "邑楽町",
-        "湧別町"
+        "湧別町",
+        "黒石市",
+        "玉野市",
+        "下市町"
       ],
       "answer": "湧別町",
       "distractorStrategy": "sameCategoryPool",
@@ -514,10 +514,10 @@
       "id": "timeline-merge-洞爺湖町-2006-03-27",
       "prompt": "虻田町・洞爺村が合併して誕生したのは？",
       "choices": [
-        "古殿町",
-        "洞爺湖町",
-        "葛城市",
-        "鏡石町"
+        "男鹿市",
+        "上川町",
+        "広島市",
+        "洞爺湖町"
       ],
       "answer": "洞爺湖町",
       "distractorStrategy": "sameCategoryPool",
@@ -541,10 +541,10 @@
       "id": "timeline-merge-安平町-2006-03-27",
       "prompt": "早来町・追分町が合併して誕生したのは？",
       "choices": [
-        "愛川町",
         "安平町",
-        "敦賀市",
-        "大子町"
+        "安田町",
+        "柏原市",
+        "中川村"
       ],
       "answer": "安平町",
       "distractorStrategy": "sameCategoryPool",
@@ -568,10 +568,10 @@
       "id": "timeline-merge-むかわ町-2006-03-27",
       "prompt": "鵡川町・穂別町が合併して誕生したのは？",
       "choices": [
-        "一戸町",
-        "狭山市",
+        "南小国町",
         "むかわ町",
-        "酒々井町"
+        "金武町",
+        "中井町"
       ],
       "answer": "むかわ町",
       "distractorStrategy": "sameCategoryPool",
@@ -595,10 +595,10 @@
       "id": "timeline-merge-日高町-2006-03-01",
       "prompt": "日高町・門別町が合併して誕生したのは？",
       "choices": [
+        "久御山町",
+        "舞鶴市",
         "日高町",
-        "辰野町",
-        "田原本町",
-        "上越市"
+        "南風原町"
       ],
       "answer": "日高町",
       "distractorStrategy": "sameCategoryPool",
@@ -622,10 +622,10 @@
       "id": "timeline-merge-新ひだか町-2006-03-31",
       "prompt": "静内町・三石町が合併して誕生したのは？",
       "choices": [
-        "鶴居村",
-        "上毛町",
+        "玉名市",
         "新ひだか町",
-        "大刀洗町"
+        "八尾市",
+        "美馬市"
       ],
       "answer": "新ひだか町",
       "distractorStrategy": "sameCategoryPool",
@@ -649,10 +649,10 @@
       "id": "timeline-absorb-忠類村-2006-02-06",
       "prompt": "「忠類村」が編入されたのはどこ？",
       "choices": [
-        "幕別町",
-        "東金市",
-        "志摩市",
-        "阿賀野市"
+        "かつらぎ町",
+        "まんのう町",
+        "白井市",
+        "幕別町"
       ],
       "answer": "幕別町",
       "distractorStrategy": "sameCategoryPool",
@@ -675,10 +675,10 @@
       "id": "timeline-merge-青森市-2005-04-01",
       "prompt": "青森市・浪岡町が合併して誕生したのは？",
       "choices": [
-        "小川町",
-        "大和高田市",
+        "幌延町",
         "青森市",
-        "美馬市"
+        "豊丘村",
+        "中間市"
       ],
       "answer": "青森市",
       "distractorStrategy": "sameCategoryPool",
@@ -702,10 +702,10 @@
       "id": "timeline-merge-弘前市-2006-02-27",
       "prompt": "弘前市・岩木町・相馬村が合併して誕生したのは？",
       "choices": [
-        "新潟市",
+        "鉾田市",
+        "印南町",
         "弘前市",
-        "喜多方市",
-        "草津町"
+        "阿南町"
       ],
       "answer": "弘前市",
       "distractorStrategy": "sameCategoryPool",
@@ -729,10 +729,10 @@
       "id": "timeline-absorb-南郷村-2005-03-31",
       "prompt": "「南郷村」が編入されたのはどこ？",
       "choices": [
-        "狭山市",
         "八戸市",
-        "臼杵市",
-        "松戸市"
+        "えりも町",
+        "喜界町",
+        "水上村"
       ],
       "answer": "八戸市",
       "distractorStrategy": "sameCategoryPool",
@@ -755,10 +755,10 @@
       "id": "timeline-merge-五所川原市-2005-03-28",
       "prompt": "五所川原市・金木町・市浦村が合併して誕生したのは？",
       "choices": [
-        "神山町",
-        "柏崎市",
         "五所川原市",
-        "二宮町"
+        "久慈市",
+        "竜王町",
+        "浦臼町"
       ],
       "answer": "五所川原市",
       "distractorStrategy": "sameCategoryPool",
@@ -783,9 +783,9 @@
       "prompt": "十和田市・十和田湖町が合併して誕生したのは？",
       "choices": [
         "十和田市",
-        "西条市",
-        "小城市",
-        "山ノ内町"
+        "越谷市",
+        "大野市",
+        "矢板市"
       ],
       "answer": "十和田市",
       "distractorStrategy": "sameCategoryPool",
@@ -809,10 +809,10 @@
       "id": "timeline-absorb-川内町・大畑町・脇野沢村-2005-03-14",
       "prompt": "「川内町・大畑町・脇野沢村」が編入されたのはどこ？",
       "choices": [
-        "東松島市",
-        "南部町",
-        "むつ市",
-        "富士見市"
+        "白岡市",
+        "菊池市",
+        "曽爾村",
+        "むつ市"
       ],
       "answer": "むつ市",
       "distractorStrategy": "sameCategoryPool",
@@ -835,10 +835,10 @@
       "id": "timeline-merge-つがる市-2005-02-11",
       "prompt": "木造町・森田村・柏村・稲垣村・車力村が合併して誕生したのは？",
       "choices": [
-        "名取市",
-        "弟子屈町",
-        "新ひだか町",
-        "つがる市"
+        "珠洲市",
+        "つがる市",
+        "幌延町",
+        "みどり市"
       ],
       "answer": "つがる市",
       "distractorStrategy": "sameCategoryPool",
@@ -862,10 +862,10 @@
       "id": "timeline-merge-平川市-2006-01-01",
       "prompt": "尾上町・平賀町・碇ケ関村が合併して誕生したのは？",
       "choices": [
-        "伊予市",
+        "あわら市",
         "平川市",
-        "河北町",
-        "香美市"
+        "富岡市",
+        "富士河口湖町"
       ],
       "answer": "平川市",
       "distractorStrategy": "sameCategoryPool",
@@ -889,10 +889,10 @@
       "id": "timeline-merge-外ヶ浜町-2005-03-28",
       "prompt": "蟹田町・平舘村・三厩村が合併して誕生したのは？",
       "choices": [
-        "上里町",
-        "大野町",
+        "大磯町",
         "外ヶ浜町",
-        "糸満市"
+        "品川区",
+        "笛吹市"
       ],
       "answer": "外ヶ浜町",
       "distractorStrategy": "sameCategoryPool",
@@ -916,10 +916,10 @@
       "id": "timeline-merge-深浦町-2005-03-31",
       "prompt": "深浦町・岩崎村が合併して誕生したのは？",
       "choices": [
-        "枚方市",
-        "日高町",
+        "豊後大野市",
+        "佐渡市",
         "深浦町",
-        "阪南市"
+        "綾川町"
       ],
       "answer": "深浦町",
       "distractorStrategy": "sameCategoryPool",
@@ -943,10 +943,10 @@
       "id": "timeline-merge-藤崎町-2005-03-28",
       "prompt": "藤崎町・常盤村が合併して誕生したのは？",
       "choices": [
-        "大野市",
         "藤崎町",
-        "五木村",
-        "寄居町"
+        "稲美町",
+        "岩泉町",
+        "高岡市"
       ],
       "answer": "藤崎町",
       "distractorStrategy": "sameCategoryPool",
@@ -970,10 +970,10 @@
       "id": "timeline-merge-中泊町-2005-03-28",
       "prompt": "中里町・小泊村が合併して誕生したのは？",
       "choices": [
-        "葉山町",
+        "盛岡市",
+        "中泊町",
         "安中市",
-        "下仁田町",
-        "中泊町"
+        "野田市"
       ],
       "answer": "中泊町",
       "distractorStrategy": "sameCategoryPool",
@@ -997,10 +997,10 @@
       "id": "timeline-merge-七戸町-2005-03-31",
       "prompt": "七戸町・天間林村が合併して誕生したのは？",
       "choices": [
-        "七戸町",
-        "田村市",
-        "七ヶ浜町",
-        "三沢市"
+        "宇多津町",
+        "相生市",
+        "与謝野町",
+        "七戸町"
       ],
       "answer": "七戸町",
       "distractorStrategy": "sameCategoryPool",
@@ -1024,10 +1024,10 @@
       "id": "timeline-merge-おいらせ町-2006-03-01",
       "prompt": "百石町・下田町が合併して誕生したのは？",
       "choices": [
-        "雲南市",
+        "山梨市",
         "おいらせ町",
-        "吉田町",
-        "清須市"
+        "長井市",
+        "海南市"
       ],
       "answer": "おいらせ町",
       "distractorStrategy": "sameCategoryPool",
@@ -1051,10 +1051,10 @@
       "id": "timeline-merge-東北町-2005-03-31",
       "prompt": "上北町・東北町が合併して誕生したのは？",
       "choices": [
+        "奥出雲町",
+        "由布市",
         "東北町",
-        "まんのう町",
-        "加西市",
-        "大館市"
+        "浅口市"
       ],
       "answer": "東北町",
       "distractorStrategy": "sameCategoryPool",
@@ -1078,10 +1078,10 @@
       "id": "timeline-absorb-倉石村-2004-07-01",
       "prompt": "「倉石村」が編入されたのはどこ？",
       "choices": [
-        "五戸町",
-        "南小国町",
-        "菊陽町",
-        "留萌振興局"
+        "庄内町",
+        "日向市",
+        "那須町",
+        "五戸町"
       ],
       "answer": "五戸町",
       "distractorStrategy": "sameCategoryPool",
@@ -1104,10 +1104,10 @@
       "id": "timeline-merge-南部町-2006-01-01",
       "prompt": "名川町・南部町・福地村が合併して誕生したのは？",
       "choices": [
-        "大多喜町",
-        "南部町",
-        "大熊町",
-        "揖斐川町"
+        "大崎上島町",
+        "八幡浜市",
+        "大和村",
+        "南部町"
       ],
       "answer": "南部町",
       "distractorStrategy": "sameCategoryPool",
@@ -1131,9 +1131,9 @@
       "id": "timeline-absorb-都南村-1992-04-01",
       "prompt": "「都南村」が編入されたのはどこ？",
       "choices": [
-        "喜多方市",
-        "袋井市",
-        "伊達市",
+        "いすみ市",
+        "豊浦町",
+        "江戸川区",
         "盛岡市"
       ],
       "answer": "盛岡市",
@@ -1157,10 +1157,10 @@
       "id": "timeline-absorb-玉山村-2006-01-10",
       "prompt": "「玉山村」が編入されたのはどこ？",
       "choices": [
-        "長野市",
-        "福山市",
+        "三島村",
+        "上市町",
         "盛岡市",
-        "木島平村"
+        "御船町"
       ],
       "answer": "盛岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -1184,9 +1184,9 @@
       "prompt": "宮古市・田老町・新里村が合併して誕生したのは？",
       "choices": [
         "宮古市",
-        "鹿島市",
-        "八雲町",
-        "真庭市"
+        "南城市",
+        "綾川町",
+        "たつの市"
       ],
       "answer": "宮古市",
       "distractorStrategy": "sameCategoryPool",
@@ -1211,9 +1211,9 @@
       "prompt": "「川井村」が編入されたのはどこ？",
       "choices": [
         "宮古市",
-        "糸島市",
-        "豊能町",
-        "佐世保市"
+        "千葉市",
+        "相生市",
+        "河南町"
       ],
       "answer": "宮古市",
       "distractorStrategy": "sameCategoryPool",
@@ -1236,10 +1236,10 @@
       "id": "timeline-absorb-三陸町-2001-11-15",
       "prompt": "「三陸町」が編入されたのはどこ？",
       "choices": [
-        "川越市",
+        "川上村",
         "大船渡市",
-        "茂原市",
-        "宇検村"
+        "能登町",
+        "まんのう町"
       ],
       "answer": "大船渡市",
       "distractorStrategy": "sameCategoryPool",
@@ -1262,10 +1262,10 @@
       "id": "timeline-merge-奥州市-2006-02-20",
       "prompt": "水沢市・江刺市・前沢町・胆沢町・衣川村が合併して誕生したのは？",
       "choices": [
+        "明石市",
+        "滝沢市",
         "奥州市",
-        "飯島町",
-        "上富田町",
-        "入間市"
+        "小千谷市"
       ],
       "answer": "奥州市",
       "distractorStrategy": "sameCategoryPool",
@@ -1289,10 +1289,10 @@
       "id": "timeline-merge-北上市-1991-04-01",
       "prompt": "北上市・和賀町・江釣子村が合併して誕生したのは？",
       "choices": [
-        "常総市",
-        "北上市",
-        "西条市",
-        "南関町"
+        "都留市",
+        "旭市",
+        "仁木町",
+        "北上市"
       ],
       "answer": "北上市",
       "distractorStrategy": "sameCategoryPool",
@@ -1316,10 +1316,10 @@
       "id": "timeline-merge-久慈市-2006-03-06",
       "prompt": "久慈市・山形村が合併して誕生したのは？",
       "choices": [
-        "勝浦町",
-        "稲美町",
         "久慈市",
-        "筑後市"
+        "春日部市",
+        "神河町",
+        "川崎町"
       ],
       "answer": "久慈市",
       "distractorStrategy": "sameCategoryPool",
@@ -1343,10 +1343,10 @@
       "id": "timeline-merge-遠野市-2005-10-01",
       "prompt": "遠野市・宮守村が合併して誕生したのは？",
       "choices": [
-        "王寺町",
-        "大町市",
         "遠野市",
-        "八代市"
+        "袖ケ浦市",
+        "萩市",
+        "厚真町"
       ],
       "answer": "遠野市",
       "distractorStrategy": "sameCategoryPool",
@@ -1370,10 +1370,10 @@
       "id": "timeline-merge-一関市-2005-09-20",
       "prompt": "一関市・花泉町・大東町・千厩町・東山町・室根村・川崎村が合併して誕生したのは？",
       "choices": [
-        "松原市",
-        "大台町",
-        "中津市",
-        "一関市"
+        "矢掛町",
+        "一関市",
+        "金武町",
+        "出水市"
       ],
       "answer": "一関市",
       "distractorStrategy": "sameCategoryPool",
@@ -1397,10 +1397,10 @@
       "id": "timeline-merge-二戸市-1972-04-01",
       "prompt": "福岡町・金田一村が合併して誕生したのは？",
       "choices": [
-        "三朝町",
-        "竜王町",
         "二戸市",
-        "大豊町"
+        "座間市",
+        "睦沢町",
+        "川俣町"
       ],
       "answer": "二戸市",
       "distractorStrategy": "sameCategoryPool",
@@ -1424,10 +1424,10 @@
       "id": "timeline-merge-二戸市-2006-01-01",
       "prompt": "二戸市・浄法寺町が合併して誕生したのは？",
       "choices": [
-        "二戸市",
-        "戸田市",
-        "香春町",
-        "川辺町"
+        "市川三郷町",
+        "久喜市",
+        "吉野ヶ里町",
+        "二戸市"
       ],
       "answer": "二戸市",
       "distractorStrategy": "sameCategoryPool",
@@ -1451,10 +1451,10 @@
       "id": "timeline-merge-八幡平市-2005-09-01",
       "prompt": "西根町・松尾村・安代町が合併して誕生したのは？",
       "choices": [
-        "八幡平市",
-        "神河町",
-        "藤沢市",
-        "川越市"
+        "長和町",
+        "開成町",
+        "幕別町",
+        "八幡平市"
       ],
       "answer": "八幡平市",
       "distractorStrategy": "sameCategoryPool",
@@ -1478,10 +1478,10 @@
       "id": "timeline-merge-西和賀町-2005-11-01",
       "prompt": "湯田町・沢内村が合併して誕生したのは？",
       "choices": [
-        "総社市",
-        "富岡町",
+        "日高町",
+        "北名古屋市",
         "西和賀町",
-        "鶴ヶ島市"
+        "柏原市"
       ],
       "answer": "西和賀町",
       "distractorStrategy": "sameCategoryPool",
@@ -1505,10 +1505,10 @@
       "id": "timeline-merge-洋野町-2006-01-01",
       "prompt": "種市町・大野村が合併して誕生したのは？",
       "choices": [
-        "七尾市",
+        "武雄市",
         "洋野町",
-        "稲敷市",
-        "本庄市"
+        "綾川町",
+        "南さつま市"
       ],
       "answer": "洋野町",
       "distractorStrategy": "sameCategoryPool",
@@ -1532,10 +1532,10 @@
       "id": "timeline-absorb-宮城町-1987-11-01",
       "prompt": "「宮城町」が編入されたのはどこ？",
       "choices": [
+        "上士幌町",
         "仙台市",
-        "八郎潟町",
-        "東近江市",
-        "荒川区"
+        "安中市",
+        "大崎市"
       ],
       "answer": "仙台市",
       "distractorStrategy": "sameCategoryPool",
@@ -1558,10 +1558,10 @@
       "id": "timeline-absorb-泉市-1988-03-01",
       "prompt": "「泉市」が編入されたのはどこ？",
       "choices": [
-        "北広島町",
-        "上田市",
-        "三春町",
-        "仙台市"
+        "行橋市",
+        "福島市",
+        "仙台市",
+        "鏡石町"
       ],
       "answer": "仙台市",
       "distractorStrategy": "sameCategoryPool",
@@ -1584,10 +1584,10 @@
       "id": "timeline-merge-気仙沼市-2006-03-31",
       "prompt": "気仙沼市・唐桑町が合併して誕生したのは？",
       "choices": [
-        "東洋町",
-        "羽島市",
+        "幌加内町",
+        "佐井村",
         "気仙沼市",
-        "摂津市"
+        "新島村"
       ],
       "answer": "気仙沼市",
       "distractorStrategy": "sameCategoryPool",
@@ -1611,10 +1611,10 @@
       "id": "timeline-absorb-本吉町-2009-09-01",
       "prompt": "「本吉町」が編入されたのはどこ？",
       "choices": [
-        "長柄町",
-        "時津町",
+        "清水町",
+        "弘前市",
         "気仙沼市",
-        "美瑛町"
+        "菰野町"
       ],
       "answer": "気仙沼市",
       "distractorStrategy": "sameCategoryPool",
@@ -1637,10 +1637,10 @@
       "id": "timeline-merge-東松島市-2005-04-01",
       "prompt": "矢本町・鳴瀬町が合併して誕生したのは？",
       "choices": [
-        "泉崎村",
-        "蔵王町",
-        "滑川町",
-        "東松島市"
+        "西興部村",
+        "西郷村",
+        "東松島市",
+        "佐呂間町"
       ],
       "answer": "東松島市",
       "distractorStrategy": "sameCategoryPool",
@@ -1664,10 +1664,10 @@
       "id": "timeline-merge-加美町-2003-04-01",
       "prompt": "中新田町・小野田町・宮崎町が合併して誕生したのは？",
       "choices": [
-        "愛南町",
         "加美町",
-        "鳥取市",
-        "長野原町"
+        "信濃町",
+        "太地町",
+        "曽於市"
       ],
       "answer": "加美町",
       "distractorStrategy": "sameCategoryPool",
@@ -1691,10 +1691,10 @@
       "id": "timeline-merge-美里町-2006-01-01",
       "prompt": "小牛田町・南郷町が合併して誕生したのは？",
       "choices": [
-        "豊田市",
-        "金山町",
+        "浦安市",
+        "山口市",
         "美里町",
-        "大江町"
+        "常陸太田市"
       ],
       "answer": "美里町",
       "distractorStrategy": "sameCategoryPool",
@@ -1718,10 +1718,10 @@
       "id": "timeline-merge-南三陸町-2005-10-01",
       "prompt": "志津川町・歌津町が合併して誕生したのは？",
       "choices": [
-        "珠洲市",
-        "軽米町",
-        "清里町",
-        "南三陸町"
+        "南三陸町",
+        "産山村",
+        "奈義町",
+        "平生町"
       ],
       "answer": "南三陸町",
       "distractorStrategy": "sameCategoryPool",
@@ -1745,10 +1745,10 @@
       "id": "timeline-merge-能代市-2006-03-21",
       "prompt": "能代市・二ツ井町が合併して誕生したのは？",
       "choices": [
-        "富良野市",
+        "海田町",
         "能代市",
-        "印南町",
-        "塩谷町"
+        "椎葉村",
+        "越知町"
       ],
       "answer": "能代市",
       "distractorStrategy": "sameCategoryPool",
@@ -1772,10 +1772,10 @@
       "id": "timeline-absorb-比内町・田代町-2005-06-20",
       "prompt": "「比内町・田代町」が編入されたのはどこ？",
       "choices": [
-        "宇多津町",
-        "大館市",
-        "小平市",
-        "多久市"
+        "長生村",
+        "西宮市",
+        "門川町",
+        "大館市"
       ],
       "answer": "大館市",
       "distractorStrategy": "sameCategoryPool",
@@ -1798,10 +1798,10 @@
       "id": "timeline-merge-由利本荘市-2005-03-22",
       "prompt": "本荘市・矢島町・岩城町・由利町・西目町・鳥海町・東由利町・大内町が合併して誕生したのは？",
       "choices": [
-        "青ヶ島村",
-        "黒潮町",
-        "いちき串木野市",
-        "由利本荘市"
+        "七戸町",
+        "由利本荘市",
+        "砂川市",
+        "村田町"
       ],
       "answer": "由利本荘市",
       "distractorStrategy": "sameCategoryPool",
@@ -1825,10 +1825,10 @@
       "id": "timeline-merge-男鹿市-2005-03-22",
       "prompt": "男鹿市・若美町が合併して誕生したのは？",
       "choices": [
-        "紗那村",
-        "江南市",
-        "男鹿市",
-        "宮代町"
+        "豊前市",
+        "えりも町",
+        "一宮市",
+        "男鹿市"
       ],
       "answer": "男鹿市",
       "distractorStrategy": "sameCategoryPool",
@@ -1852,10 +1852,10 @@
       "id": "timeline-merge-湯沢市-2005-03-22",
       "prompt": "湯沢市・稲川町・雄勝町・皆瀬村が合併して誕生したのは？",
       "choices": [
-        "平泉町",
-        "豊富町",
         "湯沢市",
-        "那覇市"
+        "売木村",
+        "益田市",
+        "宍粟市"
       ],
       "answer": "湯沢市",
       "distractorStrategy": "sameCategoryPool",
@@ -1879,10 +1879,10 @@
       "id": "timeline-merge-大仙市-2005-03-22",
       "prompt": "大曲市・神岡町・西仙北町・中仙町・協和町・南外村・仙北町・太田町が合併して誕生したのは？",
       "choices": [
-        "九度山町",
-        "南島原市",
-        "四日市市",
-        "大仙市"
+        "大仙市",
+        "結城市",
+        "うるま市",
+        "村田町"
       ],
       "answer": "大仙市",
       "distractorStrategy": "sameCategoryPool",
@@ -1907,9 +1907,9 @@
       "prompt": "花輪町・十和田町・尾去沢町・八幡平村が合併して誕生したのは？",
       "choices": [
         "鹿角市",
-        "稚内市",
-        "大任町",
-        "亘理町"
+        "河合町",
+        "伊勢崎市",
+        "岬町"
       ],
       "answer": "鹿角市",
       "distractorStrategy": "sameCategoryPool",
@@ -1934,9 +1934,9 @@
       "prompt": "昭和町・飯田川町・天王町が合併して誕生したのは？",
       "choices": [
         "潟上市",
-        "北秋田市",
-        "奈良市",
-        "住田町"
+        "本別町",
+        "光市",
+        "那須烏山市"
       ],
       "answer": "潟上市",
       "distractorStrategy": "sameCategoryPool",
@@ -1961,9 +1961,9 @@
       "prompt": "鷹巣町・森吉町・阿仁町・合川町が合併して誕生したのは？",
       "choices": [
         "北秋田市",
-        "中泊町",
-        "柳川市",
-        "長柄町"
+        "豊橋市",
+        "伊根町",
+        "小谷村"
       ],
       "answer": "北秋田市",
       "distractorStrategy": "sameCategoryPool",
@@ -1987,10 +1987,10 @@
       "id": "timeline-merge-仙北市-2005-09-20",
       "prompt": "角館町・田沢湖町・西木村が合併して誕生したのは？",
       "choices": [
-        "新宿区",
-        "五泉市",
+        "白河市",
+        "高山村",
         "仙北市",
-        "三戸町"
+        "笠岡市"
       ],
       "answer": "仙北市",
       "distractorStrategy": "sameCategoryPool",
@@ -2014,10 +2014,10 @@
       "id": "timeline-merge-三種町-2006-03-20",
       "prompt": "琴丘町・山本町・八竜町が合併して誕生したのは？",
       "choices": [
+        "安来市",
         "三種町",
-        "加西市",
-        "矢吹町",
-        "下松市"
+        "上三川町",
+        "鎌ケ谷市"
       ],
       "answer": "三種町",
       "distractorStrategy": "sameCategoryPool",
@@ -2041,10 +2041,10 @@
       "id": "timeline-merge-八峰町-2006-03-27",
       "prompt": "八森町・峰浜村が合併して誕生したのは？",
       "choices": [
-        "沖縄市",
-        "八峰町",
-        "鳥羽市",
-        "飯舘村"
+        "山県市",
+        "岩手町",
+        "多賀町",
+        "八峰町"
       ],
       "answer": "八峰町",
       "distractorStrategy": "sameCategoryPool",
@@ -2068,10 +2068,10 @@
       "id": "timeline-merge-美郷町-2004-11-01",
       "prompt": "六郷町・千畑町・仙南村が合併して誕生したのは？",
       "choices": [
-        "大山崎町",
-        "那須烏山市",
-        "佐川町",
-        "美郷町"
+        "三原村",
+        "美郷町",
+        "藤枝市",
+        "本庄市"
       ],
       "answer": "美郷町",
       "distractorStrategy": "sameCategoryPool",
@@ -2095,10 +2095,10 @@
       "id": "timeline-merge-酒田市-2005-11-01",
       "prompt": "酒田市・八幡町・松山町・平田町が合併して誕生したのは？",
       "choices": [
-        "富加町",
-        "東大阪市",
+        "氷川町",
         "酒田市",
-        "馬路村"
+        "桜井市",
+        "塩尻市"
       ],
       "answer": "酒田市",
       "distractorStrategy": "sameCategoryPool",
@@ -2122,10 +2122,10 @@
       "id": "timeline-merge-庄内町-2005-07-01",
       "prompt": "立川町・余目町が合併して誕生したのは？",
       "choices": [
-        "早島町",
         "庄内町",
-        "伊丹市",
-        "那珂川市"
+        "せたな町",
+        "竹田市",
+        "産山村"
       ],
       "answer": "庄内町",
       "distractorStrategy": "sameCategoryPool",
@@ -2149,10 +2149,10 @@
       "id": "timeline-absorb-飯野町-2008-07-01",
       "prompt": "「飯野町」が編入されたのはどこ？",
       "choices": [
-        "棚倉町",
+        "阪南市",
+        "瀬戸内町",
         "福島市",
-        "芦別市",
-        "滝沢市"
+        "御所市"
       ],
       "answer": "福島市",
       "distractorStrategy": "sameCategoryPool",
@@ -2175,9 +2175,9 @@
       "id": "timeline-absorb-河東町-2005-11-01",
       "prompt": "「河東町」が編入されたのはどこ？",
       "choices": [
-        "奥州市",
-        "高山村",
-        "外ヶ浜町",
+        "越谷市",
+        "七宗町",
+        "佐呂間町",
         "会津若松市"
       ],
       "answer": "会津若松市",
@@ -2201,9 +2201,9 @@
       "id": "timeline-merge-白河市-2005-11-07",
       "prompt": "白河市・表郷村・東村・大信村が合併して誕生したのは？",
       "choices": [
-        "大川村",
-        "栗山町",
-        "積丹町",
+        "湯河原町",
+        "伯耆町",
+        "大宜味村",
         "白河市"
       ],
       "answer": "白河市",
@@ -2228,10 +2228,10 @@
       "id": "timeline-merge-南相馬市-2006-01-01",
       "prompt": "原町市・鹿島町・小高町が合併して誕生したのは？",
       "choices": [
-        "東吾妻町",
-        "磐梯町",
+        "みやき町",
         "南相馬市",
-        "朝来市"
+        "厚岸町",
+        "鳩山町"
       ],
       "answer": "南相馬市",
       "distractorStrategy": "sameCategoryPool",
@@ -2255,10 +2255,10 @@
       "id": "timeline-absorb-長沼町-2005-04-01",
       "prompt": "「長沼町」が編入されたのはどこ？",
       "choices": [
-        "須賀川市",
-        "国見町",
-        "山梨市",
-        "広尾町"
+        "南牧村",
+        "山辺町",
+        "嘉島町",
+        "須賀川市"
       ],
       "answer": "須賀川市",
       "distractorStrategy": "sameCategoryPool",
@@ -2281,10 +2281,10 @@
       "id": "timeline-absorb-岩瀬村-2005-04-01",
       "prompt": "「岩瀬村」が編入されたのはどこ？",
       "choices": [
-        "内灘町",
-        "みやま市",
+        "阿南町",
         "須賀川市",
-        "江別市"
+        "久山町",
+        "川根本町"
       ],
       "answer": "須賀川市",
       "distractorStrategy": "sameCategoryPool",
@@ -2307,10 +2307,10 @@
       "id": "timeline-merge-喜多方市-2006-01-04",
       "prompt": "喜多方市・熱塩加納村・塩川町・山都町・高郷村が合併して誕生したのは？",
       "choices": [
-        "伊勢崎市",
-        "広川町",
-        "越知町",
-        "喜多方市"
+        "十和田市",
+        "和歌山市",
+        "喜多方市",
+        "有田町"
       ],
       "answer": "喜多方市",
       "distractorStrategy": "sameCategoryPool",
@@ -2335,9 +2335,9 @@
       "prompt": "二本松市・安達町・岩代町・東和町が合併して誕生したのは？",
       "choices": [
         "二本松市",
-        "女川町",
-        "津島市",
-        "上島町"
+        "坂城町",
+        "木曽町",
+        "神戸市"
       ],
       "answer": "二本松市",
       "distractorStrategy": "sameCategoryPool",
@@ -2361,10 +2361,10 @@
       "id": "timeline-merge-田村市-2005-03-01",
       "prompt": "滝根町・大越町・都路村・常葉町・船引町が合併して誕生したのは？",
       "choices": [
-        "太子町",
         "田村市",
-        "南伊勢町",
-        "古河市"
+        "あさぎり町",
+        "旭川市",
+        "山北町"
       ],
       "answer": "田村市",
       "distractorStrategy": "sameCategoryPool",
@@ -2388,10 +2388,10 @@
       "id": "timeline-merge-伊達市-2006-01-01",
       "prompt": "伊達町・梁川町・保原町・霊山町・月舘町が合併して誕生したのは？",
       "choices": [
-        "松川町",
+        "銚子市",
+        "曽爾村",
         "伊達市",
-        "三島市",
-        "川本町"
+        "美咲町"
       ],
       "answer": "伊達市",
       "distractorStrategy": "sameCategoryPool",
@@ -2416,9 +2416,9 @@
       "prompt": "本宮町・白沢村が合併して誕生したのは？",
       "choices": [
         "本宮市",
-        "忍野村",
-        "津島市",
-        "訓子府町"
+        "多久市",
+        "一戸町",
+        "十和田市"
       ],
       "answer": "本宮市",
       "distractorStrategy": "sameCategoryPool",
@@ -2442,10 +2442,10 @@
       "id": "timeline-merge-南会津町-2006-03-20",
       "prompt": "田島町・舘岩村・伊南村・南郷村が合併して誕生したのは？",
       "choices": [
-        "富岡市",
-        "新ひだか町",
-        "稲敷市",
-        "南会津町"
+        "中井町",
+        "吉賀町",
+        "南会津町",
+        "草津市"
       ],
       "answer": "南会津町",
       "distractorStrategy": "sameCategoryPool",
@@ -2469,10 +2469,10 @@
       "id": "timeline-merge-会津美里町-2005-10-01",
       "prompt": "会津高田町・会津本郷町・新鶴村が合併して誕生したのは？",
       "choices": [
-        "住田町",
+        "横浜町",
         "会津美里町",
-        "琴平町",
-        "美郷町"
+        "隠岐の島町",
+        "伊東市"
       ],
       "answer": "会津美里町",
       "distractorStrategy": "sameCategoryPool",
@@ -2496,10 +2496,10 @@
       "id": "timeline-absorb-常澄村-1992-03-03",
       "prompt": "「常澄村」が編入されたのはどこ？",
       "choices": [
+        "那賀町",
+        "読谷村",
         "水戸市",
-        "まんのう町",
-        "船橋市",
-        "北上市"
+        "鎌倉市"
       ],
       "answer": "水戸市",
       "distractorStrategy": "sameCategoryPool",
@@ -2522,9 +2522,9 @@
       "id": "timeline-absorb-内原町-2005-02-01",
       "prompt": "「内原町」が編入されたのはどこ？",
       "choices": [
-        "今別町",
-        "山ノ内町",
-        "壬生町",
+        "川口市",
+        "志木市",
+        "下川町",
         "水戸市"
       ],
       "answer": "水戸市",
@@ -2548,10 +2548,10 @@
       "id": "timeline-absorb-新治村-2006-02-20",
       "prompt": "「新治村」が編入されたのはどこ？",
       "choices": [
-        "横手市",
-        "赤穂市",
+        "小田原市",
         "西原町",
-        "土浦市"
+        "土浦市",
+        "香南市"
       ],
       "answer": "土浦市",
       "distractorStrategy": "sameCategoryPool",
@@ -2574,10 +2574,10 @@
       "id": "timeline-merge-古河市-2005-09-12",
       "prompt": "古河市・総和町・三和町が合併して誕生したのは？",
       "choices": [
-        "女川町",
-        "日南市",
+        "善通寺市",
         "古河市",
-        "潟上市"
+        "横瀬町",
+        "渡名喜村"
       ],
       "answer": "古河市",
       "distractorStrategy": "sameCategoryPool",
@@ -2602,9 +2602,9 @@
       "prompt": "石岡市・八郷町が合併して誕生したのは？",
       "choices": [
         "石岡市",
-        "生駒市",
-        "能勢町",
-        "戸田市"
+        "原村",
+        "山都町",
+        "阿久比町"
       ],
       "answer": "石岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -2628,10 +2628,10 @@
       "id": "timeline-merge-筑西市-2005-03-28",
       "prompt": "下館市・関城町・明野町・協和町が合併して誕生したのは？",
       "choices": [
-        "幌延町",
-        "九戸村",
+        "仁淀川町",
+        "田原市",
         "筑西市",
-        "岩沼市"
+        "桜井市"
       ],
       "answer": "筑西市",
       "distractorStrategy": "sameCategoryPool",
@@ -2656,9 +2656,9 @@
       "prompt": "那珂湊市・勝田市が合併して誕生したのは？",
       "choices": [
         "ひたちなか市",
-        "川口市",
-        "常陸大宮市",
-        "高砂市"
+        "那智勝浦町",
+        "江北町",
+        "平取町"
       ],
       "answer": "ひたちなか市",
       "distractorStrategy": "sameCategoryPool",
@@ -2682,10 +2682,10 @@
       "id": "timeline-absorb-千代川村-2006-01-01",
       "prompt": "「千代川村」が編入されたのはどこ？",
       "choices": [
-        "福知山市",
-        "下妻市",
-        "台東区",
-        "日の出町"
+        "千曲市",
+        "三宅町",
+        "楢葉町",
+        "下妻市"
       ],
       "answer": "下妻市",
       "distractorStrategy": "sameCategoryPool",
@@ -2708,10 +2708,10 @@
       "id": "timeline-absorb-石下町-2006-01-01",
       "prompt": "「石下町」が編入されたのはどこ？",
       "choices": [
-        "真室川町",
-        "粟島浦村",
+        "広野町",
+        "長崎市",
         "水海道市",
-        "鎌倉市"
+        "笠間市"
       ],
       "answer": "水海道市",
       "distractorStrategy": "sameCategoryPool",
@@ -2734,10 +2734,10 @@
       "id": "timeline-absorb-金砂郷町・水府村・里美村-2004-12-01",
       "prompt": "「金砂郷町・水府村・里美村」が編入されたのはどこ？",
       "choices": [
-        "桑折町",
-        "日南市",
+        "熊野町",
         "常陸太田市",
-        "八街市"
+        "八郎潟町",
+        "色丹村"
       ],
       "answer": "常陸太田市",
       "distractorStrategy": "sameCategoryPool",
@@ -2760,10 +2760,10 @@
       "id": "timeline-absorb-藤代町-2005-03-28",
       "prompt": "「藤代町」が編入されたのはどこ？",
       "choices": [
-        "みやこ町",
-        "南部町",
-        "美郷町",
-        "取手市"
+        "小笠原村",
+        "枚方市",
+        "取手市",
+        "綾瀬市"
       ],
       "answer": "取手市",
       "distractorStrategy": "sameCategoryPool",
@@ -2786,10 +2786,10 @@
       "id": "timeline-merge-坂東市-2005-03-22",
       "prompt": "岩井市・猿島町が合併して誕生したのは？",
       "choices": [
-        "せたな町",
-        "平取町",
         "坂東市",
-        "春日井市"
+        "東峰村",
+        "中川町",
+        "富谷市"
       ],
       "answer": "坂東市",
       "distractorStrategy": "sameCategoryPool",
@@ -2813,10 +2813,10 @@
       "id": "timeline-merge-つくば市-1987-11-30",
       "prompt": "桜村・谷田部町・豊里町・大穂町が合併して誕生したのは？",
       "choices": [
-        "鬼北町",
-        "太良町",
-        "つくば市",
-        "朝日町"
+        "神戸町",
+        "二宮町",
+        "伊豆市",
+        "つくば市"
       ],
       "answer": "つくば市",
       "distractorStrategy": "sameCategoryPool",
@@ -2840,10 +2840,10 @@
       "id": "timeline-absorb-筑波町-1988-01-31",
       "prompt": "「筑波町」が編入されたのはどこ？",
       "choices": [
-        "美郷町",
-        "山武市",
-        "三好市",
-        "つくば市"
+        "つくば市",
+        "北茨城市",
+        "西脇市",
+        "猪名川町"
       ],
       "answer": "つくば市",
       "distractorStrategy": "sameCategoryPool",
@@ -2866,10 +2866,10 @@
       "id": "timeline-absorb-茎崎町-2002-11-01",
       "prompt": "「茎崎町」が編入されたのはどこ？",
       "choices": [
-        "三好市",
         "つくば市",
-        "すさみ町",
-        "新居浜市"
+        "中間市",
+        "南島原市",
+        "小値賀町"
       ],
       "answer": "つくば市",
       "distractorStrategy": "sameCategoryPool",
@@ -2892,10 +2892,10 @@
       "id": "timeline-merge-稲敷市-2005-03-22",
       "prompt": "江戸崎町・新利根町・桜川村・東町が合併して誕生したのは？",
       "choices": [
-        "稲敷市",
-        "南大隅町",
-        "大宜味村",
-        "新宮市"
+        "西会津町",
+        "恵庭市",
+        "邑楽町",
+        "稲敷市"
       ],
       "answer": "稲敷市",
       "distractorStrategy": "sameCategoryPool",
@@ -2920,9 +2920,9 @@
       "prompt": "霞ヶ浦町・千代田町が合併して誕生したのは？",
       "choices": [
         "かすみがうら市",
-        "入間市",
-        "甲斐市",
-        "新富町"
+        "寿都町",
+        "海老名市",
+        "上松町"
       ],
       "answer": "かすみがうら市",
       "distractorStrategy": "sameCategoryPool",
@@ -2946,10 +2946,10 @@
       "id": "timeline-merge-城里町-2005-02-01",
       "prompt": "常北町・桂村・七会村が合併して誕生したのは？",
       "choices": [
-        "池田町",
-        "大宜味村",
+        "西ノ島町",
+        "江府町",
         "城里町",
-        "東金市"
+        "柴田町"
       ],
       "answer": "城里町",
       "distractorStrategy": "sameCategoryPool",
@@ -2973,10 +2973,10 @@
       "id": "timeline-absorb-御前山村・山方町・美和村・緒川村-2004-10-16",
       "prompt": "「御前山村・山方町・美和村・緒川村」が編入されたのはどこ？",
       "choices": [
-        "西脇市",
-        "浦臼町",
-        "川本町",
-        "大宮町"
+        "鹿追町",
+        "大宮町",
+        "匝瑳市",
+        "島牧村"
       ],
       "answer": "大宮町",
       "distractorStrategy": "sameCategoryPool",
@@ -2999,10 +2999,10 @@
       "id": "timeline-absorb-瓜連町-2005-01-21",
       "prompt": "「瓜連町」が編入されたのはどこ？",
       "choices": [
-        "那珂町",
-        "岩泉町",
-        "中能登町",
-        "新座市"
+        "苫小牧市",
+        "小千谷市",
+        "つくばみらい市",
+        "那珂町"
       ],
       "answer": "那珂町",
       "distractorStrategy": "sameCategoryPool",
@@ -3025,10 +3025,10 @@
       "id": "timeline-absorb-大野村-1995-09-01",
       "prompt": "「大野村」が編入されたのはどこ？",
       "choices": [
-        "羽後町",
-        "にかほ市",
-        "秩父市",
-        "鹿島町"
+        "かつらぎ町",
+        "鹿島町",
+        "檮原町",
+        "日南市"
       ],
       "answer": "鹿島町",
       "distractorStrategy": "sameCategoryPool",
@@ -3051,10 +3051,10 @@
       "id": "timeline-absorb-波崎町-2005-08-01",
       "prompt": "「波崎町」が編入されたのはどこ？",
       "choices": [
+        "邑南町",
         "神栖町",
-        "岩手町",
-        "南相木村",
-        "宝塚市"
+        "武豊町",
+        "東吉野村"
       ],
       "answer": "神栖町",
       "distractorStrategy": "sameCategoryPool",
@@ -3077,10 +3077,10 @@
       "id": "timeline-absorb-牛堀町-2001-04-01",
       "prompt": "「牛堀町」が編入されたのはどこ？",
       "choices": [
+        "山武市",
+        "長野市",
         "潮来町",
-        "那珂川市",
-        "北中城村",
-        "えびの市"
+        "東浦町"
       ],
       "answer": "潮来町",
       "distractorStrategy": "sameCategoryPool",
@@ -3103,10 +3103,10 @@
       "id": "timeline-absorb-上河内町・河内町-2007-03-31",
       "prompt": "「上河内町・河内町」が編入されたのはどこ？",
       "choices": [
+        "壮瞥町",
         "宇都宮市",
-        "余市町",
-        "鎌倉市",
-        "狭山市"
+        "日進市",
+        "泊村"
       ],
       "answer": "宇都宮市",
       "distractorStrategy": "sameCategoryPool",
@@ -3129,10 +3129,10 @@
       "id": "timeline-merge-栃木市-2010-03-29",
       "prompt": "栃木市・大平町・藤岡町・都賀町が合併して誕生したのは？",
       "choices": [
-        "久米南町",
-        "山県市",
-        "松戸市",
-        "栃木市"
+        "新宮町",
+        "栃木市",
+        "宇治市",
+        "秩父別町"
       ],
       "answer": "栃木市",
       "distractorStrategy": "sameCategoryPool",
@@ -3156,10 +3156,10 @@
       "id": "timeline-absorb-岩舟町-2014-04-05",
       "prompt": "「岩舟町」が編入されたのはどこ？",
       "choices": [
-        "奈良市",
+        "下田市",
         "栃木市",
-        "小美玉市",
-        "河南町"
+        "ときがわ町",
+        "豊後高田市"
       ],
       "answer": "栃木市",
       "distractorStrategy": "sameCategoryPool",
@@ -3182,10 +3182,10 @@
       "id": "timeline-absorb-粟野町-2006-01-01",
       "prompt": "「粟野町」が編入されたのはどこ？",
       "choices": [
-        "諫早市",
-        "竜洋町",
+        "塙町",
+        "向日市",
         "鹿沼市",
-        "郡上市"
+        "川辺町"
       ],
       "answer": "鹿沼市",
       "distractorStrategy": "sameCategoryPool",
@@ -3208,10 +3208,10 @@
       "id": "timeline-merge-日光市-2006-03-20",
       "prompt": "日光市・今市市・足尾町・栗山村・藤原町が合併して誕生したのは？",
       "choices": [
-        "名護市",
-        "日光市",
-        "奈半利町",
-        "越前町"
+        "能代市",
+        "名寄市",
+        "貝塚市",
+        "日光市"
       ],
       "answer": "日光市",
       "distractorStrategy": "sameCategoryPool",
@@ -3235,10 +3235,10 @@
       "id": "timeline-absorb-二宮町-2009-03-23",
       "prompt": "「二宮町」が編入されたのはどこ？",
       "choices": [
-        "五戸町",
-        "直方市",
         "真岡市",
-        "坂井市"
+        "諏訪市",
+        "八千代市",
+        "当麻町"
       ],
       "answer": "真岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -3261,10 +3261,10 @@
       "id": "timeline-absorb-湯津上村・黒羽町-2005-10-01",
       "prompt": "「湯津上村・黒羽町」が編入されたのはどこ？",
       "choices": [
-        "木島平村",
-        "熊野市",
-        "宇治田原町",
-        "大田原市"
+        "岡谷市",
+        "大田原市",
+        "琴浦町",
+        "湯川村"
       ],
       "answer": "大田原市",
       "distractorStrategy": "sameCategoryPool",
@@ -3287,10 +3287,10 @@
       "id": "timeline-merge-那須塩原市-2005-01-01",
       "prompt": "黒磯市・西那須野町・塩原町が合併して誕生したのは？",
       "choices": [
-        "いちき串木野市",
-        "久山町",
         "那須塩原市",
-        "大東市"
+        "伊勢市",
+        "姶良市",
+        "岩手町"
       ],
       "answer": "那須塩原市",
       "distractorStrategy": "sameCategoryPool",
@@ -3314,10 +3314,10 @@
       "id": "timeline-merge-さくら市-2005-03-28",
       "prompt": "氏家町・喜連川町が合併して誕生したのは？",
       "choices": [
-        "安曇野市",
-        "綾川町",
+        "粕屋町",
         "さくら市",
-        "豊郷町"
+        "大町町",
+        "吉備中央町"
       ],
       "answer": "さくら市",
       "distractorStrategy": "sameCategoryPool",
@@ -3341,10 +3341,10 @@
       "id": "timeline-merge-那須烏山市-2005-10-01",
       "prompt": "南那須町・烏山町が合併して誕生したのは？",
       "choices": [
-        "南木曽町",
-        "那須烏山市",
-        "藤井寺市",
-        "木津川市"
+        "木島平村",
+        "美里町",
+        "日向市",
+        "那須烏山市"
       ],
       "answer": "那須烏山市",
       "distractorStrategy": "sameCategoryPool",
@@ -3368,10 +3368,10 @@
       "id": "timeline-merge-下野市-2006-01-10",
       "prompt": "南河内町・石橋町・国分寺町が合併して誕生したのは？",
       "choices": [
-        "池田市",
         "下野市",
-        "小樽市",
-        "天龍村"
+        "広陵町",
+        "高森町",
+        "新発田市"
       ],
       "answer": "下野市",
       "distractorStrategy": "sameCategoryPool",
@@ -3395,10 +3395,10 @@
       "id": "timeline-merge-那珂川町-2005-10-01",
       "prompt": "馬頭町・小川町が合併して誕生したのは？",
       "choices": [
-        "比布町",
+        "板野町",
+        "東広島市",
         "那珂川町",
-        "牛久市",
-        "長和町"
+        "粕屋町"
       ],
       "answer": "那珂川町",
       "distractorStrategy": "sameCategoryPool",
@@ -3422,10 +3422,10 @@
       "id": "timeline-absorb-大胡町・宮城村・粕川村-2004-12-05",
       "prompt": "「大胡町・宮城村・粕川村」が編入されたのはどこ？",
       "choices": [
-        "瀬戸市",
-        "外ヶ浜町",
+        "倉敷市",
+        "喬木村",
         "前橋市",
-        "与謝野町"
+        "湯川村"
       ],
       "answer": "前橋市",
       "distractorStrategy": "sameCategoryPool",
@@ -3448,10 +3448,10 @@
       "id": "timeline-absorb-倉渕村・箕郷町・群馬町・新町-2006-01-23",
       "prompt": "「倉渕村・箕郷町・群馬町・新町」が編入されたのはどこ？",
       "choices": [
-        "八王子市",
-        "山田町",
+        "西予市",
         "高崎市",
-        "葛城市"
+        "北塩原村",
+        "本宮市"
       ],
       "answer": "高崎市",
       "distractorStrategy": "sameCategoryPool",
@@ -3474,10 +3474,10 @@
       "id": "timeline-absorb-吉井町-2009-06-01",
       "prompt": "「吉井町」が編入されたのはどこ？",
       "choices": [
-        "益子町",
-        "東久留米市",
-        "川崎町",
-        "高崎市"
+        "大和村",
+        "南風原町",
+        "高崎市",
+        "あさぎり町"
       ],
       "answer": "高崎市",
       "distractorStrategy": "sameCategoryPool",
@@ -3500,10 +3500,10 @@
       "id": "timeline-absorb-新里村・黒保根村-2005-06-13",
       "prompt": "「新里村・黒保根村」が編入されたのはどこ？",
       "choices": [
-        "豊橋市",
+        "大網白里市",
         "桐生市",
-        "西興部村",
-        "志木市"
+        "大和市",
+        "那珂川町"
       ],
       "answer": "桐生市",
       "distractorStrategy": "sameCategoryPool",
@@ -3526,10 +3526,10 @@
       "id": "timeline-merge-伊勢崎市-2005-01-01",
       "prompt": "伊勢崎市・赤堀町・東村・境町が合併して誕生したのは？",
       "choices": [
-        "今金町",
-        "小川村",
-        "神崎町",
-        "伊勢崎市"
+        "伊勢崎市",
+        "西伊豆町",
+        "羅臼町",
+        "苅田町"
       ],
       "answer": "伊勢崎市",
       "distractorStrategy": "sameCategoryPool",
@@ -3553,10 +3553,10 @@
       "id": "timeline-merge-太田市-2005-03-28",
       "prompt": "太田市・尾島町・新田町・藪塚本町が合併して誕生したのは？",
       "choices": [
-        "柏崎市",
-        "甲府市",
-        "岩舟町",
-        "太田市"
+        "増毛町",
+        "太田市",
+        "東根市",
+        "浜田市"
       ],
       "answer": "太田市",
       "distractorStrategy": "sameCategoryPool",
@@ -3580,10 +3580,10 @@
       "id": "timeline-absorb-白沢村・利根村-2005-02-13",
       "prompt": "「白沢村・利根村」が編入されたのはどこ？",
       "choices": [
-        "秋田市",
         "沼田市",
-        "南越前町",
-        "板野町"
+        "関川村",
+        "永平寺町",
+        "寿都町"
       ],
       "answer": "沼田市",
       "distractorStrategy": "sameCategoryPool",
@@ -3606,10 +3606,10 @@
       "id": "timeline-merge-渋川市-2006-02-20",
       "prompt": "渋川市・北橘村・赤城村・子持村・小野上村・伊香保町が合併して誕生したのは？",
       "choices": [
-        "南アルプス市",
-        "佐久穂町",
+        "熊本市",
         "渋川市",
-        "今治市"
+        "東通村",
+        "五ヶ瀬町"
       ],
       "answer": "渋川市",
       "distractorStrategy": "sameCategoryPool",
@@ -3633,10 +3633,10 @@
       "id": "timeline-absorb-鬼石町-2006-01-01",
       "prompt": "「鬼石町」が編入されたのはどこ？",
       "choices": [
-        "古河市",
-        "みやき町",
+        "富岡市",
         "藤岡市",
-        "下松市"
+        "高岡市",
+        "売木村"
       ],
       "answer": "藤岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -3659,10 +3659,10 @@
       "id": "timeline-merge-富岡市-2006-03-27",
       "prompt": "富岡市・妙義町が合併して誕生したのは？",
       "choices": [
-        "宇陀市",
-        "築上町",
+        "須坂市",
         "富岡市",
-        "早川町"
+        "丹波山村",
+        "柳井市"
       ],
       "answer": "富岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -3686,10 +3686,10 @@
       "id": "timeline-merge-神流町-2003-04-01",
       "prompt": "万場町・中里村が合併して誕生したのは？",
       "choices": [
+        "潟上市",
         "神流町",
-        "豊郷町",
-        "上島町",
-        "富士見市"
+        "東秩父村",
+        "朝倉市"
       ],
       "answer": "神流町",
       "distractorStrategy": "sameCategoryPool",
@@ -3713,10 +3713,10 @@
       "id": "timeline-absorb-六合村-2010-03-28",
       "prompt": "「六合村」が編入されたのはどこ？",
       "choices": [
-        "蓮田市",
-        "飯田市",
-        "大口町",
-        "中之条町"
+        "平川市",
+        "中之条町",
+        "飯豊町",
+        "北島町"
       ],
       "answer": "中之条町",
       "distractorStrategy": "sameCategoryPool",
@@ -3739,10 +3739,10 @@
       "id": "timeline-merge-東吾妻町-2006-03-27",
       "prompt": "東村・吾妻町が合併して誕生したのは？",
       "choices": [
-        "津久見市",
-        "南大隅町",
         "東吾妻町",
-        "三笠市"
+        "伊是名村",
+        "長泉町",
+        "泰阜村"
       ],
       "answer": "東吾妻町",
       "distractorStrategy": "sameCategoryPool",
@@ -3766,10 +3766,10 @@
       "id": "timeline-merge-みなかみ町-2005-10-01",
       "prompt": "月夜野町・水上町・新治村が合併して誕生したのは？",
       "choices": [
+        "日進市",
+        "長瀞町",
         "みなかみ町",
-        "長和町",
-        "赤穂市",
-        "登別市"
+        "木曽岬町"
       ],
       "answer": "みなかみ町",
       "distractorStrategy": "sameCategoryPool",
@@ -3793,10 +3793,10 @@
       "id": "timeline-absorb-岩槻市-2005-04-01",
       "prompt": "「岩槻市」が編入されたのはどこ？",
       "choices": [
-        "越前市",
-        "長柄町",
+        "檮原町",
+        "月形町",
         "さいたま市",
-        "飯豊町"
+        "君津市"
       ],
       "answer": "さいたま市",
       "distractorStrategy": "sameCategoryPool",
@@ -3819,10 +3819,10 @@
       "id": "timeline-merge-熊谷市-2005-10-01",
       "prompt": "熊谷市・大里町・妻沼町が合併して誕生したのは？",
       "choices": [
+        "蟹江町",
+        "軽米町",
         "熊谷市",
-        "嬬恋村",
-        "中札内村",
-        "小諸市"
+        "那覇市"
       ],
       "answer": "熊谷市",
       "distractorStrategy": "sameCategoryPool",
@@ -3846,10 +3846,10 @@
       "id": "timeline-absorb-江南町-2007-02-13",
       "prompt": "「江南町」が編入されたのはどこ？",
       "choices": [
-        "下野市",
-        "熊谷市",
-        "立山町",
-        "いの町"
+        "玉東町",
+        "吉富町",
+        "たつの市",
+        "熊谷市"
       ],
       "answer": "熊谷市",
       "distractorStrategy": "sameCategoryPool",
@@ -3872,10 +3872,10 @@
       "id": "timeline-absorb-鳩ケ谷市-2011-10-11",
       "prompt": "「鳩ケ谷市」が編入されたのはどこ？",
       "choices": [
-        "大子町",
-        "川根本町",
-        "売木村",
-        "川口市"
+        "川口市",
+        "八雲町",
+        "河合町",
+        "御杖村"
       ],
       "answer": "川口市",
       "distractorStrategy": "sameCategoryPool",
@@ -3898,10 +3898,10 @@
       "id": "timeline-merge-さいたま市-2001-05-01",
       "prompt": "浦和市・大宮市・与野市が合併して誕生したのは？",
       "choices": [
-        "宮田村",
-        "三郷町",
-        "岡崎市",
-        "さいたま市"
+        "さいたま市",
+        "上郡町",
+        "大野市",
+        "吉見町"
       ],
       "answer": "さいたま市",
       "distractorStrategy": "sameCategoryPool",
@@ -3925,10 +3925,10 @@
       "id": "timeline-absorb-南河原村-2006-01-01",
       "prompt": "「南河原村」が編入されたのはどこ？",
       "choices": [
-        "南種子町",
         "行田市",
-        "檜枝岐村",
-        "滑川市"
+        "横浜市",
+        "盛岡市",
+        "富士河口湖町"
       ],
       "answer": "行田市",
       "distractorStrategy": "sameCategoryPool",
@@ -3951,10 +3951,10 @@
       "id": "timeline-merge-秩父市-2005-04-01",
       "prompt": "秩父市・吉田町・大滝村・荒川村が合併して誕生したのは？",
       "choices": [
-        "益城町",
-        "上天草市",
         "秩父市",
-        "古河市"
+        "尾道市",
+        "清水町",
+        "宗像市"
       ],
       "answer": "秩父市",
       "distractorStrategy": "sameCategoryPool",
@@ -3978,10 +3978,10 @@
       "id": "timeline-absorb-名栗村-2005-01-01",
       "prompt": "「名栗村」が編入されたのはどこ？",
       "choices": [
-        "飯能市",
-        "神石高原町",
-        "山北町",
-        "大台町"
+        "松本市",
+        "備前市",
+        "大仙市",
+        "飯能市"
       ],
       "answer": "飯能市",
       "distractorStrategy": "sameCategoryPool",
@@ -4005,9 +4005,9 @@
       "prompt": "本庄市・児玉町が合併して誕生したのは？",
       "choices": [
         "本庄市",
-        "長門市",
-        "丹波篠山市",
-        "島田市"
+        "庄内町",
+        "加茂市",
+        "海田町"
       ],
       "answer": "本庄市",
       "distractorStrategy": "sameCategoryPool",
@@ -4031,10 +4031,10 @@
       "id": "timeline-merge-春日部市-2005-10-01",
       "prompt": "春日部市・庄和町が合併して誕生したのは？",
       "choices": [
+        "最上町",
         "春日部市",
-        "宝達志水町",
-        "新篠津村",
-        "小清水町"
+        "飯舘村",
+        "米子市"
       ],
       "answer": "春日部市",
       "distractorStrategy": "sameCategoryPool",
@@ -4058,10 +4058,10 @@
       "id": "timeline-absorb-吹上町・川里町-2005-10-01",
       "prompt": "「吹上町・川里町」が編入されたのはどこ？",
       "choices": [
-        "井手町",
-        "志布志市",
-        "榛東村",
-        "鴻巣市"
+        "北本市",
+        "上関町",
+        "鴻巣市",
+        "福井市"
       ],
       "answer": "鴻巣市",
       "distractorStrategy": "sameCategoryPool",
@@ -4084,10 +4084,10 @@
       "id": "timeline-absorb-豊里村-1973-04-01",
       "prompt": "「豊里村」が編入されたのはどこ？",
       "choices": [
-        "小谷村",
-        "嬉野市",
+        "出雲崎町",
         "深谷市",
-        "高千穂町"
+        "千歳市",
+        "君津市"
       ],
       "answer": "深谷市",
       "distractorStrategy": "sameCategoryPool",
@@ -4110,10 +4110,10 @@
       "id": "timeline-merge-深谷市-2006-01-01",
       "prompt": "深谷市・岡部町・川本町・花園町が合併して誕生したのは？",
       "choices": [
-        "毛呂山町",
-        "小海町",
-        "南関町",
-        "深谷市"
+        "深谷市",
+        "おおい町",
+        "朝倉市",
+        "宮城村"
       ],
       "answer": "深谷市",
       "distractorStrategy": "sameCategoryPool",
@@ -4137,10 +4137,10 @@
       "id": "timeline-merge-久喜市-2010-03-23",
       "prompt": "久喜市・菖蒲町・栗橋町・鷲宮町が合併して誕生したのは？",
       "choices": [
-        "飯舘村",
-        "佐野市",
-        "中津市",
-        "久喜市"
+        "浜頓別町",
+        "久喜市",
+        "根室市",
+        "武雄市"
       ],
       "answer": "久喜市",
       "distractorStrategy": "sameCategoryPool",
@@ -4164,10 +4164,10 @@
       "id": "timeline-merge-ふじみ野市-2005-10-01",
       "prompt": "上福岡市・大井町が合併して誕生したのは？",
       "choices": [
-        "本巣市",
-        "山添村",
+        "むつ市",
         "ふじみ野市",
-        "上富良野町"
+        "留別村",
+        "滝上町"
       ],
       "answer": "ふじみ野市",
       "distractorStrategy": "sameCategoryPool",
@@ -4191,10 +4191,10 @@
       "id": "timeline-merge-ときがわ町-2006-02-01",
       "prompt": "都幾川村・玉川村が合併して誕生したのは？",
       "choices": [
-        "東松山市",
-        "御船町",
-        "ときがわ町",
-        "中頓別町"
+        "春日部市",
+        "伊勢市",
+        "中川町",
+        "ときがわ町"
       ],
       "answer": "ときがわ町",
       "distractorStrategy": "sameCategoryPool",
@@ -4219,9 +4219,9 @@
       "prompt": "小鹿野町・両神村が合併して誕生したのは？",
       "choices": [
         "小鹿野町",
-        "ニセコ町",
-        "北茨城市",
-        "洞爺湖町"
+        "都農町",
+        "千歳市",
+        "常陸太田市"
       ],
       "answer": "小鹿野町",
       "distractorStrategy": "sameCategoryPool",
@@ -4245,10 +4245,10 @@
       "id": "timeline-merge-神川町-2006-01-01",
       "prompt": "神川町・神泉村が合併して誕生したのは？",
       "choices": [
-        "上牧町",
-        "あわら市",
+        "風間浦村",
         "神川町",
-        "国見町"
+        "大磯町",
+        "雲南市"
       ],
       "answer": "神川町",
       "distractorStrategy": "sameCategoryPool",
@@ -4272,10 +4272,10 @@
       "id": "timeline-absorb-富来田町-1971-09-10",
       "prompt": "「富来田町」が編入されたのはどこ？",
       "choices": [
+        "訓子府町",
+        "えびの市",
         "木更津市",
-        "稚内市",
-        "大空町",
-        "周南市"
+        "嘉麻市"
       ],
       "answer": "木更津市",
       "distractorStrategy": "sameCategoryPool",
@@ -4298,9 +4298,9 @@
       "id": "timeline-absorb-関宿町-2003-06-06",
       "prompt": "「関宿町」が編入されたのはどこ？",
       "choices": [
-        "さぬき市",
-        "秩父別町",
-        "中井町",
+        "泉南市",
+        "椎葉村",
+        "三条市",
         "野田市"
       ],
       "answer": "野田市",
@@ -4324,10 +4324,10 @@
       "id": "timeline-merge-香取市-2006-03-27",
       "prompt": "佐原市・小見川町・山田町・栗源町が合併して誕生したのは？",
       "choices": [
-        "中津川市",
+        "清川村",
+        "上ノ国町",
         "香取市",
-        "みやま市",
-        "新富町"
+        "久慈市"
       ],
       "answer": "香取市",
       "distractorStrategy": "sameCategoryPool",
@@ -4351,10 +4351,10 @@
       "id": "timeline-merge-茂原市-1972-05-01",
       "prompt": "茂原市・本納町が合併して誕生したのは？",
       "choices": [
-        "天童市",
-        "伊豆市",
-        "茂原市",
-        "目黒区"
+        "札幌市",
+        "伊達市",
+        "世羅町",
+        "茂原市"
       ],
       "answer": "茂原市",
       "distractorStrategy": "sameCategoryPool",
@@ -4378,10 +4378,10 @@
       "id": "timeline-absorb-下総町・大栄町-2006-03-27",
       "prompt": "「下総町・大栄町」が編入されたのはどこ？",
       "choices": [
-        "御浜町",
-        "大山町",
-        "矢巾町",
-        "成田市"
+        "大間町",
+        "成田市",
+        "武蔵野市",
+        "天川村"
       ],
       "answer": "成田市",
       "distractorStrategy": "sameCategoryPool",
@@ -4404,10 +4404,10 @@
       "id": "timeline-merge-匝瑳市-2006-01-23",
       "prompt": "八日市場市・野栄町が合併して誕生したのは？",
       "choices": [
-        "調布市",
-        "三鷹市",
+        "珠洲市",
+        "五城目町",
         "匝瑳市",
-        "安来市"
+        "勝浦町"
       ],
       "answer": "匝瑳市",
       "distractorStrategy": "sameCategoryPool",
@@ -4431,10 +4431,10 @@
       "id": "timeline-merge-鴨川市-1971-03-31",
       "prompt": "江見町・長狭町・鴨川町が合併して誕生したのは？",
       "choices": [
+        "木更津市",
+        "御代田町",
         "鴨川市",
-        "阿智村",
-        "笠岡市",
-        "串本町"
+        "千歳市"
       ],
       "answer": "鴨川市",
       "distractorStrategy": "sameCategoryPool",
@@ -4458,10 +4458,10 @@
       "id": "timeline-merge-鴨川市-2005-02-11",
       "prompt": "鴨川市・天津小湊町が合併して誕生したのは？",
       "choices": [
-        "岩内町",
-        "名取市",
-        "幕別町",
-        "鴨川市"
+        "城陽市",
+        "平内町",
+        "鴨川市",
+        "横手市"
       ],
       "answer": "鴨川市",
       "distractorStrategy": "sameCategoryPool",
@@ -4485,10 +4485,10 @@
       "id": "timeline-absorb-印旛村・本埜村-2010-03-23",
       "prompt": "「印旛村・本埜村」が編入されたのはどこ？",
       "choices": [
+        "加古川市",
+        "鹿島市",
         "印西市",
-        "南三陸町",
-        "芦屋町",
-        "知内町"
+        "菰野町"
       ],
       "answer": "印西市",
       "distractorStrategy": "sameCategoryPool",
@@ -4511,10 +4511,10 @@
       "id": "timeline-merge-南房総市-2006-03-20",
       "prompt": "富浦町・富山町・三芳村・白浜町・千倉町・丸山町・和田町が合併して誕生したのは？",
       "choices": [
-        "浜田市",
         "南房総市",
-        "町田市",
-        "市原市"
+        "北島町",
+        "八幡浜市",
+        "大月市"
       ],
       "answer": "南房総市",
       "distractorStrategy": "sameCategoryPool",
@@ -4538,10 +4538,10 @@
       "id": "timeline-merge-山武市-2006-03-27",
       "prompt": "成東町・山武町・蓮沼村・松尾町が合併して誕生したのは？",
       "choices": [
-        "美里町",
+        "日高川町",
+        "美幌町",
         "山武市",
-        "弟子屈町",
-        "北中城村"
+        "米原市"
       ],
       "answer": "山武市",
       "distractorStrategy": "sameCategoryPool",
@@ -4565,10 +4565,10 @@
       "id": "timeline-merge-いすみ市-2005-12-05",
       "prompt": "夷隅町・大原町・岬町が合併して誕生したのは？",
       "choices": [
-        "調布市",
         "いすみ市",
-        "鹿角市",
-        "大牟田市"
+        "厚岸町",
+        "武雄市",
+        "湯梨浜町"
       ],
       "answer": "いすみ市",
       "distractorStrategy": "sameCategoryPool",
@@ -4592,9 +4592,9 @@
       "id": "timeline-merge-袖ケ浦町-1971-11-03",
       "prompt": "袖ケ浦町・平川町が合併して誕生したのは？",
       "choices": [
-        "日の出町",
-        "輪之内町",
-        "矢巾町",
+        "龍郷町",
+        "丸亀市",
+        "片品村",
         "袖ケ浦町"
       ],
       "answer": "袖ケ浦町",
@@ -4619,10 +4619,10 @@
       "id": "timeline-merge-君津町-1970-09-28",
       "prompt": "小櫃村・上総町・君津町・小糸町・清和村が合併して誕生したのは？",
       "choices": [
-        "舞鶴市",
-        "中土佐町",
+        "飯南町",
         "君津町",
-        "鮫川村"
+        "勝浦町",
+        "備前市"
       ],
       "answer": "君津町",
       "distractorStrategy": "sameCategoryPool",
@@ -4646,10 +4646,10 @@
       "id": "timeline-merge-富津町-1971-04-25",
       "prompt": "富津町・大佐和町・天羽町が合併して誕生したのは？",
       "choices": [
-        "知名町",
+        "吉備中央町",
+        "上尾市",
         "富津町",
-        "海士町",
-        "白井市"
+        "小菅村"
       ],
       "answer": "富津町",
       "distractorStrategy": "sameCategoryPool",
@@ -4673,10 +4673,10 @@
       "id": "timeline-merge-西東京市-2001-01-21",
       "prompt": "田無市・保谷市が合併して誕生したのは？",
       "choices": [
-        "多久市",
+        "筑後市",
+        "砥部町",
         "西東京市",
-        "竹富町",
-        "奥出雲町"
+        "初山別村"
       ],
       "answer": "西東京市",
       "distractorStrategy": "sameCategoryPool",
@@ -4700,10 +4700,10 @@
       "id": "timeline-merge-あきる野市-1995-09-01",
       "prompt": "秋川市・五日市町が合併して誕生したのは？",
       "choices": [
+        "羽曳野市",
         "あきる野市",
-        "鰺ヶ沢町",
-        "東松島市",
-        "坂井市"
+        "六戸町",
+        "板野町"
       ],
       "answer": "あきる野市",
       "distractorStrategy": "sameCategoryPool",
@@ -4727,10 +4727,10 @@
       "id": "timeline-absorb-橘町-1971-04-01",
       "prompt": "「橘町」が編入されたのはどこ？",
       "choices": [
-        "綾町",
+        "九度山町",
         "小田原市",
-        "平群町",
-        "大田原市"
+        "橋本市",
+        "伊勢市"
       ],
       "answer": "小田原市",
       "distractorStrategy": "sameCategoryPool",
@@ -4753,10 +4753,10 @@
       "id": "timeline-absorb-津久井町・相模湖町-2006-03-20",
       "prompt": "「津久井町・相模湖町」が編入されたのはどこ？",
       "choices": [
+        "京極町",
+        "下松市",
         "相模原市",
-        "東根市",
-        "矢祭町",
-        "寒河江市"
+        "豊明市"
       ],
       "answer": "相模原市",
       "distractorStrategy": "sameCategoryPool",
@@ -4779,10 +4779,10 @@
       "id": "timeline-absorb-藤野町-2007-03-11",
       "prompt": "「藤野町」が編入されたのはどこ？",
       "choices": [
-        "相模原市",
-        "流山市",
-        "今別町",
-        "様似町"
+        "あさぎり町",
+        "美作市",
+        "金山町",
+        "相模原市"
       ],
       "answer": "相模原市",
       "distractorStrategy": "sameCategoryPool",
@@ -4805,10 +4805,10 @@
       "id": "timeline-absorb-黒埼町-2001-01-01",
       "prompt": "「黒埼町」が編入されたのはどこ？",
       "choices": [
+        "横手市",
         "新潟市",
-        "富里市",
-        "様似町",
-        "大川村"
+        "泉大津市",
+        "橋本市"
       ],
       "answer": "新潟市",
       "distractorStrategy": "sameCategoryPool",
@@ -4831,10 +4831,10 @@
       "id": "timeline-absorb-白根市・豊栄市・小須戸町・横越町・亀田町・岩室村・西川町・味方村・潟東村・月潟村・中之口村-2005-03-21",
       "prompt": "「白根市・豊栄市・小須戸町・横越町・亀田町・岩室村・西川町・味方村・潟東村・月潟村・中之口村」が編入されたのはどこ？",
       "choices": [
-        "新潟市",
-        "長瀞町",
-        "山梨市",
-        "鹿児島市"
+        "吉富町",
+        "伊達市",
+        "愛南町",
+        "新潟市"
       ],
       "answer": "新潟市",
       "distractorStrategy": "sameCategoryPool",
@@ -4857,10 +4857,10 @@
       "id": "timeline-absorb-新津市-2005-03-21",
       "prompt": "「新津市」が編入されたのはどこ？",
       "choices": [
-        "越前市",
-        "八雲町",
-        "日之影町",
-        "新潟市"
+        "精華町",
+        "新潟市",
+        "大竹市",
+        "高山村"
       ],
       "answer": "新潟市",
       "distractorStrategy": "sameCategoryPool",
@@ -4883,10 +4883,10 @@
       "id": "timeline-absorb-巻町-2005-10-10",
       "prompt": "「巻町」が編入されたのはどこ？",
       "choices": [
-        "蕨市",
         "新潟市",
-        "富良野市",
-        "塩尻市"
+        "会津美里町",
+        "新宿区",
+        "浦臼町"
       ],
       "answer": "新潟市",
       "distractorStrategy": "sameCategoryPool",
@@ -4909,10 +4909,10 @@
       "id": "timeline-absorb-和島村-2006-01-01",
       "prompt": "「和島村」が編入されたのはどこ？",
       "choices": [
-        "海田町",
-        "稲敷市",
+        "常陸大宮市",
         "長岡市",
-        "渡名喜村"
+        "本巣市",
+        "富良野市"
       ],
       "answer": "長岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -4935,9 +4935,9 @@
       "id": "timeline-absorb-与板町-2006-01-01",
       "prompt": "「与板町」が編入されたのはどこ？",
       "choices": [
-        "犬山市",
-        "富里市",
-        "吉岡町",
+        "赤井川村",
+        "出水市",
+        "松本市",
         "長岡市"
       ],
       "answer": "長岡市",
@@ -4961,10 +4961,10 @@
       "id": "timeline-absorb-栃尾市-2006-01-01",
       "prompt": "「栃尾市」が編入されたのはどこ？",
       "choices": [
-        "辰野町",
-        "津山市",
         "長岡市",
-        "長柄町"
+        "焼津市",
+        "曽於市",
+        "田野畑村"
       ],
       "answer": "長岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -4987,10 +4987,10 @@
       "id": "timeline-absorb-寺泊町-2006-01-01",
       "prompt": "「寺泊町」が編入されたのはどこ？",
       "choices": [
-        "豊根村",
         "長岡市",
-        "宮田村",
-        "珠洲市"
+        "せたな町",
+        "渋谷区",
+        "西川町"
       ],
       "answer": "長岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -5013,10 +5013,10 @@
       "id": "timeline-merge-上越市-1971-04-29",
       "prompt": "高田市・直江津市が合併して誕生したのは？",
       "choices": [
+        "三芳町",
         "上越市",
-        "狭山市",
-        "新宮町",
-        "さいたま市"
+        "いすみ市",
+        "日高川町"
       ],
       "answer": "上越市",
       "distractorStrategy": "sameCategoryPool",
@@ -5040,10 +5040,10 @@
       "id": "timeline-merge-三条市-2005-05-01",
       "prompt": "三条市・下田村・栄町が合併して誕生したのは？",
       "choices": [
-        "上里町",
         "三条市",
-        "西和賀町",
-        "猿払村"
+        "湖西市",
+        "坂東市",
+        "門川町"
       ],
       "answer": "三条市",
       "distractorStrategy": "sameCategoryPool",
@@ -5067,10 +5067,10 @@
       "id": "timeline-absorb-北条町-1971-05-01",
       "prompt": "「北条町」が編入されたのはどこ？",
       "choices": [
-        "西米良村",
-        "加古川市",
-        "下郷町",
-        "柏崎市"
+        "西郷村",
+        "新宿区",
+        "柏崎市",
+        "姶良市"
       ],
       "answer": "柏崎市",
       "distractorStrategy": "sameCategoryPool",
@@ -5093,10 +5093,10 @@
       "id": "timeline-absorb-高柳町・西山町-2005-05-01",
       "prompt": "「高柳町・西山町」が編入されたのはどこ？",
       "choices": [
-        "遊佐町",
-        "篠栗町",
         "柏崎市",
-        "若桜町"
+        "日高町",
+        "住田町",
+        "磐田市"
       ],
       "answer": "柏崎市",
       "distractorStrategy": "sameCategoryPool",
@@ -5119,10 +5119,10 @@
       "id": "timeline-absorb-豊浦町-2003-07-07",
       "prompt": "「豊浦町」が編入されたのはどこ？",
       "choices": [
-        "館山市",
         "新発田市",
-        "御嵩町",
-        "稲城市"
+        "東秩父村",
+        "府中町",
+        "幸手市"
       ],
       "answer": "新発田市",
       "distractorStrategy": "sameCategoryPool",
@@ -5145,10 +5145,10 @@
       "id": "timeline-absorb-加治川村・紫雲寺町-2005-05-01",
       "prompt": "「加治川村・紫雲寺町」が編入されたのはどこ？",
       "choices": [
-        "府中市",
-        "南陽市",
-        "柴田町",
-        "新発田市"
+        "尼崎市",
+        "大玉村",
+        "新発田市",
+        "福知山市"
       ],
       "answer": "新発田市",
       "distractorStrategy": "sameCategoryPool",
@@ -5171,10 +5171,10 @@
       "id": "timeline-merge-村上市-2008-04-01",
       "prompt": "村上市・荒川町・神林村・朝日村・山北町が合併して誕生したのは？",
       "choices": [
-        "笛吹市",
-        "村上市",
-        "鳥羽市",
-        "猪名川町"
+        "岬町",
+        "南さつま市",
+        "寿都町",
+        "村上市"
       ],
       "answer": "村上市",
       "distractorStrategy": "sameCategoryPool",
@@ -5198,10 +5198,10 @@
       "id": "timeline-merge-燕市-2006-03-20",
       "prompt": "燕市・分水町・吉田町が合併して誕生したのは？",
       "choices": [
-        "五戸町",
+        "黒石市",
         "燕市",
-        "小笠原村",
-        "若狭町"
+        "羅臼町",
+        "大江町"
       ],
       "answer": "燕市",
       "distractorStrategy": "sameCategoryPool",
@@ -5226,9 +5226,9 @@
       "prompt": "「安塚町・浦川原村・大島村・牧村・柿崎町・大潟町・頸城村・吉川町・中郷村・板倉町・清里村・三和村・名立町」が編入されたのはどこ？",
       "choices": [
         "上越市",
-        "村田町",
-        "宍粟市",
-        "白山市"
+        "さいたま市",
+        "蘂取村",
+        "八百津町"
       ],
       "answer": "上越市",
       "distractorStrategy": "sameCategoryPool",
@@ -5251,10 +5251,10 @@
       "id": "timeline-merge-阿賀野市-2004-04-01",
       "prompt": "安田町・京ヶ瀬村・水原町・笹神村が合併して誕生したのは？",
       "choices": [
-        "阿賀野市",
-        "匝瑳市",
-        "赤井川村",
-        "胎内市"
+        "上ノ国町",
+        "南富良野町",
+        "藤沢市",
+        "阿賀野市"
       ],
       "answer": "阿賀野市",
       "distractorStrategy": "sameCategoryPool",
@@ -5278,10 +5278,10 @@
       "id": "timeline-merge-魚沼市-2004-11-01",
       "prompt": "堀之内町・小出町・湯之谷村・広神村・守門村・入広瀬村が合併して誕生したのは？",
       "choices": [
-        "渡嘉敷村",
-        "川本町",
-        "朝倉市",
-        "魚沼市"
+        "棚倉町",
+        "魚沼市",
+        "小川町",
+        "大子町"
       ],
       "answer": "魚沼市",
       "distractorStrategy": "sameCategoryPool",
@@ -5305,10 +5305,10 @@
       "id": "timeline-merge-南魚沼市-2004-11-01",
       "prompt": "六日町・大和町が合併して誕生したのは？",
       "choices": [
+        "志布志市",
+        "太田市",
         "南魚沼市",
-        "秋田市",
-        "堺市",
-        "八幡市"
+        "いすみ市"
       ],
       "answer": "南魚沼市",
       "distractorStrategy": "sameCategoryPool",
@@ -5332,10 +5332,10 @@
       "id": "timeline-absorb-塩沢町-2005-10-01",
       "prompt": "「塩沢町」が編入されたのはどこ？",
       "choices": [
-        "上市町",
-        "福生市",
-        "津久見市",
-        "南魚沼市"
+        "南魚沼市",
+        "開成町",
+        "松茂町",
+        "伊奈町"
       ],
       "answer": "南魚沼市",
       "distractorStrategy": "sameCategoryPool",
@@ -5359,9 +5359,9 @@
       "prompt": "中条町・黒川村が合併して誕生したのは？",
       "choices": [
         "胎内市",
-        "春日井市",
-        "中頓別町",
-        "佐野市"
+        "長瀞町",
+        "中之条町",
+        "登米市"
       ],
       "answer": "胎内市",
       "distractorStrategy": "sameCategoryPool",
@@ -5386,9 +5386,9 @@
       "prompt": "津川町・鹿瀬町・上川村・三川村が合併して誕生したのは？",
       "choices": [
         "阿賀町",
-        "江田島市",
-        "室蘭市",
-        "大阪市"
+        "土佐町",
+        "神戸町",
+        "玄海町"
       ],
       "answer": "阿賀町",
       "distractorStrategy": "sameCategoryPool",
@@ -5412,10 +5412,10 @@
       "id": "timeline-merge-黒部市-2006-03-31",
       "prompt": "黒部市・宇奈月町が合併して誕生したのは？",
       "choices": [
-        "二戸市",
         "黒部市",
-        "西伊豆町",
-        "光市"
+        "あさぎり町",
+        "上ノ国町",
+        "山梨市"
       ],
       "answer": "黒部市",
       "distractorStrategy": "sameCategoryPool",
@@ -5439,10 +5439,10 @@
       "id": "timeline-merge-砺波市-2004-11-01",
       "prompt": "砺波市・庄川町が合併して誕生したのは？",
       "choices": [
-        "小山町",
-        "美祢市",
-        "利尻富士町",
-        "砺波市"
+        "桑名市",
+        "大木町",
+        "砺波市",
+        "新居浜市"
       ],
       "answer": "砺波市",
       "distractorStrategy": "sameCategoryPool",
@@ -5466,10 +5466,10 @@
       "id": "timeline-merge-七尾市-2004-10-01",
       "prompt": "七尾市・田鶴浜町・中島町・能登島町が合併して誕生したのは？",
       "choices": [
+        "平内町",
+        "島田市",
         "七尾市",
-        "北中城村",
-        "伊賀市",
-        "胎内市"
+        "八幡浜市"
       ],
       "answer": "七尾市",
       "distractorStrategy": "sameCategoryPool",
@@ -5493,10 +5493,10 @@
       "id": "timeline-merge-輪島市-2006-02-01",
       "prompt": "輪島市・門前町が合併して誕生したのは？",
       "choices": [
+        "東伊豆町",
+        "菰野町",
         "輪島市",
-        "下川町",
-        "篠栗町",
-        "枝幸町"
+        "四国中央市"
       ],
       "answer": "輪島市",
       "distractorStrategy": "sameCategoryPool",
@@ -5521,9 +5521,9 @@
       "prompt": "松任市・美川町・鶴来町・河内村・吉野谷村・鳥越村・尾口村・白峰村が合併して誕生したのは？",
       "choices": [
         "白山市",
-        "酒々井町",
-        "五島市",
-        "栄町"
+        "下田市",
+        "上越市",
+        "上三川町"
       ],
       "answer": "白山市",
       "distractorStrategy": "sameCategoryPool",
@@ -5547,10 +5547,10 @@
       "id": "timeline-merge-かほく市-2004-03-01",
       "prompt": "高松町・七塚町・宇ノ気町が合併して誕生したのは？",
       "choices": [
-        "小山市",
-        "市川町",
-        "妙高市",
-        "かほく市"
+        "奥出雲町",
+        "積丹町",
+        "かほく市",
+        "雲仙市"
       ],
       "answer": "かほく市",
       "distractorStrategy": "sameCategoryPool",
@@ -5574,10 +5574,10 @@
       "id": "timeline-merge-能美市-2005-02-01",
       "prompt": "根上町・寺井町・辰口町が合併して誕生したのは？",
       "choices": [
-        "音威子府村",
-        "南牧村",
-        "沼津市",
-        "能美市"
+        "清里町",
+        "南さつま市",
+        "能美市",
+        "宇都宮市"
       ],
       "answer": "能美市",
       "distractorStrategy": "sameCategoryPool",
@@ -5602,9 +5602,9 @@
       "prompt": "高浜町・志賀町が合併して誕生したのは？",
       "choices": [
         "志賀町",
-        "泉大津市",
-        "栗原市",
-        "蕨市"
+        "長崎市",
+        "沼津市",
+        "興部町"
       ],
       "answer": "志賀町",
       "distractorStrategy": "sameCategoryPool",
@@ -5628,10 +5628,10 @@
       "id": "timeline-merge-志賀町-2005-09-01",
       "prompt": "富来町・志賀町が合併して誕生したのは？",
       "choices": [
-        "笠岡市",
-        "多摩市",
         "志賀町",
-        "勝浦市"
+        "洞爺湖町",
+        "土庄町",
+        "栄町"
       ],
       "answer": "志賀町",
       "distractorStrategy": "sameCategoryPool",
@@ -5655,10 +5655,10 @@
       "id": "timeline-merge-宝達志水町-2005-03-01",
       "prompt": "志雄町・押水町が合併して誕生したのは？",
       "choices": [
-        "西原村",
-        "名護市",
-        "宝達志水町",
-        "本巣市"
+        "多良間村",
+        "大玉村",
+        "魚沼市",
+        "宝達志水町"
       ],
       "answer": "宝達志水町",
       "distractorStrategy": "sameCategoryPool",
@@ -5682,10 +5682,10 @@
       "id": "timeline-merge-中能登町-2005-03-01",
       "prompt": "鳥屋町・鹿島町・鹿西町が合併して誕生したのは？",
       "choices": [
+        "鹿嶋市",
+        "東村山市",
         "中能登町",
-        "阿久根市",
-        "大田市",
-        "練馬区"
+        "霧島市"
       ],
       "answer": "中能登町",
       "distractorStrategy": "sameCategoryPool",
@@ -5709,10 +5709,10 @@
       "id": "timeline-absorb-足羽町-1971-09-01",
       "prompt": "「足羽町」が編入されたのはどこ？",
       "choices": [
-        "多良木町",
+        "門川町",
         "福井市",
-        "鶴居村",
-        "遠別町"
+        "大鰐町",
+        "柳津町"
       ],
       "answer": "福井市",
       "distractorStrategy": "sameCategoryPool",
@@ -5735,10 +5735,10 @@
       "id": "timeline-merge-越前市-2005-10-01",
       "prompt": "武生市・今立町が合併して誕生したのは？",
       "choices": [
-        "太子町",
         "越前市",
-        "和気町",
-        "行橋市"
+        "嵐山町",
+        "平内町",
+        "高槻市"
       ],
       "answer": "越前市",
       "distractorStrategy": "sameCategoryPool",
@@ -5762,10 +5762,10 @@
       "id": "timeline-absorb-西谷村-1970-07-01",
       "prompt": "「西谷村」が編入されたのはどこ？",
       "choices": [
-        "岩沼市",
-        "富津市",
         "大野市",
-        "市貝町"
+        "三木市",
+        "上砂川町",
+        "中能登町"
       ],
       "answer": "大野市",
       "distractorStrategy": "sameCategoryPool",
@@ -5788,10 +5788,10 @@
       "id": "timeline-merge-あわら市-2004-03-01",
       "prompt": "芦原町・金津町が合併して誕生したのは？",
       "choices": [
-        "あわら市",
-        "泰阜村",
-        "ふじみ野市",
-        "城里町"
+        "大玉村",
+        "七飯町",
+        "筑西市",
+        "あわら市"
       ],
       "answer": "あわら市",
       "distractorStrategy": "sameCategoryPool",
@@ -5815,10 +5815,10 @@
       "id": "timeline-merge-永平寺町-2006-02-13",
       "prompt": "松岡町・永平寺町・上志比村が合併して誕生したのは？",
       "choices": [
-        "京丹後市",
-        "永平寺町",
-        "門川町",
-        "喜多方市"
+        "南足柄市",
+        "鏡石町",
+        "荒川区",
+        "永平寺町"
       ],
       "answer": "永平寺町",
       "distractorStrategy": "sameCategoryPool",
@@ -5842,10 +5842,10 @@
       "id": "timeline-merge-南越前町-2005-01-01",
       "prompt": "南条町・今庄町・河野村が合併して誕生したのは？",
       "choices": [
+        "小金井市",
+        "逗子市",
         "南越前町",
-        "湧水町",
-        "陸前高田市",
-        "太子町"
+        "山添村"
       ],
       "answer": "南越前町",
       "distractorStrategy": "sameCategoryPool",
@@ -5869,10 +5869,10 @@
       "id": "timeline-merge-越前町-2005-02-01",
       "prompt": "朝日町・宮崎村・越前町・織田町が合併して誕生したのは？",
       "choices": [
-        "越前町",
-        "神川町",
-        "五條市",
-        "八千代町"
+        "泊村",
+        "加美町",
+        "八峰町",
+        "越前町"
       ],
       "answer": "越前町",
       "distractorStrategy": "sameCategoryPool",
@@ -5896,10 +5896,10 @@
       "id": "timeline-merge-若狭町-2005-03-31",
       "prompt": "三方町・上中町が合併して誕生したのは？",
       "choices": [
-        "尾張旭市",
-        "藤井寺市",
-        "雄武町",
-        "若狭町"
+        "安堵町",
+        "若狭町",
+        "東海市",
+        "国見町"
       ],
       "answer": "若狭町",
       "distractorStrategy": "sameCategoryPool",
@@ -5923,10 +5923,10 @@
       "id": "timeline-absorb-中道町・と上九一色村-2006-03-01",
       "prompt": "「中道町・と上九一色村」が編入されたのはどこ？",
       "choices": [
-        "利島村",
-        "甲府市",
-        "松阪市",
-        "佐渡市"
+        "那智勝浦町",
+        "長門市",
+        "秋田市",
+        "甲府市"
       ],
       "answer": "甲府市",
       "distractorStrategy": "sameCategoryPool",
@@ -5949,10 +5949,10 @@
       "id": "timeline-merge-山梨市-2005-03-22",
       "prompt": "山梨市・牧丘町・三富村が合併して誕生したのは？",
       "choices": [
+        "塩尻市",
+        "熊谷市",
         "山梨市",
-        "名寄市",
-        "戸沢村",
-        "東京都庁"
+        "美浦村"
       ],
       "answer": "山梨市",
       "distractorStrategy": "sameCategoryPool",
@@ -5976,10 +5976,10 @@
       "id": "timeline-merge-南アルプス市-2003-04-01",
       "prompt": "八田村・白根町・芦安村・若草町・櫛形町・甲西町が合併して誕生したのは？",
       "choices": [
-        "階上町",
-        "草津市",
-        "夕張市",
-        "南アルプス市"
+        "戸沢村",
+        "文京区",
+        "南アルプス市",
+        "山陽小野田市"
       ],
       "answer": "南アルプス市",
       "distractorStrategy": "sameCategoryPool",
@@ -6003,10 +6003,10 @@
       "id": "timeline-merge-北杜市-2004-11-01",
       "prompt": "明野村・須玉町・高根町・長坂町・大泉村・白州町・武川村が合併して誕生したのは？",
       "choices": [
+        "大治町",
         "北杜市",
-        "阿武町",
-        "下関市",
-        "天草市"
+        "幸手市",
+        "安城市"
       ],
       "answer": "北杜市",
       "distractorStrategy": "sameCategoryPool",
@@ -6030,10 +6030,10 @@
       "id": "timeline-merge-甲斐市-2004-09-01",
       "prompt": "竜王町・敷島町・双葉町が合併して誕生したのは？",
       "choices": [
-        "宇検村",
-        "京田辺市",
+        "日立市",
+        "加賀市",
         "甲斐市",
-        "伊豆の国市"
+        "由良町"
       ],
       "answer": "甲斐市",
       "distractorStrategy": "sameCategoryPool",
@@ -6057,10 +6057,10 @@
       "id": "timeline-merge-笛吹市-2004-10-12",
       "prompt": "春日居町・石和町・御坂町・一宮町・八代町・境川村が合併して誕生したのは？",
       "choices": [
-        "西興部村",
         "笛吹市",
-        "常陸大宮市",
-        "羅臼町"
+        "岡崎市",
+        "湖南市",
+        "大洲市"
       ],
       "answer": "笛吹市",
       "distractorStrategy": "sameCategoryPool",
@@ -6084,10 +6084,10 @@
       "id": "timeline-merge-上野原市-2005-02-13",
       "prompt": "秋山村・上野原町が合併して誕生したのは？",
       "choices": [
-        "堺市",
-        "小松市",
+        "福山市",
         "上野原市",
-        "阿蘇市"
+        "沼津市",
+        "松野町"
       ],
       "answer": "上野原市",
       "distractorStrategy": "sameCategoryPool",
@@ -6111,10 +6111,10 @@
       "id": "timeline-merge-中央市-2006-02-20",
       "prompt": "豊富村・玉穂町・田富町が合併して誕生したのは？",
       "choices": [
-        "黒潮町",
-        "さいたま市",
-        "雄武町",
-        "中央市"
+        "南魚沼市",
+        "中央市",
+        "東神楽町",
+        "清須市"
       ],
       "answer": "中央市",
       "distractorStrategy": "sameCategoryPool",
@@ -6138,10 +6138,10 @@
       "id": "timeline-absorb-上九一色村・大字梯及び古関が甲府市-2006-03-01",
       "prompt": "「上九一色村・大字梯及び古関が甲府市」が編入されたのはどこ？",
       "choices": [
-        "根羽村",
-        "伊奈町",
+        "那須町",
+        "蟹江町",
         "富士河口湖町",
-        "豊根村"
+        "酒田市"
       ],
       "answer": "富士河口湖町",
       "distractorStrategy": "sameCategoryPool",
@@ -6164,10 +6164,10 @@
       "id": "timeline-merge-市川三郷町-2005-10-01",
       "prompt": "三珠町・市川大門町・六郷町が合併して誕生したのは？",
       "choices": [
-        "涌谷町",
-        "市川市",
-        "美瑛町",
-        "市川三郷町"
+        "市川三郷町",
+        "砂川市",
+        "相馬市",
+        "小牧市"
       ],
       "answer": "市川三郷町",
       "distractorStrategy": "sameCategoryPool",
@@ -6191,9 +6191,9 @@
       "id": "timeline-merge-身延町-2004-09-13",
       "prompt": "下部町・中富町・身延町が合併して誕生したのは？",
       "choices": [
-        "川本町",
-        "むつ市",
-        "御所市",
+        "墨田区",
+        "嬉野市",
+        "湯河原町",
         "身延町"
       ],
       "answer": "身延町",
@@ -6218,10 +6218,10 @@
       "id": "timeline-merge-富士川町-2010-03-08",
       "prompt": "増穂町・鰍沢町が合併して誕生したのは？",
       "choices": [
-        "柏崎市",
         "富士川町",
-        "姶良市",
-        "岩倉市"
+        "坂町",
+        "歌志内市",
+        "泉佐野市"
       ],
       "answer": "富士川町",
       "distractorStrategy": "sameCategoryPool",
@@ -6245,10 +6245,10 @@
       "id": "timeline-merge-南部町-2003-03-01",
       "prompt": "南部町・富沢町が合併して誕生したのは？",
       "choices": [
-        "南部町",
-        "岩国市",
-        "鹿屋市",
-        "琴浦町"
+        "対馬市",
+        "南山城村",
+        "豊後大野市",
+        "南部町"
       ],
       "answer": "南部町",
       "distractorStrategy": "sameCategoryPool",
@@ -6272,10 +6272,10 @@
       "id": "timeline-merge-富士河口湖町-2003-11-15",
       "prompt": "河口湖町・勝山村・足和田村が合併して誕生したのは？",
       "choices": [
-        "南魚沼市",
-        "大月市",
-        "袋井市",
-        "富士河口湖町"
+        "富士河口湖町",
+        "中津川市",
+        "南部町",
+        "南部町"
       ],
       "answer": "富士河口湖町",
       "distractorStrategy": "sameCategoryPool",
@@ -6299,10 +6299,10 @@
       "id": "timeline-absorb-信州新町・中条村-2010-01-01",
       "prompt": "「信州新町・中条村」が編入されたのはどこ？",
       "choices": [
-        "上牧町",
-        "安芸太田町",
-        "長野市",
-        "竹原市"
+        "河合町",
+        "井原市",
+        "羽島市",
+        "長野市"
       ],
       "answer": "長野市",
       "distractorStrategy": "sameCategoryPool",
@@ -6325,10 +6325,10 @@
       "id": "timeline-absorb-本郷村-1974-05-01",
       "prompt": "「本郷村」が編入されたのはどこ？",
       "choices": [
+        "多気町",
         "松本市",
-        "土佐清水市",
-        "芦屋市",
-        "羽村市"
+        "南阿蘇村",
+        "大郷町"
       ],
       "answer": "松本市",
       "distractorStrategy": "sameCategoryPool",
@@ -6351,10 +6351,10 @@
       "id": "timeline-absorb-四賀村・奈川村・安曇村・梓川村-2005-04-01",
       "prompt": "「四賀村・奈川村・安曇村・梓川村」が編入されたのはどこ？",
       "choices": [
-        "姶良市",
+        "都城市",
+        "丹波篠山市",
         "松本市",
-        "直島町",
-        "志木市"
+        "新宿区"
       ],
       "answer": "松本市",
       "distractorStrategy": "sameCategoryPool",
@@ -6377,10 +6377,10 @@
       "id": "timeline-absorb-波田町-2010-03-31",
       "prompt": "「波田町」が編入されたのはどこ？",
       "choices": [
+        "栄村",
+        "村上市",
         "松本市",
-        "根羽村",
-        "白川村",
-        "玉野市"
+        "粕屋町"
       ],
       "answer": "松本市",
       "distractorStrategy": "sameCategoryPool",
@@ -6403,10 +6403,10 @@
       "id": "timeline-absorb-川西村-1973-04-01",
       "prompt": "「川西村」が編入されたのはどこ？",
       "choices": [
-        "大野町",
-        "利府町",
-        "上田市",
-        "大樹町"
+        "大川村",
+        "加西市",
+        "五城目町",
+        "上田市"
       ],
       "answer": "上田市",
       "distractorStrategy": "sameCategoryPool",
@@ -6429,10 +6429,10 @@
       "id": "timeline-merge-上田市-2006-03-06",
       "prompt": "上田市・丸子町・真田町・武石村が合併して誕生したのは？",
       "choices": [
+        "西条市",
         "上田市",
-        "金山町",
-        "陸別町",
-        "飯田市"
+        "吹田市",
+        "新十津川町"
       ],
       "answer": "上田市",
       "distractorStrategy": "sameCategoryPool",
@@ -6456,10 +6456,10 @@
       "id": "timeline-absorb-鼎町-1984-12-01",
       "prompt": "「鼎町」が編入されたのはどこ？",
       "choices": [
-        "飯田市",
-        "一戸町",
-        "磐梯町",
-        "白石町"
+        "播磨町",
+        "長洲町",
+        "真狩村",
+        "飯田市"
       ],
       "answer": "飯田市",
       "distractorStrategy": "sameCategoryPool",
@@ -6482,10 +6482,10 @@
       "id": "timeline-absorb-上郷町-1993-07-01",
       "prompt": "「上郷町」が編入されたのはどこ？",
       "choices": [
-        "美濃加茂市",
-        "飯田市",
-        "当別町",
-        "更別村"
+        "あま市",
+        "桶川市",
+        "岡垣町",
+        "飯田市"
       ],
       "answer": "飯田市",
       "distractorStrategy": "sameCategoryPool",
@@ -6508,10 +6508,10 @@
       "id": "timeline-absorb-上村・南信濃村-2005-10-01",
       "prompt": "「上村・南信濃村」が編入されたのはどこ？",
       "choices": [
-        "四万十市",
+        "印南町",
+        "川崎市",
         "飯田市",
-        "玉野市",
-        "佐久市"
+        "伊那市"
       ],
       "answer": "飯田市",
       "distractorStrategy": "sameCategoryPool",
@@ -6535,9 +6535,9 @@
       "prompt": "「東村」が編入されたのはどこ？",
       "choices": [
         "須坂市",
-        "上板町",
-        "坂東市",
-        "合志市"
+        "東松島市",
+        "箕輪町",
+        "羽咋市"
       ],
       "answer": "須坂市",
       "distractorStrategy": "sameCategoryPool",
@@ -6560,10 +6560,10 @@
       "id": "timeline-merge-伊那市-2006-03-31",
       "prompt": "伊那市・高遠町・長谷村が合併して誕生したのは？",
       "choices": [
+        "米原市",
+        "阿蘇市",
         "伊那市",
-        "練馬区",
-        "宇陀市",
-        "宮田村"
+        "南小国町"
       ],
       "answer": "伊那市",
       "distractorStrategy": "sameCategoryPool",
@@ -6587,10 +6587,10 @@
       "id": "timeline-merge-中野市-2005-04-01",
       "prompt": "中野市・豊田村が合併して誕生したのは？",
       "choices": [
-        "佐々町",
+        "北大東村",
         "中野市",
-        "川根本町",
-        "粟島浦村"
+        "美瑛町",
+        "松茂町"
       ],
       "answer": "中野市",
       "distractorStrategy": "sameCategoryPool",
@@ -6614,10 +6614,10 @@
       "id": "timeline-absorb-八坂村・美麻村-2006-01-01",
       "prompt": "「八坂村・美麻村」が編入されたのはどこ？",
       "choices": [
-        "大町市",
-        "御蔵島村",
-        "玉東町",
-        "東近江市"
+        "玉川村",
+        "釧路市",
+        "茨城町",
+        "大町市"
       ],
       "answer": "大町市",
       "distractorStrategy": "sameCategoryPool",
@@ -6640,9 +6640,9 @@
       "id": "timeline-absorb-楢川村-2005-04-01",
       "prompt": "「楢川村」が編入されたのはどこ？",
       "choices": [
-        "伊丹市",
-        "多度津町",
-        "松川町",
+        "高槻市",
+        "三鷹市",
+        "碧南市",
         "塩尻市"
       ],
       "answer": "塩尻市",
@@ -6666,10 +6666,10 @@
       "id": "timeline-merge-千曲市-2003-09-01",
       "prompt": "更埴市・上山田町・戸倉町が合併して誕生したのは？",
       "choices": [
-        "海田町",
-        "八尾市",
+        "西原町",
         "千曲市",
-        "川口市"
+        "福智町",
+        "白山市"
       ],
       "answer": "千曲市",
       "distractorStrategy": "sameCategoryPool",
@@ -6693,10 +6693,10 @@
       "id": "timeline-merge-佐久市-2005-04-01",
       "prompt": "佐久市・臼田町・望月町・浅科村が合併して誕生したのは？",
       "choices": [
-        "斜里町",
+        "松阪市",
         "佐久市",
-        "豊中市",
-        "大野町"
+        "聖籠町",
+        "御浜町"
       ],
       "answer": "佐久市",
       "distractorStrategy": "sameCategoryPool",
@@ -6720,9 +6720,9 @@
       "id": "timeline-merge-東御市-2004-04-01",
       "prompt": "北御牧村・東部町が合併して誕生したのは？",
       "choices": [
-        "大間町",
-        "高千穂町",
-        "上北山村",
+        "美濃市",
+        "皆野町",
+        "十日町市",
         "東御市"
       ],
       "answer": "東御市",
@@ -6747,10 +6747,10 @@
       "id": "timeline-merge-佐久穂町-2005-03-20",
       "prompt": "佐久町・八千穂村が合併して誕生したのは？",
       "choices": [
+        "小郡市",
         "佐久穂町",
-        "弥彦村",
-        "太地町",
-        "大野市"
+        "大仙市",
+        "熱海市"
       ],
       "answer": "佐久穂町",
       "distractorStrategy": "sameCategoryPool",
@@ -6774,10 +6774,10 @@
       "id": "timeline-merge-長和町-2005-10-01",
       "prompt": "長門町・和田村が合併して誕生したのは？",
       "choices": [
-        "摂津市",
-        "長和町",
-        "東峰村",
-        "加古川市"
+        "半田市",
+        "杉並区",
+        "美濃加茂市",
+        "長和町"
       ],
       "answer": "長和町",
       "distractorStrategy": "sameCategoryPool",
@@ -6801,10 +6801,10 @@
       "id": "timeline-absorb-清内路村-2009-03-31",
       "prompt": "「清内路村」が編入されたのはどこ？",
       "choices": [
-        "湖南市",
-        "美里町",
-        "阿智村",
-        "神川町"
+        "足利市",
+        "小川村",
+        "須坂市",
+        "阿智村"
       ],
       "answer": "阿智村",
       "distractorStrategy": "sameCategoryPool",
@@ -6827,10 +6827,10 @@
       "id": "timeline-absorb-浪合村-2006-01-01",
       "prompt": "「浪合村」が編入されたのはどこ？",
       "choices": [
-        "所沢市",
-        "度会町",
-        "大田原市",
-        "阿智村"
+        "笠置町",
+        "阿智村",
+        "みやま市",
+        "大台町"
       ],
       "answer": "阿智村",
       "distractorStrategy": "sameCategoryPool",
@@ -6853,10 +6853,10 @@
       "id": "timeline-merge-木曽町-2005-11-01",
       "prompt": "木曽福島町・日義村・開田村・三岳村が合併して誕生したのは？",
       "choices": [
-        "綾町",
-        "北区",
-        "八尾市",
-        "木曽町"
+        "木曽町",
+        "豊前市",
+        "神流町",
+        "南関町"
       ],
       "answer": "木曽町",
       "distractorStrategy": "sameCategoryPool",
@@ -6880,10 +6880,10 @@
       "id": "timeline-absorb-長野県山口村-2005-02-13",
       "prompt": "「長野県山口村」が編入されたのはどこ？",
       "choices": [
-        "榛東村",
-        "宇陀市",
-        "岐阜県中津川市",
-        "風間浦村"
+        "白岡市",
+        "湯河原町",
+        "川島町",
+        "岐阜県中津川市"
       ],
       "answer": "岐阜県中津川市",
       "distractorStrategy": "sameCategoryPool",
@@ -6906,10 +6906,10 @@
       "id": "timeline-merge-筑北村-2005-10-11",
       "prompt": "本城村・坂北村・坂井村が合併して誕生したのは？",
       "choices": [
-        "北本市",
-        "階上町",
-        "蟹江町",
-        "筑北村"
+        "白岡市",
+        "筑北村",
+        "中野区",
+        "河内町"
       ],
       "answer": "筑北村",
       "distractorStrategy": "sameCategoryPool",
@@ -6933,10 +6933,10 @@
       "id": "timeline-merge-飯綱町-2005-10-01",
       "prompt": "牟礼村・三水村が合併して誕生したのは？",
       "choices": [
-        "結城市",
-        "滑川町",
-        "下関市",
-        "飯綱町"
+        "深浦町",
+        "飯綱町",
+        "小国町",
+        "守谷市"
       ],
       "answer": "飯綱町",
       "distractorStrategy": "sameCategoryPool",
@@ -6960,10 +6960,10 @@
       "id": "timeline-absorb-柳津町-2006-01-01",
       "prompt": "「柳津町」が編入されたのはどこ？",
       "choices": [
-        "岐阜市",
-        "角田市",
-        "日高町",
-        "大淀町"
+        "浜頓別町",
+        "東村山市",
+        "熊本市",
+        "岐阜市"
       ],
       "answer": "岐阜市",
       "distractorStrategy": "sameCategoryPool",
@@ -6986,10 +6986,10 @@
       "id": "timeline-absorb-上石津町・墨俣町-2006-03-27",
       "prompt": "「上石津町・墨俣町」が編入されたのはどこ？",
       "choices": [
-        "杵築市",
-        "基山町",
-        "東洋町",
-        "大垣市"
+        "池田市",
+        "大垣市",
+        "塩尻市",
+        "東村山市"
       ],
       "answer": "大垣市",
       "distractorStrategy": "sameCategoryPool",
@@ -7012,10 +7012,10 @@
       "id": "timeline-merge-恵那市-2004-10-25",
       "prompt": "恵那市・岩村町・山岡町・明智町・串原村・上矢作町が合併して誕生したのは？",
       "choices": [
-        "舟形町",
-        "鏡石町",
         "恵那市",
-        "甲良町"
+        "薩摩川内市",
+        "三鷹市",
+        "河北町"
       ],
       "answer": "恵那市",
       "distractorStrategy": "sameCategoryPool",
@@ -7039,9 +7039,9 @@
       "id": "timeline-absorb-川島町-2004-11-01",
       "prompt": "「川島町」が編入されたのはどこ？",
       "choices": [
-        "飯田市",
-        "九重町",
-        "神山町",
+        "さいたま市",
+        "弥彦村",
+        "上北山村",
         "各務原市"
       ],
       "answer": "各務原市",
@@ -7065,10 +7065,10 @@
       "id": "timeline-absorb-兼山町-2005-05-01",
       "prompt": "「兼山町」が編入されたのはどこ？",
       "choices": [
-        "摂津市",
-        "天龍村",
-        "粟島浦村",
-        "可児市"
+        "可児市",
+        "佐川町",
+        "魚津市",
+        "清里町"
       ],
       "answer": "可児市",
       "distractorStrategy": "sameCategoryPool",
@@ -7091,10 +7091,10 @@
       "id": "timeline-merge-瑞穂市-2003-05-01",
       "prompt": "穂積町・巣南町が合併して誕生したのは？",
       "choices": [
-        "大郷町",
+        "売木村",
+        "平川市",
         "瑞穂市",
-        "いわき市",
-        "大府市"
+        "筑前町"
       ],
       "answer": "瑞穂市",
       "distractorStrategy": "sameCategoryPool",
@@ -7118,10 +7118,10 @@
       "id": "timeline-merge-飛騨市-2004-02-01",
       "prompt": "古川町・河合村・宮川村・神岡町が合併して誕生したのは？",
       "choices": [
-        "与謝野町",
-        "小樽市",
+        "日高村",
         "飛騨市",
-        "加東市"
+        "長浜市",
+        "上板町"
       ],
       "answer": "飛騨市",
       "distractorStrategy": "sameCategoryPool",
@@ -7145,10 +7145,10 @@
       "id": "timeline-merge-本巣市-2004-02-01",
       "prompt": "本巣町・真正町・糸貫町・根尾村が合併して誕生したのは？",
       "choices": [
-        "東かがわ市",
+        "赤磐市",
         "本巣市",
-        "田辺市",
-        "みよし市"
+        "蔵王町",
+        "にかほ市"
       ],
       "answer": "本巣市",
       "distractorStrategy": "sameCategoryPool",
@@ -7173,9 +7173,9 @@
       "prompt": "揖斐川町・谷汲村・春日村・久瀬村・藤橋村・坂内村が合併して誕生したのは？",
       "choices": [
         "揖斐川町",
-        "相良村",
-        "豊富町",
-        "大島町"
+        "陸前高田市",
+        "花巻市",
+        "藤崎町"
       ],
       "answer": "揖斐川町",
       "distractorStrategy": "sameCategoryPool",
@@ -7199,10 +7199,10 @@
       "id": "timeline-absorb-徳山村-1987-04-01",
       "prompt": "「徳山村」が編入されたのはどこ？",
       "choices": [
+        "美深町",
         "藤橋村",
-        "芦別市",
-        "弘前市",
-        "松阪市"
+        "泰阜村",
+        "いすみ市"
       ],
       "answer": "藤橋村",
       "distractorStrategy": "sameCategoryPool",
@@ -7225,10 +7225,10 @@
       "id": "timeline-absorb-蒲原町-2006-03-31",
       "prompt": "「蒲原町」が編入されたのはどこ？",
       "choices": [
-        "中井町",
-        "玉東町",
-        "港区",
-        "清水区"
+        "利尻町",
+        "土佐市",
+        "清水区",
+        "貝塚市"
       ],
       "answer": "清水区",
       "distractorStrategy": "sameCategoryPool",
@@ -7251,10 +7251,10 @@
       "id": "timeline-merge-静岡市-2003-04-01",
       "prompt": "静岡市・清水市が合併して誕生したのは？",
       "choices": [
+        "新島村",
         "静岡市",
-        "藤崎町",
-        "遠野市",
-        "都農町"
+        "辰野町",
+        "横手市"
       ],
       "answer": "静岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -7278,10 +7278,10 @@
       "id": "timeline-absorb-可美村-1991-05-01",
       "prompt": "「可美村」が編入されたのはどこ？",
       "choices": [
-        "五條市",
         "浜松市",
-        "広川町",
-        "鹿嶋市"
+        "精華町",
+        "小松島市",
+        "蘭越町"
       ],
       "answer": "浜松市",
       "distractorStrategy": "sameCategoryPool",
@@ -7304,10 +7304,10 @@
       "id": "timeline-absorb-戸田村-2005-04-01",
       "prompt": "「戸田村」が編入されたのはどこ？",
       "choices": [
-        "上勝町",
+        "会津坂下町",
+        "八幡平市",
         "沼津市",
-        "葛飾区",
-        "高浜市"
+        "志布志市"
       ],
       "answer": "沼津市",
       "distractorStrategy": "sameCategoryPool",
@@ -7330,10 +7330,10 @@
       "id": "timeline-merge-島田市-2005-05-05",
       "prompt": "島田市・金谷町が合併して誕生したのは？",
       "choices": [
-        "鹿追町",
+        "牧之原市",
+        "鳥取市",
         "島田市",
-        "笛吹市",
-        "勝山市"
+        "焼津市"
       ],
       "answer": "島田市",
       "distractorStrategy": "sameCategoryPool",
@@ -7357,10 +7357,10 @@
       "id": "timeline-absorb-川根町-2008-04-01",
       "prompt": "「川根町」が編入されたのはどこ？",
       "choices": [
-        "島田市",
-        "山ノ内町",
-        "函館市",
-        "夕張市"
+        "加美町",
+        "名護市",
+        "鳥羽市",
+        "島田市"
       ],
       "answer": "島田市",
       "distractorStrategy": "sameCategoryPool",
@@ -7383,10 +7383,10 @@
       "id": "timeline-absorb-富士川町-2008-11-01",
       "prompt": "「富士川町」が編入されたのはどこ？",
       "choices": [
-        "小谷村",
-        "刈谷市",
         "富士市",
-        "野辺地町"
+        "亘理町",
+        "西条市",
+        "小樽市"
       ],
       "answer": "富士市",
       "distractorStrategy": "sameCategoryPool",
@@ -7409,10 +7409,10 @@
       "id": "timeline-merge-磐田市-2005-04-01",
       "prompt": "磐田市・福田町・竜洋町・豊田町・豊岡村が合併して誕生したのは？",
       "choices": [
-        "日高町",
-        "磐田市",
-        "玉名市",
-        "渡名喜村"
+        "高山村",
+        "綾町",
+        "愛別町",
+        "磐田市"
       ],
       "answer": "磐田市",
       "distractorStrategy": "sameCategoryPool",
@@ -7436,10 +7436,10 @@
       "id": "timeline-absorb-大井川町-2008-11-01",
       "prompt": "「大井川町」が編入されたのはどこ？",
       "choices": [
-        "守口市",
+        "熱海市",
         "焼津市",
-        "白山市",
-        "佐久穂町"
+        "大崎上島町",
+        "大島町"
       ],
       "answer": "焼津市",
       "distractorStrategy": "sameCategoryPool",
@@ -7462,10 +7462,10 @@
       "id": "timeline-merge-袋井市-2005-04-01",
       "prompt": "袋井市・浅羽町が合併して誕生したのは？",
       "choices": [
+        "高知市",
         "袋井市",
-        "春日市",
-        "葉山町",
-        "備前市"
+        "枚方市",
+        "新十津川町"
       ],
       "answer": "袋井市",
       "distractorStrategy": "sameCategoryPool",
@@ -7489,10 +7489,10 @@
       "id": "timeline-merge-伊豆市-2004-04-01",
       "prompt": "修善寺町・土肥町・天城湯ケ島町・中伊豆町が合併して誕生したのは？",
       "choices": [
-        "阿賀町",
-        "北谷町",
-        "田野畑村",
-        "伊豆市"
+        "東秩父村",
+        "伊豆市",
+        "松原市",
+        "碧南市"
       ],
       "answer": "伊豆市",
       "distractorStrategy": "sameCategoryPool",
@@ -7516,10 +7516,10 @@
       "id": "timeline-merge-御前崎市-2004-04-01",
       "prompt": "御前崎町・浜岡町が合併して誕生したのは？",
       "choices": [
-        "辰野町",
+        "雫石町",
         "御前崎市",
-        "台東区",
-        "高森町"
+        "豊中市",
+        "三原市"
       ],
       "answer": "御前崎市",
       "distractorStrategy": "sameCategoryPool",
@@ -7543,10 +7543,10 @@
       "id": "timeline-merge-菊川市-2005-01-17",
       "prompt": "小笠町・菊川町が合併して誕生したのは？",
       "choices": [
-        "日吉津村",
-        "菊川市",
-        "八重瀬町",
-        "鳴門市"
+        "みなかみ町",
+        "延岡市",
+        "洲本市",
+        "菊川市"
       ],
       "answer": "菊川市",
       "distractorStrategy": "sameCategoryPool",
@@ -7570,10 +7570,10 @@
       "id": "timeline-merge-伊豆の国市-2005-04-01",
       "prompt": "伊豆長岡町・韮山町・大仁町が合併して誕生したのは？",
       "choices": [
-        "愛別町",
-        "伊豆の国市",
-        "大豊町",
-        "芸西村"
+        "名取市",
+        "墨田区",
+        "四万十市",
+        "伊豆の国市"
       ],
       "answer": "伊豆の国市",
       "distractorStrategy": "sameCategoryPool",
@@ -7597,10 +7597,10 @@
       "id": "timeline-merge-牧之原市-2005-10-11",
       "prompt": "相良町・榛原町が合併して誕生したのは？",
       "choices": [
-        "坂戸市",
+        "八代市",
         "牧之原市",
-        "那須烏山市",
-        "南富良野町"
+        "白井市",
+        "仁淀川町"
       ],
       "answer": "牧之原市",
       "distractorStrategy": "sameCategoryPool",
@@ -7624,10 +7624,10 @@
       "id": "timeline-merge-西伊豆町-2005-04-01",
       "prompt": "西伊豆町・賀茂村が合併して誕生したのは？",
       "choices": [
-        "高根沢町",
-        "下條村",
-        "三芳町",
-        "西伊豆町"
+        "西伊豆町",
+        "上市町",
+        "ときがわ町",
+        "小豆島町"
       ],
       "answer": "西伊豆町",
       "distractorStrategy": "sameCategoryPool",
@@ -7651,10 +7651,10 @@
       "id": "timeline-merge-川根本町-2005-09-20",
       "prompt": "中川根町・本川根町が合併して誕生したのは？",
       "choices": [
-        "白浜町",
-        "福知山市",
+        "厚岸町",
         "川根本町",
-        "大鹿村"
+        "合志市",
+        "伊予市"
       ],
       "answer": "川根本町",
       "distractorStrategy": "sameCategoryPool",
@@ -7678,10 +7678,10 @@
       "id": "timeline-merge-大東町-1973-04-01",
       "prompt": "城東村・大浜町が合併して誕生したのは？",
       "choices": [
-        "金山町",
-        "香芝市",
-        "若狭町",
-        "大東町"
+        "小平町",
+        "大東町",
+        "みよし市",
+        "船橋市"
       ],
       "answer": "大東町",
       "distractorStrategy": "sameCategoryPool",
@@ -7705,9 +7705,9 @@
       "id": "timeline-absorb-額田町-2006-01-01",
       "prompt": "「額田町」が編入されたのはどこ？",
       "choices": [
-        "犬山市",
-        "久米島町",
-        "南アルプス市",
+        "都城市",
+        "七ヶ宿町",
+        "池田町",
         "岡崎市"
       ],
       "answer": "岡崎市",
@@ -7731,10 +7731,10 @@
       "id": "timeline-absorb-一宮町-2006-02-01",
       "prompt": "「一宮町」が編入されたのはどこ？",
       "choices": [
-        "菊陽町",
-        "藤井寺市",
         "豊川市",
-        "白馬村"
+        "亘理町",
+        "由利本荘市",
+        "磐田市"
       ],
       "answer": "豊川市",
       "distractorStrategy": "sameCategoryPool",
@@ -7757,10 +7757,10 @@
       "id": "timeline-absorb-音羽町・御津町-2008-01-15",
       "prompt": "「音羽町・御津町」が編入されたのはどこ？",
       "choices": [
-        "上天草市",
-        "豊川市",
-        "小美玉市",
-        "竹田市"
+        "小国町",
+        "富士宮市",
+        "臼杵市",
+        "豊川市"
       ],
       "answer": "豊川市",
       "distractorStrategy": "sameCategoryPool",
@@ -7783,10 +7783,10 @@
       "id": "timeline-merge-愛西市-2005-04-01",
       "prompt": "佐屋町・立田村・八開村・佐織町が合併して誕生したのは？",
       "choices": [
+        "朝日町",
+        "大崎市",
         "愛西市",
-        "白井市",
-        "由利本荘市",
-        "柏原市"
+        "高原町"
       ],
       "answer": "愛西市",
       "distractorStrategy": "sameCategoryPool",
@@ -7810,10 +7810,10 @@
       "id": "timeline-merge-清須市-2005-07-07",
       "prompt": "西枇杷島町・清洲町・新川町が合併して誕生したのは？",
       "choices": [
-        "小平市",
-        "刈谷市",
-        "宮代町",
-        "清須市"
+        "南牧村",
+        "木古内町",
+        "清須市",
+        "大山町"
       ],
       "answer": "清須市",
       "distractorStrategy": "sameCategoryPool",
@@ -7837,10 +7837,10 @@
       "id": "timeline-absorb-春日町-2009-10-01",
       "prompt": "「春日町」が編入されたのはどこ？",
       "choices": [
+        "奈半利町",
+        "養老町",
         "清須市",
-        "名張市",
-        "高浜町",
-        "長浜市"
+        "龍郷町"
       ],
       "answer": "清須市",
       "distractorStrategy": "sameCategoryPool",
@@ -7864,9 +7864,9 @@
       "prompt": "師勝町・西春町が合併して誕生したのは？",
       "choices": [
         "北名古屋市",
-        "志木市",
-        "五條市",
-        "添田町"
+        "徳島市",
+        "日野町",
+        "都留市"
       ],
       "answer": "北名古屋市",
       "distractorStrategy": "sameCategoryPool",
@@ -7890,10 +7890,10 @@
       "id": "timeline-merge-あま市-2010-03-22",
       "prompt": "七宝町・美和町・甚目寺町が合併して誕生したのは？",
       "choices": [
-        "京極町",
+        "石垣市",
         "あま市",
-        "藤沢市",
-        "北九州市"
+        "高石市",
+        "塩竈市"
       ],
       "answer": "あま市",
       "distractorStrategy": "sameCategoryPool",
@@ -7917,10 +7917,10 @@
       "id": "timeline-absorb-十四山村-2006-04-01",
       "prompt": "「十四山村」が編入されたのはどこ？",
       "choices": [
-        "広島市",
-        "富良野市",
-        "檜枝岐村",
-        "弥富町"
+        "岩泉町",
+        "大洗町",
+        "弥富町",
+        "小竹町"
       ],
       "answer": "弥富町",
       "distractorStrategy": "sameCategoryPool",
@@ -7943,10 +7943,10 @@
       "id": "timeline-merge-設楽町-2005-10-01",
       "prompt": "設楽町・津具村が合併して誕生したのは？",
       "choices": [
-        "芽室町",
+        "和光市",
         "設楽町",
-        "吉野ヶ里町",
-        "稲城市"
+        "琴浦町",
+        "渋川市"
       ],
       "answer": "設楽町",
       "distractorStrategy": "sameCategoryPool",
@@ -7970,10 +7970,10 @@
       "id": "timeline-absorb-富山村-2005-11-27",
       "prompt": "「富山村」が編入されたのはどこ？",
       "choices": [
+        "輪之内町",
         "豊根村",
-        "大山崎町",
-        "伊方町",
-        "高崎市"
+        "泊村",
+        "御代田町"
       ],
       "answer": "豊根村",
       "distractorStrategy": "sameCategoryPool",
@@ -7996,10 +7996,10 @@
       "id": "timeline-absorb-赤羽根町-2003-08-20",
       "prompt": "「赤羽根町」が編入されたのはどこ？",
       "choices": [
-        "泊村",
-        "越谷市",
         "田原町",
-        "日高村"
+        "北秋田市",
+        "伊豆市",
+        "芽室町"
       ],
       "answer": "田原町",
       "distractorStrategy": "sameCategoryPool",
@@ -8022,10 +8022,10 @@
       "id": "timeline-absorb-豊里村-1973-02-01",
       "prompt": "「豊里村」が編入されたのはどこ？",
       "choices": [
-        "三春町",
         "津市",
-        "築上町",
-        "唐津市"
+        "大井町",
+        "出水市",
+        "大木町"
       ],
       "answer": "津市",
       "distractorStrategy": "sameCategoryPool",
@@ -8048,10 +8048,10 @@
       "id": "timeline-absorb-楠町-2005-02-07",
       "prompt": "「楠町」が編入されたのはどこ？",
       "choices": [
-        "小林市",
+        "池田市",
         "四日市市",
-        "鳴門市",
-        "北山村"
+        "愛西市",
+        "真岡市"
       ],
       "answer": "四日市市",
       "distractorStrategy": "sameCategoryPool",
@@ -8074,10 +8074,10 @@
       "id": "timeline-merge-伊勢市-2005-11-01",
       "prompt": "伊勢市・二見町・小俣町・御薗村が合併して誕生したのは？",
       "choices": [
-        "道志村",
-        "魚津市",
-        "長野原町",
-        "伊勢市"
+        "伊勢市",
+        "戸田市",
+        "富加町",
+        "鳥栖市"
       ],
       "answer": "伊勢市",
       "distractorStrategy": "sameCategoryPool",
@@ -8102,9 +8102,9 @@
       "prompt": "桑名市・多度町・長島町が合併して誕生したのは？",
       "choices": [
         "桑名市",
-        "伊仙町",
-        "古平町",
-        "朝日村"
+        "川上村",
+        "東北町",
+        "木曽岬町"
       ],
       "answer": "桑名市",
       "distractorStrategy": "sameCategoryPool",
@@ -8128,10 +8128,10 @@
       "id": "timeline-merge-熊野市-2005-11-01",
       "prompt": "熊野市・紀和町が合併して誕生したのは？",
       "choices": [
-        "池田市",
         "熊野市",
-        "長柄町",
-        "千歳市"
+        "周防大島町",
+        "伊仙町",
+        "関市"
       ],
       "answer": "熊野市",
       "distractorStrategy": "sameCategoryPool",
@@ -8155,9 +8155,9 @@
       "id": "timeline-merge-いなべ市-2003-12-01",
       "prompt": "北勢町・員弁町・大安町・藤原町が合併して誕生したのは？",
       "choices": [
-        "輪島市",
-        "厚木市",
-        "江東区",
+        "四国中央市",
+        "飯南町",
+        "知多市",
         "いなべ市"
       ],
       "answer": "いなべ市",
@@ -8182,10 +8182,10 @@
       "id": "timeline-merge-多気町-2006-01-01",
       "prompt": "多気町・勢和村が合併して誕生したのは？",
       "choices": [
-        "稲城市",
+        "那須烏山市",
+        "相良村",
         "多気町",
-        "利尻町",
-        "長野市"
+        "石井町"
       ],
       "answer": "多気町",
       "distractorStrategy": "sameCategoryPool",
@@ -8209,10 +8209,10 @@
       "id": "timeline-merge-大台町-2006-01-10",
       "prompt": "大台町・宮川村が合併して誕生したのは？",
       "choices": [
-        "福井市",
+        "神戸町",
+        "香取市",
         "大台町",
-        "最上町",
-        "三朝町"
+        "飛騨市"
       ],
       "answer": "大台町",
       "distractorStrategy": "sameCategoryPool",
@@ -8236,10 +8236,10 @@
       "id": "timeline-merge-南伊勢町-2005-10-01",
       "prompt": "南勢町・南島町が合併して誕生したのは？",
       "choices": [
-        "亀岡市",
-        "吉岡町",
+        "壬生町",
         "南伊勢町",
-        "港区"
+        "富士吉田市",
+        "川根本町"
       ],
       "answer": "南伊勢町",
       "distractorStrategy": "sameCategoryPool",
@@ -8263,10 +8263,10 @@
       "id": "timeline-merge-大紀町-2005-02-14",
       "prompt": "大宮町・紀勢町・大内山村が合併して誕生したのは？",
       "choices": [
-        "恵那市",
-        "伊豆の国市",
-        "網走市",
-        "大紀町"
+        "大紀町",
+        "玄海町",
+        "今金町",
+        "草津市"
       ],
       "answer": "大紀町",
       "distractorStrategy": "sameCategoryPool",
@@ -8291,9 +8291,9 @@
       "prompt": "紀伊長島町・海山町が合併して誕生したのは？",
       "choices": [
         "紀北町",
-        "福岡市",
-        "草加市",
-        "茨木市"
+        "美里町",
+        "高山村",
+        "石巻市"
       ],
       "answer": "紀北町",
       "distractorStrategy": "sameCategoryPool",
@@ -8317,10 +8317,10 @@
       "id": "timeline-merge-紀宝町-2006-01-10",
       "prompt": "紀宝町・鵜殿村が合併して誕生したのは？",
       "choices": [
-        "平谷村",
-        "大治町",
-        "苓北町",
-        "紀宝町"
+        "名張市",
+        "土岐市",
+        "紀宝町",
+        "度会町"
       ],
       "answer": "紀宝町",
       "distractorStrategy": "sameCategoryPool",
@@ -8344,10 +8344,10 @@
       "id": "timeline-merge-長浜市-2006-02-13",
       "prompt": "長浜市・浅井町・びわ町が合併して誕生したのは？",
       "choices": [
-        "北島町",
-        "塩竈市",
-        "富山市",
-        "長浜市"
+        "坂井市",
+        "長浜市",
+        "小平町",
+        "多良木町"
       ],
       "answer": "長浜市",
       "distractorStrategy": "sameCategoryPool",
@@ -8372,9 +8372,9 @@
       "prompt": "近江八幡市・安土町が合併して誕生したのは？",
       "choices": [
         "近江八幡市",
-        "川辺町",
-        "東洋町",
-        "遊佐町"
+        "早川町",
+        "瀬戸内町",
+        "朝日町"
       ],
       "answer": "近江八幡市",
       "distractorStrategy": "sameCategoryPool",
@@ -8398,10 +8398,10 @@
       "id": "timeline-merge-東近江市-2005-02-11",
       "prompt": "八日市市・永源寺町・五個荘町・愛東町・湖東町が合併して誕生したのは？",
       "choices": [
-        "田村市",
-        "柳井市",
-        "小平町",
-        "東近江市"
+        "豊明市",
+        "東近江市",
+        "四日市市",
+        "豊橋市"
       ],
       "answer": "東近江市",
       "distractorStrategy": "sameCategoryPool",
@@ -8426,9 +8426,9 @@
       "prompt": "水口町・土山町・甲賀町・甲南町・信楽町が合併して誕生したのは？",
       "choices": [
         "甲賀市",
-        "みやき町",
-        "有田町",
-        "益子町"
+        "さくら市",
+        "池田町",
+        "愛別町"
       ],
       "answer": "甲賀市",
       "distractorStrategy": "sameCategoryPool",
@@ -8452,10 +8452,10 @@
       "id": "timeline-merge-米原市-2005-02-14",
       "prompt": "山東町・伊吹町・米原町が合併して誕生したのは？",
       "choices": [
-        "あきる野市",
-        "長南町",
+        "川内村",
         "米原市",
-        "根室市"
+        "小豆島町",
+        "島本町"
       ],
       "answer": "米原市",
       "distractorStrategy": "sameCategoryPool",
@@ -8479,10 +8479,10 @@
       "id": "timeline-merge-愛荘町-2006-02-13",
       "prompt": "秦荘町・愛知川町が合併して誕生したのは？",
       "choices": [
-        "釧路市",
+        "宇土市",
         "愛荘町",
-        "御嵩町",
-        "富士吉田市"
+        "奥多摩町",
+        "北方町"
       ],
       "answer": "愛荘町",
       "distractorStrategy": "sameCategoryPool",
@@ -8506,10 +8506,10 @@
       "id": "timeline-absorb-京北町-2005-04-01",
       "prompt": "「京北町」が編入されたのはどこ？",
       "choices": [
-        "角田市",
-        "坂出市",
-        "柳井市",
-        "右京区"
+        "右京区",
+        "西宮市",
+        "川西市",
+        "東御市"
       ],
       "answer": "右京区",
       "distractorStrategy": "sameCategoryPool",
@@ -8532,10 +8532,10 @@
       "id": "timeline-merge-木津川市-2007-03-12",
       "prompt": "山城町・木津町・加茂町が合併して誕生したのは？",
       "choices": [
-        "奄美市",
-        "富良野市",
-        "木祖村",
-        "木津川市"
+        "木津川市",
+        "南三陸町",
+        "久喜市",
+        "川島町"
       ],
       "answer": "木津川市",
       "distractorStrategy": "sameCategoryPool",
@@ -8559,10 +8559,10 @@
       "id": "timeline-merge-京丹波町-2005-10-11",
       "prompt": "丹波町・瑞穂町・和知町が合併して誕生したのは？",
       "choices": [
-        "売木村",
-        "八王子市",
+        "大熊町",
         "京丹波町",
-        "別海町"
+        "日野市",
+        "古殿町"
       ],
       "answer": "京丹波町",
       "distractorStrategy": "sameCategoryPool",
@@ -8586,10 +8586,10 @@
       "id": "timeline-merge-与謝野町-2006-03-01",
       "prompt": "加悦町・岩滝町・野田川町が合併して誕生したのは？",
       "choices": [
-        "臼杵市",
-        "海南市",
-        "南九州市",
-        "与謝野町"
+        "与謝野町",
+        "嘉手納町",
+        "長南町",
+        "能美市"
       ],
       "answer": "与謝野町",
       "distractorStrategy": "sameCategoryPool",
@@ -8613,10 +8613,10 @@
       "id": "timeline-absorb-美原町-2005-02-01",
       "prompt": "「美原町」が編入されたのはどこ？",
       "choices": [
-        "苅田町",
-        "身延町",
-        "新庄村",
-        "堺市"
+        "習志野市",
+        "堺市",
+        "名寄市",
+        "海士町"
       ],
       "answer": "堺市",
       "distractorStrategy": "sameCategoryPool",
@@ -8639,10 +8639,10 @@
       "id": "timeline-merge-阪南町-1972-10-20",
       "prompt": "南海町・東鳥取町が合併して誕生したのは？",
       "choices": [
-        "紀宝町",
-        "阪南町",
-        "五條市",
-        "早川町"
+        "熊本市",
+        "高森町",
+        "天城町",
+        "阪南町"
       ],
       "answer": "阪南町",
       "distractorStrategy": "sameCategoryPool",
@@ -8666,10 +8666,10 @@
       "id": "timeline-merge-中央区-1980-12-01",
       "prompt": "葺合区・生田区が合併して誕生したのは？",
       "choices": [
-        "中央区",
-        "八代市",
-        "嬬恋村",
-        "鬼北町"
+        "美濃加茂市",
+        "川辺町",
+        "南幌町",
+        "中央区"
       ],
       "answer": "中央区",
       "distractorStrategy": "sameCategoryPool",
@@ -8693,10 +8693,10 @@
       "id": "timeline-absorb-家島町-2006-03-27",
       "prompt": "「家島町」が編入されたのはどこ？",
       "choices": [
-        "砥部町",
-        "天川村",
-        "姫路市",
-        "かつらぎ町"
+        "美深町",
+        "鳥羽市",
+        "小川町",
+        "姫路市"
       ],
       "answer": "姫路市",
       "distractorStrategy": "sameCategoryPool",
@@ -8719,10 +8719,10 @@
       "id": "timeline-merge-たつの市-2005-10-01",
       "prompt": "龍野市・新宮町・揖保川町・御津町が合併して誕生したのは？",
       "choices": [
-        "防府市",
-        "大空町",
-        "富士市",
-        "たつの市"
+        "たつの市",
+        "白川村",
+        "宇都宮市",
+        "大紀町"
       ],
       "answer": "たつの市",
       "distractorStrategy": "sameCategoryPool",
@@ -8746,10 +8746,10 @@
       "id": "timeline-merge-西脇市-2005-10-01",
       "prompt": "西脇市・黒田庄町が合併して誕生したのは？",
       "choices": [
-        "五泉市",
+        "国見町",
         "西脇市",
-        "四街道市",
-        "身延町"
+        "江田島市",
+        "一戸町"
       ],
       "answer": "西脇市",
       "distractorStrategy": "sameCategoryPool",
@@ -8774,9 +8774,9 @@
       "prompt": "津名町・淡路町・北淡町・一宮町・東浦町が合併して誕生したのは？",
       "choices": [
         "淡路市",
-        "おいらせ町",
-        "東近江市",
-        "小平町"
+        "世羅町",
+        "八戸市",
+        "目黒区"
       ],
       "answer": "淡路市",
       "distractorStrategy": "sameCategoryPool",
@@ -8800,10 +8800,10 @@
       "id": "timeline-merge-宍粟市-2005-04-01",
       "prompt": "山崎町・一宮町・波賀町・千種町が合併して誕生したのは？",
       "choices": [
-        "板野町",
-        "宍粟市",
-        "香美市",
-        "大鹿村"
+        "田川市",
+        "南伊豆町",
+        "千代田区",
+        "宍粟市"
       ],
       "answer": "宍粟市",
       "distractorStrategy": "sameCategoryPool",
@@ -8827,10 +8827,10 @@
       "id": "timeline-merge-多可町-2005-11-01",
       "prompt": "中町・加美町・八千代町が合併して誕生したのは？",
       "choices": [
-        "伊丹市",
-        "鹿島市",
+        "大阪市",
         "多可町",
-        "浦臼町"
+        "弟子屈町",
+        "小諸市"
       ],
       "answer": "多可町",
       "distractorStrategy": "sameCategoryPool",
@@ -8854,10 +8854,10 @@
       "id": "timeline-merge-神河町-2005-11-07",
       "prompt": "神崎町・大河内町が合併して誕生したのは？",
       "choices": [
-        "立山町",
+        "東浦町",
+        "富士吉田市",
         "神河町",
-        "つくば市",
-        "玉村町"
+        "狛江市"
       ],
       "answer": "神河町",
       "distractorStrategy": "sameCategoryPool",
@@ -8881,10 +8881,10 @@
       "id": "timeline-merge-佐用町-2005-10-01",
       "prompt": "佐用町・上月町・南光町・三日月町が合併して誕生したのは？",
       "choices": [
-        "根羽村",
         "佐用町",
-        "新庄村",
-        "士別市"
+        "福知山市",
+        "門真市",
+        "中間市"
       ],
       "answer": "佐用町",
       "distractorStrategy": "sameCategoryPool",
@@ -8908,9 +8908,9 @@
       "id": "timeline-merge-新温泉町-2005-10-01",
       "prompt": "浜坂町・温泉町が合併して誕生したのは？",
       "choices": [
-        "妙高市",
-        "富士市",
-        "長島町",
+        "鷹栖町",
+        "盛岡市",
+        "郡山市",
         "新温泉町"
       ],
       "answer": "新温泉町",
@@ -8935,9 +8935,9 @@
       "id": "timeline-merge-篠山町-1975-03-28",
       "prompt": "篠山町・城東町・多紀町が合併して誕生したのは？",
       "choices": [
-        "吉富町",
-        "甲斐市",
-        "様似町",
+        "大阪市",
+        "筑西市",
+        "馬路村",
         "篠山町"
       ],
       "answer": "篠山町",
@@ -8962,10 +8962,10 @@
       "id": "timeline-absorb-西吉野村・大塔村-2005-09-25",
       "prompt": "「西吉野村・大塔村」が編入されたのはどこ？",
       "choices": [
-        "片品村",
-        "竜洋町",
-        "五條市",
-        "清水町"
+        "大阪市",
+        "上板町",
+        "仁淀川町",
+        "五條市"
       ],
       "answer": "五條市",
       "distractorStrategy": "sameCategoryPool",
@@ -8988,10 +8988,10 @@
       "id": "timeline-merge-葛城市-2004-10-01",
       "prompt": "新庄町・當麻町が合併して誕生したのは？",
       "choices": [
-        "三浦市",
-        "渋谷区",
-        "築上町",
-        "葛城市"
+        "葛城市",
+        "北広島市",
+        "南アルプス市",
+        "野田市"
       ],
       "answer": "葛城市",
       "distractorStrategy": "sameCategoryPool",
@@ -9015,10 +9015,10 @@
       "id": "timeline-merge-宇陀市-2006-01-01",
       "prompt": "大宇陀町・菟田野町・榛原町・室生村が合併して誕生したのは？",
       "choices": [
-        "伊勢原市",
-        "高砂市",
-        "上川町",
-        "宇陀市"
+        "宇陀市",
+        "浦河町",
+        "河北町",
+        "下諏訪町"
       ],
       "answer": "宇陀市",
       "distractorStrategy": "sameCategoryPool",
@@ -9042,10 +9042,10 @@
       "id": "timeline-merge-海南市-2005-04-01",
       "prompt": "海南市・下津町が合併して誕生したのは？",
       "choices": [
-        "焼津市",
-        "海南市",
-        "あわら市",
-        "大分市"
+        "常滑市",
+        "多良間村",
+        "三木町",
+        "海南市"
       ],
       "answer": "海南市",
       "distractorStrategy": "sameCategoryPool",
@@ -9069,10 +9069,10 @@
       "id": "timeline-merge-橋本市-2006-03-01",
       "prompt": "橋本市・高野口町が合併して誕生したのは？",
       "choices": [
-        "見附市",
+        "蘭越町",
         "橋本市",
-        "道志村",
-        "小川村"
+        "月形町",
+        "山形村"
       ],
       "answer": "橋本市",
       "distractorStrategy": "sameCategoryPool",
@@ -9097,9 +9097,9 @@
       "prompt": "田辺市・龍神村・中辺路町・大塔村・本宮町が合併して誕生したのは？",
       "choices": [
         "田辺市",
-        "池田町",
-        "馬路村",
-        "茨城町"
+        "市貝町",
+        "笠岡市",
+        "加東市"
       ],
       "answer": "田辺市",
       "distractorStrategy": "sameCategoryPool",
@@ -9123,10 +9123,10 @@
       "id": "timeline-merge-新宮市-2005-10-01",
       "prompt": "新宮市・熊野川町が合併して誕生したのは？",
       "choices": [
+        "太良町",
+        "南国市",
         "新宮市",
-        "吉賀町",
-        "白石市",
-        "豊橋市"
+        "五ヶ瀬町"
       ],
       "answer": "新宮市",
       "distractorStrategy": "sameCategoryPool",
@@ -9151,9 +9151,9 @@
       "prompt": "打田町・粉河町・那賀町・桃山町・貴志川町が合併して誕生したのは？",
       "choices": [
         "紀の川市",
-        "姫島村",
-        "北竜町",
-        "南部町"
+        "朝倉市",
+        "七飯町",
+        "猪苗代町"
       ],
       "answer": "紀の川市",
       "distractorStrategy": "sameCategoryPool",
@@ -9177,10 +9177,10 @@
       "id": "timeline-merge-紀美野町-2006-01-01",
       "prompt": "野上町・美里町が合併して誕生したのは？",
       "choices": [
-        "安八町",
-        "阿蘇市",
-        "人吉市",
-        "紀美野町"
+        "湖西市",
+        "紀美野町",
+        "鶴岡市",
+        "近江八幡市"
       ],
       "answer": "紀美野町",
       "distractorStrategy": "sameCategoryPool",
@@ -9204,10 +9204,10 @@
       "id": "timeline-absorb-花園村-2005-10-01",
       "prompt": "「花園村」が編入されたのはどこ？",
       "choices": [
-        "美郷町",
         "かつらぎ町",
-        "大井町",
-        "安来市"
+        "基山町",
+        "氷川町",
+        "貝塚市"
       ],
       "answer": "かつらぎ町",
       "distractorStrategy": "sameCategoryPool",
@@ -9230,10 +9230,10 @@
       "id": "timeline-merge-有田川町-2006-01-01",
       "prompt": "吉備町・金屋町・清水町が合併して誕生したのは？",
       "choices": [
-        "真岡市",
-        "千歳市",
-        "三宅村",
-        "有田川町"
+        "伊根町",
+        "有田川町",
+        "結城市",
+        "山田町"
       ],
       "answer": "有田川町",
       "distractorStrategy": "sameCategoryPool",
@@ -9257,10 +9257,10 @@
       "id": "timeline-merge-日高川町-2005-05-01",
       "prompt": "川辺町・中津村・美山村が合併して誕生したのは？",
       "choices": [
-        "倉吉市",
-        "田辺市",
-        "由仁町",
-        "日高川町"
+        "七尾市",
+        "錦町",
+        "日高川町",
+        "久慈市"
       ],
       "answer": "日高川町",
       "distractorStrategy": "sameCategoryPool",
@@ -9284,10 +9284,10 @@
       "id": "timeline-merge-みなべ町-2004-10-01",
       "prompt": "南部川村・南部町が合併して誕生したのは？",
       "choices": [
-        "高鍋町",
-        "加西市",
+        "さくら市",
+        "音威子府村",
         "みなべ町",
-        "延岡市"
+        "朝来市"
       ],
       "answer": "みなべ町",
       "distractorStrategy": "sameCategoryPool",
@@ -9311,10 +9311,10 @@
       "id": "timeline-merge-白浜町-2006-03-01",
       "prompt": "白浜町・日置川町が合併して誕生したのは？",
       "choices": [
-        "天草市",
-        "神崎町",
+        "白岡市",
+        "金山町",
         "白浜町",
-        "世田谷区"
+        "長沼町"
       ],
       "answer": "白浜町",
       "distractorStrategy": "sameCategoryPool",
@@ -9338,10 +9338,10 @@
       "id": "timeline-merge-串本町-2005-04-01",
       "prompt": "串本町・古座町が合併して誕生したのは？",
       "choices": [
-        "八幡平市",
-        "串本町",
-        "矢巾町",
-        "飯綱町"
+        "苫小牧市",
+        "大口町",
+        "結城市",
+        "串本町"
       ],
       "answer": "串本町",
       "distractorStrategy": "sameCategoryPool",
@@ -9365,10 +9365,10 @@
       "id": "timeline-merge-米子市-2005-03-31",
       "prompt": "米子市・淀江町が合併して誕生したのは？",
       "choices": [
-        "米子市",
-        "境港市",
-        "尾花沢市",
-        "上野原市"
+        "葛城市",
+        "天龍村",
+        "泰阜村",
+        "米子市"
       ],
       "answer": "米子市",
       "distractorStrategy": "sameCategoryPool",
@@ -9392,10 +9392,10 @@
       "id": "timeline-absorb-関金町-2005-03-22",
       "prompt": "「関金町」が編入されたのはどこ？",
       "choices": [
-        "文京区",
+        "上北山村",
         "倉吉市",
-        "新潟市",
-        "小郡市"
+        "柳井市",
+        "あわら市"
       ],
       "answer": "倉吉市",
       "distractorStrategy": "sameCategoryPool",
@@ -9418,10 +9418,10 @@
       "id": "timeline-merge-八頭町-2005-03-31",
       "prompt": "郡家町・船岡町・八東町が合併して誕生したのは？",
       "choices": [
-        "大田区",
-        "八頭町",
-        "城里町",
-        "宇美町"
+        "大月市",
+        "伊万里市",
+        "黒石市",
+        "八頭町"
       ],
       "answer": "八頭町",
       "distractorStrategy": "sameCategoryPool",
@@ -9445,9 +9445,9 @@
       "id": "timeline-merge-湯梨浜町-2004-10-01",
       "prompt": "羽合町・泊村・東郷町が合併して誕生したのは？",
       "choices": [
-        "山鹿市",
-        "中城村",
-        "大井町",
+        "米原市",
+        "音威子府村",
+        "南大隅町",
         "湯梨浜町"
       ],
       "answer": "湯梨浜町",
@@ -9472,10 +9472,10 @@
       "id": "timeline-merge-北栄町-2005-10-01",
       "prompt": "北条町・大栄町が合併して誕生したのは？",
       "choices": [
+        "北茨城市",
+        "石巻市",
         "北栄町",
-        "竹田市",
-        "北島町",
-        "半田市"
+        "尼崎市"
       ],
       "answer": "北栄町",
       "distractorStrategy": "sameCategoryPool",
@@ -9499,10 +9499,10 @@
       "id": "timeline-merge-琴浦町-2004-09-01",
       "prompt": "東伯町・赤碕町が合併して誕生したのは？",
       "choices": [
-        "寝屋川市",
-        "愛南町",
         "琴浦町",
-        "敦賀市"
+        "岩内町",
+        "志木市",
+        "朝日村"
       ],
       "answer": "琴浦町",
       "distractorStrategy": "sameCategoryPool",
@@ -9527,9 +9527,9 @@
       "prompt": "西伯町・会見町が合併して誕生したのは？",
       "choices": [
         "南部町",
-        "つくばみらい市",
-        "宮津市",
-        "大和高田市"
+        "大治町",
+        "岸和田市",
+        "越谷市"
       ],
       "answer": "南部町",
       "distractorStrategy": "sameCategoryPool",
@@ -9553,10 +9553,10 @@
       "id": "timeline-merge-伯耆町-2005-01-01",
       "prompt": "岸本町・溝口町が合併して誕生したのは？",
       "choices": [
-        "川棚町",
         "伯耆町",
-        "鹿角市",
-        "由仁町"
+        "江戸川区",
+        "大月市",
+        "三股町"
       ],
       "answer": "伯耆町",
       "distractorStrategy": "sameCategoryPool",
@@ -9580,10 +9580,10 @@
       "id": "timeline-merge-大山町-2005-03-28",
       "prompt": "大山町・名和町・中山町が合併して誕生したのは？",
       "choices": [
-        "長柄町",
         "大山町",
-        "最上町",
-        "矢祭町"
+        "二本松市",
+        "加古川市",
+        "玉名市"
       ],
       "answer": "大山町",
       "distractorStrategy": "sameCategoryPool",
@@ -9607,9 +9607,9 @@
       "id": "timeline-merge-松江市-2005-03-31",
       "prompt": "松江市・鹿島町・島根町・美保関町・八雲村・玉湯町・宍道町・八束町が合併して誕生したのは？",
       "choices": [
-        "小鹿野町",
-        "築上町",
-        "寄居町",
+        "飯豊町",
+        "聖籠町",
+        "美郷町",
         "松江市"
       ],
       "answer": "松江市",
@@ -9634,10 +9634,10 @@
       "id": "timeline-merge-出雲市-2005-03-22",
       "prompt": "出雲市・平田市・佐田町・多伎町・湖陵町・大社町が合併して誕生したのは？",
       "choices": [
-        "寒川町",
-        "湯浅町",
+        "魚沼市",
+        "白馬村",
         "出雲市",
-        "印南町"
+        "早川町"
       ],
       "answer": "出雲市",
       "distractorStrategy": "sameCategoryPool",
@@ -9661,10 +9661,10 @@
       "id": "timeline-absorb-桜江町-2004-10-01",
       "prompt": "「桜江町」が編入されたのはどこ？",
       "choices": [
-        "杵築市",
-        "伊奈町",
-        "小山市",
-        "江津市"
+        "桜井市",
+        "江津市",
+        "河北町",
+        "広島市"
       ],
       "answer": "江津市",
       "distractorStrategy": "sameCategoryPool",
@@ -9687,10 +9687,10 @@
       "id": "timeline-merge-奥出雲町-2005-03-31",
       "prompt": "仁多町・横田町が合併して誕生したのは？",
       "choices": [
-        "奥出雲町",
-        "岡山市",
-        "南砺市",
-        "高山市"
+        "桐生市",
+        "小国町",
+        "島田市",
+        "奥出雲町"
       ],
       "answer": "奥出雲町",
       "distractorStrategy": "sameCategoryPool",
@@ -9714,10 +9714,10 @@
       "id": "timeline-merge-飯南町-2005-01-01",
       "prompt": "頓原町・赤来町が合併して誕生したのは？",
       "choices": [
-        "津南町",
-        "飯南町",
-        "宜野湾市",
-        "石垣市"
+        "柏崎市",
+        "呉市",
+        "利尻町",
+        "飯南町"
       ],
       "answer": "飯南町",
       "distractorStrategy": "sameCategoryPool",
@@ -9741,9 +9741,9 @@
       "id": "timeline-merge-美郷町-2004-10-01",
       "prompt": "邑智町・大和村が合併して誕生したのは？",
       "choices": [
-        "まんのう町",
-        "小平町",
-        "横浜町",
+        "日出町",
+        "曽於市",
+        "邑南町",
         "美郷町"
       ],
       "answer": "美郷町",
@@ -9768,10 +9768,10 @@
       "id": "timeline-merge-邑南町-2004-10-01",
       "prompt": "羽須美村・瑞穂町・石見町が合併して誕生したのは？",
       "choices": [
-        "喜多方市",
+        "飯舘村",
         "邑南町",
-        "大野町",
-        "利根町"
+        "余市町",
+        "高山村"
       ],
       "answer": "邑南町",
       "distractorStrategy": "sameCategoryPool",
@@ -9795,10 +9795,10 @@
       "id": "timeline-merge-津和野町-2005-09-25",
       "prompt": "津和野町・日原町が合併して誕生したのは？",
       "choices": [
-        "御坊市",
-        "妹背牛町",
+        "歌志内市",
+        "観音寺市",
         "津和野町",
-        "伊豆市"
+        "伊方町"
       ],
       "answer": "津和野町",
       "distractorStrategy": "sameCategoryPool",
@@ -9822,9 +9822,9 @@
       "id": "timeline-merge-吉賀町-2005-10-01",
       "prompt": "柿木村・六日市町が合併して誕生したのは？",
       "choices": [
-        "松島町",
-        "飛騨市",
-        "御所市",
+        "辰野町",
+        "田村市",
+        "新得町",
         "吉賀町"
       ],
       "answer": "吉賀町",
@@ -9849,10 +9849,10 @@
       "id": "timeline-merge-隠岐の島町-2004-10-01",
       "prompt": "西郷町・布施村・五箇村・都万村が合併して誕生したのは？",
       "choices": [
+        "知名町",
         "隠岐の島町",
-        "厚岸町",
-        "藤沢市",
-        "芝山町"
+        "金沢市",
+        "裾野市"
       ],
       "answer": "隠岐の島町",
       "distractorStrategy": "sameCategoryPool",
@@ -9876,10 +9876,10 @@
       "id": "timeline-absorb-一宮町・津高町・高松町-1971-01-08",
       "prompt": "「一宮町・津高町・高松町」が編入されたのはどこ？",
       "choices": [
-        "岡山市",
-        "天理市",
-        "江田島市",
-        "延岡市"
+        "喜茂別町",
+        "東白川村",
+        "玖珠町",
+        "岡山市"
       ],
       "answer": "岡山市",
       "distractorStrategy": "sameCategoryPool",
@@ -9902,10 +9902,10 @@
       "id": "timeline-absorb-吉備町・妹尾町・福田村-1971-03-08",
       "prompt": "「吉備町・妹尾町・福田村」が編入されたのはどこ？",
       "choices": [
-        "朝日町",
-        "大町町",
+        "白糠町",
+        "久喜市",
         "岡山市",
-        "松川町"
+        "浦安市"
       ],
       "answer": "岡山市",
       "distractorStrategy": "sameCategoryPool",
@@ -9928,9 +9928,9 @@
       "id": "timeline-absorb-藤田村-1975-05-01",
       "prompt": "「藤田村」が編入されたのはどこ？",
       "choices": [
-        "愛西市",
-        "土庄町",
-        "五城目町",
+        "朝日村",
+        "国立市",
+        "春日部市",
         "岡山市"
       ],
       "answer": "岡山市",
@@ -9954,10 +9954,10 @@
       "id": "timeline-absorb-庄村-1971-03-08",
       "prompt": "「庄村」が編入されたのはどこ？",
       "choices": [
-        "宇和島市",
+        "鹿追町",
         "倉敷市",
-        "芦屋市",
-        "古賀市"
+        "熊本市",
+        "浦和市"
       ],
       "answer": "倉敷市",
       "distractorStrategy": "sameCategoryPool",
@@ -9980,10 +9980,10 @@
       "id": "timeline-absorb-茶屋町-1972-05-01",
       "prompt": "「茶屋町」が編入されたのはどこ？",
       "choices": [
-        "北谷町",
-        "宝達志水町",
-        "川越町",
-        "倉敷市"
+        "下妻市",
+        "倉敷市",
+        "高浜町",
+        "木曽町"
       ],
       "answer": "倉敷市",
       "distractorStrategy": "sameCategoryPool",
@@ -10006,10 +10006,10 @@
       "id": "timeline-absorb-加茂町・阿波村・勝北町・久米町-2005-02-28",
       "prompt": "「加茂町・阿波村・勝北町・久米町」が編入されたのはどこ？",
       "choices": [
-        "名取市",
-        "宜野座村",
         "津山市",
-        "女川町"
+        "新発田市",
+        "最上町",
+        "長岡京市"
       ],
       "answer": "津山市",
       "distractorStrategy": "sameCategoryPool",
@@ -10032,10 +10032,10 @@
       "id": "timeline-absorb-東児町-1974-03-20",
       "prompt": "「東児町」が編入されたのはどこ？",
       "choices": [
+        "相生市",
+        "神栖市",
         "玉野市",
-        "所沢市",
-        "我孫子市",
-        "芦屋市"
+        "土佐町"
       ],
       "answer": "玉野市",
       "distractorStrategy": "sameCategoryPool",
@@ -10058,10 +10058,10 @@
       "id": "timeline-absorb-昭和町-1972-04-22",
       "prompt": "「昭和町」が編入されたのはどこ？",
       "choices": [
-        "藤沢市",
         "総社市",
-        "狭山市",
-        "五木村"
+        "安来市",
+        "三原村",
+        "長門市"
       ],
       "answer": "総社市",
       "distractorStrategy": "sameCategoryPool",
@@ -10084,10 +10084,10 @@
       "id": "timeline-merge-総社市-2005-03-22",
       "prompt": "総社市・山手村・清音村が合併して誕生したのは？",
       "choices": [
-        "田底村",
         "総社市",
-        "釧路町",
-        "鴨川市"
+        "泉南市",
+        "滝沢市",
+        "水戸市"
       ],
       "answer": "総社市",
       "distractorStrategy": "sameCategoryPool",
@@ -10111,10 +10111,10 @@
       "id": "timeline-merge-備前市-1971-04-01",
       "prompt": "備前町・三石町が合併して誕生したのは？",
       "choices": [
-        "新宿区",
-        "洲本市",
-        "大川市",
-        "備前市"
+        "備前市",
+        "高山市",
+        "玉野市",
+        "藤里町"
       ],
       "answer": "備前市",
       "distractorStrategy": "sameCategoryPool",
@@ -10138,10 +10138,10 @@
       "id": "timeline-merge-備前市-2005-03-22",
       "prompt": "備前市・日生町・吉永町が合併して誕生したのは？",
       "choices": [
-        "邑南町",
+        "大洲市",
         "備前市",
-        "小千谷市",
-        "天龍村"
+        "北秋田市",
+        "笠置町"
       ],
       "answer": "備前市",
       "distractorStrategy": "sameCategoryPool",
@@ -10165,10 +10165,10 @@
       "id": "timeline-merge-赤磐市-2005-03-07",
       "prompt": "山陽町・赤坂町・熊山町・吉井町が合併して誕生したのは？",
       "choices": [
-        "日出町",
-        "柳井市",
-        "むかわ町",
-        "赤磐市"
+        "赤磐市",
+        "南会津町",
+        "南種子町",
+        "都城市"
       ],
       "answer": "赤磐市",
       "distractorStrategy": "sameCategoryPool",
@@ -10192,10 +10192,10 @@
       "id": "timeline-merge-美作市-2005-03-31",
       "prompt": "勝田町・大原町・東粟倉村・美作町・作東町・英田町が合併して誕生したのは？",
       "choices": [
-        "生駒市",
+        "白川村",
+        "常陸太田市",
         "美作市",
-        "川場村",
-        "三原村"
+        "十日町市"
       ],
       "answer": "美作市",
       "distractorStrategy": "sameCategoryPool",
@@ -10220,9 +10220,9 @@
       "prompt": "金光町・鴨方町・寄島町が合併して誕生したのは？",
       "choices": [
         "浅口市",
-        "諏訪市",
-        "柏崎市",
-        "花巻市"
+        "高松市",
+        "黒滝村",
+        "飯田市"
       ],
       "answer": "浅口市",
       "distractorStrategy": "sameCategoryPool",
@@ -10246,10 +10246,10 @@
       "id": "timeline-merge-吉備中央町-2004-10-01",
       "prompt": "加茂川町・賀陽町が合併して誕生したのは？",
       "choices": [
-        "韮崎市",
         "吉備中央町",
-        "別海町",
-        "八丈町"
+        "国分寺市",
+        "青梅市",
+        "水上村"
       ],
       "answer": "吉備中央町",
       "distractorStrategy": "sameCategoryPool",
@@ -10273,10 +10273,10 @@
       "id": "timeline-merge-和気町-2006-03-01",
       "prompt": "佐伯町・和気町が合併して誕生したのは？",
       "choices": [
-        "精華町",
+        "赤平市",
+        "丸亀市",
         "和気町",
-        "田底村",
-        "様似町"
+        "鹿島市"
       ],
       "answer": "和気町",
       "distractorStrategy": "sameCategoryPool",
@@ -10300,10 +10300,10 @@
       "id": "timeline-merge-鏡野町-2005-03-01",
       "prompt": "富村・奥津町・上齋原村・鏡野町が合併して誕生したのは？",
       "choices": [
-        "東村",
-        "御船町",
-        "八千代町",
-        "鏡野町"
+        "鏡野町",
+        "袖ケ浦市",
+        "開成町",
+        "羽島市"
       ],
       "answer": "鏡野町",
       "distractorStrategy": "sameCategoryPool",
@@ -10327,10 +10327,10 @@
       "id": "timeline-merge-美咲町-2005-03-22",
       "prompt": "中央町・旭町・柵原町が合併して誕生したのは？",
       "choices": [
-        "橋本市",
-        "立山町",
+        "檜原村",
+        "広尾町",
         "美咲町",
-        "五城目町"
+        "龍ケ崎市"
       ],
       "answer": "美咲町",
       "distractorStrategy": "sameCategoryPool",
@@ -10354,10 +10354,10 @@
       "id": "timeline-absorb-五日市町-1985-03-20",
       "prompt": "「五日市町」が編入されたのはどこ？",
       "choices": [
-        "与謝野町",
-        "広島市",
-        "一関市",
-        "高浜町"
+        "笠岡市",
+        "上砂川町",
+        "草加市",
+        "広島市"
       ],
       "answer": "広島市",
       "distractorStrategy": "sameCategoryPool",
@@ -10380,10 +10380,10 @@
       "id": "timeline-absorb-湯来町-2005-04-25",
       "prompt": "「湯来町」が編入されたのはどこ？",
       "choices": [
-        "川辺町",
+        "本宮市",
+        "岩舟町",
         "佐伯区",
-        "恵庭市",
-        "安城市"
+        "座間市"
       ],
       "answer": "佐伯区",
       "distractorStrategy": "sameCategoryPool",
@@ -10406,10 +10406,10 @@
       "id": "timeline-absorb-沼田町-1971-04-01",
       "prompt": "「沼田町」が編入されたのはどこ？",
       "choices": [
-        "小野町",
+        "長島町",
         "広島市",
-        "中井町",
-        "田上町"
+        "神栖市",
+        "山ノ内町"
       ],
       "answer": "広島市",
       "distractorStrategy": "sameCategoryPool",
@@ -10433,9 +10433,9 @@
       "prompt": "「安佐町」が編入されたのはどこ？",
       "choices": [
         "広島市",
-        "川内村",
-        "宮城村",
-        "丸森町"
+        "南関町",
+        "柳井市",
+        "乙部町"
       ],
       "answer": "広島市",
       "distractorStrategy": "sameCategoryPool",
@@ -10458,10 +10458,10 @@
       "id": "timeline-absorb-可部町-1972-04-01",
       "prompt": "「可部町」が編入されたのはどこ？",
       "choices": [
-        "川越市",
-        "上三川町",
+        "富津市",
+        "東海村",
         "広島市",
-        "安曇野市"
+        "下條村"
       ],
       "answer": "広島市",
       "distractorStrategy": "sameCategoryPool",
@@ -10484,10 +10484,10 @@
       "id": "timeline-absorb-祇園町-1972-08-27",
       "prompt": "「祇園町」が編入されたのはどこ？",
       "choices": [
-        "木島平村",
-        "奥出雲町",
-        "早川町",
-        "広島市"
+        "広島市",
+        "芝山町",
+        "氷見市",
+        "留夜別村"
       ],
       "answer": "広島市",
       "distractorStrategy": "sameCategoryPool",
@@ -10510,10 +10510,10 @@
       "id": "timeline-absorb-白木町-1973-10-22",
       "prompt": "「白木町」が編入されたのはどこ？",
       "choices": [
-        "にかほ市",
-        "佐呂間町",
+        "壬生町",
+        "小矢部市",
         "広島市",
-        "村田町"
+        "飯山市"
       ],
       "answer": "広島市",
       "distractorStrategy": "sameCategoryPool",
@@ -10536,10 +10536,10 @@
       "id": "timeline-absorb-安芸町・熊野跡村-1974-11-01",
       "prompt": "「安芸町・熊野跡村」が編入されたのはどこ？",
       "choices": [
-        "湯前町",
-        "日南町",
+        "朝日町",
         "広島市",
-        "湯梨浜町"
+        "西桂町",
+        "清里町"
       ],
       "answer": "広島市",
       "distractorStrategy": "sameCategoryPool",
@@ -10562,10 +10562,10 @@
       "id": "timeline-absorb-船越町・矢野町-1975-03-20",
       "prompt": "「船越町・矢野町」が編入されたのはどこ？",
       "choices": [
-        "新庄村",
-        "野迫川村",
+        "藤崎町",
         "広島市",
-        "八頭町"
+        "御宿町",
+        "日吉津村"
       ],
       "answer": "広島市",
       "distractorStrategy": "sameCategoryPool",
@@ -10588,10 +10588,10 @@
       "id": "timeline-absorb-下蒲刈町-2003-04-01",
       "prompt": "「下蒲刈町」が編入されたのはどこ？",
       "choices": [
-        "小田原市",
-        "遠野市",
+        "串本町",
         "呉市",
-        "文京区"
+        "南木曽町",
+        "大町市"
       ],
       "answer": "呉市",
       "distractorStrategy": "sameCategoryPool",
@@ -10614,10 +10614,10 @@
       "id": "timeline-absorb-川尻町-2004-04-01",
       "prompt": "「川尻町」が編入されたのはどこ？",
       "choices": [
-        "越谷市",
-        "奄美市",
+        "天理市",
+        "相模原市",
         "呉市",
-        "西伊豆町"
+        "府中市"
       ],
       "answer": "呉市",
       "distractorStrategy": "sameCategoryPool",
@@ -10640,10 +10640,10 @@
       "id": "timeline-absorb-音戸町・倉橋町・蒲刈町・安浦町・豊浜町・豊町-2005-03-20",
       "prompt": "「音戸町・倉橋町・蒲刈町・安浦町・豊浜町・豊町」が編入されたのはどこ？",
       "choices": [
-        "芸西村",
-        "喜茂別町",
-        "尼崎市",
-        "呉市"
+        "呉市",
+        "大紀町",
+        "米沢市",
+        "志木市"
       ],
       "answer": "呉市",
       "distractorStrategy": "sameCategoryPool",
@@ -10666,10 +10666,10 @@
       "id": "timeline-absorb-因島市・瀬戸田町-2006-01-10",
       "prompt": "「因島市・瀬戸田町」が編入されたのはどこ？",
       "choices": [
-        "尾道市",
-        "赤平市",
-        "隠岐の島町",
-        "加須市"
+        "矢吹町",
+        "甘楽町",
+        "鷹栖町",
+        "尾道市"
       ],
       "answer": "尾道市",
       "distractorStrategy": "sameCategoryPool",
@@ -10692,10 +10692,10 @@
       "id": "timeline-absorb-芦田町-1974-04-01",
       "prompt": "「芦田町」が編入されたのはどこ？",
       "choices": [
-        "柴田町",
-        "粟島浦村",
+        "上板町",
+        "石巻市",
         "福山市",
-        "川島町"
+        "小牧市"
       ],
       "answer": "福山市",
       "distractorStrategy": "sameCategoryPool",
@@ -10718,10 +10718,10 @@
       "id": "timeline-absorb-加茂町・駅家町-1975-02-01",
       "prompt": "「加茂町・駅家町」が編入されたのはどこ？",
       "choices": [
-        "鶴岡市",
         "福山市",
-        "高原町",
-        "国立市"
+        "周防大島町",
+        "喜多方市",
+        "栗東市"
       ],
       "answer": "福山市",
       "distractorStrategy": "sameCategoryPool",
@@ -10744,10 +10744,10 @@
       "id": "timeline-absorb-協和村-1975-02-01",
       "prompt": "「協和村」が編入されたのはどこ？",
       "choices": [
-        "府中市",
-        "清水町",
-        "北広島市",
-        "御船町"
+        "津奈木町",
+        "御前崎市",
+        "奈良市",
+        "府中市"
       ],
       "answer": "府中市",
       "distractorStrategy": "sameCategoryPool",
@@ -10770,10 +10770,10 @@
       "id": "timeline-absorb-上下町-2004-04-01",
       "prompt": "「上下町」が編入されたのはどこ？",
       "choices": [
-        "高梁市",
-        "小松市",
-        "宇検村",
-        "府中市"
+        "南魚沼市",
+        "三種町",
+        "府中市",
+        "倶知安町"
       ],
       "answer": "府中市",
       "distractorStrategy": "sameCategoryPool",
@@ -10797,9 +10797,9 @@
       "prompt": "西条町・八本松町・志和町・高屋町が合併して誕生したのは？",
       "choices": [
         "東広島市",
-        "川口市",
-        "妹背牛町",
-        "大和高田市"
+        "留夜別村",
+        "秩父別町",
+        "茅ヶ崎市"
       ],
       "answer": "東広島市",
       "distractorStrategy": "sameCategoryPool",
@@ -10823,10 +10823,10 @@
       "id": "timeline-absorb-黒瀬町・福富町・豊栄町・河内町・安芸津町-2005-02-07",
       "prompt": "「黒瀬町・福富町・豊栄町・河内町・安芸津町」が編入されたのはどこ？",
       "choices": [
-        "三川町",
-        "鴻巣市",
-        "東広島市",
-        "勝浦市"
+        "都城市",
+        "稲城市",
+        "飯南町",
+        "東広島市"
       ],
       "answer": "東広島市",
       "distractorStrategy": "sameCategoryPool",
@@ -10849,10 +10849,10 @@
       "id": "timeline-absorb-佐伯町・吉和村-2003-03-01",
       "prompt": "「佐伯町・吉和村」が編入されたのはどこ？",
       "choices": [
-        "高山村",
-        "女川町",
-        "廿日市市",
-        "鹿屋市"
+        "音更町",
+        "和水町",
+        "知夫村",
+        "廿日市市"
       ],
       "answer": "廿日市市",
       "distractorStrategy": "sameCategoryPool",
@@ -10875,10 +10875,10 @@
       "id": "timeline-absorb-大野町-2005-11-03",
       "prompt": "「大野町」が編入されたのはどこ？",
       "choices": [
-        "大衡村",
-        "交野市",
         "廿日市市",
-        "鹿角市"
+        "山鹿市",
+        "曽爾村",
+        "最上町"
       ],
       "answer": "廿日市市",
       "distractorStrategy": "sameCategoryPool",
@@ -10901,10 +10901,10 @@
       "id": "timeline-merge-江田島市-2004-11-01",
       "prompt": "江田島町・能美町・沖美町・大柿町が合併して誕生したのは？",
       "choices": [
-        "山都町",
-        "多気町",
         "江田島市",
-        "矢掛町"
+        "安八町",
+        "東近江市",
+        "新地町"
       ],
       "answer": "江田島市",
       "distractorStrategy": "sameCategoryPool",
@@ -10928,10 +10928,10 @@
       "id": "timeline-merge-安芸太田町-2004-10-01",
       "prompt": "加計町・筒賀村・戸河内町が合併して誕生したのは？",
       "choices": [
-        "枕崎市",
-        "安芸太田町",
-        "御代田町",
-        "愛南町"
+        "佐用町",
+        "亘理町",
+        "横浜市",
+        "安芸太田町"
       ],
       "answer": "安芸太田町",
       "distractorStrategy": "sameCategoryPool",
@@ -10955,10 +10955,10 @@
       "id": "timeline-merge-北広島町-2005-02-01",
       "prompt": "芸北町・大朝町・千代田町・豊平町が合併して誕生したのは？",
       "choices": [
-        "富田林市",
-        "長泉町",
-        "丹波市",
-        "北広島町"
+        "三笠市",
+        "北広島町",
+        "喜多方市",
+        "最上町"
       ],
       "answer": "北広島町",
       "distractorStrategy": "sameCategoryPool",
@@ -10982,10 +10982,10 @@
       "id": "timeline-merge-大崎上島町-2003-04-01",
       "prompt": "大崎町・東野町・木江町が合併して誕生したのは？",
       "choices": [
-        "羽後町",
         "大崎上島町",
-        "柏市",
-        "北方町"
+        "西予市",
+        "松川村",
+        "新島村"
       ],
       "answer": "大崎上島町",
       "distractorStrategy": "sameCategoryPool",
@@ -11009,10 +11009,10 @@
       "id": "timeline-merge-世羅町-2004-10-01",
       "prompt": "甲山町・世羅町・世羅西町が合併して誕生したのは？",
       "choices": [
-        "世羅町",
-        "富谷市",
-        "八重瀬町",
-        "鹿嶋市"
+        "矢板市",
+        "荒尾市",
+        "山陽小野田市",
+        "世羅町"
       ],
       "answer": "世羅町",
       "distractorStrategy": "sameCategoryPool",
@@ -11036,10 +11036,10 @@
       "id": "timeline-merge-神石高原町-2004-11-05",
       "prompt": "油木町・神石町・豊松村・三和町が合併して誕生したのは？",
       "choices": [
+        "清須市",
         "神石高原町",
-        "西郷村",
-        "三春町",
-        "三条市"
+        "七尾市",
+        "柏崎市"
       ],
       "answer": "神石高原町",
       "distractorStrategy": "sameCategoryPool",
@@ -11063,10 +11063,10 @@
       "id": "timeline-absorb-楠町-2004-11-01",
       "prompt": "「楠町」が編入されたのはどこ？",
       "choices": [
+        "売木村",
         "宇部市",
-        "安芸太田町",
-        "羽後町",
-        "三豊市"
+        "鹿嶋市",
+        "伊勢原市"
       ],
       "answer": "宇部市",
       "distractorStrategy": "sameCategoryPool",
@@ -11089,10 +11089,10 @@
       "id": "timeline-absorb-阿東町-2010-01-16",
       "prompt": "「阿東町」が編入されたのはどこ？",
       "choices": [
-        "名護市",
         "山口市",
-        "甘楽町",
-        "男鹿市"
+        "平内町",
+        "大衡村",
+        "新宿区"
       ],
       "answer": "山口市",
       "distractorStrategy": "sameCategoryPool",
@@ -11115,10 +11115,10 @@
       "id": "timeline-merge-萩市-2005-03-06",
       "prompt": "萩市・川上村・田万川町・むつみ村・須佐町・旭村・福栄村が合併して誕生したのは？",
       "choices": [
-        "二宮町",
-        "日高町",
-        "芦屋市",
-        "萩市"
+        "小千谷市",
+        "松崎町",
+        "萩市",
+        "雨竜町"
       ],
       "answer": "萩市",
       "distractorStrategy": "sameCategoryPool",
@@ -11142,10 +11142,10 @@
       "id": "timeline-merge-岩国市-2006-03-20",
       "prompt": "岩国市・由宇町・玖珂町・本郷村・周東町・錦町・美川町・美和町が合併して誕生したのは？",
       "choices": [
-        "福岡市",
-        "上田市",
+        "南九州市",
+        "猿払村",
         "岩国市",
-        "合志市"
+        "刈羽村"
       ],
       "answer": "岩国市",
       "distractorStrategy": "sameCategoryPool",
@@ -11169,10 +11169,10 @@
       "id": "timeline-merge-光市-2004-10-04",
       "prompt": "光市・大和町が合併して誕生したのは？",
       "choices": [
-        "大豊町",
-        "羽曳野市",
-        "西予市",
-        "光市"
+        "光市",
+        "塩尻市",
+        "椎葉村",
+        "雫石町"
       ],
       "answer": "光市",
       "distractorStrategy": "sameCategoryPool",
@@ -11196,10 +11196,10 @@
       "id": "timeline-merge-柳井市-2005-02-21",
       "prompt": "柳井市・大畠町が合併して誕生したのは？",
       "choices": [
-        "大台町",
-        "柳井市",
-        "田辺市",
-        "葛尾村"
+        "幕別町",
+        "上小阿仁村",
+        "国東市",
+        "柳井市"
       ],
       "answer": "柳井市",
       "distractorStrategy": "sameCategoryPool",
@@ -11223,10 +11223,10 @@
       "id": "timeline-merge-周防大島町-2004-10-01",
       "prompt": "久賀町・大島町・東和町・橘町が合併して誕生したのは？",
       "choices": [
-        "玉川村",
-        "世羅町",
-        "周防大島町",
-        "鹿追町"
+        "苓北町",
+        "余市町",
+        "富岡市",
+        "周防大島町"
       ],
       "answer": "周防大島町",
       "distractorStrategy": "sameCategoryPool",
@@ -11250,10 +11250,10 @@
       "id": "timeline-absorb-那賀川町・羽ノ浦町-2006-03-20",
       "prompt": "「那賀川町・羽ノ浦町」が編入されたのはどこ？",
       "choices": [
-        "富里市",
         "阿南市",
-        "豊後大野市",
-        "大紀町"
+        "利根町",
+        "碧南市",
+        "本巣市"
       ],
       "answer": "阿南市",
       "distractorStrategy": "sameCategoryPool",
@@ -11276,10 +11276,10 @@
       "id": "timeline-merge-美馬市-2005-03-01",
       "prompt": "脇町・美馬町・穴吹町・木屋平村が合併して誕生したのは？",
       "choices": [
-        "河合町",
-        "塩尻市",
+        "舟橋村",
         "美馬市",
-        "泊村"
+        "みよし市",
+        "辰野町"
       ],
       "answer": "美馬市",
       "distractorStrategy": "sameCategoryPool",
@@ -11304,9 +11304,9 @@
       "prompt": "三野町・池田町・山城町・井川町・東祖谷山村・西祖谷山村が合併して誕生したのは？",
       "choices": [
         "三好市",
-        "葛巻町",
-        "市原市",
-        "丹波山村"
+        "久御山町",
+        "日出町",
+        "宮崎市"
       ],
       "answer": "三好市",
       "distractorStrategy": "sameCategoryPool",
@@ -11330,10 +11330,10 @@
       "id": "timeline-merge-那賀町-2005-03-01",
       "prompt": "鷲敷町・相生町・上那賀町・木沢村・木頭村が合併して誕生したのは？",
       "choices": [
-        "白糠町",
+        "太地町",
+        "葛巻町",
         "那賀町",
-        "盛岡市",
-        "昭和村"
+        "広川町"
       ],
       "answer": "那賀町",
       "distractorStrategy": "sameCategoryPool",
@@ -11357,10 +11357,10 @@
       "id": "timeline-merge-美波町-2006-03-31",
       "prompt": "由岐町・日和佐町が合併して誕生したのは？",
       "choices": [
-        "山中湖村",
+        "三鷹市",
         "美波町",
-        "八街市",
-        "関市"
+        "境町",
+        "吉富町"
       ],
       "answer": "美波町",
       "distractorStrategy": "sameCategoryPool",
@@ -11385,9 +11385,9 @@
       "prompt": "海南町・海部町・宍喰町が合併して誕生したのは？",
       "choices": [
         "海陽町",
-        "板橋区",
-        "小山町",
-        "豊川市"
+        "小矢部市",
+        "羽曳野市",
+        "御前崎市"
       ],
       "answer": "海陽町",
       "distractorStrategy": "sameCategoryPool",
@@ -11411,10 +11411,10 @@
       "id": "timeline-merge-つるぎ町-2005-03-01",
       "prompt": "半田町・貞光町・一宇村が合併して誕生したのは？",
       "choices": [
-        "天龍村",
-        "安芸市",
+        "和木町",
         "つるぎ町",
-        "仙台市"
+        "日高町",
+        "多賀城市"
       ],
       "answer": "つるぎ町",
       "distractorStrategy": "sameCategoryPool",
@@ -11438,10 +11438,10 @@
       "id": "timeline-merge-東みよし町-2006-03-01",
       "prompt": "三好町・三加茂町が合併して誕生したのは？",
       "choices": [
-        "あきる野市",
-        "江別市",
-        "かほく市",
-        "東みよし町"
+        "中央区",
+        "南箕輪村",
+        "東みよし町",
+        "南砺市"
       ],
       "answer": "東みよし町",
       "distractorStrategy": "sameCategoryPool",
@@ -11465,10 +11465,10 @@
       "id": "timeline-absorb-塩江町-2005-09-26",
       "prompt": "「塩江町」が編入されたのはどこ？",
       "choices": [
-        "信濃町",
-        "川北町",
         "高松市",
-        "上野村"
+        "山陽小野田市",
+        "宮津市",
+        "芝山町"
       ],
       "answer": "高松市",
       "distractorStrategy": "sameCategoryPool",
@@ -11491,10 +11491,10 @@
       "id": "timeline-absorb-庵治町-2006-01-10",
       "prompt": "「庵治町」が編入されたのはどこ？",
       "choices": [
-        "福崎町",
+        "みなかみ町",
         "高松市",
-        "うきは市",
-        "花巻市"
+        "糸田町",
+        "本庄市"
       ],
       "answer": "高松市",
       "distractorStrategy": "sameCategoryPool",
@@ -11517,10 +11517,10 @@
       "id": "timeline-absorb-牟礼町-2006-01-10",
       "prompt": "「牟礼町」が編入されたのはどこ？",
       "choices": [
-        "伊勢市",
-        "高松市",
-        "波佐見町",
-        "南会津町"
+        "勝山市",
+        "美浦村",
+        "日南市",
+        "高松市"
       ],
       "answer": "高松市",
       "distractorStrategy": "sameCategoryPool",
@@ -11543,10 +11543,10 @@
       "id": "timeline-absorb-国分寺町-2006-01-10",
       "prompt": "「国分寺町」が編入されたのはどこ？",
       "choices": [
-        "田野畑村",
-        "大島町",
-        "津奈木町",
-        "高松市"
+        "相模原市",
+        "高松市",
+        "忍野村",
+        "飛島村"
       ],
       "answer": "高松市",
       "distractorStrategy": "sameCategoryPool",
@@ -11569,10 +11569,10 @@
       "id": "timeline-absorb-香南町-2006-01-10",
       "prompt": "「香南町」が編入されたのはどこ？",
       "choices": [
-        "枚方市",
+        "大樹町",
         "高松市",
-        "興部町",
-        "南島原市"
+        "時津町",
+        "羽島市"
       ],
       "answer": "高松市",
       "distractorStrategy": "sameCategoryPool",
@@ -11595,10 +11595,10 @@
       "id": "timeline-absorb-香川町-2006-01-10",
       "prompt": "「香川町」が編入されたのはどこ？",
       "choices": [
-        "高崎市",
-        "伊豆市",
+        "佐世保市",
+        "下諏訪町",
         "高松市",
-        "大分市"
+        "新宮市"
       ],
       "answer": "高松市",
       "distractorStrategy": "sameCategoryPool",
@@ -11621,10 +11621,10 @@
       "id": "timeline-merge-丸亀市-2005-03-22",
       "prompt": "丸亀市・綾歌町・飯山町が合併して誕生したのは？",
       "choices": [
-        "山陽小野田市",
         "丸亀市",
-        "三田市",
-        "上野原市"
+        "遠軽町",
+        "浦和市",
+        "摂津市"
       ],
       "answer": "丸亀市",
       "distractorStrategy": "sameCategoryPool",
@@ -11648,10 +11648,10 @@
       "id": "timeline-merge-観音寺市-2005-10-11",
       "prompt": "観音寺市・大野原町・豊浜町が合併して誕生したのは？",
       "choices": [
-        "太地町",
-        "植木町",
-        "紀美野町",
-        "観音寺市"
+        "福井市",
+        "観音寺市",
+        "大淀町",
+        "坂東市"
       ],
       "answer": "観音寺市",
       "distractorStrategy": "sameCategoryPool",
@@ -11675,10 +11675,10 @@
       "id": "timeline-merge-さぬき市-2002-04-01",
       "prompt": "津田町・大川町・志度町・寒川町・長尾町が合併して誕生したのは？",
       "choices": [
-        "古賀市",
-        "鎌ケ谷市",
+        "佐世保市",
         "さぬき市",
-        "瀬戸内市"
+        "鮫川村",
+        "つるぎ町"
       ],
       "answer": "さぬき市",
       "distractorStrategy": "sameCategoryPool",
@@ -11702,10 +11702,10 @@
       "id": "timeline-merge-小豆島町-2006-03-21",
       "prompt": "内海町・池田町が合併して誕生したのは？",
       "choices": [
-        "秋田市",
-        "大網白里市",
+        "今別町",
+        "中川村",
         "小豆島町",
-        "赤平市"
+        "神津島村"
       ],
       "answer": "小豆島町",
       "distractorStrategy": "sameCategoryPool",
@@ -11729,10 +11729,10 @@
       "id": "timeline-merge-綾川町-2006-03-21",
       "prompt": "綾上町・綾南町が合併して誕生したのは？",
       "choices": [
-        "上尾市",
+        "佐用町",
+        "日高町",
         "綾川町",
-        "南風原町",
-        "船橋市"
+        "鶴ヶ島市"
       ],
       "answer": "綾川町",
       "distractorStrategy": "sameCategoryPool",
@@ -11756,9 +11756,9 @@
       "id": "timeline-merge-まんのう町-2006-03-20",
       "prompt": "琴南町・満濃町・仲南町が合併して誕生したのは？",
       "choices": [
-        "舟橋村",
-        "加東市",
-        "野木町",
+        "西粟倉村",
+        "白石市",
+        "甲良町",
         "まんのう町"
       ],
       "answer": "まんのう町",
@@ -11783,10 +11783,10 @@
       "id": "timeline-merge-今治市-2005-01-16",
       "prompt": "今治市・朝倉村・玉川町・波方町・大西町・菊間町・吉海町・宮窪町・伯方町・上浦町・大三島町・関前村が合併して誕生したのは？",
       "choices": [
-        "上天草市",
-        "藍住町",
         "今治市",
-        "砺波市"
+        "入間市",
+        "東洋町",
+        "安芸市"
       ],
       "answer": "今治市",
       "distractorStrategy": "sameCategoryPool",
@@ -11810,10 +11810,10 @@
       "id": "timeline-absorb-宇和海村-1974-04-01",
       "prompt": "「宇和海村」が編入されたのはどこ？",
       "choices": [
-        "橋本市",
-        "藤井寺市",
-        "日高村",
-        "宇和島市"
+        "島牧村",
+        "宇和島市",
+        "釜石市",
+        "那珂川町"
       ],
       "answer": "宇和島市",
       "distractorStrategy": "sameCategoryPool",
@@ -11836,10 +11836,10 @@
       "id": "timeline-merge-宇和島市-2005-08-01",
       "prompt": "宇和島市・吉田町・三間町・津島町が合併して誕生したのは？",
       "choices": [
-        "大竹市",
-        "立科町",
+        "京丹後市",
+        "野辺地町",
         "宇和島市",
-        "中津市"
+        "浦河町"
       ],
       "answer": "宇和島市",
       "distractorStrategy": "sameCategoryPool",
@@ -11863,10 +11863,10 @@
       "id": "timeline-merge-八幡浜市-2005-03-28",
       "prompt": "八幡浜市・保内町が合併して誕生したのは？",
       "choices": [
-        "境港市",
         "八幡浜市",
-        "古河市",
-        "愛別町"
+        "若狭町",
+        "港区",
+        "粟島浦村"
       ],
       "answer": "八幡浜市",
       "distractorStrategy": "sameCategoryPool",
@@ -11890,10 +11890,10 @@
       "id": "timeline-absorb-別子山村-2003-04-01",
       "prompt": "「別子山村」が編入されたのはどこ？",
       "choices": [
-        "占冠村",
-        "九重町",
-        "長野原町",
-        "新居浜市"
+        "潮来市",
+        "新居浜市",
+        "笛吹市",
+        "牟岐町"
       ],
       "answer": "新居浜市",
       "distractorStrategy": "sameCategoryPool",
@@ -11916,10 +11916,10 @@
       "id": "timeline-merge-大洲市-2005-01-11",
       "prompt": "大洲市・長浜町・肱川町・河辺村が合併して誕生したのは？",
       "choices": [
-        "中井町",
-        "大蔵村",
-        "大洲市",
-        "滑川町"
+        "多気町",
+        "喜界町",
+        "大子町",
+        "大洲市"
       ],
       "answer": "大洲市",
       "distractorStrategy": "sameCategoryPool",
@@ -11943,10 +11943,10 @@
       "id": "timeline-merge-伊予市-2005-04-01",
       "prompt": "伊予市・中山町・双海町が合併して誕生したのは？",
       "choices": [
-        "大阪狭山市",
-        "相模原市",
-        "潟上市",
-        "伊予市"
+        "西海市",
+        "邑南町",
+        "伊予市",
+        "東伊豆町"
       ],
       "answer": "伊予市",
       "distractorStrategy": "sameCategoryPool",
@@ -11970,10 +11970,10 @@
       "id": "timeline-merge-東温市-2004-09-21",
       "prompt": "重信町・川内町が合併して誕生したのは？",
       "choices": [
-        "鳥羽市",
-        "三春町",
-        "姫島村",
-        "東温市"
+        "長柄町",
+        "南伊豆町",
+        "東温市",
+        "むつ市"
       ],
       "answer": "東温市",
       "distractorStrategy": "sameCategoryPool",
@@ -11997,10 +11997,10 @@
       "id": "timeline-merge-東予町-1971-01-01",
       "prompt": "壬生川町・三芳町が合併して誕生したのは？",
       "choices": [
-        "嘉島町",
-        "飛騨市",
+        "鹿屋市",
+        "新居浜市",
         "東予町",
-        "勝央町"
+        "森町"
       ],
       "answer": "東予町",
       "distractorStrategy": "sameCategoryPool",
@@ -12024,10 +12024,10 @@
       "id": "timeline-merge-上島町-2004-10-01",
       "prompt": "魚島村・弓削町・生名村・岩城村が合併して誕生したのは？",
       "choices": [
+        "奈井江町",
         "上島町",
-        "周防大島町",
-        "大郷町",
-        "亀山市"
+        "比布町",
+        "大崎町"
       ],
       "answer": "上島町",
       "distractorStrategy": "sameCategoryPool",
@@ -12051,10 +12051,10 @@
       "id": "timeline-merge-久万高原町-2004-08-01",
       "prompt": "久万町・面河村・美川村・柳谷村が合併して誕生したのは？",
       "choices": [
-        "久万高原町",
-        "茨木市",
-        "南丹市",
-        "南種子町"
+        "中札内村",
+        "滑川市",
+        "出雲市",
+        "久万高原町"
       ],
       "answer": "久万高原町",
       "distractorStrategy": "sameCategoryPool",
@@ -12078,9 +12078,9 @@
       "id": "timeline-merge-内子町-2005-01-01",
       "prompt": "小田町・内子町・五十崎町が合併して誕生したのは？",
       "choices": [
-        "奥多摩町",
-        "宇部市",
-        "上天草市",
+        "新宮市",
+        "士別市",
+        "伊達市",
         "内子町"
       ],
       "answer": "内子町",
@@ -12105,10 +12105,10 @@
       "id": "timeline-merge-砥部町-2005-01-01",
       "prompt": "砥部町・広田村が合併して誕生したのは？",
       "choices": [
-        "石狩市",
+        "台東区",
+        "門真市",
         "砥部町",
-        "大河原町",
-        "南部町"
+        "境港市"
       ],
       "answer": "砥部町",
       "distractorStrategy": "sameCategoryPool",
@@ -12132,10 +12132,10 @@
       "id": "timeline-merge-伊方町-2005-04-01",
       "prompt": "伊方町・瀬戸町・三崎町が合併して誕生したのは？",
       "choices": [
-        "棚倉町",
-        "古座川町",
+        "狭山市",
         "伊方町",
-        "村上市"
+        "富良野市",
+        "吉富町"
       ],
       "answer": "伊方町",
       "distractorStrategy": "sameCategoryPool",
@@ -12159,10 +12159,10 @@
       "id": "timeline-merge-鬼北町-2005-01-01",
       "prompt": "広見町・日吉村が合併して誕生したのは？",
       "choices": [
-        "神川町",
-        "日立市",
+        "鉾田市",
         "鬼北町",
-        "七ヶ宿町"
+        "弘前市",
+        "豊見城市"
       ],
       "answer": "鬼北町",
       "distractorStrategy": "sameCategoryPool",
@@ -12186,10 +12186,10 @@
       "id": "timeline-merge-愛南町-2004-10-01",
       "prompt": "内海村・御荘町・城辺町・一本松町・西海町が合併して誕生したのは？",
       "choices": [
-        "山県市",
-        "愛南町",
-        "長生村",
-        "新庄市"
+        "南牧村",
+        "岐南町",
+        "南陽市",
+        "愛南町"
       ],
       "answer": "愛南町",
       "distractorStrategy": "sameCategoryPool",
@@ -12213,10 +12213,10 @@
       "id": "timeline-absorb-大津村・介良村-1972-02-01",
       "prompt": "「大津村・介良村」が編入されたのはどこ？",
       "choices": [
-        "邑楽町",
-        "沼津市",
-        "佐用町",
-        "高知市"
+        "永平寺町",
+        "高知市",
+        "中之条町",
+        "喜茂別町"
       ],
       "answer": "高知市",
       "distractorStrategy": "sameCategoryPool",
@@ -12239,10 +12239,10 @@
       "id": "timeline-absorb-鏡村・土佐山村-2005-01-01",
       "prompt": "「鏡村・土佐山村」が編入されたのはどこ？",
       "choices": [
-        "南相馬市",
-        "日出町",
+        "士幌町",
         "高知市",
-        "和歌山市"
+        "様似町",
+        "片品村"
       ],
       "answer": "高知市",
       "distractorStrategy": "sameCategoryPool",
@@ -12265,10 +12265,10 @@
       "id": "timeline-absorb-春野町-2008-01-01",
       "prompt": "「春野町」が編入されたのはどこ？",
       "choices": [
-        "豊富町",
-        "岡崎市",
+        "王滝村",
         "高知市",
-        "松浦市"
+        "東神楽町",
+        "厚岸町"
       ],
       "answer": "高知市",
       "distractorStrategy": "sameCategoryPool",
@@ -12291,10 +12291,10 @@
       "id": "timeline-merge-四万十市-2005-04-10",
       "prompt": "中村市・西土佐村が合併して誕生したのは？",
       "choices": [
-        "東海市",
+        "北大東村",
+        "玉城町",
         "四万十市",
-        "小山市",
-        "八街市"
+        "座間味村"
       ],
       "answer": "四万十市",
       "distractorStrategy": "sameCategoryPool",
@@ -12318,10 +12318,10 @@
       "id": "timeline-merge-香南市-2006-03-01",
       "prompt": "赤岡町・香我美町・野市町・夜須町・吉川村が合併して誕生したのは？",
       "choices": [
-        "習志野市",
         "香南市",
-        "浪江町",
-        "さくら市"
+        "ひたちなか市",
+        "本別町",
+        "むつ市"
       ],
       "answer": "香南市",
       "distractorStrategy": "sameCategoryPool",
@@ -12345,10 +12345,10 @@
       "id": "timeline-merge-いの町-2004-10-01",
       "prompt": "本川村・伊野町・吾北村が合併して誕生したのは？",
       "choices": [
-        "下妻市",
-        "八雲町",
-        "山ノ内町",
-        "いの町"
+        "いの町",
+        "東洋町",
+        "瑞穂市",
+        "別海町"
       ],
       "answer": "いの町",
       "distractorStrategy": "sameCategoryPool",
@@ -12372,9 +12372,9 @@
       "id": "timeline-merge-仁淀川町-2005-08-01",
       "prompt": "池川町・吾川村・仁淀村が合併して誕生したのは？",
       "choices": [
-        "男鹿市",
-        "国立市",
-        "山鹿市",
+        "岩泉町",
+        "下仁田町",
+        "洋野町",
         "仁淀川町"
       ],
       "answer": "仁淀川町",
@@ -12399,10 +12399,10 @@
       "id": "timeline-merge-中土佐町-2006-01-01",
       "prompt": "中土佐町・大野見村が合併して誕生したのは？",
       "choices": [
+        "明石市",
+        "南伊豆町",
         "中土佐町",
-        "玉川村",
-        "笠岡市",
-        "弥富市"
+        "鏡野町"
       ],
       "answer": "中土佐町",
       "distractorStrategy": "sameCategoryPool",
@@ -12426,10 +12426,10 @@
       "id": "timeline-merge-四万十町-2006-03-20",
       "prompt": "窪川町・大正町・十和村が合併して誕生したのは？",
       "choices": [
-        "川越町",
-        "新島村",
+        "和水町",
         "四万十町",
-        "東北町"
+        "鶴田町",
+        "茂木町"
       ],
       "answer": "四万十町",
       "distractorStrategy": "sameCategoryPool",
@@ -12453,10 +12453,10 @@
       "id": "timeline-merge-津野町-2005-02-01",
       "prompt": "東津野村・葉山村が合併して誕生したのは？",
       "choices": [
-        "売木村",
-        "新十津川町",
-        "鴨川市",
-        "津野町"
+        "津野町",
+        "小川村",
+        "利尻富士町",
+        "寿都町"
       ],
       "answer": "津野町",
       "distractorStrategy": "sameCategoryPool",
@@ -12480,10 +12480,10 @@
       "id": "timeline-merge-黒潮町-2006-03-20",
       "prompt": "佐賀町・大方町が合併して誕生したのは？",
       "choices": [
+        "剣淵町",
+        "高取町",
         "黒潮町",
-        "四日市市",
-        "うきは市",
-        "つくばみらい市"
+        "五木村"
       ],
       "answer": "黒潮町",
       "distractorStrategy": "sameCategoryPool",
@@ -12507,10 +12507,10 @@
       "id": "timeline-absorb-志賀町-1971-04-05",
       "prompt": "「志賀町」が編入されたのはどこ？",
       "choices": [
-        "本巣市",
-        "嬬恋村",
-        "夕張市",
-        "福岡市"
+        "六ヶ所村",
+        "福岡市",
+        "宇検村",
+        "新地町"
       ],
       "answer": "福岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -12533,10 +12533,10 @@
       "id": "timeline-absorb-田主丸町・北野町・城島町・三潴町-2005-02-05",
       "prompt": "「田主丸町・北野町・城島町・三潴町」が編入されたのはどこ？",
       "choices": [
+        "宮城村",
+        "大町市",
         "久留米市",
-        "遠別町",
-        "亀岡市",
-        "皆野町"
+        "大磯町"
       ],
       "answer": "久留米市",
       "distractorStrategy": "sameCategoryPool",
@@ -12559,10 +12559,10 @@
       "id": "timeline-merge-飯塚市-2006-03-26",
       "prompt": "飯塚市・筑穂町・穂波町・庄内町・頴田町が合併して誕生したのは？",
       "choices": [
+        "関市",
+        "上板町",
         "飯塚市",
-        "五條市",
-        "茨木市",
-        "紀美野町"
+        "北島町"
       ],
       "answer": "飯塚市",
       "distractorStrategy": "sameCategoryPool",
@@ -12586,10 +12586,10 @@
       "id": "timeline-merge-柳川市-2005-03-21",
       "prompt": "柳川市・大和町・三橋町が合併して誕生したのは？",
       "choices": [
-        "にかほ市",
-        "大網白里市",
-        "京極町",
-        "柳川市"
+        "岬町",
+        "柳川市",
+        "安田町",
+        "大江町"
       ],
       "answer": "柳川市",
       "distractorStrategy": "sameCategoryPool",
@@ -12613,10 +12613,10 @@
       "id": "timeline-merge-嘉麻市-2006-03-27",
       "prompt": "山田市・稲築町・碓井町・嘉穂町が合併して誕生したのは？",
       "choices": [
-        "葉山町",
-        "竜洋町",
         "嘉麻市",
-        "山武市"
+        "伊根町",
+        "上松町",
+        "長与町"
       ],
       "answer": "嘉麻市",
       "distractorStrategy": "sameCategoryPool",
@@ -12640,10 +12640,10 @@
       "id": "timeline-merge-朝倉市-2006-03-20",
       "prompt": "甘木市・杷木町・朝倉町が合併して誕生したのは？",
       "choices": [
-        "人吉市",
-        "安曇野市",
+        "東川町",
+        "鰺ヶ沢町",
         "朝倉市",
-        "十津川村"
+        "広陵町"
       ],
       "answer": "朝倉市",
       "distractorStrategy": "sameCategoryPool",
@@ -12667,10 +12667,10 @@
       "id": "timeline-absorb-上陽町-2006-10-01",
       "prompt": "「上陽町」が編入されたのはどこ？",
       "choices": [
+        "大月市",
         "八女市",
-        "東通村",
-        "深谷市",
-        "別府市"
+        "丹波山村",
+        "南島原市"
       ],
       "answer": "八女市",
       "distractorStrategy": "sameCategoryPool",
@@ -12693,10 +12693,10 @@
       "id": "timeline-absorb-黒木町・立花町・矢部村・星野村-2010-02-01",
       "prompt": "「黒木町・立花町・矢部村・星野村」が編入されたのはどこ？",
       "choices": [
-        "森町",
         "八女市",
-        "御浜町",
-        "南富良野町"
+        "留別村",
+        "男鹿市",
+        "角田市"
       ],
       "answer": "八女市",
       "distractorStrategy": "sameCategoryPool",
@@ -12719,10 +12719,10 @@
       "id": "timeline-merge-宗像市-2003-04-01",
       "prompt": "宗像市・玄海町が合併して誕生したのは？",
       "choices": [
-        "国立市",
-        "摂津市",
-        "半田市",
-        "宗像市"
+        "宗像市",
+        "岡山市",
+        "東峰村",
+        "滝上町"
       ],
       "answer": "宗像市",
       "distractorStrategy": "sameCategoryPool",
@@ -12747,9 +12747,9 @@
       "prompt": "福間町・津屋崎町が合併して誕生したのは？",
       "choices": [
         "福津市",
-        "気仙沼市",
-        "瑞浪市",
-        "岩倉市"
+        "札幌市",
+        "新発田市",
+        "矢吹町"
       ],
       "answer": "福津市",
       "distractorStrategy": "sameCategoryPool",
@@ -12773,10 +12773,10 @@
       "id": "timeline-merge-宮若市-2006-02-11",
       "prompt": "宮田町・若宮町が合併して誕生したのは？",
       "choices": [
+        "大館市",
+        "出水市",
         "宮若市",
-        "白井市",
-        "妙高市",
-        "三朝町"
+        "福津市"
       ],
       "answer": "宮若市",
       "distractorStrategy": "sameCategoryPool",
@@ -12800,10 +12800,10 @@
       "id": "timeline-merge-筑前町-2005-03-22",
       "prompt": "三輪町・夜須町が合併して誕生したのは？",
       "choices": [
-        "宇和島市",
-        "越谷市",
         "筑前町",
-        "西尾市"
+        "芳賀町",
+        "見附市",
+        "熊谷市"
       ],
       "answer": "筑前町",
       "distractorStrategy": "sameCategoryPool",
@@ -12827,10 +12827,10 @@
       "id": "timeline-merge-東峰村-2005-03-28",
       "prompt": "小石原村・宝珠山村が合併して誕生したのは？",
       "choices": [
+        "筑西市",
         "東峰村",
-        "長島町",
-        "池田町",
-        "五木村"
+        "九重町",
+        "神埼市"
       ],
       "answer": "東峰村",
       "distractorStrategy": "sameCategoryPool",
@@ -12854,10 +12854,10 @@
       "id": "timeline-merge-福智町-2006-03-06",
       "prompt": "金田町・赤池町・方城町が合併して誕生したのは？",
       "choices": [
-        "藤沢市",
-        "湯梨浜町",
+        "坂東市",
+        "相生市",
         "福智町",
-        "軽米町"
+        "富加町"
       ],
       "answer": "福智町",
       "distractorStrategy": "sameCategoryPool",
@@ -12881,10 +12881,10 @@
       "id": "timeline-merge-みやこ町-2006-03-20",
       "prompt": "犀川町・勝山町・豊津町が合併して誕生したのは？",
       "choices": [
+        "佐々町",
+        "大月市",
         "みやこ町",
-        "普代村",
-        "弥富市",
-        "韮崎市"
+        "土浦市"
       ],
       "answer": "みやこ町",
       "distractorStrategy": "sameCategoryPool",
@@ -12908,10 +12908,10 @@
       "id": "timeline-merge-築上町-2006-01-10",
       "prompt": "椎田町・築城町が合併して誕生したのは？",
       "choices": [
-        "築上町",
-        "鉾田市",
-        "忠岡町",
-        "韮崎市"
+        "三条市",
+        "福井市",
+        "伊勢崎市",
+        "築上町"
       ],
       "answer": "築上町",
       "distractorStrategy": "sameCategoryPool",
@@ -12935,10 +12935,10 @@
       "id": "timeline-merge-上毛町-2005-10-11",
       "prompt": "新吉富村・大平村が合併して誕生したのは？",
       "choices": [
-        "茅野市",
-        "上毛町",
-        "稲沢市",
-        "大刀洗町"
+        "本宮市",
+        "東浦町",
+        "守山市",
+        "上毛町"
       ],
       "answer": "上毛町",
       "distractorStrategy": "sameCategoryPool",
@@ -12962,9 +12962,9 @@
       "id": "timeline-merge-佐賀市-2005-10-01",
       "prompt": "佐賀市・諸富町・大和町・富士町・三瀬村が合併して誕生したのは？",
       "choices": [
-        "只見町",
-        "本部町",
-        "八雲町",
+        "関川村",
+        "寄居町",
+        "益城町",
         "佐賀市"
       ],
       "answer": "佐賀市",
@@ -12989,10 +12989,10 @@
       "id": "timeline-merge-唐津市-2005-01-01",
       "prompt": "唐津市・浜玉町・厳木町・相知町・北波多村・肥前町・鎮西町・呼子町が合併して誕生したのは？",
       "choices": [
-        "西海市",
-        "三田市",
         "唐津市",
-        "所沢市"
+        "松茂町",
+        "船橋市",
+        "鳥羽市"
       ],
       "answer": "唐津市",
       "distractorStrategy": "sameCategoryPool",
@@ -13016,10 +13016,10 @@
       "id": "timeline-absorb-七山村-2006-01-01",
       "prompt": "「七山村」が編入されたのはどこ？",
       "choices": [
-        "阿蘇市",
-        "唐津市",
-        "南部町",
-        "鋸南町"
+        "船橋市",
+        "中間市",
+        "榛東村",
+        "唐津市"
       ],
       "answer": "唐津市",
       "distractorStrategy": "sameCategoryPool",
@@ -13042,10 +13042,10 @@
       "id": "timeline-merge-武雄市-2006-03-01",
       "prompt": "武雄市・山内町・北方町が合併して誕生したのは？",
       "choices": [
-        "みやき町",
-        "浪江町",
-        "玉城町",
-        "武雄市"
+        "渋川市",
+        "武雄市",
+        "神恵内村",
+        "四街道市"
       ],
       "answer": "武雄市",
       "distractorStrategy": "sameCategoryPool",
@@ -13069,10 +13069,10 @@
       "id": "timeline-merge-嬉野市-2006-01-01",
       "prompt": "塩田町・嬉野町が合併して誕生したのは？",
       "choices": [
-        "宇多津町",
-        "苓北町",
-        "天城町",
-        "嬉野市"
+        "江田島市",
+        "下諏訪町",
+        "嬉野市",
+        "鹿部町"
       ],
       "answer": "嬉野市",
       "distractorStrategy": "sameCategoryPool",
@@ -13096,10 +13096,10 @@
       "id": "timeline-merge-神埼市-2006-03-20",
       "prompt": "神埼町・千代田町・脊振村が合併して誕生したのは？",
       "choices": [
-        "南城市",
-        "金山町",
-        "小林市",
-        "神埼市"
+        "神埼市",
+        "山口市",
+        "波佐見町",
+        "下田市"
       ],
       "answer": "神埼市",
       "distractorStrategy": "sameCategoryPool",
@@ -13124,9 +13124,9 @@
       "prompt": "三田川町・東脊振村が合併して誕生したのは？",
       "choices": [
         "吉野ヶ里町",
-        "士幌町",
-        "宇陀市",
-        "宮津市"
+        "京丹後市",
+        "吉川市",
+        "竜王町"
       ],
       "answer": "吉野ヶ里町",
       "distractorStrategy": "sameCategoryPool",
@@ -13150,10 +13150,10 @@
       "id": "timeline-merge-みやき町-2005-03-01",
       "prompt": "中原町・北茂安町・三根町が合併して誕生したのは？",
       "choices": [
-        "東峰村",
-        "垂水市",
-        "気仙沼市",
-        "みやき町"
+        "伊是名村",
+        "みやき町",
+        "富士見市",
+        "上牧町"
       ],
       "answer": "みやき町",
       "distractorStrategy": "sameCategoryPool",
@@ -13177,10 +13177,10 @@
       "id": "timeline-merge-有田町-2006-03-01",
       "prompt": "有田町・西有田町が合併して誕生したのは？",
       "choices": [
-        "苅田町",
-        "つくばみらい市",
-        "色麻町",
-        "有田町"
+        "佐那河内村",
+        "有田町",
+        "伊勢原市",
+        "御蔵島村"
       ],
       "answer": "有田町",
       "distractorStrategy": "sameCategoryPool",
@@ -13204,10 +13204,10 @@
       "id": "timeline-merge-白石町-2005-01-01",
       "prompt": "白石町・福富町・有明町が合併して誕生したのは？",
       "choices": [
-        "宇陀市",
-        "白糠町",
-        "すさみ町",
-        "白石町"
+        "多賀町",
+        "白石町",
+        "芝山町",
+        "佐川町"
       ],
       "answer": "白石町",
       "distractorStrategy": "sameCategoryPool",
@@ -13231,10 +13231,10 @@
       "id": "timeline-absorb-三重村-1973-03-31",
       "prompt": "「三重村」が編入されたのはどこ？",
       "choices": [
-        "馬路村",
+        "加美町",
+        "日高市",
         "長崎市",
-        "四街道市",
-        "利島村"
+        "いわき市"
       ],
       "answer": "長崎市",
       "distractorStrategy": "sameCategoryPool",
@@ -13257,9 +13257,9 @@
       "id": "timeline-absorb-香焼町・伊王島町・高島町・野母崎町・三和町・外海町-2005-01-04",
       "prompt": "「香焼町・伊王島町・高島町・野母崎町・三和町・外海町」が編入されたのはどこ？",
       "choices": [
-        "伊江村",
-        "沖縄市",
-        "多気町",
+        "田辺市",
+        "須崎市",
+        "大津市",
         "長崎市"
       ],
       "answer": "長崎市",
@@ -13283,10 +13283,10 @@
       "id": "timeline-absorb-琴海町-2006-01-04",
       "prompt": "「琴海町」が編入されたのはどこ？",
       "choices": [
-        "上郡町",
-        "神戸町",
+        "川内村",
+        "土庄町",
         "長崎市",
-        "多治見市"
+        "出雲市"
       ],
       "answer": "長崎市",
       "distractorStrategy": "sameCategoryPool",
@@ -13309,10 +13309,10 @@
       "id": "timeline-absorb-吉井町・世知原町-2005-04-01",
       "prompt": "「吉井町・世知原町」が編入されたのはどこ？",
       "choices": [
-        "大阪市",
-        "郡上市",
-        "知名町",
-        "佐世保市"
+        "那珂市",
+        "佐世保市",
+        "湯浅町",
+        "中泊町"
       ],
       "answer": "佐世保市",
       "distractorStrategy": "sameCategoryPool",
@@ -13335,10 +13335,10 @@
       "id": "timeline-absorb-宇久町-2006-03-31",
       "prompt": "「宇久町」が編入されたのはどこ？",
       "choices": [
+        "豊岡市",
         "佐世保市",
-        "美濃加茂市",
-        "杉戸町",
-        "潟上市"
+        "日光市",
+        "精華町"
       ],
       "answer": "佐世保市",
       "distractorStrategy": "sameCategoryPool",
@@ -13362,9 +13362,9 @@
       "prompt": "「小佐々町」が編入されたのはどこ？",
       "choices": [
         "佐世保市",
-        "川辺町",
-        "池田町",
-        "五泉市"
+        "日の出町",
+        "紀北町",
+        "菊池市"
       ],
       "answer": "佐世保市",
       "distractorStrategy": "sameCategoryPool",
@@ -13387,10 +13387,10 @@
       "id": "timeline-absorb-江迎町・鹿町町-2010-03-31",
       "prompt": "「江迎町・鹿町町」が編入されたのはどこ？",
       "choices": [
-        "南さつま市",
-        "津山市",
+        "王滝村",
         "佐世保市",
-        "岡崎市"
+        "可児市",
+        "朝倉市"
       ],
       "answer": "佐世保市",
       "distractorStrategy": "sameCategoryPool",
@@ -13413,10 +13413,10 @@
       "id": "timeline-absorb-有明町-2006-01-01",
       "prompt": "「有明町」が編入されたのはどこ？",
       "choices": [
+        "浦河町",
+        "鏡石町",
         "島原市",
-        "木城町",
-        "三戸町",
-        "浜松市"
+        "竹富町"
       ],
       "answer": "島原市",
       "distractorStrategy": "sameCategoryPool",
@@ -13439,10 +13439,10 @@
       "id": "timeline-merge-五島市-2004-08-01",
       "prompt": "福江市・富江町・玉之浦町・三井楽町・岐宿町・奈留町が合併して誕生したのは？",
       "choices": [
-        "外ヶ浜町",
+        "新宮町",
+        "美郷町",
         "五島市",
-        "佐那河内村",
-        "大任町"
+        "吉野川市"
       ],
       "answer": "五島市",
       "distractorStrategy": "sameCategoryPool",
@@ -13466,10 +13466,10 @@
       "id": "timeline-merge-平戸市-2005-10-01",
       "prompt": "平戸市・大島村・生月町・田平町が合併して誕生したのは？",
       "choices": [
-        "神津島村",
-        "平戸市",
-        "岬町",
-        "有田町"
+        "野田市",
+        "鹿部町",
+        "板橋区",
+        "平戸市"
       ],
       "answer": "平戸市",
       "distractorStrategy": "sameCategoryPool",
@@ -13493,10 +13493,10 @@
       "id": "timeline-merge-松浦市-2006-01-01",
       "prompt": "松浦市・福島町・鷹島町が合併して誕生したのは？",
       "choices": [
-        "太子町",
+        "宗像市",
         "松浦市",
-        "紋別市",
-        "軽井沢町"
+        "富士吉田市",
+        "栃木市"
       ],
       "answer": "松浦市",
       "distractorStrategy": "sameCategoryPool",
@@ -13520,10 +13520,10 @@
       "id": "timeline-merge-西海市-2005-04-01",
       "prompt": "西彼町・西海町・大島町・崎戸町・大瀬戸町が合併して誕生したのは？",
       "choices": [
-        "五所川原市",
-        "西海市",
-        "米沢市",
-        "武雄市"
+        "小川村",
+        "木曽岬町",
+        "下野市",
+        "西海市"
       ],
       "answer": "西海市",
       "distractorStrategy": "sameCategoryPool",
@@ -13547,10 +13547,10 @@
       "id": "timeline-merge-雲仙市-2005-10-11",
       "prompt": "国見町・瑞穂町・吾妻町・愛野町・千々石町・小浜町・南串山町が合併して誕生したのは？",
       "choices": [
-        "嘉島町",
-        "竹富町",
-        "大鹿村",
-        "雲仙市"
+        "留萌市",
+        "豊前市",
+        "雲仙市",
+        "川内村"
       ],
       "answer": "雲仙市",
       "distractorStrategy": "sameCategoryPool",
@@ -13574,10 +13574,10 @@
       "id": "timeline-merge-新上五島町-2004-08-01",
       "prompt": "若松町・上五島町・新魚目町・有川町・奈良尾町が合併して誕生したのは？",
       "choices": [
-        "筑後市",
+        "松前町",
+        "大衡村",
         "新上五島町",
-        "豊浦町",
-        "藤沢市"
+        "檜原村"
       ],
       "answer": "新上五島町",
       "distractorStrategy": "sameCategoryPool",
@@ -13601,9 +13601,9 @@
       "id": "timeline-absorb-託麻村-1970-11-01",
       "prompt": "「託麻村」が編入されたのはどこ？",
       "choices": [
-        "下諏訪町",
-        "寄居町",
-        "江北町",
+        "取手市",
+        "糸満市",
+        "四日市市",
         "熊本市"
       ],
       "answer": "熊本市",
@@ -13627,10 +13627,10 @@
       "id": "timeline-absorb-北部町-1991-02-01",
       "prompt": "「北部町」が編入されたのはどこ？",
       "choices": [
-        "登米市",
+        "東大和市",
+        "南伊勢町",
         "熊本市",
-        "秩父市",
-        "鮫川村"
+        "東近江市"
       ],
       "answer": "熊本市",
       "distractorStrategy": "sameCategoryPool",
@@ -13653,10 +13653,10 @@
       "id": "timeline-absorb-飽田町-1991-02-01",
       "prompt": "「飽田町」が編入されたのはどこ？",
       "choices": [
-        "串本町",
         "熊本市",
-        "南アルプス市",
-        "綾瀬市"
+        "女川町",
+        "白井市",
+        "出雲市"
       ],
       "answer": "熊本市",
       "distractorStrategy": "sameCategoryPool",
@@ -13680,9 +13680,9 @@
       "prompt": "「河内町」が編入されたのはどこ？",
       "choices": [
         "熊本市",
-        "新城市",
-        "羽生市",
-        "野田村"
+        "江南市",
+        "小松市",
+        "宇佐市"
       ],
       "answer": "熊本市",
       "distractorStrategy": "sameCategoryPool",
@@ -13705,10 +13705,10 @@
       "id": "timeline-absorb-富合町-2008-10-06",
       "prompt": "「富合町」が編入されたのはどこ？",
       "choices": [
-        "嘉手納町",
-        "長岡市",
-        "熊本市",
-        "只見町"
+        "東白川村",
+        "門真市",
+        "光市",
+        "熊本市"
       ],
       "answer": "熊本市",
       "distractorStrategy": "sameCategoryPool",
@@ -13731,10 +13731,10 @@
       "id": "timeline-absorb-城南町-2010-03-23",
       "prompt": "「城南町」が編入されたのはどこ？",
       "choices": [
-        "鏡石町",
-        "安堵町",
-        "湯沢町",
-        "熊本市"
+        "熊本市",
+        "平川市",
+        "中能登町",
+        "飯能市"
       ],
       "answer": "熊本市",
       "distractorStrategy": "sameCategoryPool",
@@ -13757,10 +13757,10 @@
       "id": "timeline-merge-八代市-2005-08-01",
       "prompt": "八代市・坂本村・千丁町・鏡町・東陽村・泉村が合併して誕生したのは？",
       "choices": [
-        "入善町",
+        "美郷町",
         "八代市",
-        "奈半利町",
-        "沖縄市"
+        "佐伯市",
+        "三島市"
       ],
       "answer": "八代市",
       "distractorStrategy": "sameCategoryPool",
@@ -13784,10 +13784,10 @@
       "id": "timeline-merge-玉名市-2005-10-03",
       "prompt": "玉名市・岱明町・横島町・天水町が合併して誕生したのは？",
       "choices": [
-        "新地町",
         "玉名市",
-        "標茶町",
-        "阿久比町"
+        "大川市",
+        "鉾田市",
+        "上越市"
       ],
       "answer": "玉名市",
       "distractorStrategy": "sameCategoryPool",
@@ -13811,10 +13811,10 @@
       "id": "timeline-merge-天草市-2006-03-27",
       "prompt": "本渡市・牛深市・有明町・御所浦町・倉岳町・栖本町・新和町・五和町・天草町・河浦町が合併して誕生したのは？",
       "choices": [
-        "歌志内市",
-        "産山村",
+        "おおい町",
         "天草市",
-        "輪島市"
+        "大垣市",
+        "京丹波町"
       ],
       "answer": "天草市",
       "distractorStrategy": "sameCategoryPool",
@@ -13838,10 +13838,10 @@
       "id": "timeline-merge-山鹿市-2005-01-15",
       "prompt": "山鹿市・鹿北町・菊鹿町・鹿本町・鹿央町が合併して誕生したのは？",
       "choices": [
+        "東村山市",
+        "豊後高田市",
         "山鹿市",
-        "芝山町",
-        "北栄町",
-        "相馬市"
+        "関市"
       ],
       "answer": "山鹿市",
       "distractorStrategy": "sameCategoryPool",
@@ -13866,9 +13866,9 @@
       "prompt": "菊池市・七城町・旭志村・泗水町が合併して誕生したのは？",
       "choices": [
         "菊池市",
-        "田野畑村",
-        "大崎町",
-        "太子町"
+        "志摩市",
+        "葛尾村",
+        "大崎市"
       ],
       "answer": "菊池市",
       "distractorStrategy": "sameCategoryPool",
@@ -13892,10 +13892,10 @@
       "id": "timeline-merge-上天草市-2004-03-31",
       "prompt": "大矢野町・松島町・姫戸町・龍ヶ岳町が合併して誕生したのは？",
       "choices": [
-        "池田市",
-        "三川町",
-        "芳賀町",
-        "上天草市"
+        "南会津町",
+        "御殿場市",
+        "上天草市",
+        "大館市"
       ],
       "answer": "上天草市",
       "distractorStrategy": "sameCategoryPool",
@@ -13919,10 +13919,10 @@
       "id": "timeline-merge-阿蘇市-2005-02-11",
       "prompt": "一の宮町・阿蘇町・波野村が合併して誕生したのは？",
       "choices": [
-        "中頓別町",
-        "小平市",
-        "世羅町",
-        "阿蘇市"
+        "阿蘇市",
+        "苓北町",
+        "丹波山村",
+        "安芸太田町"
       ],
       "answer": "阿蘇市",
       "distractorStrategy": "sameCategoryPool",
@@ -13946,10 +13946,10 @@
       "id": "timeline-merge-合志市-2006-02-27",
       "prompt": "合志町・西合志町が合併して誕生したのは？",
       "choices": [
-        "延岡市",
         "合志市",
-        "飯豊町",
-        "南さつま市"
+        "豊見城市",
+        "守山市",
+        "宮城村"
       ],
       "answer": "合志市",
       "distractorStrategy": "sameCategoryPool",
@@ -13973,10 +13973,10 @@
       "id": "timeline-merge-美里町-2004-11-01",
       "prompt": "中央町・砥用町が合併して誕生したのは？",
       "choices": [
+        "大鹿村",
+        "小松島市",
         "美里町",
-        "上牧町",
-        "杉並区",
-        "南牧村"
+        "留別村"
       ],
       "answer": "美里町",
       "distractorStrategy": "sameCategoryPool",
@@ -14000,10 +14000,10 @@
       "id": "timeline-merge-和水町-2006-03-01",
       "prompt": "菊水町・三加和町が合併して誕生したのは？",
       "choices": [
-        "和水町",
-        "志賀町",
-        "芦北町",
-        "中土佐町"
+        "都留市",
+        "栗原市",
+        "草津市",
+        "和水町"
       ],
       "answer": "和水町",
       "distractorStrategy": "sameCategoryPool",
@@ -14027,10 +14027,10 @@
       "id": "timeline-merge-山都町-2005-02-11",
       "prompt": "蘇陽町・矢部町・清和村が合併して誕生したのは？",
       "choices": [
-        "榛東村",
-        "玄海町",
-        "山都町",
-        "御嵩町"
+        "南国市",
+        "呉市",
+        "産山村",
+        "山都町"
       ],
       "answer": "山都町",
       "distractorStrategy": "sameCategoryPool",
@@ -14054,10 +14054,10 @@
       "id": "timeline-merge-南阿蘇村-2005-02-13",
       "prompt": "白水村・久木野村・長陽村が合併して誕生したのは？",
       "choices": [
+        "和木町",
+        "遠賀町",
         "南阿蘇村",
-        "香芝市",
-        "芦北町",
-        "廿日市市"
+        "愛西市"
       ],
       "answer": "南阿蘇村",
       "distractorStrategy": "sameCategoryPool",
@@ -14081,10 +14081,10 @@
       "id": "timeline-merge-氷川町-2005-10-01",
       "prompt": "竜北町・宮原町が合併して誕生したのは？",
       "choices": [
-        "三浦市",
-        "高取町",
-        "愛荘町",
-        "氷川町"
+        "萩市",
+        "氷川町",
+        "八頭町",
+        "加茂市"
       ],
       "answer": "氷川町",
       "distractorStrategy": "sameCategoryPool",
@@ -14108,10 +14108,10 @@
       "id": "timeline-merge-芦北町-2005-01-01",
       "prompt": "田浦町・芦北町が合併して誕生したのは？",
       "choices": [
-        "芦北町",
-        "富良野市",
-        "丸森町",
-        "豊後大野市"
+        "新冠町",
+        "吉野ヶ里町",
+        "五所川原市",
+        "芦北町"
       ],
       "answer": "芦北町",
       "distractorStrategy": "sameCategoryPool",
@@ -14135,10 +14135,10 @@
       "id": "timeline-merge-芦北町-1970-11-01",
       "prompt": "芦北町・湯浦町が合併して誕生したのは？",
       "choices": [
-        "沖縄市",
-        "豊頃町",
         "芦北町",
-        "神崎町"
+        "荒川区",
+        "野迫川村",
+        "門真市"
       ],
       "answer": "芦北町",
       "distractorStrategy": "sameCategoryPool",
@@ -14162,10 +14162,10 @@
       "id": "timeline-merge-あさぎり町-2003-04-01",
       "prompt": "上村・免田町・岡原村・須恵村・深田村が合併して誕生したのは？",
       "choices": [
-        "倶知安町",
+        "土佐市",
         "あさぎり町",
-        "京田辺市",
-        "日野町"
+        "泰阜村",
+        "東村"
       ],
       "answer": "あさぎり町",
       "distractorStrategy": "sameCategoryPool",
@@ -14189,10 +14189,10 @@
       "id": "timeline-merge-臼杵市-2005-01-01",
       "prompt": "臼杵市・野津町が合併して誕生したのは？",
       "choices": [
+        "与那国町",
         "臼杵市",
-        "鮭川村",
-        "広陵町",
-        "羽後町"
+        "姶良市",
+        "佐用町"
       ],
       "answer": "臼杵市",
       "distractorStrategy": "sameCategoryPool",
@@ -14216,10 +14216,10 @@
       "id": "timeline-merge-豊後高田市-2005-03-31",
       "prompt": "豊後高田市・真玉町・香々地町が合併して誕生したのは？",
       "choices": [
+        "仙北市",
+        "会津若松市",
         "豊後高田市",
-        "鶴田町",
-        "豊富町",
-        "西尾市"
+        "和泉市"
       ],
       "answer": "豊後高田市",
       "distractorStrategy": "sameCategoryPool",
@@ -14243,10 +14243,10 @@
       "id": "timeline-merge-国東市-2006-03-31",
       "prompt": "国見町・国東町・武蔵町・安岐町が合併して誕生したのは？",
       "choices": [
-        "新温泉町",
-        "焼津市",
+        "白井市",
+        "三戸町",
         "国東市",
-        "平生町"
+        "羽咋市"
       ],
       "answer": "国東市",
       "distractorStrategy": "sameCategoryPool",
@@ -14270,10 +14270,10 @@
       "id": "timeline-absorb-佐土原町-2006-01-01",
       "prompt": "「佐土原町」が編入されたのはどこ？",
       "choices": [
-        "長島町",
+        "若桜町",
+        "成田市",
         "宮崎市",
-        "宇城市",
-        "紀宝町"
+        "伊江村"
       ],
       "answer": "宮崎市",
       "distractorStrategy": "sameCategoryPool",
@@ -14296,10 +14296,10 @@
       "id": "timeline-absorb-高岡町-2006-01-01",
       "prompt": "「高岡町」が編入されたのはどこ？",
       "choices": [
-        "宮崎市",
-        "宇都宮市",
-        "幌延町",
-        "西予市"
+        "調布市",
+        "東洋町",
+        "関川村",
+        "宮崎市"
       ],
       "answer": "宮崎市",
       "distractorStrategy": "sameCategoryPool",
@@ -14322,10 +14322,10 @@
       "id": "timeline-absorb-田野町-2006-01-01",
       "prompt": "「田野町」が編入されたのはどこ？",
       "choices": [
-        "庄原市",
-        "雫石町",
-        "新十津川町",
-        "宮崎市"
+        "おおい町",
+        "宮崎市",
+        "佐用町",
+        "富山市"
       ],
       "answer": "宮崎市",
       "distractorStrategy": "sameCategoryPool",
@@ -14348,9 +14348,9 @@
       "id": "timeline-merge-都城市-2006-01-01",
       "prompt": "都城市・山之口町・高城町・山田町・高崎町が合併して誕生したのは？",
       "choices": [
-        "八王子市",
-        "坂城町",
-        "彦根市",
+        "伊是名村",
+        "美里町",
+        "余市町",
         "都城市"
       ],
       "answer": "都城市",
@@ -14375,10 +14375,10 @@
       "id": "timeline-absorb-北方町・北浦町-2006-02-20",
       "prompt": "「北方町・北浦町」が編入されたのはどこ？",
       "choices": [
-        "小清水町",
+        "飯舘村",
+        "田子町",
         "延岡市",
-        "青森市",
-        "西海市"
+        "神津島村"
       ],
       "answer": "延岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -14401,10 +14401,10 @@
       "id": "timeline-absorb-北川町-2007-03-31",
       "prompt": "「北川町」が編入されたのはどこ？",
       "choices": [
-        "琴浦町",
-        "伊方町",
-        "木島平村",
-        "延岡市"
+        "垂井町",
+        "延岡市",
+        "西和賀町",
+        "行橋市"
       ],
       "answer": "延岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -14427,10 +14427,10 @@
       "id": "timeline-merge-小林市-2006-03-20",
       "prompt": "小林市・須木村が合併して誕生したのは？",
       "choices": [
-        "砂川市",
         "小林市",
-        "石狩市",
-        "喬木村"
+        "剣淵町",
+        "益子町",
+        "豊島区"
       ],
       "answer": "小林市",
       "distractorStrategy": "sameCategoryPool",
@@ -14454,10 +14454,10 @@
       "id": "timeline-absorb-野尻町-2010-03-23",
       "prompt": "「野尻町」が編入されたのはどこ？",
       "choices": [
-        "大槌町",
-        "大木町",
+        "御船町",
         "小林市",
-        "由布市"
+        "印南町",
+        "御宿町"
       ],
       "answer": "小林市",
       "distractorStrategy": "sameCategoryPool",
@@ -14480,10 +14480,10 @@
       "id": "timeline-absorb-東郷町-2006-02-25",
       "prompt": "「東郷町」が編入されたのはどこ？",
       "choices": [
-        "砂川市",
-        "日向市",
-        "御嵩町",
-        "北谷町"
+        "南部町",
+        "栄村",
+        "中種子町",
+        "日向市"
       ],
       "answer": "日向市",
       "distractorStrategy": "sameCategoryPool",
@@ -14506,10 +14506,10 @@
       "id": "timeline-merge-美郷町-2006-01-01",
       "prompt": "南郷村・西郷村・北郷村が合併して誕生したのは？",
       "choices": [
+        "富谷市",
+        "中之条町",
         "美郷町",
-        "荒尾市",
-        "揖斐川町",
-        "上川町"
+        "板野町"
       ],
       "answer": "美郷町",
       "distractorStrategy": "sameCategoryPool",
@@ -14533,10 +14533,10 @@
       "id": "timeline-merge-薩摩川内市-2004-10-12",
       "prompt": "川内市・樋脇町・入来町・東郷町・祁答院町・里村・上甑村・下甑村・鹿島村が合併して誕生したのは？",
       "choices": [
+        "篠栗町",
         "薩摩川内市",
-        "豊島区",
-        "高千穂町",
-        "鹿嶋市"
+        "河北町",
+        "屋久島町"
       ],
       "answer": "薩摩川内市",
       "distractorStrategy": "sameCategoryPool",
@@ -14560,10 +14560,10 @@
       "id": "timeline-merge-鹿屋市-2006-01-01",
       "prompt": "鹿屋市・輝北町・串良町・吾平町が合併して誕生したのは？",
       "choices": [
+        "長井市",
         "鹿屋市",
-        "ニセコ町",
-        "練馬区",
-        "加古川市"
+        "松島町",
+        "大野町"
       ],
       "answer": "鹿屋市",
       "distractorStrategy": "sameCategoryPool",
@@ -14587,9 +14587,9 @@
       "id": "timeline-merge-いちき串木野市-2005-10-11",
       "prompt": "串木野市・市来町が合併して誕生したのは？",
       "choices": [
-        "坂戸市",
-        "八王子市",
-        "野沢温泉村",
+        "指宿市",
+        "三種町",
+        "三宅町",
         "いちき串木野市"
       ],
       "answer": "いちき串木野市",
@@ -14614,10 +14614,10 @@
       "id": "timeline-merge-奄美市-2006-03-20",
       "prompt": "名瀬市・住用村・笠利町が合併して誕生したのは？",
       "choices": [
-        "下條村",
+        "五木村",
         "奄美市",
-        "坂城町",
-        "小諸市"
+        "紗那村",
+        "白河市"
       ],
       "answer": "奄美市",
       "distractorStrategy": "sameCategoryPool",
@@ -14641,10 +14641,10 @@
       "id": "timeline-merge-出水市-2006-03-13",
       "prompt": "出水市・野田町・高尾野町が合併して誕生したのは？",
       "choices": [
-        "飛騨市",
-        "都農町",
+        "垂水市",
+        "大紀町",
         "出水市",
-        "足立区"
+        "生坂村"
       ],
       "answer": "出水市",
       "distractorStrategy": "sameCategoryPool",
@@ -14668,9 +14668,9 @@
       "id": "timeline-merge-指宿市-2006-01-01",
       "prompt": "指宿市・山川町・開聞町が合併して誕生したのは？",
       "choices": [
-        "和泉市",
-        "高梁市",
-        "枝幸町",
+        "添田町",
+        "美祢市",
+        "三島町",
         "指宿市"
       ],
       "answer": "指宿市",
@@ -14695,10 +14695,10 @@
       "id": "timeline-merge-霧島市-2005-11-07",
       "prompt": "国分市・溝辺町・横川町・牧園町・霧島町・隼人町・福山町が合併して誕生したのは？",
       "choices": [
-        "播磨町",
-        "松前町",
+        "江南市",
+        "中津川市",
         "霧島市",
-        "藤井寺市"
+        "上越市"
       ],
       "answer": "霧島市",
       "distractorStrategy": "sameCategoryPool",
@@ -14722,10 +14722,10 @@
       "id": "timeline-merge-日置市-2005-05-01",
       "prompt": "東市来町・伊集院町・日吉町・吹上町が合併して誕生したのは？",
       "choices": [
-        "佐渡市",
+        "上松町",
         "日置市",
-        "塙町",
-        "坂祝町"
+        "西川町",
+        "明和町"
       ],
       "answer": "日置市",
       "distractorStrategy": "sameCategoryPool",
@@ -14749,10 +14749,10 @@
       "id": "timeline-merge-曽於市-2005-07-01",
       "prompt": "大隅町・財部町・末吉町が合併して誕生したのは？",
       "choices": [
-        "長沼町",
-        "那珂川町",
+        "三春町",
         "曽於市",
-        "富士宮市"
+        "占冠村",
+        "日の出町"
       ],
       "answer": "曽於市",
       "distractorStrategy": "sameCategoryPool",
@@ -14776,10 +14776,10 @@
       "id": "timeline-merge-志布志市-2006-01-01",
       "prompt": "松山町・志布志町・有明町が合併して誕生したのは？",
       "choices": [
-        "西海市",
-        "天龍村",
-        "清里町",
-        "志布志市"
+        "志布志市",
+        "蔵王町",
+        "加賀市",
+        "五島市"
       ],
       "answer": "志布志市",
       "distractorStrategy": "sameCategoryPool",
@@ -14803,10 +14803,10 @@
       "id": "timeline-merge-姶良市-2010-03-23",
       "prompt": "加治木町・姶良町・蒲生町が合併して誕生したのは？",
       "choices": [
-        "美咲町",
+        "筑西市",
         "姶良市",
-        "中札内村",
-        "安芸太田町"
+        "和気町",
+        "奥尻町"
       ],
       "answer": "姶良市",
       "distractorStrategy": "sameCategoryPool",
@@ -14830,10 +14830,10 @@
       "id": "timeline-merge-さつま町-2005-03-22",
       "prompt": "宮之城町・鶴田町・薩摩町が合併して誕生したのは？",
       "choices": [
-        "仙台市",
-        "小千谷市",
-        "黒部市",
-        "さつま町"
+        "越前市",
+        "さつま町",
+        "知名町",
+        "徳島市"
       ],
       "answer": "さつま町",
       "distractorStrategy": "sameCategoryPool",
@@ -14857,10 +14857,10 @@
       "id": "timeline-merge-長島町-2006-03-20",
       "prompt": "東町・長島町が合併して誕生したのは？",
       "choices": [
-        "室戸市",
-        "高根沢町",
-        "酒田市",
-        "長島町"
+        "長島町",
+        "摂津市",
+        "佐用町",
+        "清川村"
       ],
       "answer": "長島町",
       "distractorStrategy": "sameCategoryPool",
@@ -14884,10 +14884,10 @@
       "id": "timeline-merge-湧水町-2005-03-22",
       "prompt": "栗野町・吉松町が合併して誕生したのは？",
       "choices": [
-        "長柄町",
-        "池田市",
-        "湧水町",
-        "佐倉市"
+        "恩納村",
+        "羽咋市",
+        "蓬田村",
+        "湧水町"
       ],
       "answer": "湧水町",
       "distractorStrategy": "sameCategoryPool",
@@ -14911,10 +14911,10 @@
       "id": "timeline-merge-肝付町-2005-07-01",
       "prompt": "内之浦町・高山町が合併して誕生したのは？",
       "choices": [
-        "本宮市",
-        "肝付町",
-        "池田町",
-        "田子町"
+        "守山市",
+        "松野町",
+        "甲良町",
+        "肝付町"
       ],
       "answer": "肝付町",
       "distractorStrategy": "sameCategoryPool",
@@ -14938,10 +14938,10 @@
       "id": "timeline-merge-錦江町-2005-03-22",
       "prompt": "大根占町・田代町が合併して誕生したのは？",
       "choices": [
-        "田尻町",
-        "富田林市",
+        "大和郡山市",
+        "美浜町",
         "錦江町",
-        "白岡市"
+        "多摩市"
       ],
       "answer": "錦江町",
       "distractorStrategy": "sameCategoryPool",
@@ -14965,10 +14965,10 @@
       "id": "timeline-merge-南大隅町-2005-03-31",
       "prompt": "根占町・佐多町が合併して誕生したのは？",
       "choices": [
-        "河内町",
+        "知多市",
+        "最上町",
         "南大隅町",
-        "掛川市",
-        "南砺市"
+        "郡上市"
       ],
       "answer": "南大隅町",
       "distractorStrategy": "sameCategoryPool",
@@ -14992,10 +14992,10 @@
       "id": "timeline-merge-屋久島町-2007-10-01",
       "prompt": "上屋久町・屋久町が合併して誕生したのは？",
       "choices": [
-        "岡山市",
-        "京丹後市",
         "屋久島町",
-        "壱岐市"
+        "大府市",
+        "米沢市",
+        "江差町"
       ],
       "answer": "屋久島町",
       "distractorStrategy": "sameCategoryPool",
@@ -15019,10 +15019,10 @@
       "id": "timeline-merge-うるま市-2005-04-01",
       "prompt": "石川市・具志川市・与那城町・勝連町が合併して誕生したのは？",
       "choices": [
-        "初山別村",
-        "中泊町",
         "うるま市",
-        "岩美町"
+        "河津町",
+        "佐久市",
+        "養父市"
       ],
       "answer": "うるま市",
       "distractorStrategy": "sameCategoryPool",
@@ -15046,10 +15046,10 @@
       "id": "timeline-merge-沖縄市-1974-04-01",
       "prompt": "コザ市・美里村が合併して誕生したのは？",
       "choices": [
-        "守口市",
-        "瑞浪市",
+        "秋田市",
+        "中野市",
         "沖縄市",
-        "関市"
+        "伊丹市"
       ],
       "answer": "沖縄市",
       "distractorStrategy": "sameCategoryPool",
@@ -15073,10 +15073,10 @@
       "id": "timeline-merge-宮古島市-2005-10-01",
       "prompt": "城辺町・下地町・上野村・伊良部町・平良市が合併して誕生したのは？",
       "choices": [
-        "久留米市",
         "宮古島市",
-        "新宮町",
-        "市川市"
+        "川上村",
+        "西原町",
+        "白川町"
       ],
       "answer": "宮古島市",
       "distractorStrategy": "sameCategoryPool",
@@ -15100,10 +15100,10 @@
       "id": "timeline-merge-南城市-2006-01-01",
       "prompt": "玉城村・知念村・大里村・佐敷町が合併して誕生したのは？",
       "choices": [
-        "鳥羽市",
+        "鮭川村",
         "南城市",
-        "田村市",
-        "東川町"
+        "軽米町",
+        "鈴鹿市"
       ],
       "answer": "南城市",
       "distractorStrategy": "sameCategoryPool",
@@ -15127,10 +15127,10 @@
       "id": "timeline-merge-八重瀬町-2006-01-01",
       "prompt": "具志頭村・東風平町が合併して誕生したのは？",
       "choices": [
+        "大間町",
+        "昭和村",
         "八重瀬町",
-        "市原市",
-        "矢祭町",
-        "那珂川市"
+        "中城村"
       ],
       "answer": "八重瀬町",
       "distractorStrategy": "sameCategoryPool",
@@ -15154,10 +15154,10 @@
       "id": "timeline-merge-久米島町-2002-04-01",
       "prompt": "仲里村・具志川村が合併して誕生したのは？",
       "choices": [
-        "境町",
-        "朝日町",
-        "西脇市",
-        "久米島町"
+        "野田村",
+        "鞍手町",
+        "久米島町",
+        "多賀城市"
       ],
       "answer": "久米島町",
       "distractorStrategy": "sameCategoryPool",

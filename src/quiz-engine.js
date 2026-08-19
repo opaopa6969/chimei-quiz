@@ -27,6 +27,34 @@ export function buildSession(questions, count, seed) {
   return shuffle(questions, rng).slice(0, Math.min(count, questions.length));
 }
 
+// 「ぜんぶミックス」用: typeを均等に混ぜてN問選ぶ（ラウンドロビン）。
+// vanished(1543問)がall.jsonの半分近くを占めるため、単純に buildSession で
+// フラットにランダム抽出すると「消えた市町村ばかり出る」と体感されてしまう
+// （実際にユーザーから指摘があった）。カテゴリごとに先にシャッフルしてから
+// 1問ずつ順番に取り出すことで、問題数に差があっても偏りなく混ざる。
+export function buildMixedSession(questions, count, seed) {
+  const rng = makePrng(seed);
+  const byType = new Map();
+  for (const q of questions) {
+    if (!byType.has(q.type)) byType.set(q.type, []);
+    byType.get(q.type).push(q);
+  }
+  const shuffledByType = [...byType.values()].map((qs) => shuffle(qs, rng));
+
+  const picked = [];
+  for (let i = 0; picked.length < count; i++) {
+    let addedAny = false;
+    for (const qs of shuffledByType) {
+      if (i >= qs.length) continue;
+      picked.push(qs[i]);
+      addedAny = true;
+      if (picked.length >= count) break;
+    }
+    if (!addedAny) break; // 全カテゴリ使い切った
+  }
+  return shuffle(picked, rng); // 出題順（カテゴリの並び）もシャッフルする
+}
+
 // 正解スコア: 基礎点 + 難易度ボーナス + コンボボーナス
 export function scoreFor(question, comboBeforeThisAnswer) {
   const base = 100;

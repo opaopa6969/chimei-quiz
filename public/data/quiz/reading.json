@@ -7,13 +7,13 @@
       "id": "reading-長万部町-北海道",
       "prompt": "「長万部町」の読み方は？",
       "choices": [
-        "おしゃまんべちょう",
-        "いわふねまち",
-        "きもつきちょう",
-        "しきし"
+        "たかちょう",
+        "わきちょう",
+        "おしゃまんべまち",
+        "おしゃまんべちょう"
       ],
       "answer": "おしゃまんべちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -32,13 +32,13 @@
       "id": "reading-音威子府村-北海道",
       "prompt": "「音威子府村」の読み方は？",
       "choices": [
-        "ありだがわちょう",
-        "こばやしし",
+        "おといねっぷそん",
+        "とよねむら",
         "おといねっぷむら",
-        "さぬきし"
+        "ちくほくむら"
       ],
       "answer": "おといねっぷむら",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -57,13 +57,13 @@
       "id": "reading-弟子屈町-北海道",
       "prompt": "「弟子屈町」の読み方は？",
       "choices": [
-        "おきのしまちょう",
-        "うらやすし",
-        "いわぬまし",
-        "てしかがちょう"
+        "かみさとまち",
+        "したらちょう",
+        "てしかがちょう",
+        "てしかがまち"
       ],
       "answer": "てしかがちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -82,13 +82,13 @@
       "id": "reading-倶知安町-北海道",
       "prompt": "「倶知安町」の読み方は？",
       "choices": [
+        "いなまち",
         "くっちゃんちょう",
-        "ふじのみやし",
-        "くろべし",
-        "いせはらし"
+        "おがのまち",
+        "くっちゃんまち"
       ],
       "answer": "くっちゃんちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -107,13 +107,13 @@
       "id": "reading-積丹町-北海道",
       "prompt": "「積丹町」の読み方は？",
       "choices": [
-        "としまむら",
         "しゃこたんちょう",
-        "みさとまち",
-        "いなし"
+        "しゃこたんまち",
+        "べつかいちょう",
+        "みやけちょう"
       ],
       "answer": "しゃこたんちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -132,13 +132,13 @@
       "id": "reading-蘭越町-北海道",
       "prompt": "「蘭越町」の読み方は？",
       "choices": [
-        "つくばみらいし",
-        "ひらつかし",
+        "よしのがりちょう",
+        "ほくえいちょう",
         "らんこしちょう",
-        "ひがしまつしまし"
+        "らんこしまち"
       ],
       "answer": "らんこしちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -157,13 +157,13 @@
       "id": "reading-寿都町-北海道",
       "prompt": "「寿都町」の読み方は？",
       "choices": [
-        "しもつまし",
-        "たつごうちょう",
-        "すっつちょう",
-        "じょうようし"
+        "うちこちょう",
+        "にしはらちょう",
+        "すっつまち",
+        "すっつちょう"
       ],
       "answer": "すっつちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -182,13 +182,13 @@
       "id": "reading-島牧村-北海道",
       "prompt": "「島牧村」の読み方は？",
       "choices": [
-        "ふっつし",
+        "みなみあそむら",
         "しままきむら",
-        "きくがわし",
-        "とよかわし"
+        "しままきそん",
+        "とうほうむら"
       ],
       "answer": "しままきむら",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -207,13 +207,13 @@
       "id": "reading-神恵内村-北海道",
       "prompt": "「神恵内村」の読み方は？",
       "choices": [
-        "きたひろしまし",
-        "たんばささやまし",
+        "かもえないそん",
+        "あちむら",
         "かもえないむら",
-        "さいじょうし"
+        "としまむら"
       ],
       "answer": "かもえないむら",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -232,13 +232,13 @@
       "id": "reading-妹背牛町-北海道",
       "prompt": "「妹背牛町」の読み方は？",
       "choices": [
-        "かのやし",
         "もせうしちょう",
-        "くしもとちょう",
-        "みなみあいづまち"
+        "もせうしまち",
+        "なかとさちょう",
+        "きほうちょう"
       ],
       "answer": "もせうしちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -257,13 +257,13 @@
       "id": "reading-秩父別町-北海道",
       "prompt": "「秩父別町」の読み方は？",
       "choices": [
-        "くまもとし",
-        "ごとうし",
+        "ちっぷべつまち",
+        "つわのちょう",
         "ちっぷべつちょう",
-        "たんばささやまし"
+        "しろいしちょう"
       ],
       "answer": "ちっぷべつちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -282,13 +282,13 @@
       "id": "reading-訓子府町-北海道",
       "prompt": "「訓子府町」の読み方は？",
       "choices": [
-        "みなみしまばらし",
-        "なかし",
-        "きりしまし",
-        "くんねっぷちょう"
+        "くんねっぷちょう",
+        "ありたちょう",
+        "くんねっぷまち",
+        "ひがしみよしちょう"
       ],
       "answer": "くんねっぷちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -307,13 +307,13 @@
       "id": "reading-陸別町-北海道",
       "prompt": "「陸別町」の読み方は？",
       "choices": [
-        "ひがしあがつままち",
-        "にいはまし",
+        "ひだかがわちょう",
         "りくべつちょう",
-        "みなみそうまし"
+        "いのちょう",
+        "りくべつまち"
       ],
       "answer": "りくべつちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -332,13 +332,13 @@
       "id": "reading-剣淵町-北海道",
       "prompt": "「剣淵町」の読み方は？",
       "choices": [
-        "はちのへし",
+        "たつごうちょう",
+        "ごかまち",
         "けんぶちちょう",
-        "きんこうちょう",
-        "かしまし"
+        "けんぶちまち"
       ],
       "answer": "けんぶちちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -357,13 +357,13 @@
       "id": "reading-幌加内町-北海道",
       "prompt": "「幌加内町」の読み方は？",
       "choices": [
-        "せきし",
-        "こがし",
-        "ほろかないちょう",
-        "たつのし"
+        "いちかわみさとちょう",
+        "ひのでまち",
+        "ほろかないまち",
+        "ほろかないちょう"
       ],
       "answer": "ほろかないちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -382,13 +382,13 @@
       "id": "reading-中札内村-北海道",
       "prompt": "「中札内村」の読み方は？",
       "choices": [
-        "しきし",
-        "なかさつないむら",
-        "いよし",
-        "しまばらし"
+        "とうほうむら",
+        "なかさつないそん",
+        "あちむら",
+        "なかさつないむら"
       ],
       "answer": "なかさつないむら",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -407,13 +407,13 @@
       "id": "reading-新冠町-北海道",
       "prompt": "「新冠町」の読み方は？",
       "choices": [
+        "きじょうちょう",
+        "たがみまち",
         "にいかっぷちょう",
-        "あそし",
-        "いかたちょう",
-        "つやまし"
+        "にいかっぷまち"
       ],
       "answer": "にいかっぷちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -432,13 +432,13 @@
       "id": "reading-様似町-北海道",
       "prompt": "「様似町」の読み方は？",
       "choices": [
+        "かみさとまち",
         "さまにちょう",
-        "ごしょがわらし",
-        "やめし",
-        "つがるし"
+        "さまにまち",
+        "みのぶちょう"
       ],
       "answer": "さまにちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -458,12 +458,12 @@
       "prompt": "「遠軽町」の読み方は？",
       "choices": [
         "えんがるちょう",
-        "やないし",
-        "おきなわし",
-        "ぎょうだし"
+        "きんこうちょう",
+        "しんひだかちょう",
+        "えんがるまち"
       ],
       "answer": "えんがるちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -482,13 +482,13 @@
       "id": "reading-木古内町-北海道",
       "prompt": "「木古内町」の読み方は？",
       "choices": [
-        "あなみずまち",
-        "きこないちょう",
-        "ひのでまち",
-        "あつぎし"
+        "ことうらちょう",
+        "きこないまち",
+        "きょうたんばちょう",
+        "きこないちょう"
       ],
       "answer": "きこないちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -507,13 +507,13 @@
       "id": "reading-喜茂別町-北海道",
       "prompt": "「喜茂別町」の読み方は？",
       "choices": [
-        "きもべつちょう",
-        "みさとちょう",
-        "かがし",
-        "ひがしみよしちょう"
+        "しょうわちょう",
+        "きもべつまち",
+        "きそまち",
+        "きもべつちょう"
       ],
       "answer": "きもべつちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -532,13 +532,13 @@
       "id": "reading-留寿都村-北海道",
       "prompt": "「留寿都村」の読み方は？",
       "choices": [
+        "るすつそん",
+        "としまむら",
         "るすつむら",
-        "しょうどしまちょう",
-        "いずみし",
-        "うんなんし"
+        "とうほうむら"
       ],
       "answer": "るすつむら",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -557,13 +557,13 @@
       "id": "reading-真狩村-北海道",
       "prompt": "「真狩村」の読み方は？",
       "choices": [
-        "にしわきし",
-        "かみちょう",
-        "まつえし",
-        "まっかりむら"
+        "まっかりむら",
+        "みやぎむら",
+        "まっかりそん",
+        "ちくほくむら"
       ],
       "answer": "まっかりむら",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -583,12 +583,12 @@
       "prompt": "「標茶町」の読み方は？",
       "choices": [
         "しべちゃちょう",
-        "しょうわちょう",
-        "ふじさきまち",
-        "かのやし"
+        "とよのちょう",
+        "しべちゃまち",
+        "ながしまちょう"
       ],
       "answer": "しべちゃちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -607,13 +607,13 @@
       "id": "reading-白糠町-北海道",
       "prompt": "「白糠町」の読み方は？",
       "choices": [
-        "おおふなとし",
-        "あかしし",
+        "よしおかまち",
         "しらぬかちょう",
-        "こうなんし"
+        "しらぬかまち",
+        "みやきちょう"
       ],
       "answer": "しらぬかちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -632,13 +632,13 @@
       "id": "reading-羅臼町-北海道",
       "prompt": "「羅臼町」の読み方は？",
       "choices": [
-        "ながさきし",
-        "みなかみまち",
-        "なすからすやまし",
+        "かみじまちょう",
+        "いなまち",
+        "らうすまち",
         "らうすちょう"
       ],
       "answer": "らうすちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -657,13 +657,13 @@
       "id": "reading-中標津町-北海道",
       "prompt": "「中標津町」の読み方は？",
       "choices": [
-        "くしもとちょう",
+        "なかしべつまち",
         "なかしべつちょう",
-        "きょうたんごし",
-        "ふなばしし"
+        "あいなんちょう",
+        "とうやこちょう"
       ],
       "answer": "なかしべつちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -682,13 +682,13 @@
       "id": "reading-猿払村-北海道",
       "prompt": "「猿払村」の読み方は？",
       "choices": [
-        "なかのし",
-        "いずみし",
-        "いわくらし",
-        "さるふつむら"
+        "さるふつむら",
+        "あちむら",
+        "さるふつそん",
+        "とうほうむら"
       ],
       "answer": "さるふつむら",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -707,13 +707,13 @@
       "id": "reading-枝幸町-北海道",
       "prompt": "「枝幸町」の読み方は？",
       "choices": [
-        "さってし",
-        "とうほうむら",
-        "つくばし",
-        "えさしちょう"
+        "えさしちょう",
+        "はっぽうちょう",
+        "えさしまち",
+        "くめじまちょう"
       ],
       "answer": "えさしちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -733,12 +733,12 @@
       "prompt": "「雄武町」の読み方は？",
       "choices": [
         "おうむちょう",
-        "はとやままち",
-        "なはし",
-        "よっかいちし"
+        "なかがわまち",
+        "おうむまち",
+        "みやきちょう"
       ],
       "answer": "おうむちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -757,13 +757,13 @@
       "id": "reading-興部町-北海道",
       "prompt": "「興部町」の読み方は？",
       "choices": [
-        "やわたし",
-        "しべつし",
+        "むつざわまち",
+        "おこっぺまち",
         "おこっぺちょう",
-        "そとがはままち"
+        "ゆうすいちょう"
       ],
       "answer": "おこっぺちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -782,13 +782,13 @@
       "id": "reading-西興部村-北海道",
       "prompt": "「西興部村」の読み方は？",
       "choices": [
-        "さのし",
-        "とよたし",
-        "いこまし",
-        "にしおこっぺむら"
+        "としまむら",
+        "にしおこっぺむら",
+        "にしおこっぺそん",
+        "とよねむら"
       ],
       "answer": "にしおこっぺむら",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -807,13 +807,13 @@
       "id": "reading-湧別町-北海道",
       "prompt": "「湧別町」の読み方は？",
       "choices": [
-        "かなざわし",
-        "ゆうべつちょう",
-        "きょうたんごし",
-        "たけおし"
+        "かみじまちょう",
+        "ゆうべつまち",
+        "いかたちょう",
+        "ゆうべつちょう"
       ],
       "answer": "ゆうべつちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -832,13 +832,13 @@
       "id": "reading-津別町-北海道",
       "prompt": "「津別町」の読み方は？",
       "choices": [
-        "とめし",
-        "おおぶし",
-        "あがのし",
-        "つべつちょう"
+        "わけちょう",
+        "つべつちょう",
+        "つべつまち",
+        "みなべちょう"
       ],
       "answer": "つべつちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -857,13 +857,13 @@
       "id": "reading-佐呂間町-北海道",
       "prompt": "「佐呂間町」の読み方は？",
       "choices": [
-        "きそまち",
-        "あきおおたちょう",
+        "あがまち",
+        "さろままち",
         "さろまちょう",
-        "あさくちし"
+        "うえきまち"
       ],
       "answer": "さろまちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -882,13 +882,13 @@
       "id": "reading-名寄市-北海道",
       "prompt": "「名寄市」の読み方は？",
       "choices": [
-        "いせさきし",
         "なよろし",
-        "ひたし",
-        "さくらがわし"
+        "すざかし",
+        "とみやし",
+        "あそし"
       ],
       "answer": "なよろし",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -907,13 +907,13 @@
       "id": "reading-中頓別町-北海道",
       "prompt": "「中頓別町」の読み方は？",
       "choices": [
-        "かみすし",
+        "とべちょう",
+        "しんおんせんちょう",
         "なかとんべつちょう",
-        "むかわちょう",
-        "やすぎし"
+        "なかとんべつまち"
       ],
       "answer": "なかとんべつちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -932,13 +932,13 @@
       "id": "reading-浜頓別町-北海道",
       "prompt": "「浜頓別町」の読み方は？",
       "choices": [
-        "くめじまちょう",
-        "かわちまち",
+        "はまとんべつまち",
+        "いかたちょう",
         "はまとんべつちょう",
-        "せらちょう"
+        "せたなちょう"
       ],
       "answer": "はまとんべつちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -957,13 +957,13 @@
       "id": "reading-幌延町-北海道",
       "prompt": "「幌延町」の読み方は？",
       "choices": [
-        "とめし",
-        "はすだし",
-        "ちばし",
-        "ほろのべちょう"
+        "せらちょう",
+        "ほろのべちょう",
+        "うちこちょう",
+        "ほろのべまち"
       ],
       "answer": "ほろのべちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -982,13 +982,13 @@
       "id": "reading-厚沢部町-北海道",
       "prompt": "「厚沢部町」の読み方は？",
       "choices": [
+        "みさとちょう",
+        "たきちょう",
         "あっさぶちょう",
-        "たんばし",
-        "たかさきし",
-        "とみかちょう"
+        "あっさぶまち"
       ],
       "answer": "あっさぶちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -1007,13 +1007,13 @@
       "id": "reading-南幌町-北海道",
       "prompt": "「南幌町」の読み方は？",
       "choices": [
-        "ぶんごおおのし",
         "なんぽろちょう",
-        "はんのうし",
-        "しろさとまち"
+        "なんぽろまち",
+        "みなみえちぜんちょう",
+        "なかどまりまち"
       ],
       "answer": "なんぽろちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -1032,13 +1032,13 @@
       "id": "reading-浦臼町-北海道",
       "prompt": "「浦臼町」の読み方は？",
       "choices": [
+        "みなみおおすみちょう",
         "うらうすちょう",
-        "きよすし",
-        "はままつし",
-        "たかはしし"
+        "りしりふじちょう",
+        "うらうすまち"
       ],
       "answer": "うらうすちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -1057,13 +1057,13 @@
       "id": "reading-新十津川町-北海道",
       "prompt": "「新十津川町」の読み方は？",
       "choices": [
-        "みなみあるぷすし",
+        "しんとつかわまち",
         "しんとつかわちょう",
-        "むつざわまち",
-        "しばたし"
+        "しかまち",
+        "みなみいせちょう"
       ],
       "answer": "しんとつかわちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -1082,13 +1082,13 @@
       "id": "reading-比布町-北海道",
       "prompt": "「比布町」の読み方は？",
       "choices": [
-        "おまえざきし",
-        "くらしきし",
-        "あそし",
-        "ぴっぷちょう"
+        "ぴっぷちょう",
+        "そとがはままち",
+        "あいなんちょう",
+        "ぴっぷまち"
       ],
       "answer": "ぴっぷちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -1107,13 +1107,13 @@
       "id": "reading-占冠村-北海道",
       "prompt": "「占冠村」の読み方は？",
       "choices": [
-        "とよあけし",
+        "みなみあそむら",
         "しむかっぷむら",
-        "わじまし",
-        "かもがわし"
+        "しむかっぷそん",
+        "みしまむら"
       ],
       "answer": "しむかっぷむら",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -1132,13 +1132,13 @@
       "id": "reading-和寒町-北海道",
       "prompt": "「和寒町」の読み方は？",
       "choices": [
-        "べつかいちょう",
-        "かわごえし",
-        "わっさむちょう",
-        "やぶし"
+        "ことうらちょう",
+        "わっさむまち",
+        "しんおんせんちょう",
+        "わっさむちょう"
       ],
       "answer": "わっさむちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -1157,13 +1157,13 @@
       "id": "reading-壮瞥町-北海道",
       "prompt": "「壮瞥町」の読み方は？",
       "choices": [
-        "かもがわし",
-        "ちくじょうまち",
         "そうべつちょう",
-        "はくさんし"
+        "みさとちょう",
+        "そうべつまち",
+        "くめじまちょう"
       ],
       "answer": "そうべつちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -1182,13 +1182,13 @@
       "id": "reading-平取町-北海道",
       "prompt": "「平取町」の読み方は？",
       "choices": [
-        "のとちょう",
-        "かみちょう",
-        "いずのくにし",
+        "びらとりまち",
+        "あがまち",
+        "たいきちょう",
         "びらとりちょう"
       ],
       "answer": "びらとりちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -1207,13 +1207,13 @@
       "id": "reading-士幌町-北海道",
       "prompt": "「士幌町」の読み方は？",
       "choices": [
-        "いなざわし",
+        "しほろまち",
         "しほろちょう",
-        "うんぜんし",
-        "いぶすきし"
+        "かみまち",
+        "やずちょう"
       ],
       "answer": "しほろちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -1232,13 +1232,13 @@
       "id": "reading-上士幌町-北海道",
       "prompt": "「上士幌町」の読み方は？",
       "choices": [
-        "おおがきし",
+        "かみしほろまち",
+        "あやがわちょう",
         "かみしほろちょう",
-        "のしろし",
-        "みやこのじょうし"
+        "かみちょう"
       ],
       "answer": "かみしほろちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -1257,13 +1257,13 @@
       "id": "reading-豊頃町-北海道",
       "prompt": "「豊頃町」の読み方は？",
       "choices": [
+        "とよころまち",
+        "まくべつちょう",
         "とよころちょう",
-        "かしわし",
-        "みどりし",
-        "みさとちょう"
+        "しょうどしまちょう"
       ],
       "answer": "とよころちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -1282,13 +1282,13 @@
       "id": "reading-厚岸町-北海道",
       "prompt": "「厚岸町」の読み方は？",
       "choices": [
-        "ちくしのし",
-        "こうげまち",
+        "やまとちょう",
+        "あっけしまち",
         "あっけしちょう",
-        "みなみあいづまち"
+        "つわのちょう"
       ],
       "answer": "あっけしちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "北海道"
@@ -1308,12 +1308,12 @@
       "prompt": "「六ヶ所村」の読み方は？",
       "choices": [
         "ろっかしょむら",
-        "とよなかし",
-        "おみたまし",
-        "いいづなまち"
+        "みやぎむら",
+        "とうほうむら",
+        "ろっかしょそん"
       ],
       "answer": "ろっかしょむら",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "青森県"
@@ -1332,13 +1332,13 @@
       "id": "reading-六戸町-青森県",
       "prompt": "「六戸町」の読み方は？",
       "choices": [
-        "さがし",
-        "まつもとし",
-        "かみまち",
-        "ろくのへまち"
+        "ゆうすいちょう",
+        "たいきちょう",
+        "ろくのへまち",
+        "ろくのへちょう"
       ],
       "answer": "ろくのへまち",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "青森県"
@@ -1357,13 +1357,13 @@
       "id": "reading-東北町-青森県",
       "prompt": "「東北町」の読み方は？",
       "choices": [
-        "やまがたし",
-        "たかしまし",
-        "とうほくまち",
-        "ひかりし"
+        "とうほくちょう",
+        "そとがはままち",
+        "あいなんちょう",
+        "とうほくまち"
       ],
       "answer": "とうほくまち",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "青森県"
@@ -1382,13 +1382,13 @@
       "id": "reading-今帰仁村-沖縄県",
       "prompt": "「今帰仁村」の読み方は？",
       "choices": [
-        "ありだがわちょう",
-        "ふちゅうし",
-        "なきじんそん",
-        "とよねむら"
+        "とよねむら",
+        "ちくほくむら",
+        "なきじんむら",
+        "なきじんそん"
       ],
       "answer": "なきじんそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1407,13 +1407,13 @@
       "id": "reading-北谷町-沖縄県",
       "prompt": "「北谷町」の読み方は？",
       "choices": [
-        "ちよだまち",
+        "きたひろしまちょう",
+        "へぐりちょう",
         "ちゃたんちょう",
-        "よしおかまち",
-        "さくし"
+        "ちゃたんまち"
       ],
       "answer": "ちゃたんちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1432,13 +1432,13 @@
       "id": "reading-読谷村-沖縄県",
       "prompt": "「読谷村」の読み方は？",
       "choices": [
-        "かごしまし",
-        "かわじままち",
         "よみたんそん",
-        "おおとよちょう"
+        "にいじまむら",
+        "よみたんむら",
+        "としまむら"
       ],
       "answer": "よみたんそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1457,13 +1457,13 @@
       "id": "reading-座間味村-沖縄県",
       "prompt": "「座間味村」の読み方は？",
       "choices": [
+        "ざまみむら",
         "ざまみそん",
-        "ごのへまち",
-        "いわくらし",
-        "ふじみのし"
+        "みなみあそむら",
+        "とうほうむら"
       ],
       "answer": "ざまみそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1482,13 +1482,13 @@
       "id": "reading-南風原町-沖縄県",
       "prompt": "「南風原町」の読み方は？",
       "choices": [
-        "みやけちょう",
-        "さんじょうし",
         "はえばるちょう",
-        "あまくさし"
+        "めいわまち",
+        "おおだいちょう",
+        "はえばるまち"
       ],
       "answer": "はえばるちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1507,13 +1507,13 @@
       "id": "reading-中城村-沖縄県",
       "prompt": "「中城村」の読み方は？",
       "choices": [
-        "みねし",
+        "みしまむら",
+        "みやぎむら",
         "なかぐすくそん",
-        "かわいちょう",
-        "みやざきし"
+        "なかぐすくむら"
       ],
       "answer": "なかぐすくそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1532,13 +1532,13 @@
       "id": "reading-北中城村-沖縄県",
       "prompt": "「北中城村」の読み方は？",
       "choices": [
-        "ながとろまち",
-        "かいようちょう",
+        "きたなかぐすくむら",
         "きたなかぐすくそん",
-        "ちがさきし"
+        "にいじまむら",
+        "みやぎむら"
       ],
       "answer": "きたなかぐすくそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1557,13 +1557,13 @@
       "id": "reading-恩納村-沖縄県",
       "prompt": "「恩納村」の読み方は？",
       "choices": [
-        "めいわまち",
-        "かぬまし",
+        "おんなむら",
         "おんなそん",
-        "とりでし"
+        "ちくほくむら",
+        "とうほうむら"
       ],
       "answer": "おんなそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1582,13 +1582,13 @@
       "id": "reading-金武町-沖縄県",
       "prompt": "「金武町」の読み方は？",
       "choices": [
+        "きんまち",
+        "みなみえちぜんちょう",
         "きんちょう",
-        "じょうえつし",
-        "きょうわちょう",
-        "よしのがわし"
+        "かみじまちょう"
       ],
       "answer": "きんちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1607,13 +1607,13 @@
       "id": "reading-宜野座村-沖縄県",
       "prompt": "「宜野座村」の読み方は？",
       "choices": [
+        "としまむら",
+        "ぎのざむら",
         "ぎのざそん",
-        "あきるのし",
-        "みなみさつまし",
-        "やくしまちょう"
+        "みやぎむら"
       ],
       "answer": "ぎのざそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1632,13 +1632,13 @@
       "id": "reading-東村-沖縄県",
       "prompt": "「東村」の読み方は？",
       "choices": [
-        "さがみはらし",
-        "ひがしそん",
-        "みのぶちょう",
-        "いかわまち"
+        "ひがしむら",
+        "みやぎむら",
+        "あちむら",
+        "ひがしそん"
       ],
       "answer": "ひがしそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1657,13 +1657,13 @@
       "id": "reading-大宜味村-沖縄県",
       "prompt": "「大宜味村」の読み方は？",
       "choices": [
+        "おおぎみむら",
+        "ちくほくむら",
         "おおぎみそん",
-        "いぶすきし",
-        "ながさきし",
-        "のべおかし"
+        "あちむら"
       ],
       "answer": "おおぎみそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1682,13 +1682,13 @@
       "id": "reading-国頭村-沖縄県",
       "prompt": "「国頭村」の読み方は？",
       "choices": [
-        "たむらし",
-        "じょうそうし",
-        "かぞし",
+        "にいじまむら",
+        "みなみあそむら",
+        "くにがみむら",
         "くにがみそん"
       ],
       "answer": "くにがみそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1707,13 +1707,13 @@
       "id": "reading-伊江村-沖縄県",
       "prompt": "「伊江村」の読み方は？",
       "choices": [
-        "にかほし",
+        "あちむら",
+        "みやぎむら",
         "いえそん",
-        "いちかわみさとちょう",
-        "しまんとし"
+        "いえむら"
       ],
       "answer": "いえそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1732,13 +1732,13 @@
       "id": "reading-与那原町-沖縄県",
       "prompt": "「与那原町」の読み方は？",
       "choices": [
-        "なかし",
-        "えいへいじちょう",
-        "ながしまちょう",
-        "よなばるちょう"
+        "しょうないまち",
+        "よなばるちょう",
+        "よなばるまち",
+        "くまこうげんちょう"
       ],
       "answer": "よなばるちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1757,13 +1757,13 @@
       "id": "reading-八重瀬町-沖縄県",
       "prompt": "「八重瀬町」の読み方は？",
       "choices": [
-        "こばやしし",
-        "きたなごやし",
         "やえせちょう",
-        "ながさきし"
+        "かわいちょう",
+        "やえせまち",
+        "によどがわちょう"
       ],
       "answer": "やえせちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1782,13 +1782,13 @@
       "id": "reading-渡嘉敷村-沖縄県",
       "prompt": "「渡嘉敷村」の読み方は？",
       "choices": [
-        "ほこたし",
-        "ごとうし",
+        "とよねむら",
         "とかしきそん",
-        "こうしゅうし"
+        "みなみあそむら",
+        "とかしきむら"
       ],
       "answer": "とかしきそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1807,13 +1807,13 @@
       "id": "reading-粟国村-沖縄県",
       "prompt": "「粟国村」の読み方は？",
       "choices": [
-        "あそし",
-        "みなみえちぜんちょう",
+        "あぐにむら",
+        "とうほうむら",
         "あぐにそん",
-        "みさとちょう"
+        "みやぎむら"
       ],
       "answer": "あぐにそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1832,13 +1832,13 @@
       "id": "reading-渡名喜村-沖縄県",
       "prompt": "「渡名喜村」の読み方は？",
       "choices": [
-        "やくもちょう",
-        "じょうそうし",
-        "ありだがわちょう",
-        "となきそん"
+        "となきそん",
+        "とよねむら",
+        "ちくほくむら",
+        "となきむら"
       ],
       "answer": "となきそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1857,13 +1857,13 @@
       "id": "reading-南大東村-沖縄県",
       "prompt": "「南大東村」の読み方は？",
       "choices": [
-        "きたひろしまし",
-        "みなみだいとうそん",
-        "ありたちょう",
-        "たつのし"
+        "みやぎむら",
+        "としまむら",
+        "みなみだいとうむら",
+        "みなみだいとうそん"
       ],
       "answer": "みなみだいとうそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1882,13 +1882,13 @@
       "id": "reading-北大東村-沖縄県",
       "prompt": "「北大東村」の読み方は？",
       "choices": [
-        "おわりあさひし",
+        "ちくほくむら",
         "きただいとうそん",
-        "ふくやまし",
-        "しんかみごとうちょう"
+        "みしまむら",
+        "きただいとうむら"
       ],
       "answer": "きただいとうそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1907,13 +1907,13 @@
       "id": "reading-伊平屋村-沖縄県",
       "prompt": "「伊平屋村」の読み方は？",
       "choices": [
-        "なりたし",
-        "かわにしちょう",
         "いへやそん",
-        "ちちぶし"
+        "いへやむら",
+        "みなみあそむら",
+        "とよねむら"
       ],
       "answer": "いへやそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1932,13 +1932,13 @@
       "id": "reading-伊是名村-沖縄県",
       "prompt": "「伊是名村」の読み方は？",
       "choices": [
-        "まつさかし",
-        "はんのうし",
-        "いぜなそん",
-        "こなんし"
+        "としまむら",
+        "にいじまむら",
+        "いぜなむら",
+        "いぜなそん"
       ],
       "answer": "いぜなそん",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
@@ -1957,13 +1957,13 @@
       "id": "reading-廿日市市-広島県",
       "prompt": "「廿日市市」の読み方は？",
       "choices": [
-        "たかまつし",
-        "いいづかし",
-        "うちこちょう",
-        "はつかいちし"
+        "とよはしし",
+        "はつかいちし",
+        "しそうし",
+        "ひがしくるめし"
       ],
       "answer": "はつかいちし",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "広島県"
@@ -1982,13 +1982,13 @@
       "id": "reading-八街市-千葉県",
       "prompt": "「八街市」の読み方は？",
       "choices": [
-        "とよのちょう",
-        "たかおかし",
-        "よこすかし",
-        "やちまたし"
+        "みなみあるぷすし",
+        "やちまたし",
+        "こさいし",
+        "かつらぎし"
       ],
       "answer": "やちまたし",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "千葉県"
@@ -2007,13 +2007,13 @@
       "id": "reading-匝瑳市-千葉県",
       "prompt": "「匝瑳市」の読み方は？",
       "choices": [
-        "あいづみさとまち",
-        "ながおかし",
-        "ふくいし",
-        "そうさし"
+        "おわりあさひし",
+        "いばらきし",
+        "そうさし",
+        "くしろし"
       ],
       "answer": "そうさし",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "千葉県"
@@ -2033,12 +2033,12 @@
       "prompt": "「各務原市」の読み方は？",
       "choices": [
         "かかみがはらし",
-        "いなぎし",
-        "へぐりちょう",
-        "きょうわちょう"
+        "とっとりし",
+        "ふくおかし",
+        "はすだし"
       ],
       "answer": "かかみがはらし",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "岐阜県"
@@ -2057,13 +2057,13 @@
       "id": "reading-潮来市-茨城県",
       "prompt": "「潮来市」の読み方は？",
       "choices": [
-        "たかはまし",
-        "にしいずちょう",
+        "からつし",
         "いたこし",
-        "かしわし"
+        "もとみやし",
+        "ごせんし"
       ],
       "answer": "いたこし",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "茨城県"
@@ -2082,13 +2082,13 @@
       "id": "reading-蕨市-埼玉県",
       "prompt": "「蕨市」の読み方は？",
       "choices": [
-        "うえだし",
-        "わらびし",
-        "ぎふし",
-        "つばめし"
+        "しもだし",
+        "かすかべし",
+        "おまえざきし",
+        "わらびし"
       ],
       "answer": "わらびし",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "埼玉県"
@@ -2107,13 +2107,13 @@
       "id": "reading-邑楽町-群馬県",
       "prompt": "「邑楽町」の読み方は？",
       "choices": [
-        "ちゅうおうし",
-        "むかわちょう",
+        "みさとちょう",
         "おうらまち",
-        "ちばし"
+        "おうらちょう",
+        "やくしまちょう"
       ],
       "answer": "おうらまち",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "群馬県"
@@ -2132,13 +2132,13 @@
       "id": "reading-木曽岬町-三重県",
       "prompt": "「木曽岬町」の読み方は？",
       "choices": [
+        "まくべつちょう",
         "きそさきちょう",
-        "くにさきし",
-        "くまもとし",
-        "さかいし"
+        "ふじかわちょう",
+        "きそさきまち"
       ],
       "answer": "きそさきちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "三重県"
@@ -2157,13 +2157,13 @@
       "id": "reading-斑鳩町-奈良県",
       "prompt": "「斑鳩町」の読み方は？",
       "choices": [
-        "しょうないまち",
-        "いかるがちょう",
-        "もおかし",
-        "しばたし"
+        "いかるがまち",
+        "いびがわちょう",
+        "やまとちょう",
+        "いかるがちょう"
       ],
       "answer": "いかるがちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "奈良県"
@@ -2182,13 +2182,13 @@
       "id": "reading-若桜町-鳥取県",
       "prompt": "「若桜町」の読み方は？",
       "choices": [
-        "ちくじょうまち",
-        "わかさまち",
-        "うきし",
-        "ことうらちょう"
+        "なかちょう",
+        "ひだかがわちょう",
+        "わかさちょう",
+        "わかさまち"
       ],
       "answer": "わかさまち",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "鳥取県"
@@ -2207,13 +2207,13 @@
       "id": "reading-海士町-島根県",
       "prompt": "「海士町」の読み方は？",
       "choices": [
-        "いいなんちょう",
-        "いばらきし",
         "あまちょう",
-        "そうかし"
+        "あままち",
+        "はっぽうちょう",
+        "おおなんちょう"
       ],
       "answer": "あまちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "島根県"
@@ -2232,13 +2232,13 @@
       "id": "reading-知夫村-島根県",
       "prompt": "「知夫村」の読み方は？",
       "choices": [
-        "みなみさつまし",
         "ちぶむら",
-        "なすからすやまし",
-        "そうかし"
+        "ちぶそん",
+        "にいじまむら",
+        "とよねむら"
       ],
       "answer": "ちぶむら",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "島根県"
@@ -2257,13 +2257,13 @@
       "id": "reading-神石高原町-広島県",
       "prompt": "「神石高原町」の読み方は？",
       "choices": [
-        "みなみさつまし",
-        "ひおきし",
+        "よしおかまち",
         "じんせきこうげんちょう",
-        "みやぎむら"
+        "せらちょう",
+        "じんせきこうげんまち"
       ],
       "answer": "じんせきこうげんちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "広島県"
@@ -2282,13 +2282,13 @@
       "id": "reading-阿武町-山口県",
       "prompt": "「阿武町」の読み方は？",
       "choices": [
-        "かでなちょう",
-        "たつごうちょう",
-        "みさきちょう",
+        "きみのちょう",
+        "ゆうすいちょう",
+        "あぶまち",
         "あぶちょう"
       ],
       "answer": "あぶちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "山口県"
@@ -2307,13 +2307,13 @@
       "id": "reading-土庄町-香川県",
       "prompt": "「土庄町」の読み方は？",
       "choices": [
-        "いわきし",
-        "ちばし",
-        "とのしょうちょう",
-        "うるまし"
+        "はっぽうちょう",
+        "ひろのちょう",
+        "とのしょうまち",
+        "とのしょうちょう"
       ],
       "answer": "とのしょうちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "香川県"
@@ -2332,13 +2332,13 @@
       "id": "reading-檮原町-高知県",
       "prompt": "「檮原町」の読み方は？",
       "choices": [
-        "くれし",
-        "きさらづし",
-        "きよせし",
-        "ゆすはらちょう"
+        "ゆすはらまち",
+        "ゆすはらちょう",
+        "もりまち",
+        "あいづみさとまち"
       ],
       "answer": "ゆすはらちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "高知県"
@@ -2357,13 +2357,13 @@
       "id": "reading-奈半利町-高知県",
       "prompt": "「奈半利町」の読み方は？",
       "choices": [
-        "せんぼくし",
         "なはりちょう",
-        "かいなんし",
-        "あわらし"
+        "なはりまち",
+        "みなべちょう",
+        "くまこうげんちょう"
       ],
       "answer": "なはりちょう",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "高知県"
@@ -2383,12 +2383,12 @@
       "prompt": "「いちき串木野市」の読み方は？",
       "choices": [
         "いちきくしきのし",
-        "ぎふし",
-        "しもつけし",
-        "くらしきし"
+        "とちぎし",
+        "ぎょうだし",
+        "みなみしまばらし"
       ],
       "answer": "いちきくしきのし",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "鹿児島県"
@@ -2407,13 +2407,13 @@
       "id": "reading-姶良市-鹿児島県",
       "prompt": "「姶良市」の読み方は？",
       "choices": [
+        "とよおかし",
         "あいらし",
-        "ひがしまつしまし",
-        "へぐりちょう",
-        "みなみぼうそうし"
+        "いさはやし",
+        "たかはしし"
       ],
       "answer": "あいらし",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "鹿児島県"
@@ -2432,13 +2432,13 @@
       "id": "reading-曽於市-鹿児島県",
       "prompt": "「曽於市」の読み方は？",
       "choices": [
-        "そおし",
-        "とやまし",
-        "たむらし",
-        "なかどまりまち"
+        "かごしまし",
+        "しこくちゅうおうし",
+        "かわごえし",
+        "そおし"
       ],
       "answer": "そおし",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "鹿児島県"
@@ -2457,13 +2457,13 @@
       "id": "reading-豊見城市-沖縄県",
       "prompt": "「豊見城市」の読み方は？",
       "choices": [
-        "やわたし",
-        "ちたし",
-        "みよしまち",
+        "いしおかし",
+        "うんなんし",
+        "いなざわし",
         "とみぐすくし"
       ],
       "answer": "とみぐすくし",
-      "distractorStrategy": "curatedHardReadings",
+      "distractorStrategy": "readingConfusion",
       "tags": [
         "reading",
         "沖縄県"
