@@ -11,6 +11,7 @@ const THEME = {
   "city-fact": { bg: "linear-gradient(135deg,#0e3a4a,#166a85)", emoji: "🏙️" },
   "lore-trivia": { bg: "linear-gradient(135deg,#332a12,#5c4a1f)", emoji: "📚" },
   "parser-structure": { bg: "linear-gradient(135deg,#1f2e33,#37545c)", emoji: "🧵" },
+  "district-reading": { bg: "linear-gradient(135deg,#4a1f3d,#7a3560)", emoji: "🔍" },
 };
 const DEFAULT_THEME = { bg: "linear-gradient(135deg,#1b1f2a,#2e3550)", emoji: "❓" };
 

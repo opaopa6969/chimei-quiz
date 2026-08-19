@@ -12,6 +12,7 @@ import * as reading from "./question-types/reading.mjs";
 import * as cityFact from "./question-types/city-fact.mjs";
 import * as loreTrivia from "./question-types/lore-trivia.mjs";
 import * as parserStructure from "./question-types/parser-structure.mjs";
+import * as districtReading from "./question-types/district-reading.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, "..", "data");
@@ -21,6 +22,7 @@ const QUIZ_DIR = path.join(__dirname, "..", "public", "data", "quiz");
 const { changes } = JSON.parse(readFileSync(path.join(DATA_DIR, "municipality-changes.json"), "utf8"));
 const { municipalities } = JSON.parse(readFileSync(path.join(DATA_DIR, "municipality-master.json"), "utf8"));
 const { entries: loreEntries } = JSON.parse(readFileSync(path.join(DATA_DIR, "lore-entries.json"), "utf8"));
+const { districts } = JSON.parse(readFileSync(path.join(DATA_DIR, "district-readings.json"), "utf8"));
 
 mkdirSync(QUIZ_DIR, { recursive: true });
 
@@ -33,6 +35,7 @@ const SETS = {
   "city-fact": cityFact.generate(municipalities, "city-fact-v1"),
   "lore-trivia": loreTrivia.generate(loreEntries, "lore-trivia-v1"),
   "parser-structure": parserStructure.generate(loreEntries, "parser-structure-v1"),
+  "district-reading": districtReading.generate(districts, "district-reading-v1"),
 };
 
 let total = 0;

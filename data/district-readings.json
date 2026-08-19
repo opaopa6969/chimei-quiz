@@ -1,0 +1,127 @@
+{
+  "source": "日本郵便 郵便番号データ (utf_ken_all.csv)",
+  "fetchedFrom": "https://www.post.japanpost.jp/service/search/zipcode/download/utf/zip/utf_ken_all.zip",
+  "count": 15,
+  "districts": [
+    {
+      "officialName": "神木本町",
+      "popularName": null,
+      "prefecture": "神奈川県",
+      "city": "川崎市宮前区",
+      "kana": "しぼくほんちょう",
+      "trivia": ""
+    },
+    {
+      "officialName": "放出東",
+      "popularName": "放出",
+      "prefecture": "大阪府",
+      "city": "大阪市鶴見区",
+      "kana": "はなてんひがし",
+      "trivia": "「放出」は大阪の有名な難読地名。鶴見区の放出東・城東区の放出西に分かれる。"
+    },
+    {
+      "officialName": "十三本町",
+      "popularName": "十三",
+      "prefecture": "大阪府",
+      "city": "大阪市淀川区",
+      "kana": "じゅうそうほんまち",
+      "trivia": "「十三（じゅうそう）」は淀川に架かる十三大橋周辺の繁華街として大阪でも有名な難読地名。"
+    },
+    {
+      "officialName": "立売堀",
+      "popularName": null,
+      "prefecture": "大阪府",
+      "city": "大阪市西区",
+      "kana": "いたちぼり",
+      "trivia": "かつて材木や金物の立ち売り市場があったことに由来するとされる。"
+    },
+    {
+      "officialName": "私市山手",
+      "popularName": "私市",
+      "prefecture": "大阪府",
+      "city": "交野市",
+      "kana": "きさいちやまて",
+      "trivia": "「私市（きさいち）」は京阪電車の駅名にもなっている大阪府交野市の地名。"
+    },
+    {
+      "officialName": "喜連",
+      "popularName": null,
+      "prefecture": "大阪府",
+      "city": "大阪市平野区",
+      "kana": "きれ",
+      "trivia": "隣接する「瓜破（うりわり）」と合わせ、地下鉄駅名「喜連瓜破」でも有名。"
+    },
+    {
+      "officialName": "瓜破",
+      "popularName": null,
+      "prefecture": "大阪府",
+      "city": "大阪市平野区",
+      "kana": "うりわり",
+      "trivia": "隣接する「喜連（きれ）」と合わせ、地下鉄駅名「喜連瓜破」でも有名。"
+    },
+    {
+      "officialName": "嵯峨鳥居本化野町",
+      "popularName": "化野",
+      "prefecture": "京都府",
+      "city": "京都市右京区",
+      "kana": "さがとりいもとあだしのちょう",
+      "trivia": "「化野（あだしの）」は「化野念仏寺」で知られる、古くからの葬送の地。正式な町名は「嵯峨鳥居本化野町」。"
+    },
+    {
+      "officialName": "小豆沢",
+      "popularName": null,
+      "prefecture": "東京都",
+      "city": "板橋区",
+      "kana": "あずさわ",
+      "trivia": "「小豆」を「あず」と読むのは「あずき」の古い読み方の名残とされる。"
+    },
+    {
+      "officialName": "及位",
+      "popularName": null,
+      "prefecture": "山形県",
+      "city": "最上郡真室川町",
+      "kana": "のぞき",
+      "trivia": "山伏が「位に及ぶ」修行をした地に由来するという説がある。JR奥羽本線の駅名にもなっている。"
+    },
+    {
+      "officialName": "雑餉隈町",
+      "popularName": "雑餉隈",
+      "prefecture": "福岡県",
+      "city": "大野城市",
+      "kana": "ざつしょのくままち",
+      "trivia": "旅人に「雑餉（お茶菓子）」を振る舞った隈（地域）に由来するという説がある。"
+    },
+    {
+      "officialName": "東一口",
+      "popularName": "一口",
+      "prefecture": "京都府",
+      "city": "久世郡久御山町",
+      "kana": "ひがしいもあらい",
+      "trivia": "「一口（いもあらい）」は巨椋池の芋を洗った故事に由来するとされる。西一口とあわせて2つの町がある。"
+    },
+    {
+      "officialName": "女化町",
+      "popularName": "女化",
+      "prefecture": "茨城県",
+      "city": "牛久市",
+      "kana": "おなばけちょう",
+      "trivia": "狐が女性に化けたという「女化稲荷」の伝説に由来する地名。"
+    },
+    {
+      "officialName": "十六島町",
+      "popularName": "十六島",
+      "prefecture": "島根県",
+      "city": "出雲市",
+      "kana": "うっぷるいちょう",
+      "trivia": "特産の海藻「十六島海苔（うっぷるいのり）」でも知られる。「島」を「るい」と読むのはこの地名だけの当て字とされる。"
+    },
+    {
+      "officialName": "生麦",
+      "popularName": null,
+      "prefecture": "神奈川県",
+      "city": "横浜市鶴見区",
+      "kana": "なまむぎ",
+      "trivia": "幕末の「生麦事件」（1862年）の現場として知られる。"
+    }
+  ]
+}

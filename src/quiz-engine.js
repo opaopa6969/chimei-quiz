@@ -10,6 +10,7 @@ export const CATEGORIES = [
   { type: "city-fact", label: "ご当地トリビア", emoji: "🏙️", desc: "人口・面積の日本一" },
   { type: "lore-trivia", label: "住所地誌トリビア", emoji: "📚", desc: "住所の書き方にまつわる雑学" },
   { type: "parser-structure", label: "住所構造クイズ", emoji: "🧵", desc: "免・条丁目・地割…地域特殊な住所の仕組み" },
+  { type: "district-reading", label: "町丁目の激レア難読", emoji: "🔍", desc: "神木本町、読める？（市区町村レベルより激辛）" },
   { type: "all", label: "ぜんぶミックス", emoji: "🎲", desc: "全カテゴリからランダム出題" },
 ];
 
