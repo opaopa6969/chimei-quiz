@@ -1,0 +1,16 @@
+{
+  "id": "chimei-quiz",
+  "name": "chimei-quiz（地名クイズ）",
+  "description": "日本の地名・自治体まわりの雑学クイズゲーム。同名地名・消えた市町村・合成地名・自治体変遷推理・難読地名・ご当地トリビアを公開データ（Wikidata / e-Stat / 番地の謎）から機械生成。",
+  "type": "node",
+  "hostname": "chimei-quiz.unlaxer.org",
+  "port": 8094,
+  "runtime": "docker",
+  "compose_file": "deploy/docker-compose.yml",
+  "compose_service": "chimei-quiz",
+  "auth": "public",
+  "health_check": "/healthz",
+  "icon": "si-nodedotjs",
+  "tags": ["game", "quiz", "geography", "node", "opa"],
+  "repo_url": "https://github.com/opaopa6969/chimei-quiz.git"
+}

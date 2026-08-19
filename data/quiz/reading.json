@@ -1,0 +1,1386 @@
+{
+  "type": "reading",
+  "count": 60,
+  "questions": [
+    {
+      "type": "reading",
+      "id": "reading-都城市",
+      "prompt": "「都城市」の読み方は？",
+      "choices": [
+        "よしみまち",
+        "よしかちょう",
+        "かでなちょう",
+        "みやこのじょうし"
+      ],
+      "answer": "みやこのじょうし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "都城市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-錦町",
+      "prompt": "「錦町」の読み方は？",
+      "choices": [
+        "にしきちょう",
+        "うさし",
+        "ふくちまち",
+        "くしろちょう"
+      ],
+      "answer": "にしきちょう",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "錦町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-南九州市",
+      "prompt": "「南九州市」の読み方は？",
+      "choices": [
+        "いわぬまし",
+        "はなまきし",
+        "ぶんごたかだし",
+        "みなみきゅうしゅうし"
+      ],
+      "answer": "みなみきゅうしゅうし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "南九州市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-東村",
+      "prompt": "「東村」の読み方は？",
+      "choices": [
+        "うちこちょう",
+        "おおえちょう",
+        "あずまむら",
+        "むらかみし"
+      ],
+      "answer": "あずまむら",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "東村"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-境町",
+      "prompt": "「境町」の読み方は？",
+      "choices": [
+        "あいなんちょう",
+        "さかいまち",
+        "ひたちおおみやし",
+        "かわかみそん"
+      ],
+      "answer": "さかいまち",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "境町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-旭市",
+      "prompt": "「旭市」の読み方は？",
+      "choices": [
+        "あさひし",
+        "いさし",
+        "えちぜんし",
+        "はむらし"
+      ],
+      "answer": "あさひし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "旭市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-柏市",
+      "prompt": "「柏市」の読み方は？",
+      "choices": [
+        "みやこじまし",
+        "せらちょう",
+        "かしわし",
+        "ほうだつしみずちょう"
+      ],
+      "answer": "かしわし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "柏市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-岬町",
+      "prompt": "「岬町」の読み方は？",
+      "choices": [
+        "ながぬままち",
+        "みさきまち",
+        "みずほちょう",
+        "ながさきし"
+      ],
+      "answer": "みさきまち",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "岬町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-燕市",
+      "prompt": "「燕市」の読み方は？",
+      "choices": [
+        "なよろし",
+        "いいだし",
+        "いんざいし",
+        "つばめし"
+      ],
+      "answer": "つばめし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "燕市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-栄村",
+      "prompt": "「栄村」の読み方は？",
+      "choices": [
+        "しょうわちょう",
+        "ひちそうちょう",
+        "さかえむら",
+        "まいばらし"
+      ],
+      "answer": "さかえむら",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "栄村"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-栄町",
+      "prompt": "「栄町」の読み方は？",
+      "choices": [
+        "おくいずもちょう",
+        "くわなし",
+        "さかえまち",
+        "さのし"
+      ],
+      "answer": "さかえまち",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "栄町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-堺市",
+      "prompt": "「堺市」の読み方は？",
+      "choices": [
+        "ふじし",
+        "さかいし",
+        "しょうわちょう",
+        "きたがわそん"
+      ],
+      "answer": "さかいし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "堺市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-泊村",
+      "prompt": "「泊村」の読み方は？",
+      "choices": [
+        "とまりそん",
+        "おおがきし",
+        "つるおかし",
+        "さいたまし"
+      ],
+      "answer": "とまりそん",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "泊村"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-光市",
+      "prompt": "「光市」の読み方は？",
+      "choices": [
+        "しちのへまち",
+        "ひかりし",
+        "しまばらし",
+        "しもつけし"
+      ],
+      "answer": "ひかりし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 1,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "光市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-中央区",
+      "prompt": "「中央区」の読み方は？",
+      "choices": [
+        "おぎし",
+        "きたかたし",
+        "ふなばしし",
+        "ちゅうおうく"
+      ],
+      "answer": "ちゅうおうく",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "中央区"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-奥州市",
+      "prompt": "「奥州市」の読み方は？",
+      "choices": [
+        "とおのし",
+        "せんだいし",
+        "おうしゅうし",
+        "えりもちょう"
+      ],
+      "answer": "おうしゅうし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "奥州市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-庄内町",
+      "prompt": "「庄内町」の読み方は？",
+      "choices": [
+        "せたなちょう",
+        "しょうないちょう",
+        "やまとちょう",
+        "かわにしちょう"
+      ],
+      "answer": "しょうないちょう",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "庄内町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-常総市",
+      "prompt": "「常総市」の読み方は？",
+      "choices": [
+        "じょうそうし",
+        "よしかちょう",
+        "かなざわし",
+        "そとがはままち"
+      ],
+      "answer": "じょうそうし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "常総市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-本庄市",
+      "prompt": "「本庄市」の読み方は？",
+      "choices": [
+        "うんぜんし",
+        "あやがわちょう",
+        "しそうし",
+        "ほんじょうし"
+      ],
+      "answer": "ほんじょうし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "本庄市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-三条市",
+      "prompt": "「三条市」の読み方は？",
+      "choices": [
+        "さのし",
+        "じんせきこうげんちょう",
+        "さんじょうし",
+        "いのちょう"
+      ],
+      "answer": "さんじょうし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "三条市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-妙高市",
+      "prompt": "「妙高市」の読み方は？",
+      "choices": [
+        "みょうこうし",
+        "はちおうじし",
+        "しもだし",
+        "しもつまし"
+      ],
+      "answer": "みょうこうし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "妙高市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-上越市",
+      "prompt": "「上越市」の読み方は？",
+      "choices": [
+        "よしみまち",
+        "じょうえつし",
+        "せとうちし",
+        "みなみあいづまち"
+      ],
+      "answer": "じょうえつし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "上越市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-甲州市",
+      "prompt": "「甲州市」の読み方は？",
+      "choices": [
+        "きたなごやし",
+        "さんむし",
+        "ひらかわし",
+        "こうしゅうし"
+      ],
+      "answer": "こうしゅうし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "甲州市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-中央市",
+      "prompt": "「中央市」の読み方は？",
+      "choices": [
+        "つくばし",
+        "とよなかし",
+        "ちゅうおうし",
+        "なかとさちょう"
+      ],
+      "answer": "ちゅうおうし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "中央市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-一宮町",
+      "prompt": "「一宮町」の読み方は？",
+      "choices": [
+        "しかまち",
+        "さがみはらし",
+        "いなべし",
+        "いちのみやちょう"
+      ],
+      "answer": "いちのみやちょう",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "一宮町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-竜王町",
+      "prompt": "「竜王町」の読み方は？",
+      "choices": [
+        "たきちょう",
+        "ぬまたちょう",
+        "りゅうおうちょう",
+        "いせさきし"
+      ],
+      "answer": "りゅうおうちょう",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "竜王町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-竜洋町",
+      "prompt": "「竜洋町」の読み方は？",
+      "choices": [
+        "みよしちょう",
+        "にしわきし",
+        "りゅうようちょう",
+        "きたひろしまし"
+      ],
+      "answer": "りゅうようちょう",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "竜洋町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-愛荘町",
+      "prompt": "「愛荘町」の読み方は？",
+      "choices": [
+        "とよおかし",
+        "くまもとし",
+        "あさぎりちょう",
+        "あいしょうちょう"
+      ],
+      "answer": "あいしょうちょう",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "愛荘町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-城陽市",
+      "prompt": "「城陽市」の読み方は？",
+      "choices": [
+        "みよしし",
+        "じょうようし",
+        "まつしままち",
+        "こうのすし"
+      ],
+      "answer": "じょうようし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "城陽市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-東浦町",
+      "prompt": "「東浦町」の読み方は？",
+      "choices": [
+        "たがじょうし",
+        "みなみそうまし",
+        "うれしのし",
+        "ひがしうらちょう"
+      ],
+      "answer": "ひがしうらちょう",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "東浦町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-庄原市",
+      "prompt": "「庄原市」の読み方は？",
+      "choices": [
+        "よなごし",
+        "ちよだちょう",
+        "しょうばらし",
+        "いんざいし"
+      ],
+      "answer": "しょうばらし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "庄原市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-周南市",
+      "prompt": "「周南市」の読み方は？",
+      "choices": [
+        "しゅうなんし",
+        "ちりゅうし",
+        "よしおかまち",
+        "あまし"
+      ],
+      "answer": "しゅうなんし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "周南市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-西条市",
+      "prompt": "「西条市」の読み方は？",
+      "choices": [
+        "おおえちょう",
+        "かみし",
+        "さいじょうし",
+        "なんたんし"
+      ],
+      "answer": "さいじょうし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "西条市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-築上町",
+      "prompt": "「築上町」の読み方は？",
+      "choices": [
+        "ちくじょうまち",
+        "こしがやし",
+        "かみさとまち",
+        "やまとちょう"
+      ],
+      "answer": "ちくじょうまち",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "築上町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-南城市",
+      "prompt": "「南城市」の読み方は？",
+      "choices": [
+        "きくちし",
+        "きょうたなべし",
+        "なかのじょうまち",
+        "なんじょうし"
+      ],
+      "answer": "なんじょうし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.9333333333333332,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "南城市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-南三陸町",
+      "prompt": "「南三陸町」の読み方は？",
+      "choices": [
+        "みなみあるぷすし",
+        "しもだし",
+        "みなみさんりくちょう",
+        "さいきし"
+      ],
+      "answer": "みなみさんりくちょう",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8777777777777778,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "南三陸町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-西東京市",
+      "prompt": "「西東京市」の読み方は？",
+      "choices": [
+        "かとりし",
+        "よしかちょう",
+        "しきし",
+        "にしとうきょうし"
+      ],
+      "answer": "にしとうきょうし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8777777777777778,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "西東京市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-南越前町",
+      "prompt": "「南越前町」の読み方は？",
+      "choices": [
+        "みはらし",
+        "みなみえちぜんちょう",
+        "しそうし",
+        "きたひろしまし"
+      ],
+      "answer": "みなみえちぜんちょう",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8777777777777778,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "南越前町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-長岡京市",
+      "prompt": "「長岡京市」の読み方は？",
+      "choices": [
+        "ながおかきょうし",
+        "なりたし",
+        "えたじまし",
+        "みさとちょう"
+      ],
+      "answer": "ながおかきょうし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8777777777777778,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "長岡京市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-四條畷市",
+      "prompt": "「四條畷市」の読み方は？",
+      "choices": [
+        "おおずし",
+        "しじょうなわてし",
+        "おかやまし",
+        "たかはまし"
+      ],
+      "answer": "しじょうなわてし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8777777777777778,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "四條畷市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-南大隅町",
+      "prompt": "「南大隅町」の読み方は？",
+      "choices": [
+        "なよろし",
+        "みなみおおすみちょう",
+        "えいへいじちょう",
+        "べつかいちょう"
+      ],
+      "answer": "みなみおおすみちょう",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8777777777777778,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "南大隅町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-旭川市",
+      "prompt": "「旭川市」の読み方は？",
+      "choices": [
+        "あさひかわし",
+        "やとみし",
+        "ながぬままち",
+        "よしかちょう"
+      ],
+      "answer": "あさひかわし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8333333333333334,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "旭川市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-登別市",
+      "prompt": "「登別市」の読み方は？",
+      "choices": [
+        "のぼりべつし",
+        "ほろのべちょう",
+        "からつし",
+        "しぶしし"
+      ],
+      "answer": "のぼりべつし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8333333333333334,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "登別市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-中泊町",
+      "prompt": "「中泊町」の読み方は？",
+      "choices": [
+        "なかどまりまち",
+        "あきたかたし",
+        "ひがしやまとし",
+        "いなぎし"
+      ],
+      "answer": "なかどまりまち",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8333333333333334,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "中泊町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-一関市",
+      "prompt": "「一関市」の読み方は？",
+      "choices": [
+        "なかつがわし",
+        "たけたし",
+        "いちのせきし",
+        "かみみねちょう"
+      ],
+      "answer": "いちのせきし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8333333333333334,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "一関市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-石巻市",
+      "prompt": "「石巻市」の読み方は？",
+      "choices": [
+        "いしのまきし",
+        "まるがめし",
+        "きりしまし",
+        "おおずし"
+      ],
+      "answer": "いしのまきし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8333333333333334,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "石巻市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-郡山市",
+      "prompt": "「郡山市」の読み方は？",
+      "choices": [
+        "ごのへまち",
+        "かでなちょう",
+        "おおのまち",
+        "こおりやまし"
+      ],
+      "answer": "こおりやまし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8333333333333334,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "郡山市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-桜川市",
+      "prompt": "「桜川市」の読み方は？",
+      "choices": [
+        "よしかわし",
+        "よこすかし",
+        "さくらがわし",
+        "うんぜんし"
+      ],
+      "answer": "さくらがわし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8333333333333334,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "桜川市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-所沢市",
+      "prompt": "「所沢市」の読み方は？",
+      "choices": [
+        "ところざわし",
+        "おおさきかみじまちょう",
+        "さんがわちょう",
+        "ふじのみやし"
+      ],
+      "answer": "ところざわし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8333333333333334,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "所沢市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-柏崎市",
+      "prompt": "「柏崎市」の読み方は？",
+      "choices": [
+        "ちくぜんまち",
+        "しもつまし",
+        "かしわざきし",
+        "やめし"
+      ],
+      "answer": "かしわざきし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8333333333333334,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "柏崎市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-一宮市",
+      "prompt": "「一宮市」の読み方は？",
+      "choices": [
+        "しんかみごとうちょう",
+        "いちのみやし",
+        "よこすかし",
+        "ゆふし"
+      ],
+      "answer": "いちのみやし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8333333333333334,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "一宮市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-尼崎市",
+      "prompt": "「尼崎市」の読み方は？",
+      "choices": [
+        "いんざいし",
+        "あまがさきし",
+        "ゆうすいちょう",
+        "ふえふきし"
+      ],
+      "answer": "あまがさきし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8333333333333334,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "尼崎市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-西宮市",
+      "prompt": "「西宮市」の読み方は？",
+      "choices": [
+        "にしのみやし",
+        "とよねむら",
+        "おおぞらちょう",
+        "しみずちょう"
+      ],
+      "answer": "にしのみやし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8333333333333334,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "西宮市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-宝塚市",
+      "prompt": "「宝塚市」の読み方は？",
+      "choices": [
+        "ぬまづし",
+        "たからづかし",
+        "とめし",
+        "さようちょう"
+      ],
+      "answer": "たからづかし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8333333333333334,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "宝塚市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-下関市",
+      "prompt": "「下関市」の読み方は？",
+      "choices": [
+        "しこくちゅうおうし",
+        "いずみし",
+        "みなみあいづまち",
+        "しものせきし"
+      ],
+      "answer": "しものせきし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.8333333333333334,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "下関市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-東松島市",
+      "prompt": "「東松島市」の読み方は？",
+      "choices": [
+        "さつませんだいし",
+        "ひがしまつしまし",
+        "たなべし",
+        "せんだいし"
+      ],
+      "answer": "ひがしまつしまし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.7777777777777778,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "東松島市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-東吾妻町",
+      "prompt": "「東吾妻町」の読み方は？",
+      "choices": [
+        "みとよし",
+        "みさきちょう",
+        "ごうつし",
+        "ひがしあがつままち"
+      ],
+      "answer": "ひがしあがつままち",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.7777777777777778,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "東吾妻町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-南房総市",
+      "prompt": "「南房総市」の読み方は？",
+      "choices": [
+        "まいばらし",
+        "えさしちょう",
+        "みなみぼうそうし",
+        "うしくし"
+      ],
+      "answer": "みなみぼうそうし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.7777777777777778,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "南房総市"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-横芝光町",
+      "prompt": "「横芝光町」の読み方は？",
+      "choices": [
+        "ながのし",
+        "よこしばひかりまち",
+        "やまぐちし",
+        "ふたばちょう"
+      ],
+      "answer": "よこしばひかりまち",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.7777777777777778,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "横芝光町"
+        ]
+      }
+    },
+    {
+      "type": "reading",
+      "id": "reading-南足柄市",
+      "prompt": "「南足柄市」の読み方は？",
+      "choices": [
+        "みなみあしがらし",
+        "ふくしまし",
+        "ごとうし",
+        "ふっつし"
+      ],
+      "answer": "みなみあしがらし",
+      "distractorStrategy": "readingConfusion",
+      "tags": [
+        "reading"
+      ],
+      "difficulty": 0.7777777777777778,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "南足柄市"
+        ]
+      }
+    }
+  ]
+}

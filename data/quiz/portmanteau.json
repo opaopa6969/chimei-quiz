@@ -1,0 +1,5831 @@
+{
+  "type": "portmanteau",
+  "count": 233,
+  "questions": [
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-北斗市-2006-02-01",
+      "prompt": "「北斗市」は元々何市町村の合併？",
+      "choices": [
+        "南部川村・南部町",
+        "仁多町・横田町",
+        "北御牧村・東部町",
+        "上磯町・大野町"
+      ],
+      "answer": "上磯町・大野町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "北海道",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "上磯町(01335)、大野町(01336)が合併し、北斗市(01236)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-せたな町-2005-09-01",
+      "prompt": "「せたな町」は元々何市町村の合併？",
+      "choices": [
+        "佐久町・八千穂村",
+        "本城村・坂北村・坂井村",
+        "大成町・瀬棚町・北檜山町",
+        "水口町・土山町・甲賀町・甲南町・信楽町"
+      ],
+      "answer": "大成町・瀬棚町・北檜山町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "北海道",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "大成町(01366)、瀬棚町(01368)、北檜山町(01369)が合併し、せたな町(01371)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-大空町-2006-03-31",
+      "prompt": "「大空町」は元々何市町村の合併？",
+      "choices": [
+        "南条町・今庄町・河野村",
+        "成東町・山武町・蓮沼村・松尾町",
+        "角館町・田沢湖町・西木村",
+        "東藻琴村・女満別町"
+      ],
+      "answer": "東藻琴村・女満別町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "北海道",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "東藻琴村(01541)、女満別町(01542)が合併し、大空町(01564)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-洞爺湖町-2006-03-27",
+      "prompt": "「洞爺湖町」は元々何市町村の合併？",
+      "choices": [
+        "虻田町・洞爺村",
+        "具志頭村・東風平町",
+        "加悦町・岩滝町・野田川町",
+        "黒磯市・西那須野町・塩原町"
+      ],
+      "answer": "虻田町・洞爺村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "北海道",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "虻田町(01572)、洞爺村(01573)が合併し、洞爺湖町(01584)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-安平町-2006-03-27",
+      "prompt": "「安平町」は元々何市町村の合併？",
+      "choices": [
+        "北御牧村・東部町",
+        "早来町・追分町",
+        "鷲敷町・相生町・上那賀町・木沢村・木頭村",
+        "玉城村・知念村・大里村・佐敷町"
+      ],
+      "answer": "早来町・追分町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "北海道",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "早来町(01579)、追分町(01580)が合併し、安平町(01585)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-むかわ町-2006-03-27",
+      "prompt": "「むかわ町」は元々何市町村の合併？",
+      "choices": [
+        "金田町・赤池町・方城町",
+        "本川村・伊野町・吾北村",
+        "角館町・田沢湖町・西木村",
+        "鵡川町・穂別町"
+      ],
+      "answer": "鵡川町・穂別町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "北海道",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "鵡川町(01582)、穂別町(01583)が合併し、むかわ町(01586)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-新ひだか町-2006-03-31",
+      "prompt": "「新ひだか町」は元々何市町村の合併？",
+      "choices": [
+        "秋川市・五日市町",
+        "新庄町・當麻町",
+        "牟礼村・三水村",
+        "静内町・三石町"
+      ],
+      "answer": "静内町・三石町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "北海道",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "静内町(01605)、三石町(01606)が合併し、新ひだか町(01610)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-つがる市-2005-02-11",
+      "prompt": "「つがる市」は元々何市町村の合併？",
+      "choices": [
+        "木造町・森田村・柏村・稲垣村・車力村",
+        "綾上町・綾南町",
+        "塩田町・嬉野町",
+        "昭和町・飯田川町・天王町"
+      ],
+      "answer": "木造町・森田村・柏村・稲垣村・車力村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "青森県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "木造町(02322)、森田村(02324)、柏村(02326)、稲垣村(02327)、車力村(02328)が合併し、つがる市(02209)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-平川市-2006-01-01",
+      "prompt": "「平川市」は元々何市町村の合併？",
+      "choices": [
+        "三輪町・夜須町",
+        "矢本町・鳴瀬町",
+        "尾上町・平賀町・碇ケ関村",
+        "大宮町・紀勢町・大内山村"
+      ],
+      "answer": "尾上町・平賀町・碇ケ関村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "青森県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "尾上町(02363)、平賀町(02365)、碇ケ関村(02368)が合併し、平川市(02210)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-外ヶ浜町-2005-03-28",
+      "prompt": "「外ヶ浜町」は元々何市町村の合併？",
+      "choices": [
+        "綾上町・綾南町",
+        "明野村・須玉町・高根町・長坂町・大泉村・白州町・武川村",
+        "岩井市・猿島町",
+        "蟹田町・平舘村・三厩村"
+      ],
+      "answer": "蟹田町・平舘村・三厩村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "青森県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "蟹田町(02302)、平舘村(02305)、三厩村(02306)が合併し、外ヶ浜町(02307)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-中泊町-2005-03-28",
+      "prompt": "「中泊町」は元々何市町村の合併？",
+      "choices": [
+        "西根町・松尾村・安代町",
+        "中里町・小泊村",
+        "備前町・三石町",
+        "早来町・追分町"
+      ],
+      "answer": "中里町・小泊村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "青森県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "中里町(02383)、小泊村(02386)が合併し、中泊町(02387)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-おいらせ町-2006-03-01",
+      "prompt": "「おいらせ町」は元々何市町村の合併？",
+      "choices": [
+        "本川村・伊野町・吾北村",
+        "百石町・下田町",
+        "堀之内町・小出町・湯之谷村・広神村・守門村・入広瀬村",
+        "大崎町・東野町・木江町"
+      ],
+      "answer": "百石町・下田町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "青森県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "百石町(02403)、下田町(02410)が合併し、おいらせ町(02412)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-奥州市-2006-02-20",
+      "prompt": "「奥州市」は元々何市町村の合併？",
+      "choices": [
+        "豊富村・玉穂町・田富町",
+        "水沢市・江刺市・前沢町・胆沢町・衣川村",
+        "脇町・美馬町・穴吹町・木屋平村",
+        "北条町・大栄町"
+      ],
+      "answer": "水沢市・江刺市・前沢町・胆沢町・衣川村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "岩手県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "水沢市(03204)、江刺市(03212)、前沢町(03382)、胆沢町(03383)、衣川村(03384)が合併し、奥州市(03215)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-二戸市-1972-04-01",
+      "prompt": "「二戸市」は元々何市町村の合併？",
+      "choices": [
+        "都幾川村・玉川村",
+        "修善寺町・土肥町・天城湯ケ島町・中伊豆町",
+        "本荘市・矢島町・岩城町・由利町・西目町・鳥海町・東由利町・大内町",
+        "福岡町・金田一村"
+      ],
+      "answer": "福岡町・金田一村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "岩手県",
+        "1972"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "福岡町(03522)、金田一村(03525)が合併し、二戸市(03213)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-八幡平市-2005-09-01",
+      "prompt": "「八幡平市」は元々何市町村の合併？",
+      "choices": [
+        "西根町・松尾村・安代町",
+        "志津川町・歌津町",
+        "木造町・森田村・柏村・稲垣村・車力村",
+        "若松町・上五島町・新魚目町・有川町・奈良尾町"
+      ],
+      "answer": "西根町・松尾村・安代町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "岩手県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "西根町(03304)、松尾村(03306)、安代町(03308)が合併し、八幡平市(03214)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-西和賀町-2005-11-01",
+      "prompt": "「西和賀町」は元々何市町村の合併？",
+      "choices": [
+        "白水村・久木野村・長陽村",
+        "上屋久町・屋久町",
+        "湯田町・沢内村",
+        "立川町・余目町"
+      ],
+      "answer": "湯田町・沢内村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "岩手県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "湯田町(03363)、沢内村(03365)が合併し、西和賀町(03366)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-洋野町-2006-01-01",
+      "prompt": "「洋野町」は元々何市町村の合併？",
+      "choices": [
+        "武生市・今立町",
+        "種市町・大野村",
+        "早来町・追分町",
+        "八森町・峰浜村"
+      ],
+      "answer": "種市町・大野村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "岩手県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "種市町(03502)、大野村(03505)が合併し、洋野町(03507)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-東松島市-2005-04-01",
+      "prompt": "「東松島市」は元々何市町村の合併？",
+      "choices": [
+        "川辺町・中津村・美山村",
+        "矢本町・鳴瀬町",
+        "根占町・佐多町",
+        "田無市・保谷市"
+      ],
+      "answer": "矢本町・鳴瀬町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "宮城県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "矢本町(04562)、鳴瀬町(04566)が合併し、東松島市(04214)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-加美町-2003-04-01",
+      "prompt": "「加美町」は元々何市町村の合併？",
+      "choices": [
+        "東市来町・伊集院町・日吉町・吹上町",
+        "加茂川町・賀陽町",
+        "金田町・赤池町・方城町",
+        "中新田町・小野田町・宮崎町"
+      ],
+      "answer": "中新田町・小野田町・宮崎町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "宮城県",
+        "2003"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "中新田町(04441)、小野田町(04442)、宮崎町(04443)が合併し、加美町(04445)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-美里町-2006-01-01",
+      "prompt": "「美里町」は元々何市町村の合併？",
+      "choices": [
+        "木曽福島町・日義村・開田村・三岳村",
+        "南部川村・南部町",
+        "常北町・桂村・七会村",
+        "小牛田町・南郷町"
+      ],
+      "answer": "小牛田町・南郷町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "宮城県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "小牛田町(04503)、南郷町(04504)が合併し、美里町(04505)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-南三陸町-2005-10-01",
+      "prompt": "「南三陸町」は元々何市町村の合併？",
+      "choices": [
+        "南部川村・南部町",
+        "霞ヶ浦町・千代田町",
+        "志津川町・歌津町",
+        "壬生川町・三芳町"
+      ],
+      "answer": "志津川町・歌津町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "宮城県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "志津川町(04601)、歌津町(04605)が合併し、南三陸町(04606)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-由利本荘市-2005-03-22",
+      "prompt": "「由利本荘市」は元々何市町村の合併？",
+      "choices": [
+        "本荘市・矢島町・岩城町・由利町・西目町・鳥海町・東由利町・大内町",
+        "田無市・保谷市",
+        "東市来町・伊集院町・日吉町・吹上町",
+        "中央町・砥用町"
+      ],
+      "answer": "本荘市・矢島町・岩城町・由利町・西目町・鳥海町・東由利町・大内町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "秋田県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "本荘市(05205)、矢島町(05404)、岩城町(05405)、由利町(05406)、西目町(05407)、鳥海町(05408)、東由利町(05409)、大内町(05410)が合併し、由利本荘市(05210)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-大仙市-2005-03-22",
+      "prompt": "「大仙市」は元々何市町村の合併？",
+      "choices": [
+        "大曲市・神岡町・西仙北町・中仙町・協和町・南外村・仙北町・太田町",
+        "琴南町・満濃町・仲南町",
+        "山東町・伊吹町・米原町",
+        "福岡町・金田一村"
+      ],
+      "answer": "大曲市・神岡町・西仙北町・中仙町・協和町・南外村・仙北町・太田町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "秋田県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "大曲市(05208)、神岡町(05421)、西仙北町(05422)、中仙町(05425)、協和町(05427)、南外村(05428)、仙北町(05429)、太田町(05431)が合併し、大仙市(05212)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-鹿角市-1972-04-01",
+      "prompt": "「鹿角市」は元々何市町村の合併？",
+      "choices": [
+        "都幾川村・玉川村",
+        "花輪町・十和田町・尾去沢町・八幡平村",
+        "秦荘町・愛知川町",
+        "椎田町・築城町"
+      ],
+      "answer": "花輪町・十和田町・尾去沢町・八幡平村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "秋田県",
+        "1972"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "花輪町(05301)、十和田町(05302)、尾去沢町(05304)、八幡平村(05305)が合併し、鹿角市(05209)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-潟上市-2005-03-22",
+      "prompt": "「潟上市」は元々何市町村の合併？",
+      "choices": [
+        "大矢野町・松島町・姫戸町・龍ヶ岳町",
+        "福間町・津屋崎町",
+        "昭和町・飯田川町・天王町",
+        "国分市・溝辺町・横川町・牧園町・霧島町・隼人町・福山町"
+      ],
+      "answer": "昭和町・飯田川町・天王町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "秋田県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "昭和町(05362)、飯田川町(05364)、天王町(05365)が合併し、潟上市(05211)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-北秋田市-2005-03-22",
+      "prompt": "「北秋田市」は元々何市町村の合併？",
+      "choices": [
+        "邑智町・大和村",
+        "勝田町・大原町・東粟倉村・美作町・作東町・英田町",
+        "山城町・木津町・加茂町",
+        "鷹巣町・森吉町・阿仁町・合川町"
+      ],
+      "answer": "鷹巣町・森吉町・阿仁町・合川町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "秋田県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "鷹巣町(05321)、森吉町(05323)、阿仁町(05324)、合川町(05326)が合併し、北秋田市(05213)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-仙北市-2005-09-20",
+      "prompt": "「仙北市」は元々何市町村の合併？",
+      "choices": [
+        "加計町・筒賀村・戸河内町",
+        "頓原町・赤来町",
+        "中町・加美町・八千代町",
+        "角館町・田沢湖町・西木村"
+      ],
+      "answer": "角館町・田沢湖町・西木村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "秋田県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "角館町(05423)、田沢湖町(05426)、西木村(05430)が合併し、仙北市(05215)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-三種町-2006-03-20",
+      "prompt": "「三種町」は元々何市町村の合併？",
+      "choices": [
+        "南郷村・西郷村・北郷村",
+        "琴丘町・山本町・八竜町",
+        "栗野町・吉松町",
+        "春日居町・石和町・御坂町・一宮町・八代町・境川村"
+      ],
+      "answer": "琴丘町・山本町・八竜町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "秋田県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "琴丘町(05341)、山本町(05344)、八竜町(05345)が合併し、三種町(05348)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-八峰町-2006-03-27",
+      "prompt": "「八峰町」は元々何市町村の合併？",
+      "choices": [
+        "八森町・峰浜村",
+        "椎田町・築城町",
+        "塩田町・嬉野町",
+        "八日市市・永源寺町・五個荘町・愛東町・湖東町"
+      ],
+      "answer": "八森町・峰浜村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "秋田県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "八森町(05343)、峰浜村(05347)が合併し、八峰町(05349)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-美郷町-2004-11-01",
+      "prompt": "「美郷町」は元々何市町村の合併？",
+      "choices": [
+        "龍野市・新宮町・揖保川町・御津町",
+        "六郷町・千畑町・仙南村",
+        "重信町・川内町",
+        "加治木町・姶良町・蒲生町"
+      ],
+      "answer": "六郷町・千畑町・仙南村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "秋田県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "六郷町(05424)、千畑町(05432)、仙南村(05433)が合併し、美郷町(05434)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-庄内町-2005-07-01",
+      "prompt": "「庄内町」は元々何市町村の合併？",
+      "choices": [
+        "羽合町・泊村・東郷町",
+        "河口湖町・勝山村・足和田村",
+        "新庄町・當麻町",
+        "立川町・余目町"
+      ],
+      "answer": "立川町・余目町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "山形県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "立川町(06421)、余目町(06422)が合併し、庄内町(06428)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-南相馬市-2006-01-01",
+      "prompt": "「南相馬市」は元々何市町村の合併？",
+      "choices": [
+        "南部川村・南部町",
+        "芸北町・大朝町・千代田町・豊平町",
+        "海南町・海部町・宍喰町",
+        "原町市・鹿島町・小高町"
+      ],
+      "answer": "原町市・鹿島町・小高町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福島県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "原町市(07206)、鹿島町(07562)、小高町(07563)が合併し、南相馬市(07212)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-田村市-2005-03-01",
+      "prompt": "「田村市」は元々何市町村の合併？",
+      "choices": [
+        "成東町・山武町・蓮沼村・松尾町",
+        "滝根町・大越町・都路村・常葉町・船引町",
+        "静内町・三石町",
+        "志雄町・押水町"
+      ],
+      "answer": "滝根町・大越町・都路村・常葉町・船引町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福島県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "滝根町(07523)、大越町(07524)、都路村(07525)、常葉町(07526)、船引町(07527)が合併し、田村市(07211)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-伊達市-2006-01-01",
+      "prompt": "「伊達市」は元々何市町村の合併？",
+      "choices": [
+        "豊富村・玉穂町・田富町",
+        "国見町・国東町・武蔵町・安岐町",
+        "頓原町・赤来町",
+        "伊達町・梁川町・保原町・霊山町・月舘町"
+      ],
+      "answer": "伊達町・梁川町・保原町・霊山町・月舘町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福島県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "伊達町(07302)、梁川町(07304)、保原町(07305)、霊山町(07306)、月舘町(07307)が合併し、伊達市(07213)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-本宮市-2007-01-01",
+      "prompt": "「本宮市」は元々何市町村の合併？",
+      "choices": [
+        "大宮町・紀勢町・大内山村",
+        "北御牧村・東部町",
+        "岩井市・猿島町",
+        "本宮町・白沢村"
+      ],
+      "answer": "本宮町・白沢村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福島県",
+        "2007"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "本宮町(07323)、白沢村(07324)が合併し、本宮市(07214)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-南会津町-2006-03-20",
+      "prompt": "「南会津町」は元々何市町村の合併？",
+      "choices": [
+        "田島町・舘岩村・伊南村・南郷村",
+        "北勢町・員弁町・大安町・藤原町",
+        "湯田町・沢内村",
+        "蟹田町・平舘村・三厩村"
+      ],
+      "answer": "田島町・舘岩村・伊南村・南郷村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福島県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "田島町(07361)、舘岩村(07363)、伊南村(07365)、南郷村(07366)が合併し、南会津町(07368)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-会津美里町-2005-10-01",
+      "prompt": "「会津美里町」は元々何市町村の合併？",
+      "choices": [
+        "上屋久町・屋久町",
+        "会津高田町・会津本郷町・新鶴村",
+        "羽合町・泊村・東郷町",
+        "三方町・上中町"
+      ],
+      "answer": "会津高田町・会津本郷町・新鶴村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福島県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "会津高田町(07441)、会津本郷町(07442)、新鶴村(07443)が合併し、会津美里町(07447)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-筑西市-2005-03-28",
+      "prompt": "「筑西市」は元々何市町村の合併？",
+      "choices": [
+        "仁多町・横田町",
+        "加茂川町・賀陽町",
+        "打田町・粉河町・那賀町・桃山町・貴志川町",
+        "下館市・関城町・明野町・協和町"
+      ],
+      "answer": "下館市・関城町・明野町・協和町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "茨城県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "下館市(08206)、関城町(08501)、明野町(08502)、協和町(08505)が合併し、筑西市(08227)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-ひたちなか市-1994-11-01",
+      "prompt": "「ひたちなか市」は元々何市町村の合併？",
+      "choices": [
+        "佐原市・小見川町・山田町・栗源町",
+        "那珂湊市・勝田市",
+        "竜北町・宮原町",
+        "由岐町・日和佐町"
+      ],
+      "answer": "那珂湊市・勝田市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "茨城県",
+        "1994"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "那珂湊市(08209)、勝田市(08213)が合併し、ひたちなか市(08221)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-坂東市-2005-03-22",
+      "prompt": "「坂東市」は元々何市町村の合併？",
+      "choices": [
+        "黒磯市・西那須野町・塩原町",
+        "内海村・御荘町・城辺町・一本松町・西海町",
+        "岩井市・猿島町",
+        "堀之内町・小出町・湯之谷村・広神村・守門村・入広瀬村"
+      ],
+      "answer": "岩井市・猿島町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "茨城県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "岩井市(08218)、猿島町(08544)が合併し、坂東市(08228)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-つくば市-1987-11-30",
+      "prompt": "「つくば市」は元々何市町村の合併？",
+      "choices": [
+        "桜村・谷田部町・豊里町・大穂町",
+        "八日市場市・野栄町",
+        "大隅町・財部町・末吉町",
+        "河口湖町・勝山村・足和田村"
+      ],
+      "answer": "桜村・谷田部町・豊里町・大穂町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "茨城県",
+        "1987"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "桜村(08466)、谷田部町(08481)、豊里町(08484)、大穂町(08486)が合併し、つくば市(08220)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-稲敷市-2005-03-22",
+      "prompt": "「稲敷市」は元々何市町村の合併？",
+      "choices": [
+        "内海村・御荘町・城辺町・一本松町・西海町",
+        "江戸崎町・新利根町・桜川村・東町",
+        "串木野市・市来町",
+        "津田町・大川町・志度町・寒川町・長尾町"
+      ],
+      "answer": "江戸崎町・新利根町・桜川村・東町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "茨城県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "江戸崎町(08441)、新利根町(08446)、桜川村(08448)、東町(08449)が合併し、稲敷市(08229)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-かすみがうら市-2005-03-28",
+      "prompt": "「かすみがうら市」は元々何市町村の合併？",
+      "choices": [
+        "昭和町・飯田川町・天王町",
+        "浜坂町・温泉町",
+        "霞ヶ浦町・千代田町",
+        "犀川町・勝山町・豊津町"
+      ],
+      "answer": "霞ヶ浦町・千代田町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "茨城県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "霞ヶ浦町(08461)、千代田町(08464)が合併し、かすみがうら市(08230)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-城里町-2005-02-01",
+      "prompt": "「城里町」は元々何市町村の合併？",
+      "choices": [
+        "津川町・鹿瀬町・上川村・三川村",
+        "東藻琴村・女満別町",
+        "常北町・桂村・七会村",
+        "根占町・佐多町"
+      ],
+      "answer": "常北町・桂村・七会村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "茨城県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "常北町(08306)、桂村(08307)、七会村(08323)が合併し、城里町(08310)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-那須塩原市-2005-01-01",
+      "prompt": "「那須塩原市」は元々何市町村の合併？",
+      "choices": [
+        "魚島村・弓削町・生名村・岩城村",
+        "黒磯市・西那須野町・塩原町",
+        "修善寺町・土肥町・天城湯ケ島町・中伊豆町",
+        "秋川市・五日市町"
+      ],
+      "answer": "黒磯市・西那須野町・塩原町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "栃木県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "黒磯市(09212)、西那須野町(09409)、塩原町(09410)が合併し、那須塩原市(09213)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-さくら市-2005-03-28",
+      "prompt": "「さくら市」は元々何市町村の合併？",
+      "choices": [
+        "頓原町・赤来町",
+        "氏家町・喜連川町",
+        "合志町・西合志町",
+        "霞ヶ浦町・千代田町"
+      ],
+      "answer": "氏家町・喜連川町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "栃木県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "氏家町(09385)、喜連川町(09387)が合併し、さくら市(09214)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-那須烏山市-2005-10-01",
+      "prompt": "「那須烏山市」は元々何市町村の合併？",
+      "choices": [
+        "北勢町・員弁町・大安町・藤原町",
+        "具志頭村・東風平町",
+        "新吉富村・大平村",
+        "南那須町・烏山町"
+      ],
+      "answer": "南那須町・烏山町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "栃木県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "南那須町(09401)、烏山町(09402)が合併し、那須烏山市(09215)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-下野市-2006-01-10",
+      "prompt": "「下野市」は元々何市町村の合併？",
+      "choices": [
+        "南河内町・石橋町・国分寺町",
+        "合志町・西合志町",
+        "武生市・今立町",
+        "龍野市・新宮町・揖保川町・御津町"
+      ],
+      "answer": "南河内町・石橋町・国分寺町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "栃木県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "南河内町(09302)、石橋町(09362)、国分寺町(09363)が合併し、下野市(09216)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-那珂川町-2005-10-01",
+      "prompt": "「那珂川町」は元々何市町村の合併？",
+      "choices": [
+        "馬頭町・小川町",
+        "北御牧村・東部町",
+        "鷹巣町・森吉町・阿仁町・合川町",
+        "広見町・日吉村"
+      ],
+      "answer": "馬頭町・小川町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "栃木県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "馬頭町(09403)、小川町(09404)が合併し、那珂川町(09411)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-神流町-2003-04-01",
+      "prompt": "「神流町」は元々何市町村の合併？",
+      "choices": [
+        "新吉富村・大平村",
+        "若松町・上五島町・新魚目町・有川町・奈良尾町",
+        "万場町・中里村",
+        "大成町・瀬棚町・北檜山町"
+      ],
+      "answer": "万場町・中里村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "群馬県",
+        "2003"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "万場町(10364)、中里村(10365)が合併し、神流町(10367)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-東吾妻町-2006-03-27",
+      "prompt": "「東吾妻町」は元々何市町村の合併？",
+      "choices": [
+        "江田島町・能美町・沖美町・大柿町",
+        "コザ市・美里村",
+        "東村・吾妻町",
+        "伊豆長岡町・韮山町・大仁町"
+      ],
+      "answer": "東村・吾妻町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "群馬県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "東村(10422)、吾妻町(10423)が合併し、東吾妻町(10429)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-みなかみ町-2005-10-01",
+      "prompt": "「みなかみ町」は元々何市町村の合併？",
+      "choices": [
+        "豊富村・玉穂町・田富町",
+        "松山町・志布志町・有明町",
+        "志津川町・歌津町",
+        "月夜野町・水上町・新治村"
+      ],
+      "answer": "月夜野町・水上町・新治村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "群馬県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "月夜野町(10445)、水上町(10446)、新治村(10447)が合併し、みなかみ町(10449)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-さいたま市-2001-05-01",
+      "prompt": "「さいたま市」は元々何市町村の合併？",
+      "choices": [
+        "津田町・大川町・志度町・寒川町・長尾町",
+        "矢本町・鳴瀬町",
+        "八森町・峰浜村",
+        "浦和市・大宮市・与野市"
+      ],
+      "answer": "浦和市・大宮市・与野市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "埼玉県",
+        "2001"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "浦和市(11204)、大宮市(11205)、与野市(11220)が合併し、さいたま市(11244)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-ふじみ野市-2005-10-01",
+      "prompt": "「ふじみ野市」は元々何市町村の合併？",
+      "choices": [
+        "上福岡市・大井町",
+        "南条町・今庄町・河野村",
+        "田無市・保谷市",
+        "三田川町・東脊振村"
+      ],
+      "answer": "上福岡市・大井町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "埼玉県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "上福岡市(11236)、大井町(11322)が合併し、ふじみ野市(11245)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-ときがわ町-2006-02-01",
+      "prompt": "「ときがわ町」は元々何市町村の合併？",
+      "choices": [
+        "西枇杷島町・清洲町・新川町",
+        "都幾川村・玉川村",
+        "穂積町・巣南町",
+        "馬頭町・小川町"
+      ],
+      "answer": "都幾川村・玉川村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "埼玉県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "都幾川村(11344)、玉川村(11345)が合併し、ときがわ町(11349)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-香取市-2006-03-27",
+      "prompt": "「香取市」は元々何市町村の合併？",
+      "choices": [
+        "早来町・追分町",
+        "湯田町・沢内村",
+        "佐原市・小見川町・山田町・栗源町",
+        "宮之城町・鶴田町・薩摩町"
+      ],
+      "answer": "佐原市・小見川町・山田町・栗源町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "千葉県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "佐原市(12209)、小見川町(12344)、山田町(12345)、栗源町(12346)が合併し、香取市(12236)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-匝瑳市-2006-01-23",
+      "prompt": "「匝瑳市」は元々何市町村の合併？",
+      "choices": [
+        "上村・免田町・岡原村・須恵村・深田村",
+        "八日市場市・野栄町",
+        "油木町・神石町・豊松村・三和町",
+        "津川町・鹿瀬町・上川村・三川村"
+      ],
+      "answer": "八日市場市・野栄町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "千葉県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "八日市場市(12214)、野栄町(12382)が合併し、匝瑳市(12235)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-鴨川市-1971-03-31",
+      "prompt": "「鴨川市」は元々何市町村の合併？",
+      "choices": [
+        "江見町・長狭町・鴨川町",
+        "南那須町・烏山町",
+        "西条町・八本松町・志和町・高屋町",
+        "三野町・池田町・山城町・井川町・東祖谷山村・西祖谷山村"
+      ],
+      "answer": "江見町・長狭町・鴨川町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "千葉県",
+        "1971"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "江見町(12469)、長狭町(12470)、鴨川町(12471)が合併し、鴨川市(12223)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-南房総市-2006-03-20",
+      "prompt": "「南房総市」は元々何市町村の合併？",
+      "choices": [
+        "富浦町・富山町・三芳村・白浜町・千倉町・丸山町・和田町",
+        "大宇陀町・菟田野町・榛原町・室生村",
+        "水口町・土山町・甲賀町・甲南町・信楽町",
+        "琴丘町・山本町・八竜町"
+      ],
+      "answer": "富浦町・富山町・三芳村・白浜町・千倉町・丸山町・和田町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "千葉県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "富浦町(12461)、富山町(12462)、三芳村(12464)、白浜町(12465)、千倉町(12466)、丸山町(12467)、和田町(12468)が合併し、南房総市(12234)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-山武市-2006-03-27",
+      "prompt": "「山武市」は元々何市町村の合併？",
+      "choices": [
+        "成東町・山武町・蓮沼村・松尾町",
+        "河口湖町・勝山村・足和田村",
+        "吉備町・金屋町・清水町",
+        "万場町・中里村"
+      ],
+      "answer": "成東町・山武町・蓮沼村・松尾町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "千葉県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "成東町(12404)、山武町(12405)、蓮沼村(12406)、松尾町(12407)が合併し、山武市(12237)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-いすみ市-2005-12-05",
+      "prompt": "「いすみ市」は元々何市町村の合併？",
+      "choices": [
+        "魚島村・弓削町・生名村・岩城村",
+        "油木町・神石町・豊松村・三和町",
+        "夷隅町・大原町・岬町",
+        "秦荘町・愛知川町"
+      ],
+      "answer": "夷隅町・大原町・岬町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "千葉県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "夷隅町(12442)、大原町(12444)、岬町(12445)が合併し、いすみ市(12238)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-西東京市-2001-01-21",
+      "prompt": "「西東京市」は元々何市町村の合併？",
+      "choices": [
+        "窪川町・大正町・十和村",
+        "田無市・保谷市",
+        "重信町・川内町",
+        "大根占町・田代町"
+      ],
+      "answer": "田無市・保谷市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "東京都",
+        "2001"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "田無市(13216)、保谷市(13217)が合併し、西東京市(13229)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-あきる野市-1995-09-01",
+      "prompt": "「あきる野市」は元々何市町村の合併？",
+      "choices": [
+        "犀川町・勝山町・豊津町",
+        "三輪町・夜須町",
+        "秋川市・五日市町",
+        "山陽町・赤坂町・熊山町・吉井町"
+      ],
+      "answer": "秋川市・五日市町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "東京都",
+        "1995"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "秋川市(13226)、五日市町(13306)が合併し、あきる野市(13228)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-上越市-1971-04-29",
+      "prompt": "「上越市」は元々何市町村の合併？",
+      "choices": [
+        "鷹巣町・森吉町・阿仁町・合川町",
+        "高田市・直江津市",
+        "古川町・河合村・宮川村・神岡町",
+        "内海村・御荘町・城辺町・一本松町・西海町"
+      ],
+      "answer": "高田市・直江津市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "新潟県",
+        "1971"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "高田市(15203)、直江津市(15214)が合併し、上越市(15222)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-阿賀野市-2004-04-01",
+      "prompt": "「阿賀野市」は元々何市町村の合併？",
+      "choices": [
+        "安田町・京ヶ瀬村・水原町・笹神村",
+        "江戸崎町・新利根町・桜川村・東町",
+        "野上町・美里町",
+        "打田町・粉河町・那賀町・桃山町・貴志川町"
+      ],
+      "answer": "安田町・京ヶ瀬村・水原町・笹神村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "新潟県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "安田町(15301)、京ヶ瀬村(15302)、水原町(15303)、笹神村(15304)が合併し、阿賀野市(15223)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-魚沼市-2004-11-01",
+      "prompt": "「魚沼市」は元々何市町村の合併？",
+      "choices": [
+        "水沢市・江刺市・前沢町・胆沢町・衣川村",
+        "江見町・長狭町・鴨川町",
+        "堀之内町・小出町・湯之谷村・広神村・守門村・入広瀬村",
+        "芸北町・大朝町・千代田町・豊平町"
+      ],
+      "answer": "堀之内町・小出町・湯之谷村・広神村・守門村・入広瀬村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "新潟県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "堀之内町(15442)、小出町(15443)、湯之谷村(15444)、広神村(15445)、守門村(15446)、入広瀬村(15447)が合併し、魚沼市(15225)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-南魚沼市-2004-11-01",
+      "prompt": "「南魚沼市」は元々何市町村の合併？",
+      "choices": [
+        "常北町・桂村・七会村",
+        "川辺町・中津村・美山村",
+        "鳥屋町・鹿島町・鹿西町",
+        "六日町・大和町"
+      ],
+      "answer": "六日町・大和町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "新潟県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "六日町(15463)、大和町(15464)が合併し、南魚沼市(15226)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-胎内市-2005-09-01",
+      "prompt": "「胎内市」は元々何市町村の合併？",
+      "choices": [
+        "田島町・舘岩村・伊南村・南郷村",
+        "中原町・北茂安町・三根町",
+        "中条町・黒川村",
+        "塩田町・嬉野町"
+      ],
+      "answer": "中条町・黒川村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "新潟県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "中条町(15310)、黒川村(15311)が合併し、胎内市(15227)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-阿賀町-2005-04-01",
+      "prompt": "「阿賀町」は元々何市町村の合併？",
+      "choices": [
+        "夷隅町・大原町・岬町",
+        "八森町・峰浜村",
+        "種市町・大野村",
+        "津川町・鹿瀬町・上川村・三川村"
+      ],
+      "answer": "津川町・鹿瀬町・上川村・三川村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "新潟県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "津川町(15381)、鹿瀬町(15382)、上川村(15383)、三川村(15384)が合併し、阿賀町(15385)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-白山市-2005-02-01",
+      "prompt": "「白山市」は元々何市町村の合併？",
+      "choices": [
+        "月夜野町・水上町・新治村",
+        "川内市・樋脇町・入来町・東郷町・祁答院町・里村・上甑村・下甑村・鹿島村",
+        "三方町・上中町",
+        "松任市・美川町・鶴来町・河内村・吉野谷村・鳥越村・尾口村・白峰村"
+      ],
+      "answer": "松任市・美川町・鶴来町・河内村・吉野谷村・鳥越村・尾口村・白峰村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "石川県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "松任市(17208)、美川町(17342)、鶴来町(17343)、河内村(17345)、吉野谷村(17346)、鳥越村(17347)、尾口村(17348)、白峰村(17349)が合併し、白山市(17210)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-かほく市-2004-03-01",
+      "prompt": "「かほく市」は元々何市町村の合併？",
+      "choices": [
+        "高松町・七塚町・宇ノ気町",
+        "尾上町・平賀町・碇ケ関村",
+        "久賀町・大島町・東和町・橘町",
+        "鷲敷町・相生町・上那賀町・木沢村・木頭村"
+      ],
+      "answer": "高松町・七塚町・宇ノ気町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "石川県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "高松町(17362)、七塚町(17363)、宇ノ気町(17364)が合併し、かほく市(17209)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-能美市-2005-02-01",
+      "prompt": "「能美市」は元々何市町村の合併？",
+      "choices": [
+        "水口町・土山町・甲賀町・甲南町・信楽町",
+        "根上町・寺井町・辰口町",
+        "会津高田町・会津本郷町・新鶴村",
+        "川辺町・中津村・美山村"
+      ],
+      "answer": "根上町・寺井町・辰口町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "石川県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "根上町(17321)、寺井町(17322)、辰口町(17323)が合併し、能美市(17211)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-宝達志水町-2005-03-01",
+      "prompt": "「宝達志水町」は元々何市町村の合併？",
+      "choices": [
+        "志雄町・押水町",
+        "丹波町・瑞穂町・和知町",
+        "古川町・河合村・宮川村・神岡町",
+        "江田島町・能美町・沖美町・大柿町"
+      ],
+      "answer": "志雄町・押水町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "石川県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "志雄町(17383)、押水町(17385)が合併し、宝達志水町(17386)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-中能登町-2005-03-01",
+      "prompt": "「中能登町」は元々何市町村の合併？",
+      "choices": [
+        "霞ヶ浦町・千代田町",
+        "鳥屋町・鹿島町・鹿西町",
+        "金田町・赤池町・方城町",
+        "国見町・国東町・武蔵町・安岐町"
+      ],
+      "answer": "鳥屋町・鹿島町・鹿西町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "石川県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "鳥屋町(17402)、鹿島町(17404)、鹿西町(17406)が合併し、中能登町(17407)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-越前市-2005-10-01",
+      "prompt": "「越前市」は元々何市町村の合併？",
+      "choices": [
+        "武生市・今立町",
+        "半田町・貞光町・一宇村",
+        "城辺町・下地町・上野村・伊良部町・平良市",
+        "東伯町・赤碕町"
+      ],
+      "answer": "武生市・今立町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福井県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "武生市(18203)、今立町(18381)が合併し、越前市(18209)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-あわら市-2004-03-01",
+      "prompt": "「あわら市」は元々何市町村の合併？",
+      "choices": [
+        "芦原町・金津町",
+        "山崎町・一宮町・波賀町・千種町",
+        "重信町・川内町",
+        "豊富村・玉穂町・田富町"
+      ],
+      "answer": "芦原町・金津町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福井県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "芦原町(18362)、金津町(18363)が合併し、あわら市(18208)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-南越前町-2005-01-01",
+      "prompt": "「南越前町」は元々何市町村の合併？",
+      "choices": [
+        "南条町・今庄町・河野村",
+        "国見町・瑞穂町・吾妻町・愛野町・千々石町・小浜町・南串山町",
+        "更埴市・上山田町・戸倉町",
+        "東市来町・伊集院町・日吉町・吹上町"
+      ],
+      "answer": "南条町・今庄町・河野村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福井県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "南条町(18401)、今庄町(18402)、河野村(18403)が合併し、南越前町(18404)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-若狭町-2005-03-31",
+      "prompt": "「若狭町」は元々何市町村の合併？",
+      "choices": [
+        "八日市市・永源寺町・五個荘町・愛東町・湖東町",
+        "三方町・上中町",
+        "川辺町・中津村・美山村",
+        "津田町・大川町・志度町・寒川町・長尾町"
+      ],
+      "answer": "三方町・上中町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福井県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "三方町(18441)、上中町(18461)が合併し、若狭町(18501)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-南アルプス市-2003-04-01",
+      "prompt": "「南アルプス市」は元々何市町村の合併？",
+      "choices": [
+        "八田村・白根町・芦安村・若草町・櫛形町・甲西町",
+        "根占町・佐多町",
+        "琴南町・満濃町・仲南町",
+        "甘木市・杷木町・朝倉町"
+      ],
+      "answer": "八田村・白根町・芦安村・若草町・櫛形町・甲西町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "山梨県",
+        "2003"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "八田村(19386)、白根町(19387)、芦安村(19388)、若草町(19389)、櫛形町(19390)、甲西町(19391)が合併し、南アルプス市(19208)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-北杜市-2004-11-01",
+      "prompt": "「北杜市」は元々何市町村の合併？",
+      "choices": [
+        "明野村・須玉町・高根町・長坂町・大泉村・白州町・武川村",
+        "浜坂町・温泉町",
+        "勝田町・大原町・東粟倉村・美作町・作東町・英田町",
+        "湯田町・沢内村"
+      ],
+      "answer": "明野村・須玉町・高根町・長坂町・大泉村・白州町・武川村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "山梨県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "明野村(19402)、須玉町(19403)、高根町(19404)、長坂町(19405)、大泉村(19406)、白州町(19408)、武川村(19409)が合併し、北杜市(19209)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-甲斐市-2004-09-01",
+      "prompt": "「甲斐市」は元々何市町村の合併？",
+      "choices": [
+        "佐屋町・立田村・八開村・佐織町",
+        "竜王町・敷島町・双葉町",
+        "犀川町・勝山町・豊津町",
+        "根占町・佐多町"
+      ],
+      "answer": "竜王町・敷島町・双葉町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "山梨県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "竜王町(19381)、敷島町(19382)、双葉町(19401)が合併し、甲斐市(19210)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-笛吹市-2004-10-12",
+      "prompt": "「笛吹市」は元々何市町村の合併？",
+      "choices": [
+        "秋川市・五日市町",
+        "西根町・松尾村・安代町",
+        "春日居町・石和町・御坂町・一宮町・八代町・境川村",
+        "中央町・砥用町"
+      ],
+      "answer": "春日居町・石和町・御坂町・一宮町・八代町・境川村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "山梨県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "春日居町(19301)、石和町(19321)、御坂町(19322)、一宮町(19323)、八代町(19324)、境川村(19325)が合併し、笛吹市(19211)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-上野原市-2005-02-13",
+      "prompt": "「上野原市」は元々何市町村の合併？",
+      "choices": [
+        "新庄町・當麻町",
+        "秋山村・上野原町",
+        "仁多町・横田町",
+        "立川町・余目町"
+      ],
+      "answer": "秋山村・上野原町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "山梨県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "秋山村(19421)、上野原町(19441)が合併し、上野原市(19212)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-中央市-2006-02-20",
+      "prompt": "「中央市」は元々何市町村の合併？",
+      "choices": [
+        "金田町・赤池町・方城町",
+        "国見町・国東町・武蔵町・安岐町",
+        "三野町・池田町・山城町・井川町・東祖谷山村・西祖谷山村",
+        "豊富村・玉穂町・田富町"
+      ],
+      "answer": "豊富村・玉穂町・田富町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "山梨県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "豊富村(19328)、玉穂町(19383)、田富町(19385)が合併し、中央市(19214)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-市川三郷町-2005-10-01",
+      "prompt": "「市川三郷町」は元々何市町村の合併？",
+      "choices": [
+        "三方町・上中町",
+        "立川町・余目町",
+        "秋山村・上野原町",
+        "三珠町・市川大門町・六郷町"
+      ],
+      "answer": "三珠町・市川大門町・六郷町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "山梨県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "三珠町(19342)、市川大門町(19343)、六郷町(19344)が合併し、市川三郷町(19346)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-富士川町-2010-03-08",
+      "prompt": "「富士川町」は元々何市町村の合併？",
+      "choices": [
+        "本荘市・矢島町・岩城町・由利町・西目町・鳥海町・東由利町・大内町",
+        "増穂町・鰍沢町",
+        "串木野市・市来町",
+        "蟹田町・平舘村・三厩村"
+      ],
+      "answer": "増穂町・鰍沢町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "山梨県",
+        "2010"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "増穂町(19361)、鰍沢町(19362)が合併し、富士川町(19368)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-富士河口湖町-2003-11-15",
+      "prompt": "「富士河口湖町」は元々何市町村の合併？",
+      "choices": [
+        "河口湖町・勝山村・足和田村",
+        "芦原町・金津町",
+        "種市町・大野村",
+        "本宮町・白沢村"
+      ],
+      "answer": "河口湖町・勝山村・足和田村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "山梨県",
+        "2003"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "河口湖町(19426)、勝山村(19427)、足和田村(19428)が合併し、富士河口湖町(19430)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-千曲市-2003-09-01",
+      "prompt": "「千曲市」は元々何市町村の合併？",
+      "choices": [
+        "コザ市・美里村",
+        "長門町・和田村",
+        "霞ヶ浦町・千代田町",
+        "更埴市・上山田町・戸倉町"
+      ],
+      "answer": "更埴市・上山田町・戸倉町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "長野県",
+        "2003"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "更埴市(20216)、上山田町(20501)、戸倉町(20522)が合併し、千曲市(20218)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-東御市-2004-04-01",
+      "prompt": "「東御市」は元々何市町村の合併？",
+      "choices": [
+        "北御牧村・東部町",
+        "大根占町・田代町",
+        "仲里村・具志川村",
+        "立川町・余目町"
+      ],
+      "answer": "北御牧村・東部町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "長野県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "北御牧村(20326)、東部町(20343)が合併し、東御市(20219)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-佐久穂町-2005-03-20",
+      "prompt": "「佐久穂町」は元々何市町村の合併？",
+      "choices": [
+        "佐久町・八千穂村",
+        "常北町・桂村・七会村",
+        "相良町・榛原町",
+        "穂積町・巣南町"
+      ],
+      "answer": "佐久町・八千穂村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "長野県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "佐久町(20302)、八千穂村(20308)が合併し、佐久穂町(20309)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-長和町-2005-10-01",
+      "prompt": "「長和町」は元々何市町村の合併？",
+      "choices": [
+        "秋山村・上野原町",
+        "伊豆長岡町・韮山町・大仁町",
+        "菊水町・三加和町",
+        "長門町・和田村"
+      ],
+      "answer": "長門町・和田村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "長野県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "長門町(20342)、和田村(20347)が合併し、長和町(20350)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-木曽町-2005-11-01",
+      "prompt": "「木曽町」は元々何市町村の合併？",
+      "choices": [
+        "中村市・西土佐村",
+        "木曽福島町・日義村・開田村・三岳村",
+        "綾上町・綾南町",
+        "西根町・松尾村・安代町"
+      ],
+      "answer": "木曽福島町・日義村・開田村・三岳村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "長野県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "木曽福島町(20421)、日義村(20426)、開田村(20427)、三岳村(20428)が合併し、木曽町(20432)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-筑北村-2005-10-11",
+      "prompt": "「筑北村」は元々何市町村の合併？",
+      "choices": [
+        "河口湖町・勝山村・足和田村",
+        "本城村・坂北村・坂井村",
+        "増穂町・鰍沢町",
+        "東津野村・葉山村"
+      ],
+      "answer": "本城村・坂北村・坂井村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "長野県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "本城村(20444)、坂北村(20445)、坂井村(20447)が合併し、筑北村(20452)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-飯綱町-2005-10-01",
+      "prompt": "「飯綱町」は元々何市町村の合併？",
+      "choices": [
+        "牟礼村・三水村",
+        "秋山村・上野原町",
+        "虻田町・洞爺村",
+        "七宝町・美和町・甚目寺町"
+      ],
+      "answer": "牟礼村・三水村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "長野県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "牟礼村(20584)、三水村(20585)が合併し、飯綱町(20590)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-瑞穂市-2003-05-01",
+      "prompt": "「瑞穂市」は元々何市町村の合併？",
+      "choices": [
+        "成東町・山武町・蓮沼村・松尾町",
+        "穂積町・巣南町",
+        "師勝町・西春町",
+        "佐原市・小見川町・山田町・栗源町"
+      ],
+      "answer": "穂積町・巣南町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "岐阜県",
+        "2003"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "穂積町(21423)、巣南町(21424)が合併し、瑞穂市(21216)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-飛騨市-2004-02-01",
+      "prompt": "「飛騨市」は元々何市町村の合併？",
+      "choices": [
+        "古川町・河合村・宮川村・神岡町",
+        "南郷村・西郷村・北郷村",
+        "氏家町・喜連川町",
+        "秋山村・上野原町"
+      ],
+      "answer": "古川町・河合村・宮川村・神岡町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "岐阜県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "古川町(21621)、河合村(21623)、宮川村(21624)、神岡町(21625)が合併し、飛騨市(21217)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-本巣市-2004-02-01",
+      "prompt": "「本巣市」は元々何市町村の合併？",
+      "choices": [
+        "神埼町・千代田町・脊振村",
+        "本巣町・真正町・糸貫町・根尾村",
+        "三好町・三加茂町",
+        "根占町・佐多町"
+      ],
+      "answer": "本巣町・真正町・糸貫町・根尾村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "岐阜県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "本巣町(21422)、真正町(21425)、糸貫町(21426)、根尾村(21427)が合併し、本巣市(21218)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-伊豆市-2004-04-01",
+      "prompt": "「伊豆市」は元々何市町村の合併？",
+      "choices": [
+        "明野村・須玉町・高根町・長坂町・大泉村・白州町・武川村",
+        "修善寺町・土肥町・天城湯ケ島町・中伊豆町",
+        "浦和市・大宮市・与野市",
+        "勝田町・大原町・東粟倉村・美作町・作東町・英田町"
+      ],
+      "answer": "修善寺町・土肥町・天城湯ケ島町・中伊豆町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "静岡県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "修善寺町(22322)、土肥町(22324)、天城湯ケ島町(22328)、中伊豆町(22329)が合併し、伊豆市(22222)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-御前崎市-2004-04-01",
+      "prompt": "「御前崎市」は元々何市町村の合併？",
+      "choices": [
+        "三田川町・東脊振村",
+        "根占町・佐多町",
+        "頓原町・赤来町",
+        "御前崎町・浜岡町"
+      ],
+      "answer": "御前崎町・浜岡町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "静岡県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "御前崎町(22421)、浜岡町(22444)が合併し、御前崎市(22223)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-菊川市-2005-01-17",
+      "prompt": "「菊川市」は元々何市町村の合併？",
+      "choices": [
+        "花輪町・十和田町・尾去沢町・八幡平村",
+        "小笠町・菊川町",
+        "浦和市・大宮市・与野市",
+        "窪川町・大正町・十和村"
+      ],
+      "answer": "小笠町・菊川町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "静岡県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "小笠町(22445)、菊川町(22446)が合併し、菊川市(22224)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-伊豆の国市-2005-04-01",
+      "prompt": "「伊豆の国市」は元々何市町村の合併？",
+      "choices": [
+        "湯田町・沢内村",
+        "城東村・大浜町",
+        "松任市・美川町・鶴来町・河内村・吉野谷村・鳥越村・尾口村・白峰村",
+        "伊豆長岡町・韮山町・大仁町"
+      ],
+      "answer": "伊豆長岡町・韮山町・大仁町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "静岡県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "伊豆長岡町(22321)、韮山町(22326)、大仁町(22327)が合併し、伊豆の国市(22225)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-牧之原市-2005-10-11",
+      "prompt": "「牧之原市」は元々何市町村の合併？",
+      "choices": [
+        "相良町・榛原町",
+        "川内市・樋脇町・入来町・東郷町・祁答院町・里村・上甑村・下甑村・鹿島村",
+        "三珠町・市川大門町・六郷町",
+        "豊富村・玉穂町・田富町"
+      ],
+      "answer": "相良町・榛原町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "静岡県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "相良町(22422)、榛原町(22423)が合併し、牧之原市(22226)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-川根本町-2005-09-20",
+      "prompt": "「川根本町」は元々何市町村の合併？",
+      "choices": [
+        "南条町・今庄町・河野村",
+        "中川根町・本川根町",
+        "小牛田町・南郷町",
+        "福間町・津屋崎町"
+      ],
+      "answer": "中川根町・本川根町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "静岡県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "中川根町(22427)、本川根町(22428)が合併し、川根本町(22429)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-大東町-1973-04-01",
+      "prompt": "「大東町」は元々何市町村の合併？",
+      "choices": [
+        "北条町・大栄町",
+        "城東村・大浜町",
+        "上屋久町・屋久町",
+        "江田島町・能美町・沖美町・大柿町"
+      ],
+      "answer": "城東村・大浜町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "静岡県",
+        "1973"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "城東村(22441)、大浜町(22443)が合併し、大東町(22447)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-愛西市-2005-04-01",
+      "prompt": "「愛西市」は元々何市町村の合併？",
+      "choices": [
+        "佐屋町・立田村・八開村・佐織町",
+        "中川根町・本川根町",
+        "重信町・川内町",
+        "新庄町・當麻町"
+      ],
+      "answer": "佐屋町・立田村・八開村・佐織町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "愛知県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "佐屋町(23429)、立田村(23430)、八開村(23431)、佐織町(23432)が合併し、愛西市(23232)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-清須市-2005-07-07",
+      "prompt": "「清須市」は元々何市町村の合併？",
+      "choices": [
+        "津川町・鹿瀬町・上川村・三川村",
+        "矢本町・鳴瀬町",
+        "西枇杷島町・清洲町・新川町",
+        "秦荘町・愛知川町"
+      ],
+      "answer": "西枇杷島町・清洲町・新川町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "愛知県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "西枇杷島町(23341)、清洲町(23346)、新川町(23347)が合併し、清須市(23233)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-北名古屋市-2006-03-20",
+      "prompt": "「北名古屋市」は元々何市町村の合併？",
+      "choices": [
+        "師勝町・西春町",
+        "南条町・今庄町・河野村",
+        "海南町・海部町・宍喰町",
+        "小牛田町・南郷町"
+      ],
+      "answer": "師勝町・西春町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "愛知県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "師勝町(23343)、西春町(23344)が合併し、北名古屋市(23234)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-あま市-2010-03-22",
+      "prompt": "「あま市」は元々何市町村の合併？",
+      "choices": [
+        "佐原市・小見川町・山田町・栗源町",
+        "内海村・御荘町・城辺町・一本松町・西海町",
+        "塩田町・嬉野町",
+        "七宝町・美和町・甚目寺町"
+      ],
+      "answer": "七宝町・美和町・甚目寺町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "愛知県",
+        "2010"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "七宝町(23421)、美和町(23422)、甚目寺町(23423)が合併し、あま市(23237)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-いなべ市-2003-12-01",
+      "prompt": "「いなべ市」は元々何市町村の合併？",
+      "choices": [
+        "栗野町・吉松町",
+        "内之浦町・高山町",
+        "琴丘町・山本町・八竜町",
+        "北勢町・員弁町・大安町・藤原町"
+      ],
+      "answer": "北勢町・員弁町・大安町・藤原町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "三重県",
+        "2003"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "北勢町(24321)、員弁町(24322)、大安町(24323)、藤原町(24325)が合併し、いなべ市(24214)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-南伊勢町-2005-10-01",
+      "prompt": "「南伊勢町」は元々何市町村の合併？",
+      "choices": [
+        "会津高田町・会津本郷町・新鶴村",
+        "南勢町・南島町",
+        "打田町・粉河町・那賀町・桃山町・貴志川町",
+        "虻田町・洞爺村"
+      ],
+      "answer": "南勢町・南島町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "三重県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "南勢町(24464)、南島町(24465)が合併し、南伊勢町(24472)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-大紀町-2005-02-14",
+      "prompt": "「大紀町」は元々何市町村の合併？",
+      "choices": [
+        "大宮町・紀勢町・大内山村",
+        "鷹巣町・森吉町・阿仁町・合川町",
+        "会津高田町・会津本郷町・新鶴村",
+        "重信町・川内町"
+      ],
+      "answer": "大宮町・紀勢町・大内山村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "三重県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "大宮町(24466)、紀勢町(24467)、大内山村(24469)が合併し、大紀町(24471)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-紀北町-2005-10-11",
+      "prompt": "「紀北町」は元々何市町村の合併？",
+      "choices": [
+        "紀伊長島町・海山町",
+        "鵡川町・穂別町",
+        "黒磯市・西那須野町・塩原町",
+        "久万町・面河村・美川村・柳谷村"
+      ],
+      "answer": "紀伊長島町・海山町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "三重県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "紀伊長島町(24541)、海山町(24542)が合併し、紀北町(24543)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-東近江市-2005-02-11",
+      "prompt": "「東近江市」は元々何市町村の合併？",
+      "choices": [
+        "岩井市・猿島町",
+        "八日市市・永源寺町・五個荘町・愛東町・湖東町",
+        "紀伊長島町・海山町",
+        "馬頭町・小川町"
+      ],
+      "answer": "八日市市・永源寺町・五個荘町・愛東町・湖東町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "滋賀県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "八日市市(25205)、永源寺町(25401)、五個荘町(25402)、愛東町(25421)、湖東町(25422)が合併し、東近江市(25213)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-甲賀市-2004-10-01",
+      "prompt": "「甲賀市」は元々何市町村の合併？",
+      "choices": [
+        "水口町・土山町・甲賀町・甲南町・信楽町",
+        "油木町・神石町・豊松村・三和町",
+        "福間町・津屋崎町",
+        "木造町・森田村・柏村・稲垣村・車力村"
+      ],
+      "answer": "水口町・土山町・甲賀町・甲南町・信楽町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "滋賀県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "水口町(25363)、土山町(25364)、甲賀町(25365)、甲南町(25366)、信楽町(25367)が合併し、甲賀市(25209)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-米原市-2005-02-14",
+      "prompt": "「米原市」は元々何市町村の合併？",
+      "choices": [
+        "西条町・八本松町・志和町・高屋町",
+        "小石原村・宝珠山村",
+        "山東町・伊吹町・米原町",
+        "富浦町・富山町・三芳村・白浜町・千倉町・丸山町・和田町"
+      ],
+      "answer": "山東町・伊吹町・米原町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "滋賀県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "山東町(25461)、伊吹町(25462)、米原町(25463)が合併し、米原市(25214)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-愛荘町-2006-02-13",
+      "prompt": "「愛荘町」は元々何市町村の合併？",
+      "choices": [
+        "国見町・国東町・武蔵町・安岐町",
+        "秦荘町・愛知川町",
+        "大宮町・紀勢町・大内山村",
+        "古川町・河合村・宮川村・神岡町"
+      ],
+      "answer": "秦荘町・愛知川町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "滋賀県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "秦荘町(25423)、愛知川町(25424)が合併し、愛荘町(25425)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-木津川市-2007-03-12",
+      "prompt": "「木津川市」は元々何市町村の合併？",
+      "choices": [
+        "合志町・西合志町",
+        "山東町・伊吹町・米原町",
+        "鷲敷町・相生町・上那賀町・木沢村・木頭村",
+        "山城町・木津町・加茂町"
+      ],
+      "answer": "山城町・木津町・加茂町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "京都府",
+        "2007"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "山城町(26361)、木津町(26362)、加茂町(26363)が合併し、木津川市(26214)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-京丹波町-2005-10-11",
+      "prompt": "「京丹波町」は元々何市町村の合併？",
+      "choices": [
+        "西条町・八本松町・志和町・高屋町",
+        "福岡町・金田一村",
+        "丹波町・瑞穂町・和知町",
+        "本城村・坂北村・坂井村"
+      ],
+      "answer": "丹波町・瑞穂町・和知町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "京都府",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "丹波町(26403)、瑞穂町(26405)、和知町(26406)が合併し、京丹波町(26407)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-与謝野町-2006-03-01",
+      "prompt": "「与謝野町」は元々何市町村の合併？",
+      "choices": [
+        "松任市・美川町・鶴来町・河内村・吉野谷村・鳥越村・尾口村・白峰村",
+        "半田町・貞光町・一宇村",
+        "加悦町・岩滝町・野田川町",
+        "仲里村・具志川村"
+      ],
+      "answer": "加悦町・岩滝町・野田川町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "京都府",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "加悦町(26461)、岩滝町(26462)、野田川町(26464)が合併し、与謝野町(26465)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-阪南町-1972-10-20",
+      "prompt": "「阪南町」は元々何市町村の合併？",
+      "choices": [
+        "南海町・東鳥取町",
+        "菊水町・三加和町",
+        "富浦町・富山町・三芳村・白浜町・千倉町・丸山町・和田町",
+        "加治木町・姶良町・蒲生町"
+      ],
+      "answer": "南海町・東鳥取町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "大阪府",
+        "1972"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "南海町(27364)、東鳥取町(27365)が合併し、阪南町(27367)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-中央区-1980-12-01",
+      "prompt": "「中央区」は元々何市町村の合併？",
+      "choices": [
+        "西伯町・会見町",
+        "津川町・鹿瀬町・上川村・三川村",
+        "葺合区・生田区",
+        "鵡川町・穂別町"
+      ],
+      "answer": "葺合区・生田区",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "兵庫県",
+        "1980"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "葺合区(28103)、生田区(28104)が合併し、中央区(28110)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-たつの市-2005-10-01",
+      "prompt": "「たつの市」は元々何市町村の合併？",
+      "choices": [
+        "安田町・京ヶ瀬村・水原町・笹神村",
+        "龍野市・新宮町・揖保川町・御津町",
+        "久万町・面河村・美川村・柳谷村",
+        "大宮町・紀勢町・大内山村"
+      ],
+      "answer": "龍野市・新宮町・揖保川町・御津町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "兵庫県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "龍野市(28211)、新宮町(28461)、揖保川町(28462)、御津町(28463)が合併し、たつの市(28229)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-淡路市-2005-04-01",
+      "prompt": "「淡路市」は元々何市町村の合併？",
+      "choices": [
+        "野上町・美里町",
+        "桜村・谷田部町・豊里町・大穂町",
+        "津名町・淡路町・北淡町・一宮町・東浦町",
+        "柿木村・六日市町"
+      ],
+      "answer": "津名町・淡路町・北淡町・一宮町・東浦町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "兵庫県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "津名町(28681)、淡路町(28682)、北淡町(28683)、一宮町(28684)、東浦町(28686)が合併し、淡路市(28226)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-宍粟市-2005-04-01",
+      "prompt": "「宍粟市」は元々何市町村の合併？",
+      "choices": [
+        "西彼町・西海町・大島町・崎戸町・大瀬戸町",
+        "城東村・大浜町",
+        "山崎町・一宮町・波賀町・千種町",
+        "壬生川町・三芳町"
+      ],
+      "answer": "山崎町・一宮町・波賀町・千種町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "兵庫県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "山崎町(28521)、一宮町(28523)、波賀町(28524)、千種町(28525)が合併し、宍粟市(28227)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-多可町-2005-11-01",
+      "prompt": "「多可町」は元々何市町村の合併？",
+      "choices": [
+        "根上町・寺井町・辰口町",
+        "八森町・峰浜村",
+        "大宮町・紀勢町・大内山村",
+        "中町・加美町・八千代町"
+      ],
+      "answer": "中町・加美町・八千代町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "兵庫県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "中町(28361)、加美町(28362)、八千代町(28363)が合併し、多可町(28365)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-神河町-2005-11-07",
+      "prompt": "「神河町」は元々何市町村の合併？",
+      "choices": [
+        "増穂町・鰍沢町",
+        "神崎町・大河内町",
+        "湯田町・沢内村",
+        "川辺町・中津村・美山村"
+      ],
+      "answer": "神崎町・大河内町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "兵庫県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "神崎町(28441)、大河内町(28445)が合併し、神河町(28446)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-新温泉町-2005-10-01",
+      "prompt": "「新温泉町」は元々何市町村の合併？",
+      "choices": [
+        "加治木町・姶良町・蒲生町",
+        "野上町・美里町",
+        "浜坂町・温泉町",
+        "桜村・谷田部町・豊里町・大穂町"
+      ],
+      "answer": "浜坂町・温泉町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "兵庫県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "浜坂町(28582)、温泉町(28584)が合併し、新温泉町(28586)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-葛城市-2004-10-01",
+      "prompt": "「葛城市」は元々何市町村の合併？",
+      "choices": [
+        "菊水町・三加和町",
+        "頓原町・赤来町",
+        "串木野市・市来町",
+        "新庄町・當麻町"
+      ],
+      "answer": "新庄町・當麻町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "奈良県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "新庄町(29421)、當麻町(29422)が合併し、葛城市(29211)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-宇陀市-2006-01-01",
+      "prompt": "「宇陀市」は元々何市町村の合併？",
+      "choices": [
+        "津川町・鹿瀬町・上川村・三川村",
+        "馬頭町・小川町",
+        "大宇陀町・菟田野町・榛原町・室生村",
+        "葺合区・生田区"
+      ],
+      "answer": "大宇陀町・菟田野町・榛原町・室生村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "奈良県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "大宇陀町(29381)、菟田野町(29382)、榛原町(29383)、室生村(29384)が合併し、宇陀市(29212)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-紀の川市-2005-11-07",
+      "prompt": "「紀の川市」は元々何市町村の合併？",
+      "choices": [
+        "御前崎町・浜岡町",
+        "打田町・粉河町・那賀町・桃山町・貴志川町",
+        "内之浦町・高山町",
+        "甘木市・杷木町・朝倉町"
+      ],
+      "answer": "打田町・粉河町・那賀町・桃山町・貴志川町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "和歌山県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "打田町(30321)、粉河町(30322)、那賀町(30323)、桃山町(30324)、貴志川町(30325)が合併し、紀の川市(30208)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-紀美野町-2006-01-01",
+      "prompt": "「紀美野町」は元々何市町村の合併？",
+      "choices": [
+        "野上町・美里町",
+        "打田町・粉河町・那賀町・桃山町・貴志川町",
+        "南那須町・烏山町",
+        "大矢野町・松島町・姫戸町・龍ヶ岳町"
+      ],
+      "answer": "野上町・美里町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "和歌山県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "野上町(30302)、美里町(30303)が合併し、紀美野町(30304)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-有田川町-2006-01-01",
+      "prompt": "「有田川町」は元々何市町村の合併？",
+      "choices": [
+        "勝田町・大原町・東粟倉村・美作町・作東町・英田町",
+        "福岡町・金田一村",
+        "角館町・田沢湖町・西木村",
+        "吉備町・金屋町・清水町"
+      ],
+      "answer": "吉備町・金屋町・清水町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "和歌山県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "吉備町(30363)、金屋町(30364)、清水町(30365)が合併し、有田川町(30366)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-日高川町-2005-05-01",
+      "prompt": "「日高川町」は元々何市町村の合併？",
+      "choices": [
+        "魚島村・弓削町・生名村・岩城村",
+        "川辺町・中津村・美山村",
+        "志雄町・押水町",
+        "琴南町・満濃町・仲南町"
+      ],
+      "answer": "川辺町・中津村・美山村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "和歌山県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "川辺町(30384)、中津村(30385)、美山村(30386)が合併し、日高川町(30392)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-みなべ町-2004-10-01",
+      "prompt": "「みなべ町」は元々何市町村の合併？",
+      "choices": [
+        "南部川村・南部町",
+        "重信町・川内町",
+        "桜村・谷田部町・豊里町・大穂町",
+        "原町市・鹿島町・小高町"
+      ],
+      "answer": "南部川村・南部町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "和歌山県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "南部川村(30388)、南部町(30389)が合併し、みなべ町(30391)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-八頭町-2005-03-31",
+      "prompt": "「八頭町」は元々何市町村の合併？",
+      "choices": [
+        "竜北町・宮原町",
+        "加悦町・岩滝町・野田川町",
+        "八日市市・永源寺町・五個荘町・愛東町・湖東町",
+        "郡家町・船岡町・八東町"
+      ],
+      "answer": "郡家町・船岡町・八東町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鳥取県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "郡家町(31321)、船岡町(31322)、八東町(31324)が合併し、八頭町(31329)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-湯梨浜町-2004-10-01",
+      "prompt": "「湯梨浜町」は元々何市町村の合併？",
+      "choices": [
+        "金田町・赤池町・方城町",
+        "中央町・砥用町",
+        "羽合町・泊村・東郷町",
+        "鷹巣町・森吉町・阿仁町・合川町"
+      ],
+      "answer": "羽合町・泊村・東郷町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鳥取県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "羽合町(31361)、泊村(31362)、東郷町(31363)が合併し、湯梨浜町(31370)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-北栄町-2005-10-01",
+      "prompt": "「北栄町」は元々何市町村の合併？",
+      "choices": [
+        "百石町・下田町",
+        "石川市・具志川市・与那城町・勝連町",
+        "北条町・大栄町",
+        "山城町・木津町・加茂町"
+      ],
+      "answer": "北条町・大栄町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鳥取県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "北条町(31366)、大栄町(31367)が合併し、北栄町(31372)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-琴浦町-2004-09-01",
+      "prompt": "「琴浦町」は元々何市町村の合併？",
+      "choices": [
+        "本荘市・矢島町・岩城町・由利町・西目町・鳥海町・東由利町・大内町",
+        "コザ市・美里村",
+        "東伯町・赤碕町",
+        "江戸崎町・新利根町・桜川村・東町"
+      ],
+      "answer": "東伯町・赤碕町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鳥取県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "東伯町(31368)、赤碕町(31369)が合併し、琴浦町(31371)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-南部町-2004-10-01",
+      "prompt": "「南部町」は元々何市町村の合併？",
+      "choices": [
+        "西伯町・会見町",
+        "長門町・和田村",
+        "油木町・神石町・豊松村・三和町",
+        "内海町・池田町"
+      ],
+      "answer": "西伯町・会見町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鳥取県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "西伯町(31381)、会見町(31382)が合併し、南部町(31389)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-伯耆町-2005-01-01",
+      "prompt": "「伯耆町」は元々何市町村の合併？",
+      "choices": [
+        "浜坂町・温泉町",
+        "岸本町・溝口町",
+        "堀之内町・小出町・湯之谷村・広神村・守門村・入広瀬村",
+        "勝田町・大原町・東粟倉村・美作町・作東町・英田町"
+      ],
+      "answer": "岸本町・溝口町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鳥取県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "岸本町(31383)、溝口町(31404)が合併し、伯耆町(31390)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-奥出雲町-2005-03-31",
+      "prompt": "「奥出雲町」は元々何市町村の合併？",
+      "choices": [
+        "玉城村・知念村・大里村・佐敷町",
+        "仁多町・横田町",
+        "安田町・京ヶ瀬村・水原町・笹神村",
+        "根上町・寺井町・辰口町"
+      ],
+      "answer": "仁多町・横田町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "島根県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "仁多町(32341)、横田町(32342)が合併し、奥出雲町(32343)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-飯南町-2005-01-01",
+      "prompt": "「飯南町」は元々何市町村の合併？",
+      "choices": [
+        "国見町・国東町・武蔵町・安岐町",
+        "城東村・大浜町",
+        "相良町・榛原町",
+        "頓原町・赤来町"
+      ],
+      "answer": "頓原町・赤来町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "島根県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "頓原町(32384)、赤来町(32385)が合併し、飯南町(32386)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-美郷町-2004-10-01",
+      "prompt": "「美郷町」は元々何市町村の合併？",
+      "choices": [
+        "菊水町・三加和町",
+        "邑智町・大和村",
+        "石川市・具志川市・与那城町・勝連町",
+        "西郷町・布施村・五箇村・都万村"
+      ],
+      "answer": "邑智町・大和村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "島根県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "邑智町(32442)、大和村(32443)が合併し、美郷町(32448)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-邑南町-2004-10-01",
+      "prompt": "「邑南町」は元々何市町村の合併？",
+      "choices": [
+        "羽須美村・瑞穂町・石見町",
+        "西枇杷島町・清洲町・新川町",
+        "根占町・佐多町",
+        "小石原村・宝珠山村"
+      ],
+      "answer": "羽須美村・瑞穂町・石見町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "島根県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "羽須美村(32444)、瑞穂町(32445)、石見町(32446)が合併し、邑南町(32449)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-吉賀町-2005-10-01",
+      "prompt": "「吉賀町」は元々何市町村の合併？",
+      "choices": [
+        "柿木村・六日市町",
+        "浜坂町・温泉町",
+        "南勢町・南島町",
+        "種市町・大野村"
+      ],
+      "answer": "柿木村・六日市町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "島根県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "柿木村(32503)、六日市町(32504)が合併し、吉賀町(32505)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-隠岐の島町-2004-10-01",
+      "prompt": "「隠岐の島町」は元々何市町村の合併？",
+      "choices": [
+        "西郷町・布施村・五箇村・都万村",
+        "宮田町・若宮町",
+        "東伯町・赤碕町",
+        "牟礼村・三水村"
+      ],
+      "answer": "西郷町・布施村・五箇村・都万村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "島根県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "西郷町(32521)、布施村(32522)、五箇村(32523)、都万村(32524)が合併し、隠岐の島町(32528)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-備前市-1971-04-01",
+      "prompt": "「備前市」は元々何市町村の合併？",
+      "choices": [
+        "上福岡市・大井町",
+        "備前町・三石町",
+        "霞ヶ浦町・千代田町",
+        "松任市・美川町・鶴来町・河内村・吉野谷村・鳥越村・尾口村・白峰村"
+      ],
+      "answer": "備前町・三石町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "岡山県",
+        "1971"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "備前町(33341)、三石町(33343)が合併し、備前市(33211)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-赤磐市-2005-03-07",
+      "prompt": "「赤磐市」は元々何市町村の合併？",
+      "choices": [
+        "内海町・池田町",
+        "山陽町・赤坂町・熊山町・吉井町",
+        "原町市・鹿島町・小高町",
+        "相良町・榛原町"
+      ],
+      "answer": "山陽町・赤坂町・熊山町・吉井町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "岡山県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "山陽町(33322)、赤坂町(33323)、熊山町(33324)、吉井町(33325)が合併し、赤磐市(33213)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-美作市-2005-03-31",
+      "prompt": "「美作市」は元々何市町村の合併？",
+      "choices": [
+        "師勝町・西春町",
+        "東村・吾妻町",
+        "勝田町・大原町・東粟倉村・美作町・作東町・英田町",
+        "本渡市・牛深市・有明町・御所浦町・倉岳町・栖本町・新和町・五和町・天草町・河浦町"
+      ],
+      "answer": "勝田町・大原町・東粟倉村・美作町・作東町・英田町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "岡山県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "勝田町(33621)、大原町(33641)、東粟倉村(33642)、美作町(33644)、作東町(33645)、英田町(33646)が合併し、美作市(33215)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-浅口市-2006-03-21",
+      "prompt": "「浅口市」は元々何市町村の合併？",
+      "choices": [
+        "黒磯市・西那須野町・塩原町",
+        "鷹巣町・森吉町・阿仁町・合川町",
+        "中川根町・本川根町",
+        "金光町・鴨方町・寄島町"
+      ],
+      "answer": "金光町・鴨方町・寄島町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "岡山県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "金光町(33442)、鴨方町(33443)、寄島町(33444)が合併し、浅口市(33216)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-吉備中央町-2004-10-01",
+      "prompt": "「吉備中央町」は元々何市町村の合併？",
+      "choices": [
+        "広見町・日吉村",
+        "加茂川町・賀陽町",
+        "上福岡市・大井町",
+        "福江市・富江町・玉之浦町・三井楽町・岐宿町・奈留町"
+      ],
+      "answer": "加茂川町・賀陽町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "岡山県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "加茂川町(33305)、賀陽町(33523)が合併し、吉備中央町(33681)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-美咲町-2005-03-22",
+      "prompt": "「美咲町」は元々何市町村の合併？",
+      "choices": [
+        "国分市・溝辺町・横川町・牧園町・霧島町・隼人町・福山町",
+        "中央町・旭町・柵原町",
+        "上村・免田町・岡原村・須恵村・深田村",
+        "蟹田町・平舘村・三厩村"
+      ],
+      "answer": "中央町・旭町・柵原町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "岡山県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "中央町(33661)、旭町(33662)、柵原町(33665)が合併し、美咲町(33666)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-東広島市-1974-04-20",
+      "prompt": "「東広島市」は元々何市町村の合併？",
+      "choices": [
+        "八田村・白根町・芦安村・若草町・櫛形町・甲西町",
+        "加計町・筒賀村・戸河内町",
+        "一の宮町・阿蘇町・波野村",
+        "西条町・八本松町・志和町・高屋町"
+      ],
+      "answer": "西条町・八本松町・志和町・高屋町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "広島県",
+        "1974"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "西条町(34401)、八本松町(34403)、志和町(34404)、高屋町(34409)が合併し、東広島市(34212)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-江田島市-2004-11-01",
+      "prompt": "「江田島市」は元々何市町村の合併？",
+      "choices": [
+        "紀伊長島町・海山町",
+        "串木野市・市来町",
+        "根上町・寺井町・辰口町",
+        "江田島町・能美町・沖美町・大柿町"
+      ],
+      "answer": "江田島町・能美町・沖美町・大柿町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "広島県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "江田島町(34310)、能美町(34328)、沖美町(34329)、大柿町(34330)が合併し、江田島市(34215)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-安芸太田町-2004-10-01",
+      "prompt": "「安芸太田町」は元々何市町村の合併？",
+      "choices": [
+        "南那須町・烏山町",
+        "明野村・須玉町・高根町・長坂町・大泉村・白州町・武川村",
+        "椎田町・築城町",
+        "加計町・筒賀村・戸河内町"
+      ],
+      "answer": "加計町・筒賀村・戸河内町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "広島県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "加計町(34361)、筒賀村(34362)、戸河内町(34363)が合併し、安芸太田町(34368)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-北広島町-2005-02-01",
+      "prompt": "「北広島町」は元々何市町村の合併？",
+      "choices": [
+        "富浦町・富山町・三芳村・白浜町・千倉町・丸山町・和田町",
+        "江戸崎町・新利根町・桜川村・東町",
+        "芸北町・大朝町・千代田町・豊平町",
+        "浦和市・大宮市・与野市"
+      ],
+      "answer": "芸北町・大朝町・千代田町・豊平町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "広島県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "芸北町(34364)、大朝町(34365)、千代田町(34366)、豊平町(34367)が合併し、北広島町(34369)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-大崎上島町-2003-04-01",
+      "prompt": "「大崎上島町」は元々何市町村の合併？",
+      "choices": [
+        "佐賀町・大方町",
+        "七宝町・美和町・甚目寺町",
+        "大崎町・東野町・木江町",
+        "蘇陽町・矢部町・清和村"
+      ],
+      "answer": "大崎町・東野町・木江町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "広島県",
+        "2003"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "大崎町(34427)、東野町(34428)、木江町(34429)が合併し、大崎上島町(34431)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-神石高原町-2004-11-05",
+      "prompt": "「神石高原町」は元々何市町村の合併？",
+      "choices": [
+        "城東村・大浜町",
+        "八田村・白根町・芦安村・若草町・櫛形町・甲西町",
+        "菊水町・三加和町",
+        "油木町・神石町・豊松村・三和町"
+      ],
+      "answer": "油木町・神石町・豊松村・三和町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "広島県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "油木町(34541)、神石町(34542)、豊松村(34543)、三和町(34544)が合併し、神石高原町(34545)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-周防大島町-2004-10-01",
+      "prompt": "「周防大島町」は元々何市町村の合併？",
+      "choices": [
+        "岩井市・猿島町",
+        "久賀町・大島町・東和町・橘町",
+        "中新田町・小野田町・宮崎町",
+        "脇町・美馬町・穴吹町・木屋平村"
+      ],
+      "answer": "久賀町・大島町・東和町・橘町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "山口県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "久賀町(35301)、大島町(35302)、東和町(35303)、橘町(35304)が合併し、周防大島町(35305)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-美馬市-2005-03-01",
+      "prompt": "「美馬市」は元々何市町村の合併？",
+      "choices": [
+        "脇町・美馬町・穴吹町・木屋平村",
+        "魚島村・弓削町・生名村・岩城村",
+        "中川根町・本川根町",
+        "八日市場市・野栄町"
+      ],
+      "answer": "脇町・美馬町・穴吹町・木屋平村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "徳島県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "脇町(36461)、美馬町(36462)、穴吹町(36466)、木屋平村(36467)が合併し、美馬市(36207)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-三好市-2006-03-01",
+      "prompt": "「三好市」は元々何市町村の合併？",
+      "choices": [
+        "佐賀町・大方町",
+        "三野町・池田町・山城町・井川町・東祖谷山村・西祖谷山村",
+        "川辺町・中津村・美山村",
+        "仲里村・具志川村"
+      ],
+      "answer": "三野町・池田町・山城町・井川町・東祖谷山村・西祖谷山村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "徳島県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "三野町(36481)、池田町(36483)、山城町(36484)、井川町(36485)、東祖谷山村(36487)、西祖谷山村(36488)が合併し、三好市(36208)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-那賀町-2005-03-01",
+      "prompt": "「那賀町」は元々何市町村の合併？",
+      "choices": [
+        "八田村・白根町・芦安村・若草町・櫛形町・甲西町",
+        "江見町・長狭町・鴨川町",
+        "鷲敷町・相生町・上那賀町・木沢村・木頭村",
+        "龍野市・新宮町・揖保川町・御津町"
+      ],
+      "answer": "鷲敷町・相生町・上那賀町・木沢村・木頭村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "徳島県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "鷲敷町(36363)、相生町(36364)、上那賀町(36365)、木沢村(36366)、木頭村(36367)が合併し、那賀町(36368)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-美波町-2006-03-31",
+      "prompt": "「美波町」は元々何市町村の合併？",
+      "choices": [
+        "伊豆長岡町・韮山町・大仁町",
+        "中村市・西土佐村",
+        "常北町・桂村・七会村",
+        "由岐町・日和佐町"
+      ],
+      "answer": "由岐町・日和佐町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "徳島県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "由岐町(36381)、日和佐町(36382)が合併し、美波町(36387)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-海陽町-2006-03-31",
+      "prompt": "「海陽町」は元々何市町村の合併？",
+      "choices": [
+        "海南町・海部町・宍喰町",
+        "八田村・白根町・芦安村・若草町・櫛形町・甲西町",
+        "木造町・森田村・柏村・稲垣村・車力村",
+        "東村・吾妻町"
+      ],
+      "answer": "海南町・海部町・宍喰町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "徳島県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "海南町(36384)、海部町(36385)、宍喰町(36386)が合併し、海陽町(36388)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-つるぎ町-2005-03-01",
+      "prompt": "「つるぎ町」は元々何市町村の合併？",
+      "choices": [
+        "半田町・貞光町・一宇村",
+        "西伯町・会見町",
+        "津名町・淡路町・北淡町・一宮町・東浦町",
+        "花輪町・十和田町・尾去沢町・八幡平村"
+      ],
+      "answer": "半田町・貞光町・一宇村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "徳島県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "半田町(36463)、貞光町(36464)、一宇村(36465)が合併し、つるぎ町(36468)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-東みよし町-2006-03-01",
+      "prompt": "「東みよし町」は元々何市町村の合併？",
+      "choices": [
+        "原町市・鹿島町・小高町",
+        "三好町・三加茂町",
+        "水沢市・江刺市・前沢町・胆沢町・衣川村",
+        "伊達町・梁川町・保原町・霊山町・月舘町"
+      ],
+      "answer": "三好町・三加茂町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "徳島県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "三好町(36482)、三加茂町(36486)が合併し、東みよし町(36489)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-さぬき市-2002-04-01",
+      "prompt": "「さぬき市」は元々何市町村の合併？",
+      "choices": [
+        "加治木町・姶良町・蒲生町",
+        "津田町・大川町・志度町・寒川町・長尾町",
+        "六日町・大和町",
+        "内之浦町・高山町"
+      ],
+      "answer": "津田町・大川町・志度町・寒川町・長尾町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "香川県",
+        "2002"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "津田町(37304)、大川町(37305)、志度町(37306)、寒川町(37307)、長尾町(37308)が合併し、さぬき市(37206)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-小豆島町-2006-03-21",
+      "prompt": "「小豆島町」は元々何市町村の合併？",
+      "choices": [
+        "大崎町・東野町・木江町",
+        "六日町・大和町",
+        "琴南町・満濃町・仲南町",
+        "内海町・池田町"
+      ],
+      "answer": "内海町・池田町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "香川県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "内海町(37321)、池田町(37323)が合併し、小豆島町(37324)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-綾川町-2006-03-21",
+      "prompt": "「綾川町」は元々何市町村の合併？",
+      "choices": [
+        "綾上町・綾南町",
+        "中町・加美町・八千代町",
+        "氏家町・喜連川町",
+        "串木野市・市来町"
+      ],
+      "answer": "綾上町・綾南町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "香川県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "綾上町(37381)、綾南町(37382)が合併し、綾川町(37387)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-まんのう町-2006-03-20",
+      "prompt": "「まんのう町」は元々何市町村の合併？",
+      "choices": [
+        "琴南町・満濃町・仲南町",
+        "六郷町・千畑町・仙南村",
+        "福江市・富江町・玉之浦町・三井楽町・岐宿町・奈留町",
+        "大崎町・東野町・木江町"
+      ],
+      "answer": "琴南町・満濃町・仲南町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "香川県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "琴南町(37401)、満濃町(37402)、仲南町(37405)が合併し、まんのう町(37406)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-東温市-2004-09-21",
+      "prompt": "「東温市」は元々何市町村の合併？",
+      "choices": [
+        "重信町・川内町",
+        "紀伊長島町・海山町",
+        "国見町・瑞穂町・吾妻町・愛野町・千々石町・小浜町・南串山町",
+        "志津川町・歌津町"
+      ],
+      "answer": "重信町・川内町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "愛媛県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "重信町(38361)、川内町(38362)が合併し、東温市(38215)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-東予町-1971-01-01",
+      "prompt": "「東予町」は元々何市町村の合併？",
+      "choices": [
+        "壬生川町・三芳町",
+        "油木町・神石町・豊松村・三和町",
+        "師勝町・西春町",
+        "柿木村・六日市町"
+      ],
+      "answer": "壬生川町・三芳町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "愛媛県",
+        "1971"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "壬生川町(38322)、三芳町(38324)が合併し、東予町(38325)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-上島町-2004-10-01",
+      "prompt": "「上島町」は元々何市町村の合併？",
+      "choices": [
+        "修善寺町・土肥町・天城湯ケ島町・中伊豆町",
+        "勝田町・大原町・東粟倉村・美作町・作東町・英田町",
+        "魚島村・弓削町・生名村・岩城村",
+        "新吉富村・大平村"
+      ],
+      "answer": "魚島村・弓削町・生名村・岩城村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "愛媛県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "魚島村(38349)、弓削町(38350)、生名村(38351)、岩城村(38352)が合併し、上島町(38356)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-久万高原町-2004-08-01",
+      "prompt": "「久万高原町」は元々何市町村の合併？",
+      "choices": [
+        "久万町・面河村・美川村・柳谷村",
+        "栗野町・吉松町",
+        "新庄町・當麻町",
+        "上村・免田町・岡原村・須恵村・深田村"
+      ],
+      "answer": "久万町・面河村・美川村・柳谷村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "愛媛県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "久万町(38381)、面河村(38382)、美川村(38383)、柳谷村(38384)が合併し、久万高原町(38386)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-鬼北町-2005-01-01",
+      "prompt": "「鬼北町」は元々何市町村の合併？",
+      "choices": [
+        "広見町・日吉村",
+        "仁多町・横田町",
+        "犀川町・勝山町・豊津町",
+        "塩田町・嬉野町"
+      ],
+      "answer": "広見町・日吉村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "愛媛県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "広見町(38483)、日吉村(38485)が合併し、鬼北町(38488)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-愛南町-2004-10-01",
+      "prompt": "「愛南町」は元々何市町村の合併？",
+      "choices": [
+        "南勢町・南島町",
+        "内海村・御荘町・城辺町・一本松町・西海町",
+        "南海町・東鳥取町",
+        "東村・吾妻町"
+      ],
+      "answer": "内海村・御荘町・城辺町・一本松町・西海町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "愛媛県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "内海村(38501)、御荘町(38502)、城辺町(38503)、一本松町(38504)、西海町(38505)が合併し、愛南町(38506)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-四万十市-2005-04-10",
+      "prompt": "「四万十市」は元々何市町村の合併？",
+      "choices": [
+        "中村市・西土佐村",
+        "加茂川町・賀陽町",
+        "大成町・瀬棚町・北檜山町",
+        "宮之城町・鶴田町・薩摩町"
+      ],
+      "answer": "中村市・西土佐村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "高知県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "中村市(39207)、西土佐村(39426)が合併し、四万十市(39210)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-香南市-2006-03-01",
+      "prompt": "「香南市」は元々何市町村の合併？",
+      "choices": [
+        "上屋久町・屋久町",
+        "松山町・志布志町・有明町",
+        "具志頭村・東風平町",
+        "赤岡町・香我美町・野市町・夜須町・吉川村"
+      ],
+      "answer": "赤岡町・香我美町・野市町・夜須町・吉川村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "高知県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "赤岡町(39321)、香我美町(39322)、野市町(39324)、夜須町(39325)、吉川村(39327)が合併し、香南市(39211)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-いの町-2004-10-01",
+      "prompt": "「いの町」は元々何市町村の合併？",
+      "choices": [
+        "南部川村・南部町",
+        "串木野市・市来町",
+        "本川村・伊野町・吾北村",
+        "江見町・長狭町・鴨川町"
+      ],
+      "answer": "本川村・伊野町・吾北村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "高知県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "本川村(39365)、伊野町(39381)、吾北村(39385)が合併し、いの町(39386)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-仁淀川町-2005-08-01",
+      "prompt": "「仁淀川町」は元々何市町村の合併？",
+      "choices": [
+        "池川町・吾川村・仁淀村",
+        "本荘市・矢島町・岩城町・由利町・西目町・鳥海町・東由利町・大内町",
+        "琴丘町・山本町・八竜町",
+        "西郷町・布施村・五箇村・都万村"
+      ],
+      "answer": "池川町・吾川村・仁淀村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "高知県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "池川町(39382)、吾川村(39384)、仁淀村(39409)が合併し、仁淀川町(39387)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-四万十町-2006-03-20",
+      "prompt": "「四万十町」は元々何市町村の合併？",
+      "choices": [
+        "松任市・美川町・鶴来町・河内村・吉野谷村・鳥越村・尾口村・白峰村",
+        "窪川町・大正町・十和村",
+        "神崎町・大河内町",
+        "更埴市・上山田町・戸倉町"
+      ],
+      "answer": "窪川町・大正町・十和村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "高知県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "窪川町(39404)、大正町(39422)、十和村(39425)が合併し、四万十町(39412)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-津野町-2005-02-01",
+      "prompt": "「津野町」は元々何市町村の合併？",
+      "choices": [
+        "種市町・大野村",
+        "東津野村・葉山村",
+        "氏家町・喜連川町",
+        "春日居町・石和町・御坂町・一宮町・八代町・境川村"
+      ],
+      "answer": "東津野村・葉山村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "高知県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "東津野村(39407)、葉山村(39408)が合併し、津野町(39411)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-黒潮町-2006-03-20",
+      "prompt": "「黒潮町」は元々何市町村の合併？",
+      "choices": [
+        "小牛田町・南郷町",
+        "北勢町・員弁町・大安町・藤原町",
+        "佐賀町・大方町",
+        "成東町・山武町・蓮沼村・松尾町"
+      ],
+      "answer": "佐賀町・大方町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "高知県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "佐賀町(39421)、大方町(39423)が合併し、黒潮町(39428)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-嘉麻市-2006-03-27",
+      "prompt": "「嘉麻市」は元々何市町村の合併？",
+      "choices": [
+        "西彼町・西海町・大島町・崎戸町・大瀬戸町",
+        "打田町・粉河町・那賀町・桃山町・貴志川町",
+        "三田川町・東脊振村",
+        "山田市・稲築町・碓井町・嘉穂町"
+      ],
+      "answer": "山田市・稲築町・碓井町・嘉穂町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福岡県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "山田市(40208)、稲築町(40422)、碓井町(40423)、嘉穂町(40424)が合併し、嘉麻市(40227)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-朝倉市-2006-03-20",
+      "prompt": "「朝倉市」は元々何市町村の合併？",
+      "choices": [
+        "甘木市・杷木町・朝倉町",
+        "木造町・森田村・柏村・稲垣村・車力村",
+        "那珂湊市・勝田市",
+        "田島町・舘岩村・伊南村・南郷村"
+      ],
+      "answer": "甘木市・杷木町・朝倉町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福岡県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "甘木市(40209)、杷木町(40441)、朝倉町(40442)が合併し、朝倉市(40228)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-福津市-2005-01-24",
+      "prompt": "「福津市」は元々何市町村の合併？",
+      "choices": [
+        "松山町・志布志町・有明町",
+        "福間町・津屋崎町",
+        "高田市・直江津市",
+        "中条町・黒川村"
+      ],
+      "answer": "福間町・津屋崎町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福岡県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "福間町(40362)、津屋崎町(40363)が合併し、福津市(40224)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-宮若市-2006-02-11",
+      "prompt": "「宮若市」は元々何市町村の合併？",
+      "choices": [
+        "新吉富村・大平村",
+        "邑智町・大和村",
+        "宮田町・若宮町",
+        "久万町・面河村・美川村・柳谷村"
+      ],
+      "answer": "宮田町・若宮町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福岡県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "宮田町(40403)、若宮町(40404)が合併し、宮若市(40226)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-筑前町-2005-03-22",
+      "prompt": "「筑前町」は元々何市町村の合併？",
+      "choices": [
+        "鷹巣町・森吉町・阿仁町・合川町",
+        "三輪町・夜須町",
+        "窪川町・大正町・十和村",
+        "西彼町・西海町・大島町・崎戸町・大瀬戸町"
+      ],
+      "answer": "三輪町・夜須町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福岡県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "三輪町(40443)、夜須町(40444)が合併し、筑前町(40447)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-東峰村-2005-03-28",
+      "prompt": "「東峰村」は元々何市町村の合併？",
+      "choices": [
+        "虻田町・洞爺村",
+        "国見町・瑞穂町・吾妻町・愛野町・千々石町・小浜町・南串山町",
+        "小石原村・宝珠山村",
+        "根上町・寺井町・辰口町"
+      ],
+      "answer": "小石原村・宝珠山村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福岡県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "小石原村(40445)、宝珠山村(40446)が合併し、東峰村(40448)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-福智町-2006-03-06",
+      "prompt": "「福智町」は元々何市町村の合併？",
+      "choices": [
+        "山崎町・一宮町・波賀町・千種町",
+        "静内町・三石町",
+        "宮之城町・鶴田町・薩摩町",
+        "金田町・赤池町・方城町"
+      ],
+      "answer": "金田町・赤池町・方城町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福岡県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "金田町(40603)、赤池町(40606)、方城町(40607)が合併し、福智町(40610)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-みやこ町-2006-03-20",
+      "prompt": "「みやこ町」は元々何市町村の合併？",
+      "choices": [
+        "虻田町・洞爺村",
+        "串木野市・市来町",
+        "犀川町・勝山町・豊津町",
+        "小笠町・菊川町"
+      ],
+      "answer": "犀川町・勝山町・豊津町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福岡県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "犀川町(40622)、勝山町(40623)、豊津町(40624)が合併し、みやこ町(40625)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-築上町-2006-01-10",
+      "prompt": "「築上町」は元々何市町村の合併？",
+      "choices": [
+        "椎田町・築城町",
+        "新吉富村・大平村",
+        "川辺町・中津村・美山村",
+        "仲里村・具志川村"
+      ],
+      "answer": "椎田町・築城町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福岡県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "椎田町(40641)、築城町(40643)が合併し、築上町(40647)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-上毛町-2005-10-11",
+      "prompt": "「上毛町」は元々何市町村の合併？",
+      "choices": [
+        "新吉富村・大平村",
+        "津川町・鹿瀬町・上川村・三川村",
+        "安田町・京ヶ瀬村・水原町・笹神村",
+        "東伯町・赤碕町"
+      ],
+      "answer": "新吉富村・大平村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "福岡県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "新吉富村(40644)、大平村(40645)が合併し、上毛町(40646)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-嬉野市-2006-01-01",
+      "prompt": "「嬉野市」は元々何市町村の合併？",
+      "choices": [
+        "静内町・三石町",
+        "琴南町・満濃町・仲南町",
+        "塩田町・嬉野町",
+        "大曲市・神岡町・西仙北町・中仙町・協和町・南外村・仙北町・太田町"
+      ],
+      "answer": "塩田町・嬉野町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "佐賀県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "塩田町(41442)、嬉野町(41443)が合併し、嬉野市(41209)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-神埼市-2006-03-20",
+      "prompt": "「神埼市」は元々何市町村の合併？",
+      "choices": [
+        "菊水町・三加和町",
+        "上村・免田町・岡原村・須恵村・深田村",
+        "龍野市・新宮町・揖保川町・御津町",
+        "神埼町・千代田町・脊振村"
+      ],
+      "answer": "神埼町・千代田町・脊振村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "佐賀県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "神埼町(41321)、千代田町(41322)、脊振村(41325)が合併し、神埼市(41210)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-吉野ヶ里町-2006-03-01",
+      "prompt": "「吉野ヶ里町」は元々何市町村の合併？",
+      "choices": [
+        "郡家町・船岡町・八東町",
+        "三田川町・東脊振村",
+        "志雄町・押水町",
+        "合志町・西合志町"
+      ],
+      "answer": "三田川町・東脊振村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "佐賀県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "三田川町(41323)、東脊振村(41324)が合併し、吉野ヶ里町(41327)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-みやき町-2005-03-01",
+      "prompt": "「みやき町」は元々何市町村の合併？",
+      "choices": [
+        "中川根町・本川根町",
+        "東村・吾妻町",
+        "川内市・樋脇町・入来町・東郷町・祁答院町・里村・上甑村・下甑村・鹿島村",
+        "中原町・北茂安町・三根町"
+      ],
+      "answer": "中原町・北茂安町・三根町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "佐賀県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "中原町(41342)、北茂安町(41343)、三根町(41344)が合併し、みやき町(41346)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-五島市-2004-08-01",
+      "prompt": "「五島市」は元々何市町村の合併？",
+      "choices": [
+        "八田村・白根町・芦安村・若草町・櫛形町・甲西町",
+        "福江市・富江町・玉之浦町・三井楽町・岐宿町・奈留町",
+        "山陽町・赤坂町・熊山町・吉井町",
+        "中村市・西土佐村"
+      ],
+      "answer": "福江市・富江町・玉之浦町・三井楽町・岐宿町・奈留町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "長崎県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "福江市(42206)、富江町(42401)、玉之浦町(42402)、三井楽町(42403)、岐宿町(42404)、奈留町(42405)が合併し、五島市(42211)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-西海市-2005-04-01",
+      "prompt": "「西海市」は元々何市町村の合併？",
+      "choices": [
+        "西彼町・西海町・大島町・崎戸町・大瀬戸町",
+        "木曽福島町・日義村・開田村・三岳村",
+        "中条町・黒川村",
+        "中新田町・小野田町・宮崎町"
+      ],
+      "answer": "西彼町・西海町・大島町・崎戸町・大瀬戸町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "長崎県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "西彼町(42310)、西海町(42311)、大島町(42312)、崎戸町(42313)、大瀬戸町(42314)が合併し、西海市(42212)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-雲仙市-2005-10-11",
+      "prompt": "「雲仙市」は元々何市町村の合併？",
+      "choices": [
+        "月夜野町・水上町・新治村",
+        "国見町・瑞穂町・吾妻町・愛野町・千々石町・小浜町・南串山町",
+        "六郷町・千畑町・仙南村",
+        "江見町・長狭町・鴨川町"
+      ],
+      "answer": "国見町・瑞穂町・吾妻町・愛野町・千々石町・小浜町・南串山町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "長崎県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "国見町(42362)、瑞穂町(42363)、吾妻町(42364)、愛野町(42365)、千々石町(42366)、小浜町(42367)、南串山町(42368)が合併し、雲仙市(42213)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-新上五島町-2004-08-01",
+      "prompt": "「新上五島町」は元々何市町村の合併？",
+      "choices": [
+        "若松町・上五島町・新魚目町・有川町・奈良尾町",
+        "北御牧村・東部町",
+        "鵡川町・穂別町",
+        "池川町・吾川村・仁淀村"
+      ],
+      "answer": "若松町・上五島町・新魚目町・有川町・奈良尾町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "長崎県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "若松町(42406)、上五島町(42407)、新魚目町(42408)、有川町(42409)、奈良尾町(42410)が合併し、新上五島町(42411)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-天草市-2006-03-27",
+      "prompt": "「天草市」は元々何市町村の合併？",
+      "choices": [
+        "柿木村・六日市町",
+        "三田川町・東脊振村",
+        "本渡市・牛深市・有明町・御所浦町・倉岳町・栖本町・新和町・五和町・天草町・河浦町",
+        "大矢野町・松島町・姫戸町・龍ヶ岳町"
+      ],
+      "answer": "本渡市・牛深市・有明町・御所浦町・倉岳町・栖本町・新和町・五和町・天草町・河浦町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "熊本県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "本渡市(43207)、牛深市(43209)、有明町(43523)、御所浦町(43526)、倉岳町(43527)、栖本町(43528)、新和町(43529)、五和町(43530)、天草町(43532)、河浦町(43533)が合併し、天草市(43215)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-上天草市-2004-03-31",
+      "prompt": "「上天草市」は元々何市町村の合併？",
+      "choices": [
+        "大矢野町・松島町・姫戸町・龍ヶ岳町",
+        "久万町・面河村・美川村・柳谷村",
+        "重信町・川内町",
+        "大隅町・財部町・末吉町"
+      ],
+      "answer": "大矢野町・松島町・姫戸町・龍ヶ岳町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "熊本県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "大矢野町(43521)、松島町(43522)、姫戸町(43524)、龍ヶ岳町(43525)が合併し、上天草市(43212)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-阿蘇市-2005-02-11",
+      "prompt": "「阿蘇市」は元々何市町村の合併？",
+      "choices": [
+        "魚島村・弓削町・生名村・岩城村",
+        "一の宮町・阿蘇町・波野村",
+        "都幾川村・玉川村",
+        "加茂川町・賀陽町"
+      ],
+      "answer": "一の宮町・阿蘇町・波野村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "熊本県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "一の宮町(43421)、阿蘇町(43422)、波野村(43426)が合併し、阿蘇市(43214)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-合志市-2006-02-27",
+      "prompt": "「合志市」は元々何市町村の合併？",
+      "choices": [
+        "西枇杷島町・清洲町・新川町",
+        "合志町・西合志町",
+        "重信町・川内町",
+        "仁多町・横田町"
+      ],
+      "answer": "合志町・西合志町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "熊本県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "合志町(43405)、西合志町(43407)が合併し、合志市(43216)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-美里町-2004-11-01",
+      "prompt": "「美里町」は元々何市町村の合併？",
+      "choices": [
+        "虻田町・洞爺村",
+        "中央町・砥用町",
+        "大隅町・財部町・末吉町",
+        "山田市・稲築町・碓井町・嘉穂町"
+      ],
+      "answer": "中央町・砥用町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "熊本県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "中央町(43346)、砥用町(43347)が合併し、美里町(43348)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-和水町-2006-03-01",
+      "prompt": "「和水町」は元々何市町村の合併？",
+      "choices": [
+        "大曲市・神岡町・西仙北町・中仙町・協和町・南外村・仙北町・太田町",
+        "三田川町・東脊振村",
+        "菊水町・三加和町",
+        "鷹巣町・森吉町・阿仁町・合川町"
+      ],
+      "answer": "菊水町・三加和町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "熊本県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "菊水町(43365)、三加和町(43366)が合併し、和水町(43369)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-山都町-2005-02-11",
+      "prompt": "「山都町」は元々何市町村の合併？",
+      "choices": [
+        "蘇陽町・矢部町・清和村",
+        "馬頭町・小川町",
+        "玉城村・知念村・大里村・佐敷町",
+        "水沢市・江刺市・前沢町・胆沢町・衣川村"
+      ],
+      "answer": "蘇陽町・矢部町・清和村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "熊本県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "蘇陽町(43427)、矢部町(43445)、清和村(43446)が合併し、山都町(43447)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-南阿蘇村-2005-02-13",
+      "prompt": "「南阿蘇村」は元々何市町村の合併？",
+      "choices": [
+        "白水村・久木野村・長陽村",
+        "六日町・大和町",
+        "栗野町・吉松町",
+        "神崎町・大河内町"
+      ],
+      "answer": "白水村・久木野村・長陽村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "熊本県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "白水村(43429)、久木野村(43430)、長陽村(43431)が合併し、南阿蘇村(43433)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-氷川町-2005-10-01",
+      "prompt": "「氷川町」は元々何市町村の合併？",
+      "choices": [
+        "松任市・美川町・鶴来町・河内村・吉野谷村・鳥越村・尾口村・白峰村",
+        "竜北町・宮原町",
+        "白水村・久木野村・長陽村",
+        "野上町・美里町"
+      ],
+      "answer": "竜北町・宮原町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "熊本県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "竜北町(43464)、宮原町(43465)が合併し、氷川町(43468)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-あさぎり町-2003-04-01",
+      "prompt": "「あさぎり町」は元々何市町村の合併？",
+      "choices": [
+        "玉城村・知念村・大里村・佐敷町",
+        "山城町・木津町・加茂町",
+        "中条町・黒川村",
+        "上村・免田町・岡原村・須恵村・深田村"
+      ],
+      "answer": "上村・免田町・岡原村・須恵村・深田村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "熊本県",
+        "2003"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "上村(43502)、免田町(43503)、岡原村(43504)、須恵村(43508)、深田村(43509)が合併し、あさぎり町(43514)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-国東市-2006-03-31",
+      "prompt": "「国東市」は元々何市町村の合併？",
+      "choices": [
+        "大崎町・東野町・木江町",
+        "国見町・国東町・武蔵町・安岐町",
+        "河口湖町・勝山村・足和田村",
+        "三珠町・市川大門町・六郷町"
+      ],
+      "answer": "国見町・国東町・武蔵町・安岐町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "大分県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "国見町(44321)、国東町(44323)、武蔵町(44324)、安岐町(44325)が合併し、国東市(44214)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-美郷町-2006-01-01",
+      "prompt": "「美郷町」は元々何市町村の合併？",
+      "choices": [
+        "御前崎町・浜岡町",
+        "南郷村・西郷村・北郷村",
+        "津川町・鹿瀬町・上川村・三川村",
+        "八田村・白根町・芦安村・若草町・櫛形町・甲西町"
+      ],
+      "answer": "南郷村・西郷村・北郷村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "宮崎県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "南郷村(45423)、西郷村(45424)、北郷村(45425)が合併し、美郷町(45431)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-薩摩川内市-2004-10-12",
+      "prompt": "「薩摩川内市」は元々何市町村の合併？",
+      "choices": [
+        "川内市・樋脇町・入来町・東郷町・祁答院町・里村・上甑村・下甑村・鹿島村",
+        "石川市・具志川市・与那城町・勝連町",
+        "西伯町・会見町",
+        "東市来町・伊集院町・日吉町・吹上町"
+      ],
+      "answer": "川内市・樋脇町・入来町・東郷町・祁答院町・里村・上甑村・下甑村・鹿島村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鹿児島県",
+        "2004"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "川内市(46202)、樋脇町(46381)、入来町(46382)、東郷町(46383)、祁答院町(46387)、里村(46388)、上甑村(46389)、下甑村(46390)、鹿島村(46391)が合併し、薩摩川内市(46215)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-いちき串木野市-2005-10-11",
+      "prompt": "「いちき串木野市」は元々何市町村の合併？",
+      "choices": [
+        "山田市・稲築町・碓井町・嘉穂町",
+        "半田町・貞光町・一宇村",
+        "高松町・七塚町・宇ノ気町",
+        "串木野市・市来町"
+      ],
+      "answer": "串木野市・市来町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鹿児島県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "串木野市(46205)、市来町(46361)が合併し、いちき串木野市(46219)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-奄美市-2006-03-20",
+      "prompt": "「奄美市」は元々何市町村の合併？",
+      "choices": [
+        "小牛田町・南郷町",
+        "鷲敷町・相生町・上那賀町・木沢村・木頭村",
+        "名瀬市・住用村・笠利町",
+        "山城町・木津町・加茂町"
+      ],
+      "answer": "名瀬市・住用村・笠利町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鹿児島県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "名瀬市(46207)、住用村(46526)、笠利町(46528)が合併し、奄美市(46222)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-霧島市-2005-11-07",
+      "prompt": "「霧島市」は元々何市町村の合併？",
+      "choices": [
+        "江見町・長狭町・鴨川町",
+        "大曲市・神岡町・西仙北町・中仙町・協和町・南外村・仙北町・太田町",
+        "志雄町・押水町",
+        "国分市・溝辺町・横川町・牧園町・霧島町・隼人町・福山町"
+      ],
+      "answer": "国分市・溝辺町・横川町・牧園町・霧島町・隼人町・福山町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鹿児島県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "国分市(46212)、溝辺町(46444)、横川町(46445)、牧園町(46448)、霧島町(46449)、隼人町(46450)、福山町(46451)が合併し、霧島市(46218)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-日置市-2005-05-01",
+      "prompt": "「日置市」は元々何市町村の合併？",
+      "choices": [
+        "北勢町・員弁町・大安町・藤原町",
+        "東市来町・伊集院町・日吉町・吹上町",
+        "東村・吾妻町",
+        "中央町・旭町・柵原町"
+      ],
+      "answer": "東市来町・伊集院町・日吉町・吹上町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鹿児島県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "東市来町(46362)、伊集院町(46363)、日吉町(46366)、吹上町(46367)が合併し、日置市(46216)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-曽於市-2005-07-01",
+      "prompt": "「曽於市」は元々何市町村の合併？",
+      "choices": [
+        "三野町・池田町・山城町・井川町・東祖谷山村・西祖谷山村",
+        "大隅町・財部町・末吉町",
+        "山陽町・赤坂町・熊山町・吉井町",
+        "鵡川町・穂別町"
+      ],
+      "answer": "大隅町・財部町・末吉町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鹿児島県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "大隅町(46461)、財部町(46463)、末吉町(46464)が合併し、曽於市(46217)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-志布志市-2006-01-01",
+      "prompt": "「志布志市」は元々何市町村の合併？",
+      "choices": [
+        "松山町・志布志町・有明町",
+        "神埼町・千代田町・脊振村",
+        "具志頭村・東風平町",
+        "大成町・瀬棚町・北檜山町"
+      ],
+      "answer": "松山町・志布志町・有明町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鹿児島県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "松山町(46465)、志布志町(46466)、有明町(46467)が合併し、志布志市(46221)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-姶良市-2010-03-23",
+      "prompt": "「姶良市」は元々何市町村の合併？",
+      "choices": [
+        "加治木町・姶良町・蒲生町",
+        "浦和市・大宮市・与野市",
+        "豊富村・玉穂町・田富町",
+        "芦原町・金津町"
+      ],
+      "answer": "加治木町・姶良町・蒲生町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鹿児島県",
+        "2010"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "加治木町(46441)、姶良町(46442)、蒲生町(46443)が合併し、姶良市(46225)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-さつま町-2005-03-22",
+      "prompt": "「さつま町」は元々何市町村の合併？",
+      "choices": [
+        "宮之城町・鶴田町・薩摩町",
+        "本荘市・矢島町・岩城町・由利町・西目町・鳥海町・東由利町・大内町",
+        "内之浦町・高山町",
+        "加悦町・岩滝町・野田川町"
+      ],
+      "answer": "宮之城町・鶴田町・薩摩町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鹿児島県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "宮之城町(46384)、鶴田町(46385)、薩摩町(46386)が合併し、さつま町(46392)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-湧水町-2005-03-22",
+      "prompt": "「湧水町」は元々何市町村の合併？",
+      "choices": [
+        "南条町・今庄町・河野村",
+        "栗野町・吉松町",
+        "早来町・追分町",
+        "山田市・稲築町・碓井町・嘉穂町"
+      ],
+      "answer": "栗野町・吉松町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鹿児島県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "栗野町(46446)、吉松町(46447)が合併し、湧水町(46452)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-肝付町-2005-07-01",
+      "prompt": "「肝付町」は元々何市町村の合併？",
+      "choices": [
+        "内之浦町・高山町",
+        "小牛田町・南郷町",
+        "静内町・三石町",
+        "秋川市・五日市町"
+      ],
+      "answer": "内之浦町・高山町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鹿児島県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "内之浦町(46483)、高山町(46484)が合併し、肝付町(46492)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-錦江町-2005-03-22",
+      "prompt": "「錦江町」は元々何市町村の合併？",
+      "choices": [
+        "春日居町・石和町・御坂町・一宮町・八代町・境川村",
+        "中川根町・本川根町",
+        "神崎町・大河内町",
+        "大根占町・田代町"
+      ],
+      "answer": "大根占町・田代町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鹿児島県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "大根占町(46486)、田代町(46488)が合併し、錦江町(46490)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-南大隅町-2005-03-31",
+      "prompt": "「南大隅町」は元々何市町村の合併？",
+      "choices": [
+        "中央町・砥用町",
+        "原町市・鹿島町・小高町",
+        "根占町・佐多町",
+        "本荘市・矢島町・岩城町・由利町・西目町・鳥海町・東由利町・大内町"
+      ],
+      "answer": "根占町・佐多町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鹿児島県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "根占町(46487)、佐多町(46489)が合併し、南大隅町(46491)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-屋久島町-2007-10-01",
+      "prompt": "「屋久島町」は元々何市町村の合併？",
+      "choices": [
+        "串木野市・市来町",
+        "琴南町・満濃町・仲南町",
+        "佐屋町・立田村・八開村・佐織町",
+        "上屋久町・屋久町"
+      ],
+      "answer": "上屋久町・屋久町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "鹿児島県",
+        "2007"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "上屋久町(46503)、屋久町(46504)が合併し、屋久島町(46505)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-うるま市-2005-04-01",
+      "prompt": "「うるま市」は元々何市町村の合併？",
+      "choices": [
+        "万場町・中里村",
+        "津川町・鹿瀬町・上川村・三川村",
+        "仲里村・具志川村",
+        "石川市・具志川市・与那城町・勝連町"
+      ],
+      "answer": "石川市・具志川市・与那城町・勝連町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "沖縄県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "石川市(47202)、具志川市(47203)、与那城町(47322)、勝連町(47323)が合併し、うるま市(47213)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-沖縄市-1974-04-01",
+      "prompt": "「沖縄市」は元々何市町村の合併？",
+      "choices": [
+        "田島町・舘岩村・伊南村・南郷村",
+        "コザ市・美里村",
+        "江田島町・能美町・沖美町・大柿町",
+        "東藻琴村・女満別町"
+      ],
+      "answer": "コザ市・美里村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "沖縄県",
+        "1974"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "コザ市(47204)、美里村(47321)が合併し、沖縄市(47211)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-宮古島市-2005-10-01",
+      "prompt": "「宮古島市」は元々何市町村の合併？",
+      "choices": [
+        "西枇杷島町・清洲町・新川町",
+        "山崎町・一宮町・波賀町・千種町",
+        "羽合町・泊村・東郷町",
+        "城辺町・下地町・上野村・伊良部町・平良市"
+      ],
+      "answer": "城辺町・下地町・上野村・伊良部町・平良市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "沖縄県",
+        "2005"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "城辺町(47371)、下地町(47372)、上野村(47373)、伊良部町(47374)、平良市(47206)が合併し、宮古島市(47214)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-南城市-2006-01-01",
+      "prompt": "「南城市」は元々何市町村の合併？",
+      "choices": [
+        "玉城村・知念村・大里村・佐敷町",
+        "南勢町・南島町",
+        "秋山村・上野原町",
+        "伊達町・梁川町・保原町・霊山町・月舘町"
+      ],
+      "answer": "玉城村・知念村・大里村・佐敷町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "沖縄県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "玉城村(47345)、知念村(47346)、大里村(47349)、佐敷町(47347)が合併し、南城市(47215)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-八重瀬町-2006-01-01",
+      "prompt": "「八重瀬町」は元々何市町村の合併？",
+      "choices": [
+        "城東村・大浜町",
+        "具志頭村・東風平町",
+        "秦荘町・愛知川町",
+        "宮之城町・鶴田町・薩摩町"
+      ],
+      "answer": "具志頭村・東風平町",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "沖縄県",
+        "2006"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "具志頭村(47344)、東風平町(47343)が合併し、八重瀬町(47362)を新設"
+        ]
+      }
+    },
+    {
+      "type": "portmanteau",
+      "id": "portmanteau-久米島町-2002-04-01",
+      "prompt": "「久米島町」は元々何市町村の合併？",
+      "choices": [
+        "南海町・東鳥取町",
+        "仲里村・具志川村",
+        "椎田町・築城町",
+        "西条町・八本松町・志和町・高屋町"
+      ],
+      "answer": "仲里村・具志川村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "portmanteau",
+        "沖縄県",
+        "2002"
+      ],
+      "difficulty": 0.7,
+      "source": {
+        "dataset": "municipality-history",
+        "refs": [
+          "仲里村(47351)、具志川村(47352)が合併し、久米島町(47361)を新設"
+        ]
+      }
+    }
+  ]
+}

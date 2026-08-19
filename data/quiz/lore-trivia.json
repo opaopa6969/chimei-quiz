@@ -1,0 +1,387 @@
+{
+  "type": "lore-trivia",
+  "count": 15,
+  "questions": [
+    {
+      "type": "lore-trivia",
+      "id": "lore-trivia-address-three-types-0",
+      "prompt": "「都道府県-区-町名丁目-街区符号-住居番号」という住所構成を持つのはどのタイプ？",
+      "choices": [
+        "山村タイプ",
+        "農村タイプ",
+        "郊外タイプ",
+        "都市タイプ"
+      ],
+      "answer": "都市タイプ",
+      "distractorStrategy": "handcrafted",
+      "tags": [
+        "lore-trivia",
+        "region-profile",
+        "nationwide"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "address-lore",
+        "refs": [
+          "address-three-types"
+        ]
+      }
+    },
+    {
+      "type": "lore-trivia",
+      "id": "lore-trivia-compound-place-names-1",
+      "prompt": "「山武郡」はどの郡とどの郡が合わさってできた名前？",
+      "choices": [
+        "山辺郡・武射郡",
+        "山口郡・武庫郡",
+        "山方郡・武州郡",
+        "山田郡・武蔵郡"
+      ],
+      "answer": "山辺郡・武射郡",
+      "distractorStrategy": "handcrafted",
+      "tags": [
+        "lore-trivia",
+        "historical-reference",
+        "nationwide"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "address-lore",
+        "refs": [
+          "compound-place-names"
+        ]
+      }
+    },
+    {
+      "type": "lore-trivia",
+      "id": "lore-trivia-compound-place-names-2",
+      "prompt": "「津田沼」は3つの地名の合成。谷津・鷺沼と、あと一つは？",
+      "choices": [
+        "久が原",
+        "久喜",
+        "久々田",
+        "久留里"
+      ],
+      "answer": "久々田",
+      "distractorStrategy": "handcrafted",
+      "tags": [
+        "lore-trivia",
+        "historical-reference",
+        "nationwide"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "address-lore",
+        "refs": [
+          "compound-place-names"
+        ]
+      }
+    },
+    {
+      "type": "lore-trivia",
+      "id": "lore-trivia-honrai-no-tyoume-3",
+      "prompt": "「丁目」は本来なんの区切り単位だった？",
+      "choices": [
+        "税率区分ごとの区切り",
+        "神社の氏子圏の区切り",
+        "距離の単位（1町=約109m）ごとの区切り",
+        "世帯数ごとの区切り"
+      ],
+      "answer": "距離の単位（1町=約109m）ごとの区切り",
+      "distractorStrategy": "handcrafted",
+      "tags": [
+        "lore-trivia",
+        "historical-reference",
+        "nationwide"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "address-lore",
+        "refs": [
+          "honrai-no-tyoume"
+        ]
+      }
+    },
+    {
+      "type": "lore-trivia",
+      "id": "lore-trivia-jiban-numbering-origin-4",
+      "prompt": "日本の地番の基本的な振り方（条里制の坪番号と同型）は？",
+      "choices": [
+        "中心から放射状に振る式",
+        "時計回りの渦巻き式",
+        "南から北への並行式",
+        "千鳥式（北西から南へ蛇行）"
+      ],
+      "answer": "千鳥式（北西から南へ蛇行）",
+      "distractorStrategy": "handcrafted",
+      "tags": [
+        "lore-trivia",
+        "historical-reference",
+        "nationwide"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "address-lore",
+        "refs": [
+          "jiban-numbering-origin"
+        ]
+      }
+    },
+    {
+      "type": "lore-trivia",
+      "id": "lore-trivia-koaza-abolition-5",
+      "prompt": "日野市が昭和40年に一括廃止した小字はいくつ？",
+      "choices": [
+        "52",
+        "12",
+        "980",
+        "265"
+      ],
+      "answer": "265",
+      "distractorStrategy": "handcrafted",
+      "tags": [
+        "lore-trivia",
+        "historical-reference",
+        "nationwide"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "address-lore",
+        "refs": [
+          "koaza-abolition"
+        ]
+      }
+    },
+    {
+      "type": "lore-trivia",
+      "id": "lore-trivia-kyoto-counting-song-6",
+      "prompt": "京都の東西の通りを覚える数え歌「丸竹夷（まるたけえびす）」の次に続くのは？",
+      "choices": [
+        "東西南北（とうざいなんぼく）",
+        "上下中央（じょうげちゅうおう）",
+        "二押御池（におしおいけ）",
+        "四五六七（しごろくしち）"
+      ],
+      "answer": "二押御池（におしおいけ）",
+      "distractorStrategy": "handcrafted",
+      "tags": [
+        "lore-trivia",
+        "historical-reference",
+        "京都府"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "address-lore",
+        "refs": [
+          "kyoto-counting-song"
+        ]
+      }
+    },
+    {
+      "type": "lore-trivia",
+      "id": "lore-trivia-kyoto-jiban-gakku-7",
+      "prompt": "京都旧市街の地番区域は「町」ではなく何単位で通し番号が振られている？",
+      "choices": [
+        "字（あざ）",
+        "番組（学区）",
+        "坊（平安京由来）",
+        "校区連合会"
+      ],
+      "answer": "番組（学区）",
+      "distractorStrategy": "handcrafted",
+      "tags": [
+        "lore-trivia",
+        "coordinate-system",
+        "京都府"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "address-lore",
+        "refs": [
+          "kyoto-jiban-gakku"
+        ]
+      }
+    },
+    {
+      "type": "lore-trivia",
+      "id": "lore-trivia-michibannai-address-8",
+      "prompt": "軽井沢で、広大な大字だけでは位置特定できないために使われる独自の番号は？",
+      "choices": [
+        "山荘コード",
+        "リゾート地番",
+        "別荘番号",
+        "観光整理番号"
+      ],
+      "answer": "別荘番号",
+      "distractorStrategy": "handcrafted",
+      "tags": [
+        "lore-trivia",
+        "region-profile",
+        "長野県",
+        "山梨県"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "address-lore",
+        "refs": [
+          "michibannai-address"
+        ]
+      }
+    },
+    {
+      "type": "lore-trivia",
+      "id": "lore-trivia-overseas-street-numbering-9",
+      "prompt": "住所のブロックごとに番地を100ずつリセットし、北を奇数・南を偶数で振る都市は？",
+      "choices": [
+        "パリ",
+        "ニューヨーク",
+        "ヴェネツィア",
+        "ロンドン"
+      ],
+      "answer": "ニューヨーク",
+      "distractorStrategy": "handcrafted",
+      "tags": [
+        "lore-trivia",
+        "coordinate-system",
+        "nationwide"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "address-lore",
+        "refs": [
+          "overseas-street-numbering"
+        ]
+      }
+    },
+    {
+      "type": "lore-trivia",
+      "id": "lore-trivia-overseas-street-numbering-10",
+      "prompt": "2014年に全国一斉でストリート方式の新住所を導入した国は？",
+      "choices": [
+        "ドイツ",
+        "台湾",
+        "韓国",
+        "フランス"
+      ],
+      "answer": "韓国",
+      "distractorStrategy": "handcrafted",
+      "tags": [
+        "lore-trivia",
+        "coordinate-system",
+        "nationwide"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "address-lore",
+        "refs": [
+          "overseas-street-numbering"
+        ]
+      }
+    },
+    {
+      "type": "lore-trivia",
+      "id": "lore-trivia-segawari-vs-gaiku-11",
+      "prompt": "大阪市中央区北側で見られる、道路の両側を同じ町名にする古い区割りは？",
+      "choices": [
+        "背割り（両側町）",
+        "街区主義",
+        "碁盤割り",
+        "条坊制"
+      ],
+      "answer": "背割り（両側町）",
+      "distractorStrategy": "handcrafted",
+      "tags": [
+        "lore-trivia",
+        "historical-reference",
+        "大阪府"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "address-lore",
+        "refs": [
+          "segawari-vs-gaiku"
+        ]
+      }
+    },
+    {
+      "type": "lore-trivia",
+      "id": "lore-trivia-tyoume-shinkou-houkou-12",
+      "prompt": "東京都心の丁目は何を起点に振られている（昭和38年基準）？",
+      "choices": [
+        "国会議事堂",
+        "東京湾",
+        "皇居",
+        "東京駅"
+      ],
+      "answer": "皇居",
+      "distractorStrategy": "handcrafted",
+      "tags": [
+        "lore-trivia",
+        "coordinate-system",
+        "東京都",
+        "神奈川県",
+        "大阪府",
+        "北海道",
+        "秋田県"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "address-lore",
+        "refs": [
+          "tyoume-shinkou-houkou"
+        ]
+      }
+    },
+    {
+      "type": "lore-trivia",
+      "id": "lore-trivia-block-jiban-odd-even-13",
+      "prompt": "東京の神田・銀座等に震災復興（昭和5年〜）で導入された、街区に親番・各筆に支号を振る地番方式は？",
+      "choices": [
+        "飛び地地番",
+        "街区丁目式",
+        "坪単位地番",
+        "ブロック地番"
+      ],
+      "answer": "ブロック地番",
+      "distractorStrategy": "handcrafted",
+      "tags": [
+        "lore-trivia",
+        "coordinate-system",
+        "東京都"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "address-lore",
+        "refs": [
+          "block-jiban-odd-even"
+        ]
+      }
+    },
+    {
+      "type": "lore-trivia",
+      "id": "lore-trivia-koaza-size-variance-14",
+      "prompt": "茨城県石岡市の小字の特徴は？",
+      "choices": [
+        "1ha未満が中心・最小1坪",
+        "500m四方に統一",
+        "1つの小字が1つの町丁目と等しい",
+        "全て10ha以上"
+      ],
+      "answer": "1ha未満が中心・最小1坪",
+      "distractorStrategy": "handcrafted",
+      "tags": [
+        "lore-trivia",
+        "region-profile",
+        "茨城県",
+        "東京都"
+      ],
+      "difficulty": 0.5,
+      "source": {
+        "dataset": "address-lore",
+        "refs": [
+          "koaza-size-variance"
+        ]
+      }
+    }
+  ]
+}

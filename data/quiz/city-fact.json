@@ -1,0 +1,1973 @@
+{
+  "type": "city-fact",
+  "count": 71,
+  "questions": [
+    {
+      "type": "city-fact",
+      "id": "city-fact-population-141003",
+      "prompt": "次のうち人口が一番多いのは？",
+      "choices": [
+        "大阪市",
+        "名古屋市",
+        "横浜市",
+        "札幌市"
+      ],
+      "answer": "横浜市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "population"
+      ],
+      "difficulty": 0.2,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "141003",
+          "271004",
+          "231002",
+          "011002"
+        ]
+      },
+      "meta": {
+        "横浜市": "3757630人",
+        "大阪市": "2751862人",
+        "名古屋市": "2326844人",
+        "札幌市": "1959313人"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-population-401307",
+      "prompt": "次のうち人口が一番多いのは？",
+      "choices": [
+        "神戸市",
+        "京都市",
+        "福岡市",
+        "川崎市"
+      ],
+      "answer": "福岡市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "population"
+      ],
+      "difficulty": 0.2,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "401307",
+          "141305",
+          "281000",
+          "261009"
+        ]
+      },
+      "meta": {
+        "福岡市": "1603043人",
+        "川崎市": "1539522人",
+        "神戸市": "1521707人",
+        "京都市": "1463723人"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-population-111007",
+      "prompt": "次のうち人口が一番多いのは？",
+      "choices": [
+        "さいたま市",
+        "広島市",
+        "千葉市",
+        "仙台市"
+      ],
+      "answer": "さいたま市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "population"
+      ],
+      "difficulty": 0.2,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "111007",
+          "341002",
+          "041009",
+          "121002"
+        ]
+      },
+      "meta": {
+        "さいたま市": "1325843人",
+        "広島市": "1198021人",
+        "仙台市": "1061177人",
+        "千葉市": "975014人"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-population-131121",
+      "prompt": "次のうち人口が一番多いのは？",
+      "choices": [
+        "世田谷区",
+        "北九州市",
+        "新潟市",
+        "堺市"
+      ],
+      "answer": "世田谷区",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "population"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "131121",
+          "401005",
+          "271403",
+          "151009"
+        ]
+      },
+      "meta": {
+        "世田谷区": "940509人",
+        "北九州市": "935084人",
+        "堺市": "827277人",
+        "新潟市": "790646人"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-population-221309",
+      "prompt": "次のうち人口が一番多いのは？",
+      "choices": [
+        "大田区",
+        "練馬区",
+        "浜松市",
+        "熊本市"
+      ],
+      "answer": "浜松市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "population"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "221309",
+          "131202",
+          "431001",
+          "131113"
+        ]
+      },
+      "meta": {
+        "浜松市": "788211人",
+        "練馬区": "742463人",
+        "熊本市": "738385人",
+        "大田区": "737187人"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-population-141500",
+      "prompt": "次のうち人口が一番多いのは？",
+      "choices": [
+        "岡山市",
+        "静岡市",
+        "相模原市",
+        "江戸川区"
+      ],
+      "answer": "相模原市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "population"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "141500",
+          "331007",
+          "131237",
+          "221007"
+        ]
+      },
+      "meta": {
+        "相模原市": "722973人",
+        "岡山市": "720043人",
+        "江戸川区": "697932人",
+        "静岡市": "685589人"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-population-131211",
+      "prompt": "次のうち人口が一番多いのは？",
+      "choices": [
+        "川口市",
+        "足立区",
+        "鹿児島市",
+        "船橋市"
+      ],
+      "answer": "足立区",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "population"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "131211",
+          "122041",
+          "112038",
+          "462012"
+        ]
+      },
+      "meta": {
+        "足立区": "682326人",
+        "船橋市": "641499人",
+        "川口市": "593900人",
+        "鹿児島市": "593754人"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-population-131156",
+      "prompt": "次のうち人口が一番多いのは？",
+      "choices": [
+        "八王子市",
+        "板橋区",
+        "姫路市",
+        "杉並区"
+      ],
+      "answer": "杉並区",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "population"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "131156",
+          "131199",
+          "132012",
+          "282014"
+        ]
+      },
+      "meta": {
+        "杉並区": "583609人",
+        "板橋区": "581337人",
+        "八王子市": "575721人",
+        "姫路市": "527596人"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-population-131083",
+      "prompt": "次のうち人口が一番多いのは？",
+      "choices": [
+        "宇都宮市",
+        "江東区",
+        "松山市",
+        "松戸市"
+      ],
+      "answer": "江東区",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "population"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "131083",
+          "092011",
+          "382019",
+          "122076"
+        ]
+      },
+      "meta": {
+        "江東区": "523419人",
+        "宇都宮市": "518197人",
+        "松山市": "506743人",
+        "松戸市": "497514人"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-population-122033",
+      "prompt": "次のうち人口が一番多いのは？",
+      "choices": [
+        "西宮市",
+        "市川市",
+        "浦和市",
+        "東大阪市"
+      ],
+      "answer": "市川市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "population"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "122033",
+          "272272",
+          "282049",
+          "112046"
+        ]
+      },
+      "meta": {
+        "市川市": "495768人",
+        "東大阪市": "490819人",
+        "西宮市": "487010人",
+        "浦和市": "486538人"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-population-442011",
+      "prompt": "次のうち人口が一番多いのは？",
+      "choices": [
+        "倉敷市",
+        "大分市",
+        "福山市",
+        "金沢市"
+      ],
+      "answer": "大分市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "population"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "442011",
+          "332020",
+          "172014",
+          "342076"
+        ]
+      },
+      "meta": {
+        "大分市": "477186人",
+        "倉敷市": "474862人",
+        "金沢市": "462479人",
+        "福山市": "459576人"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-population-282022",
+      "prompt": "次のうち人口が一番多いのは？",
+      "choices": [
+        "町田市",
+        "藤沢市",
+        "葛飾区",
+        "尼崎市"
+      ],
+      "answer": "尼崎市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "population"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "282022",
+          "131229",
+          "142051",
+          "132098"
+        ]
+      },
+      "meta": {
+        "尼崎市": "455555人",
+        "葛飾区": "451772人",
+        "藤沢市": "436744人",
+        "町田市": "434414人"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-areaKm2-221007",
+      "prompt": "次のうち面積が一番多いのは？",
+      "choices": [
+        "静岡市",
+        "神戸市",
+        "豊田市",
+        "松本市"
+      ],
+      "answer": "静岡市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "areaKm2"
+      ],
+      "difficulty": 0.2,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "221007",
+          "202029",
+          "232114",
+          "281000"
+        ]
+      },
+      "meta": {
+        "静岡市": "1411900000km²",
+        "松本市": "978770000km²",
+        "豊田市": "918320000km²",
+        "神戸市": "552230000km²"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-areaKm2-462012",
+      "prompt": "次のうち面積が一番多いのは？",
+      "choices": [
+        "富士宮市",
+        "鹿児島市",
+        "長崎市",
+        "新城市"
+      ],
+      "answer": "鹿児島市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "areaKm2"
+      ],
+      "difficulty": 0.2,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "462012",
+          "232211",
+          "422011",
+          "222071"
+        ]
+      },
+      "meta": {
+        "鹿児島市": "547050000km²",
+        "新城市": "499230000km²",
+        "長崎市": "406350000km²",
+        "富士宮市": "389080000km²"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-areaKm2-232025",
+      "prompt": "次のうち面積が一番多いのは？",
+      "choices": [
+        "早川町",
+        "岡崎市",
+        "福岡市",
+        "山形市"
+      ],
+      "answer": "岡崎市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "areaKm2"
+      ],
+      "difficulty": 0.2,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "232025",
+          "062014",
+          "193640",
+          "401307"
+        ]
+      },
+      "meta": {
+        "岡崎市": "387200000km²",
+        "山形市": "381340000km²",
+        "早川町": "369860000km²",
+        "福岡市": "340030000km²"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-areaKm2-222097",
+      "prompt": "次のうち面積が一番多いのは？",
+      "choices": [
+        "藤枝市",
+        "南アルプス市",
+        "富士市",
+        "島田市"
+      ],
+      "answer": "島田市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "areaKm2"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "222097",
+          "192082",
+          "222101",
+          "222143"
+        ]
+      },
+      "meta": {
+        "島田市": "315880000km²",
+        "南アルプス市": "264140000km²",
+        "富士市": "244950000km²",
+        "藤枝市": "194060000km²"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-areaKm2-232319",
+      "prompt": "次のうち面積が一番多いのは？",
+      "choices": [
+        "沼津市",
+        "焼津市",
+        "田原市",
+        "磐田市"
+      ],
+      "answer": "田原市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "areaKm2"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "232319",
+          "222038",
+          "222119",
+          "222127"
+        ]
+      },
+      "meta": {
+        "田原市": "191120000km²",
+        "沼津市": "186960000km²",
+        "磐田市": "164080000km²",
+        "焼津市": "164080000km²"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-areaKm2-232131",
+      "prompt": "次のうち面積が一番多いのは？",
+      "choices": [
+        "西尾市",
+        "下田市",
+        "瀬戸市",
+        "一宮市"
+      ],
+      "answer": "西尾市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "areaKm2"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "232131",
+          "232033",
+          "232041",
+          "222194"
+        ]
+      },
+      "meta": {
+        "西尾市": "161220000km²",
+        "一宮市": "113820000km²",
+        "瀬戸市": "111610000km²",
+        "下田市": "104710000km²"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-areaKm2-292061",
+      "prompt": "次のうち面積が一番多いのは？",
+      "choices": [
+        "桜井市",
+        "稲沢市",
+        "犬山市",
+        "春日井市"
+      ],
+      "answer": "桜井市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "areaKm2"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "292061",
+          "232068",
+          "232203",
+          "232157"
+        ]
+      },
+      "meta": {
+        "桜井市": "98920000km²",
+        "春日井市": "92780000km²",
+        "稲沢市": "79350000km²",
+        "犬山市": "74900000km²"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-areaKm2-222062",
+      "prompt": "次のうち面積が一番多いのは？",
+      "choices": [
+        "熱海市",
+        "半田市",
+        "刈谷市",
+        "三島市"
+      ],
+      "answer": "三島市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "areaKm2"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "222062",
+          "222054",
+          "232106",
+          "232050"
+        ]
+      },
+      "meta": {
+        "三島市": "62130000km²",
+        "熱海市": "61780000km²",
+        "刈谷市": "50390000km²",
+        "半田市": "47420000km²"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-areaKm2-232246",
+      "prompt": "次のうち面積が一番多いのは？",
+      "choices": [
+        "日進市",
+        "豊明市",
+        "津島市",
+        "知多市"
+      ],
+      "answer": "知多市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "areaKm2"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "232246",
+          "232301",
+          "232084",
+          "232297"
+        ]
+      },
+      "meta": {
+        "知多市": "45760000km²",
+        "日進市": "34910000km²",
+        "津島市": "25090000km²",
+        "豊明市": "23220000km²"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-areaKm2-232386",
+      "prompt": "次のうち面積が一番多いのは？",
+      "choices": [
+        "長久手市",
+        "高浜市",
+        "岩倉市",
+        "尾張旭市"
+      ],
+      "answer": "長久手市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "areaKm2"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "232386",
+          "232262",
+          "232271",
+          "232289"
+        ]
+      },
+      "meta": {
+        "長久手市": "21550000km²",
+        "尾張旭市": "21030000km²",
+        "高浜市": "13000000km²",
+        "岩倉市": "10470000km²"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-areaKm2-014800",
+      "prompt": "次のうち面積が一番多いのは？",
+      "choices": [
+        "留萌振興局",
+        "日光市",
+        "高山市",
+        "浜松市"
+      ],
+      "answer": "留萌振興局",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "areaKm2"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "014800",
+          "212032",
+          "221309",
+          "092061"
+        ]
+      },
+      "meta": {
+        "留萌振興局": "3445.89km²",
+        "高山市": "2177.67km²",
+        "浜松市": "1558.06km²",
+        "日光市": "1449.83km²"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-areaKm2-016985",
+      "prompt": "次のうち面積が一番多いのは？",
+      "choices": [
+        "北見市",
+        "足寄町",
+        "釧路市",
+        "留別村"
+      ],
+      "answer": "留別村",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "areaKm2"
+      ],
+      "difficulty": 0.6,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "016985",
+          "012084",
+          "016471",
+          "012068"
+        ]
+      },
+      "meta": {
+        "留別村": "1442.82km²",
+        "北見市": "1427.41km²",
+        "足寄町": "1408.04km²",
+        "釧路市": "1363.29km²"
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-北海道",
+      "prompt": "北海道で一番人口が多い市区町村は？",
+      "choices": [
+        "札幌市",
+        "様似町",
+        "猿払村",
+        "鶴居村"
+      ],
+      "answer": "札幌市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "北海道"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "011002"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-青森県",
+      "prompt": "青森県で一番人口が多い市区町村は？",
+      "choices": [
+        "鶴田町",
+        "中泊町",
+        "つがる市",
+        "青森市"
+      ],
+      "answer": "青森市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "青森県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "022012"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-岩手県",
+      "prompt": "岩手県で一番人口が多い市区町村は？",
+      "choices": [
+        "陸前高田市",
+        "二戸市",
+        "九戸村",
+        "盛岡市"
+      ],
+      "answer": "盛岡市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "岩手県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "032018"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-宮城県",
+      "prompt": "宮城県で一番人口が多い市区町村は？",
+      "choices": [
+        "美里町",
+        "亘理町",
+        "仙台市",
+        "大郷町"
+      ],
+      "answer": "仙台市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "宮城県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "041009"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-秋田県",
+      "prompt": "秋田県で一番人口が多い市区町村は？",
+      "choices": [
+        "八郎潟町",
+        "大潟村",
+        "秋田市",
+        "三種町"
+      ],
+      "answer": "秋田市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "秋田県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "052019"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-山形県",
+      "prompt": "山形県で一番人口が多い市区町村は？",
+      "choices": [
+        "河北町",
+        "山形市",
+        "飯豊町",
+        "東根市"
+      ],
+      "answer": "山形市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "山形県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "062014"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-福島県",
+      "prompt": "福島県で一番人口が多い市区町村は？",
+      "choices": [
+        "下郷町",
+        "いわき市",
+        "塙町",
+        "会津坂下町"
+      ],
+      "answer": "いわき市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "福島県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "072044"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-茨城県",
+      "prompt": "茨城県で一番人口が多い市区町村は？",
+      "choices": [
+        "つくば市",
+        "水戸市",
+        "神栖市",
+        "日立市"
+      ],
+      "answer": "水戸市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "茨城県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "082015"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-栃木県",
+      "prompt": "栃木県で一番人口が多い市区町村は？",
+      "choices": [
+        "那須塩原市",
+        "鹿沼市",
+        "小山市",
+        "宇都宮市"
+      ],
+      "answer": "宇都宮市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "栃木県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "092011"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-群馬県",
+      "prompt": "群馬県で一番人口が多い市区町村は？",
+      "choices": [
+        "板倉町",
+        "みなかみ町",
+        "宮城村",
+        "高崎市"
+      ],
+      "answer": "高崎市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "群馬県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "102024"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-埼玉県",
+      "prompt": "埼玉県で一番人口が多い市区町村は？",
+      "choices": [
+        "杉戸町",
+        "熊谷市",
+        "さいたま市",
+        "伊奈町"
+      ],
+      "answer": "さいたま市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "埼玉県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "111007"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-千葉県",
+      "prompt": "千葉県で一番人口が多い市区町村は？",
+      "choices": [
+        "大多喜町",
+        "東庄町",
+        "大網白里市",
+        "千葉市"
+      ],
+      "answer": "千葉市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "千葉県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "121002"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-東京都",
+      "prompt": "東京都で一番人口が多い市区町村は？",
+      "choices": [
+        "東大和市",
+        "世田谷区",
+        "三宅村",
+        "足立区"
+      ],
+      "answer": "世田谷区",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "東京都"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "131121"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-神奈川県",
+      "prompt": "神奈川県で一番人口が多い市区町村は？",
+      "choices": [
+        "相模原市",
+        "愛川町",
+        "大和市",
+        "横浜市"
+      ],
+      "answer": "横浜市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "神奈川県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "141003"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-新潟県",
+      "prompt": "新潟県で一番人口が多い市区町村は？",
+      "choices": [
+        "魚沼市",
+        "新潟市",
+        "十日町市",
+        "村上市"
+      ],
+      "answer": "新潟市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "新潟県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "151009"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-富山県",
+      "prompt": "富山県で一番人口が多い市区町村は？",
+      "choices": [
+        "上市町",
+        "富山市",
+        "氷見市",
+        "黒部市"
+      ],
+      "answer": "富山市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "富山県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "162019"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-石川県",
+      "prompt": "石川県で一番人口が多い市区町村は？",
+      "choices": [
+        "金沢市",
+        "内灘町",
+        "能美市",
+        "川北町"
+      ],
+      "answer": "金沢市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "石川県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "172014"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-福井県",
+      "prompt": "福井県で一番人口が多い市区町村は？",
+      "choices": [
+        "越前市",
+        "福井市",
+        "鯖江市",
+        "美浜町"
+      ],
+      "answer": "福井市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "福井県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "182010"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-山梨県",
+      "prompt": "山梨県で一番人口が多い市区町村は？",
+      "choices": [
+        "身延町",
+        "鳴沢村",
+        "上野原市",
+        "甲府市"
+      ],
+      "answer": "甲府市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "山梨県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "192015"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-長野県",
+      "prompt": "長野県で一番人口が多い市区町村は？",
+      "choices": [
+        "上松町",
+        "長野市",
+        "小布施町",
+        "青木村"
+      ],
+      "answer": "長野市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "長野県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "202011"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-岐阜県",
+      "prompt": "岐阜県で一番人口が多い市区町村は？",
+      "choices": [
+        "瑞浪市",
+        "岐阜市",
+        "下呂市",
+        "七宗町"
+      ],
+      "answer": "岐阜市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "岐阜県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "212016"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-静岡県",
+      "prompt": "静岡県で一番人口が多い市区町村は？",
+      "choices": [
+        "静岡市",
+        "浜松市",
+        "沼津市",
+        "竜洋町"
+      ],
+      "answer": "浜松市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "静岡県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "221309"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-愛知県",
+      "prompt": "愛知県で一番人口が多い市区町村は？",
+      "choices": [
+        "津島市",
+        "尾張旭市",
+        "弥富市",
+        "名古屋市"
+      ],
+      "answer": "名古屋市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "愛知県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "231002"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-三重県",
+      "prompt": "三重県で一番人口が多い市区町村は？",
+      "choices": [
+        "大台町",
+        "多気町",
+        "伊賀市",
+        "四日市市"
+      ],
+      "answer": "四日市市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "三重県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "242021"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-滋賀県",
+      "prompt": "滋賀県で一番人口が多い市区町村は？",
+      "choices": [
+        "大津市",
+        "近江八幡市",
+        "甲良町",
+        "日野町"
+      ],
+      "answer": "大津市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "滋賀県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "252018"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-京都府",
+      "prompt": "京都府で一番人口が多い市区町村は？",
+      "choices": [
+        "京丹波町",
+        "八幡市",
+        "伊根町",
+        "京都市"
+      ],
+      "answer": "京都市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "京都府"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "261009"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-大阪府",
+      "prompt": "大阪府で一番人口が多い市区町村は？",
+      "choices": [
+        "吹田市",
+        "太子町",
+        "大阪市",
+        "門真市"
+      ],
+      "answer": "大阪市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "大阪府"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "271004"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-兵庫県",
+      "prompt": "兵庫県で一番人口が多い市区町村は？",
+      "choices": [
+        "福崎町",
+        "豊岡市",
+        "佐用町",
+        "神戸市"
+      ],
+      "answer": "神戸市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "兵庫県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "281000"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-奈良県",
+      "prompt": "奈良県で一番人口が多い市区町村は？",
+      "choices": [
+        "東吉野村",
+        "野迫川村",
+        "奈良市",
+        "生駒市"
+      ],
+      "answer": "奈良市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "奈良県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "292010"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-和歌山県",
+      "prompt": "和歌山県で一番人口が多い市区町村は？",
+      "choices": [
+        "印南町",
+        "橋本市",
+        "和歌山市",
+        "有田川町"
+      ],
+      "answer": "和歌山市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "和歌山県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "302015"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-鳥取県",
+      "prompt": "鳥取県で一番人口が多い市区町村は？",
+      "choices": [
+        "鳥取市",
+        "智頭町",
+        "日野町",
+        "日南町"
+      ],
+      "answer": "鳥取市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "鳥取県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "312011"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-島根県",
+      "prompt": "島根県で一番人口が多い市区町村は？",
+      "choices": [
+        "浜田市",
+        "松江市",
+        "美郷町",
+        "吉賀町"
+      ],
+      "answer": "松江市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "島根県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "322016"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-岡山県",
+      "prompt": "岡山県で一番人口が多い市区町村は？",
+      "choices": [
+        "吉備中央町",
+        "新見市",
+        "岡山市",
+        "久米南町"
+      ],
+      "answer": "岡山市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "岡山県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "331007"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-広島県",
+      "prompt": "広島県で一番人口が多い市区町村は？",
+      "choices": [
+        "竹原市",
+        "広島市",
+        "尾道市",
+        "海田町"
+      ],
+      "answer": "広島市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "広島県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "341002"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-山口県",
+      "prompt": "山口県で一番人口が多い市区町村は？",
+      "choices": [
+        "周南市",
+        "下松市",
+        "平生町",
+        "下関市"
+      ],
+      "answer": "下関市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "山口県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "352012"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-徳島県",
+      "prompt": "徳島県で一番人口が多い市区町村は？",
+      "choices": [
+        "石井町",
+        "板野町",
+        "徳島市",
+        "牟岐町"
+      ],
+      "answer": "徳島市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "徳島県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "362018"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-香川県",
+      "prompt": "香川県で一番人口が多い市区町村は？",
+      "choices": [
+        "琴平町",
+        "高松市",
+        "小豆島町",
+        "直島町"
+      ],
+      "answer": "高松市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "香川県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "372013"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-愛媛県",
+      "prompt": "愛媛県で一番人口が多い市区町村は？",
+      "choices": [
+        "愛南町",
+        "東温市",
+        "松山市",
+        "八幡浜市"
+      ],
+      "answer": "松山市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "愛媛県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "382019"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-高知県",
+      "prompt": "高知県で一番人口が多い市区町村は？",
+      "choices": [
+        "中土佐町",
+        "黒潮町",
+        "土佐清水市",
+        "高知市"
+      ],
+      "answer": "高知市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "高知県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "392014"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-福岡県",
+      "prompt": "福岡県で一番人口が多い市区町村は？",
+      "choices": [
+        "那珂川市",
+        "粕屋町",
+        "桂川町",
+        "福岡市"
+      ],
+      "answer": "福岡市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "福岡県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "401307"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-佐賀県",
+      "prompt": "佐賀県で一番人口が多い市区町村は？",
+      "choices": [
+        "武雄市",
+        "江北町",
+        "佐賀市",
+        "みやき町"
+      ],
+      "answer": "佐賀市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "佐賀県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "412015"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-長崎県",
+      "prompt": "長崎県で一番人口が多い市区町村は？",
+      "choices": [
+        "東彼杵町",
+        "長崎市",
+        "新上五島町",
+        "小値賀町"
+      ],
+      "answer": "長崎市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "長崎県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "422011"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-熊本県",
+      "prompt": "熊本県で一番人口が多い市区町村は？",
+      "choices": [
+        "和水町",
+        "相良村",
+        "熊本市",
+        "御船町"
+      ],
+      "answer": "熊本市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "熊本県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "431001"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-大分県",
+      "prompt": "大分県で一番人口が多い市区町村は？",
+      "choices": [
+        "豊後大野市",
+        "玖珠町",
+        "杵築市",
+        "大分市"
+      ],
+      "answer": "大分市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "大分県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "442011"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-宮崎県",
+      "prompt": "宮崎県で一番人口が多い市区町村は？",
+      "choices": [
+        "宮崎市",
+        "高千穂町",
+        "小林市",
+        "綾町"
+      ],
+      "answer": "宮崎市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "宮崎県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "452017"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-鹿児島県",
+      "prompt": "鹿児島県で一番人口が多い市区町村は？",
+      "choices": [
+        "いちき串木野市",
+        "志布志市",
+        "知名町",
+        "鹿児島市"
+      ],
+      "answer": "鹿児島市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "鹿児島県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "462012"
+        ]
+      }
+    },
+    {
+      "type": "city-fact",
+      "id": "city-fact-pref-top-沖縄県",
+      "prompt": "沖縄県で一番人口が多い市区町村は？",
+      "choices": [
+        "那覇市",
+        "本部町",
+        "渡名喜村",
+        "名護市"
+      ],
+      "answer": "那覇市",
+      "distractorStrategy": "sameCategoryPool",
+      "tags": [
+        "city-fact",
+        "pref-top",
+        "沖縄県"
+      ],
+      "difficulty": 0.35,
+      "source": {
+        "dataset": "wikidata-municipality-master",
+        "refs": [
+          "472018"
+        ]
+      }
+    }
+  ]
+}

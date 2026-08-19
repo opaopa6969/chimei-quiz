@@ -1,0 +1,16 @@
+# chimei-quiz — node:20-slim にホストのコードをマウントして起動（tetsugoと同じ方式）。
+# 起動:   docker compose -f /home/opa/work/chimei-quiz/deploy/docker-compose.yml up -d
+# 再起動: 同 up -d --force-recreate（promote の rsync 後に）
+services:
+  chimei-quiz:
+    image: node:20-slim
+    container_name: chimei-quiz
+    working_dir: /app
+    command: ["node", "server.js"]
+    ports:
+      - "8094:8094"
+    volumes:
+      - /home/opa/work/chimei-quiz:/app
+    environment:
+      - PORT=8094
+    restart: unless-stopped
