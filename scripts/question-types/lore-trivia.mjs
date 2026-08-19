@@ -100,6 +100,17 @@ const HANDCRAFTED = [
   },
 ];
 
+function triviaFor(entry) {
+  // excerptは見出しと本文が改行無しで1行に繋がっている（例: "# 道案内式住所 広大な大字…"）。
+  // 旧実装は /^#[^\n]*\n?/ で見出し行ごと除去しようとしたが、改行が無いため[^\n]*が
+  // 本文まで食い尽くして全消しになるバグがあった（「出典だけでexcerptが空」の原因）。
+  // 先頭の "# " 記号だけを取り除けば、見出し+本文がそのまま自然な文として読める。
+  const body = (entry.excerpt ?? "").replace(/^#\s*/, "").trim().slice(0, 220);
+  const bookRefs = entry.source?.book;
+  if (!body) return bookRefs?.length ? `出典: ${bookRefs.join(" / ")}` : "";
+  return bookRefs?.length ? `${body}（出典: ${bookRefs.join(" / ")}）` : body;
+}
+
 export function generate(loreEntries, seed) {
   const rng = makePrng(seed ?? "lore-trivia");
   const entryById = new Map(loreEntries.map((e) => [e.id, e]));
@@ -119,7 +130,10 @@ export function generate(loreEntries, seed) {
       tags: ["lore-trivia", entry.category, ...(entry.region?.pref ?? ["nationwide"])],
       difficulty: 0.5,
       source: { dataset: "address-lore", refs: [entry.id] },
-      trivia: entry.source?.book ? `出典: ${entry.source.book.join(" / ")}` : entry.excerpt?.replace(/^#[^\n]*\n?/, "").slice(0, 100) ?? "",
+      // 以前は出典ページ番号（「番地の謎 p.98 / p.99 / ...」）だけを表示していて内容が見えず、
+      // ユーザーから「その内容も表示してほしい」と指摘があった。エントリの説明文(excerpt)を
+      // 主に見せ、出典は末尾に添える形に変更。
+      trivia: triviaFor(entry),
     });
   }
   return questions;
