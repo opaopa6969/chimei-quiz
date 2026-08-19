@@ -23,32 +23,51 @@ const MIME = {
 async function resolveFile(urlPath) {
   const safePath = path.normalize(urlPath).replace(/^(\.\.[/\\])+/, "");
   let filePath = path.join(DIST_DIR, safePath);
+  let isFallback = false;
   try {
     const s = await stat(filePath);
-    if (s.isDirectory()) filePath = path.join(filePath, "index.html");
+    if (s.isDirectory()) {
+      filePath = path.join(filePath, "index.html");
+      isFallback = true;
+    }
   } catch {
     filePath = path.join(DIST_DIR, "index.html"); // SPAフォールバック
+    isFallback = true;
   }
-  return filePath;
+  return { filePath, isFallback };
+}
+
+// キャッシュ方針: デプロイ後に古いJS/データが残り続ける事故があったため明示する。
+// - index.html（SPAフォールバック含む）: no-cache（毎回サーバーに再検証させる。
+//   参照するJSのファイル名がここに書かれているので、これが古いと更新が反映されない）
+// - /assets/*（Viteがcontent hashをファイル名に埋め込む。内容が変われば別名になるので長期キャッシュ可）
+// - それ以外（/data/quiz/*.json 等、ハッシュ無しファイル名で内容が更新されうるもの）: no-cache
+function cacheControlFor(urlPath, isFallback) {
+  if (isFallback || urlPath === "/" || urlPath.endsWith(".html")) return "no-cache";
+  if (urlPath.startsWith("/assets/")) return "public, max-age=31536000, immutable";
+  return "no-cache";
 }
 
 const server = createServer(async (req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
 
   if (url.pathname === "/healthz") {
-    res.writeHead(200, { "content-type": "text/plain" });
+    res.writeHead(200, { "content-type": "text/plain", "cache-control": "no-cache" });
     res.end("ok");
     return;
   }
 
   try {
-    const filePath = await resolveFile(url.pathname);
+    const { filePath, isFallback } = await resolveFile(url.pathname);
     const body = await readFile(filePath);
     const ext = path.extname(filePath);
-    res.writeHead(200, { "content-type": MIME[ext] ?? "application/octet-stream" });
+    res.writeHead(200, {
+      "content-type": MIME[ext] ?? "application/octet-stream",
+      "cache-control": cacheControlFor(url.pathname, isFallback),
+    });
     res.end(body);
   } catch (err) {
-    res.writeHead(404, { "content-type": "text/plain" });
+    res.writeHead(404, { "content-type": "text/plain", "cache-control": "no-cache" });
     res.end("not found");
   }
 });
