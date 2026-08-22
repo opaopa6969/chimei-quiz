@@ -1,0 +1,126 @@
+{
+  "repo": "chimei-quiz",
+  "surveyed_at": "2026-08-21T22:54:10Z",
+  "kind": "service",
+  "summary": "日本の地名・自治体まわりの雑学クイズゲーム。同名地名・消えた市町村・合成地名・自治体変遷推理・難読地名・ご当地トリビアなど9カテゴリ3,099問を公開データ（Wikidata/e-Stat/番地の謎）から機械生成し、React+Remotion の SPA として静的配信する。",
+  "decision": "skill-only",
+  "decision_reason": "このリポジトリの核心はブラウザで遊ぶクイズゲームであり、エージェントが呼びたい操作（入力→出力が定義された副作用付き処理）は存在しない。server.js は dist/ の静的配信のみで API エンドポイントを持たない。一方、データパイプライン（Wikidata/municipality-history/address-lore から3,099問を機械生成する手順）とクイズ設問設計のノウハウ（難読地名のキュレーション方針、distractor 戦略、決定論的生成）は、他の地名・住所系サービスと組み合わせる際に有用な手続き知識になる。したがって tool は置かず、skill（locality: repo）と resource（spec/guide/クイズデータのメタデータ）のみ配る方針とする。",
+  "existing": {
+    "http_api": false,
+    "cli": false,
+    "mcp": false,
+    "healthz": true,
+    "volta_manifest": true,
+    "hosted_url": "https://chimei-quiz.unlaxer.org"
+  },
+  "proposed_namespace": null,
+  "capabilities": [
+    {
+      "verb": "クイズ設問セットの一覧とメタデータを参照する",
+      "kind": "resource",
+      "name": "spec",
+      "uri": "chimei_quiz://spec",
+      "description": "9カテゴリ・3,099問の設問セット仕様（カテゴリ別問題数・スキーマ・データソース）"
+    },
+    {
+      "verb": "クイズゲームの使い方を参照する",
+      "kind": "resource",
+      "name": "guide",
+      "uri": "chimei_quiz://guide",
+      "description": "ブラウザでの遊び方・カテゴリ選択・デイリークイズの仕組み"
+    },
+    {
+      "verb": "自治体マスター（1,754件・人口・面積付き）を参照する",
+      "kind": "resource",
+      "name": "municipality-master",
+      "uri": "chimei_quiz://municipality-master",
+      "description": "Wikidata 由来の現存自治体マスター（code/name/prefecture/population/areaKm2/wikidataId）"
+    },
+    {
+      "verb": "自治体変遷履歴（3,507件・1970-2024）を参照する",
+      "kind": "resource",
+      "name": "municipality-changes",
+      "uri": "chimei_quiz://municipality-changes",
+      "description": "e-Stat 廃置分合等一覧由来の自治体変遷データ（code/prefecture/district/municipality/effectiveDate/reason）"
+    },
+    {
+      "verb": "クイズ設問データをカテゴリ別に参照する",
+      "kind": "resource",
+      "name": "quiz-data",
+      "uri": "chimei_quiz://quiz/{category}",
+      "description": "same-name/vanished/timeline-reason/portmanteau/reading/city-fact/lore-trivia/parser-structure/district-reading の各カテゴリ別設問JSON"
+    },
+    {
+      "verb": "クイズデータを公開データから機械生成する手順",
+      "kind": "skill",
+      "name": "build-quiz-data",
+      "locality": "repo",
+      "description": "Wikidata SPARQL + municipality-history + address-lore から設問セットをビルドする手順。npm run build:data の前提・手順・決定論的生成の仕組み（seed PRNG）・トラップ（難読地名の自動抽出失敗とキュレーションへの切り替え）を含む"
+    },
+    {
+      "verb": "クイズ設問パターンを設計する手順",
+      "kind": "skill",
+      "name": "question-pattern-design",
+      "locality": "repo",
+      "description": "QuestionType 共通スキーマ・distractor 生成戦略（sameCategoryPool/geographicNeighbor/nearYear/readingConfusion）・難易度算出・ミックス出題の設計方針"
+    },
+    {
+      "verb": "地名クイズの設問を作る",
+      "kind": "skill",
+      "name": "compose-quiz-from-data",
+      "locality": "service",
+      "description": "自治体データ（municipality-history/municipality-master/address-lore）から新しいクイズ設問カテゴリを企画・実装する手順。既存9カテゴリの設計判断（何が自動生成できて何が手作業になるか）を参照する"
+    }
+  ],
+  "composition_examples": [
+    "municipality_history__lookup で取得した変遷データ → chimei_quiz://quiz/timeline-reason で設問を参照 → adoyose__normalize で関連住所を正規化して周辺情報を補足",
+    "chimei_quiz://municipality-master で人口トップ10を取得 → kamishibai で「日本の市人口ランキングクイズ」動画を生成 → index で公開",
+    "chimei_quiz://quiz/reading（難読地名）を参照 → 地図サービス（将来MCP化した場合）で該当地名をプロットして可視化"
+  ],
+  "dependencies": [
+    {
+      "repo": "municipality-history",
+      "direction": "depends_on",
+      "capability": "自治体変遷履歴データ（estat-haichi.csv）",
+      "exists_now": true,
+      "note": "ビルド時に ~/work/adoyose-workspace/municipality-history/data/estat-haichi.csv を読む。municipality-history は volta catalog に library として登録済みだが MCP バックエンドは未搭載"
+    },
+    {
+      "repo": "address-lore",
+      "direction": "depends_on",
+      "capability": "住所知識エントリ（番地の謎）",
+      "exists_now": false,
+      "note": "ビルド時に ~/work/adoyose-workspace/address-lore/catalog/index.json を読む。address-lore は volta catalog に未登録"
+    },
+    {
+      "repo": "Wikidata",
+      "direction": "depends_on",
+      "capability": "現存自治体の人口・面積（SPARQL）",
+      "exists_now": true,
+      "note": "ビルド時に query.wikidata.org/sparql にクエリを投げる。外部サービスなので MCP 入口ではない"
+    },
+    {
+      "repo": "adoyose",
+      "direction": "provides_to",
+      "capability": "地名・自治体データのコンテキスト提供",
+      "exists_now": false,
+      "note": "chimei-quiz が持つ自治体マスター・変遷データは、adoyose の住所正規化結果に自治体背景情報を付与する素材になりうる。ただし現状は chimei-quiz 側に API が無いため提供入口は未実装"
+    }
+  ],
+  "library_serve": {
+    "needed": false,
+    "new_work": [],
+    "runtime": "node",
+    "estimated_effort": "S"
+  },
+  "risks": [
+    "クイズデータはビルド時に生成された静的 JSON のみ。実行時にデータを更新する仕組みがないため、MCP resource として配る場合はビルド済み JSON を読む形になる（鮮度はデプロイタイミングに依存）",
+    "all.json が1.8MB・municipality-master.json が約1.1MB と大きく、MCP resource として全件配信するとトークンを大量に消費する。カテゴリ別・件数制限・検索ツールの検討が要る",
+    "データパイプラインが municipality-history/address-lore のローカルclone（~/work/adoyose-workspace/）に依存している。skill として配る手順書にはこの前提を明記する必要がある"
+  ],
+  "open_questions": [
+    "クイズデータを MCP resource として配る場合、全件配信か検索ツールを置くか？検索ツールを置くなら skill-only ではなく wrap 判定になるが、エージェントがクイズを検索して嬉しいユースケースがあるか？",
+    "自治体マスター・変遷データは municipality-history リポジトリ本体が MCP 化された場合、重複する。データの正本をどちらに寄せるか？（municipality-history が library-serve で MCP 化されるなら、chimei-quiz 側はクイズ生成 skill のみに絞れる）",
+    "クイズゲーム本体（ブラウザ SPA）をエージェントから操作したい需要はあるか？（例: デイリークイズの seed を取得する）あれば tool 1つ追加する価値があるが、現在は想定しがたい"
+  ]
+}

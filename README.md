@@ -52,6 +52,20 @@ npm run build:data   # Wikidata/municipality-history/address-loreからpublic/da
 - [docs/question-patterns.md](docs/question-patterns.md) — 設問タイプの構造化設計
 - [docs/presentation.md](docs/presentation.md) — 出題演出（Remotion）の設計方針
 
+## MCP
+
+volta-mcp（MCP ファサード `https://mcp.unlaxer.org/mcp`）に **skill-only** で参加。MCP サーバは持たず、3 つの skill を配る:
+
+| skill | locality | 用途 |
+|---|---|---|
+| `build-quiz-data` | repo | 設問データのビルド手順（Wikidata + municipality-history + address-lore） |
+| `question-pattern-design` | repo | 設問パターン設計のノウハウ |
+| `compose-quiz-from-data` | service | データから新設問カテゴリを企画する手順 |
+
+skill は [volta-mcp](https://github.com/opaopa6969/volta-mcp) の `docs/skills/chimei-quiz__<name>/SKILL.md` に配置。`skill__list(namespace="chimei-quiz")` / `skill__resolve(goal="クイズデータをビルドする")` で参照可能。
+
+詳細は [docs/mcp/DESIGN.md](docs/mcp/DESIGN.md)・[docs/mcp/STATUS.md](docs/mcp/STATUS.md)。
+
 ## デプロイ
 
 volta-platform（自宅サーバ）にdocker composeで登録。`deploy/`, `volta.service.json` 参照。
