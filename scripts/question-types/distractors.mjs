@@ -19,8 +19,12 @@ export function sameCategoryPoolPrefectures(exclude, n, rng) {
 }
 
 // 値プールから、除外集合に無いものをn件選ぶ（汎用版）
+// pool には同名異県の自治体（「南部町」が山梨・静岡・和歌山に3件等）のように
+// 同値が複数含まれ得る。ユニーク化せずに pickN（shuffle+slice）に渡すと
+// 同じ名前が2回選ばれ、4択が実質3択になる不具合があった（issue #2）。
+// そのため先に pool をユニーク化してから除外・抽出する。
 export function sameCategoryPool(pool, exclude, n, rng) {
-  const filtered = pool.filter((v) => !exclude.has(v));
+  const filtered = [...new Set(pool)].filter((v) => !exclude.has(v));
   return pickN(filtered, n, rng);
 }
 
