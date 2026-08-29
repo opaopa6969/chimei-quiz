@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { sameCategoryPool, sameCategoryPoolPrefectures } from "../scripts/question-types/distractors.mjs";
-import { makePrng } from "../lib/prng.mjs";
+import { sameCategoryPool, sameCategoryPoolPrefectures, readingConfusion } from "../scripts/question-types/distractors.mjs";
+import { makePrng, shuffle } from "../lib/prng.mjs";
 
 test("sameCategoryPool: 同名異県の自治体が pool に複数含まれても重複して選ばれない（issue #2）", () => {
   // 「南部町」が山梨・静岡・和歌山の3県にまたがって存在する状況を再現。
@@ -45,4 +45,29 @@ test("sameCategoryPoolPrefectures: 除外集合外の都道府県をn件選ぶ",
   }
   const uniq = new Set(picked);
   assert.equal(picked.length, uniq.size, "重複がない");
+});
+
+test("readingConfusion: 同じ読みを持つ別自治体が pool に複数含まれても重複して選ばれない（issue #10）", () => {
+  // 伊達市=だてし が北海道・福島県の2件、北斗市=ほくとし が2件等、異なる自治体が
+  // 同じ kana を持つケースを再現。ユニーク化により同じ kana が2回選ばれない。
+  const pool = [
+    { name: "伊達市", kana: "だてし" },
+    { name: "伊達市", kana: "だてし" },
+    { name: "北斗市", kana: "ほくとし" },
+    { name: "北斗市", kana: "ほくとし" },
+    { name: "佐久市", kana: "さくし" },
+    { name: "飯野市", kana: "いいのし" },
+  ];
+  // 100 seed で検証（issue の受け入れ条件「複数 seed で重複 choices が0件」をテスト化）
+  for (let s = 0; s < 100; s++) {
+    const rng = makePrng(`reading-test-${s}`);
+    const correctName = "匝瑳市";
+    const correctKana = "そうさし";
+    const distractors = readingConfusion(correctName, correctKana, pool, 3, rng);
+    const choices = shuffle([correctKana, ...distractors], rng);
+    const uniq = new Set(choices);
+    assert.equal(choices.length, uniq.size, `seed ${s}: 選択肢に重複がないこと (choices=${JSON.stringify(choices)})`);
+    assert.equal(distractors.length, 3, `seed ${s}: 誤答が3件選ばれること`);
+    assert.ok(!distractors.includes(correctKana), `seed ${s}: 正解と同じ kana は誤答に含まれない`);
+  }
 });
