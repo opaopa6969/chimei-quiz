@@ -64,7 +64,13 @@ function prefectureExtremeQuestions(municipalities, key, label, unit, direction,
   const questions = [];
   for (const [pref, list] of byPref) {
     if (list.length < 4) continue;
-    const sorted = [...list].sort((a, b) => (direction === "desc" ? b[key] - a[key] : a[key] - b[key]));
+    // name 単位でユニーク化（issue #11 の防御対応）: municipality-master.json 側で
+    // name|prefecture 重複を除去済みだが、将来 Wikidata が別の重複を紛れ込ませた
+    // 場合でも city-fact の4択に同じ市町村名が2回並ぶのを防ぐ。
+    const seen = new Set();
+    const sorted = [...list]
+      .filter((m) => (seen.has(m.name) ? false : (seen.add(m.name), true)))
+      .sort((a, b) => (direction === "desc" ? b[key] - a[key] : a[key] - b[key]));
     const winner = sorted[0];
     // 同値タイの除去: winner と同じ値の要素が他にあれば、それを誤答に混ぜると正解が
     // 一意でなくなる（issue #6: 福島県人口・昇順で楢葉町=0人 と 葛尾村=0人 が同値）。

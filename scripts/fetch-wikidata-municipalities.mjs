@@ -103,15 +103,41 @@ for (const b of json.results.bindings) {
   });
 }
 
-const municipalities = [...byCode.values()]
+const municipalitiesWithPref = [...byCode.values()]
   .map((m) => {
     if (m.prefecture) return m;
     const idx = Number(m.code.slice(0, 2)) - 1;
     return { ...m, prefecture: PREF_BY_CODE_PREFIX[idx] ?? "" };
   })
   // 都道府県自体のレコード（P429を持つ都道府県アイテムが紛れ込む。名前が都道府県名そのもの）は除外
-  .filter((m) => !ALL_PREFECTURE_NAMES.has(m.name))
-  .sort((a, b) => a.code.localeCompare(b.code));
+  .filter((m) => !ALL_PREFECTURE_NAMES.has(m.name));
+
+// name|prefecture 単位で重複するレコードを1件に絞る（issue #11）。
+// 例: 「泊村|北海道」が古宇郡泊村(014036)と積丹郡泊村(016969)で2件残る。
+// どちらも P429 を持つ別の Wikidata アイテムだが、自治体名としては同一表記なので
+// クイズデータとしては1件にしないと city-fact 等で同名が4択に2回並ぶ。
+// 優先順位: (1) population/areaKm2 が揃っている方 (2) 人口が大きい方 (3) code 昇順
+const score = (x) =>
+  (x.population != null ? 1 : 0) +
+  (x.areaKm2 != null ? 1 : 0) +
+  (x.population ?? 0) / 1e8;
+const byNamePref = new Map();
+for (const m of municipalitiesWithPref) {
+  const key = `${m.name}|${m.prefecture}`;
+  const prev = byNamePref.get(key);
+  if (!prev) {
+    byNamePref.set(key, m);
+    continue;
+  }
+  const keep = score(m) > score(prev) ? m : prev;
+  const drop = keep === prev ? m : prev;
+  console.warn(
+    `[fetch-wikidata-municipalities] name|prefecture 重複を解消: ${key} で ${drop.code}(${drop.wikidataId}) を捨てて ${keep.code}(${keep.wikidataId}) を採用`
+  );
+  byNamePref.set(key, keep);
+}
+
+const municipalities = [...byNamePref.values()].sort((a, b) => a.code.localeCompare(b.code));
 
 writeFileSync(
   OUT_PATH,

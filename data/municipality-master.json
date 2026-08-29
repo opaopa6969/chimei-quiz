@@ -1,7 +1,7 @@
 {
   "source": "Wikidata SPARQL (P429 地方公共団体コード, CC0)",
   "fetchedVia": "query.wikidata.org/sparql",
-  "count": 1754,
+  "count": 1753,
   "municipalities": [
     {
       "code": "011002",
@@ -522,14 +522,6 @@
       "population": 11982,
       "areaKm2": 70.6,
       "wikidataId": "Q1354481"
-    },
-    {
-      "code": "014036",
-      "name": "泊村",
-      "prefecture": "北海道",
-      "population": 1561,
-      "areaKm2": 82.27,
-      "wikidataId": "Q268750"
     },
     {
       "code": "014044",
