@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { parseReasonLine, collectEvents } from "../lib/reason-parser.mjs";
+import { parseReasonLine, collectEvents, parseReason } from "../lib/reason-parser.mjs";
 
 test("parseReasonLine: 合併イベントを抽出できる", () => {
   const line = "花巻市(03205)、大迫町(03341)、石鳥谷町(03342)、東和町(03361)が合併し、花巻市を新設";
@@ -39,4 +39,12 @@ test("collectEvents: 同一イベントが複数CSV行に重複記載されて�
   ];
   const events = collectEvents(changes);
   assert.equal(events.length, 1);
+});
+
+test("parseReason: CRLF（\\r\\n）改行が含まれていても各行の\\rが除去され正しくパースされる", () => {
+  const reason = "花巻市(03205)、大迫町(03341)が合併し、花巻市を新設\r\n登別町(01577)が登別市(01230)に市制施行";
+  const events = parseReason(reason);
+  assert.equal(events.length, 2);
+  assert.equal(events[0].kind, "merge");
+  assert.equal(events[1].kind, "seido");
 });
