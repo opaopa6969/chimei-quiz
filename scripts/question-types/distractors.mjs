@@ -63,9 +63,15 @@ export function readingConfusion(correctName, correctKana, pool, n, rng) {
   const samClassPool = cls ? pool.filter(({ name }) => name.endsWith(cls.suffix)).map((p) => p.kana) : [];
   const basePool = samClassPool.length >= n ? samClassPool : pool.map((p) => p.kana);
 
+  // basePool には異なる自治体が同じ読み（kana）を持つケースが複数エントリとして残る
+  // （例: 伊達市=だてし が北海道と福島県）。ユニーク化せずに pickN（shuffle+slice）に
+  // 渡すと同じ kana が2回選ばれ、4択が実質3択になる（issue #10）。
+  // sameCategoryPool（issue #2/#8）と同じ対応で先にユニーク化する。
+  const uniqPool = [...new Set(basePool)];
+
   const swapped = swapSuffixReading(correctName, correctKana);
   const rest = pickN(
-    basePool.filter((k) => k !== correctKana && k !== swapped),
+    uniqPool.filter((k) => k !== correctKana && k !== swapped),
     swapped ? n - 1 : n,
     rng
   );
