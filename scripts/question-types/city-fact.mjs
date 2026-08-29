@@ -16,6 +16,14 @@ function rankQuestions(items, key, label, unit, rng, { groups = 60, groupSize = 
     const winner = slice.reduce((a, b) =>
       direction === "desc" ? (a[key] > b[key] ? a : b) : (a[key] < b[key] ? a : b)
     );
+    // 同値タイのスキップ: winner と同じ値の別要素が slice 内にあると正解が一意に定まらない
+    // （例: 人口0人の福島県避難指示区域町村が4件並ぶ等）。そういうグループは出題しない。
+    // issue #6: 63件の同値タイ問題がこの判定で除去される。
+    // 比較は表示文字列（meta と同一の formatValue 結果）で行う — 数値は違うが
+    // フォーマット後（人口密度の四捨五入等）で同文字列になるケースも「プレイヤーにとって同値」と
+    // みなす（meta 文字列で比較するissue #6の受け入れ条件そのまま）。
+    const winnerDisplay = formatValue(winner[key], unit);
+    if (slice.some((m) => m !== winner && formatValue(m[key], unit) === winnerDisplay)) continue;
     questions.push({
       type: "city-fact",
       id: `city-fact-${key}-${direction}-${winner.code}`,
@@ -58,7 +66,14 @@ function prefectureExtremeQuestions(municipalities, key, label, unit, direction,
     if (list.length < 4) continue;
     const sorted = [...list].sort((a, b) => (direction === "desc" ? b[key] - a[key] : a[key] - b[key]));
     const winner = sorted[0];
-    const others = pickN(sorted.slice(1), 3, rng);
+    // 同値タイの除去: winner と同じ値の要素が他にあれば、それを誤答に混ぜると正解が
+    // 一意でなくなる（issue #6: 福島県人口・昇順で楢葉町=0人 と 葛尾村=0人 が同値）。
+    // winner と同値の要素を候補から除外してから pickN する。
+    // 比較は表示文字列（formatValue 結果）で行う — rankQuestions と同じ基準。
+    const winnerDisplay = formatValue(winner[key], unit);
+    const candidates = sorted.slice(1).filter((m) => formatValue(m[key], unit) !== winnerDisplay);
+    if (candidates.length < 3) continue; // 3件の誤答が揃わなければ県としては出題しない
+    const others = pickN(candidates, 3, rng);
     const choices = shuffle([winner.name, ...others.map((m) => m.name)], rng);
     const cmpWord = direction === "desc" ? "多い" : "少ない";
     questions.push({

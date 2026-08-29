@@ -1,6 +1,6 @@
 {
   "type": "city-fact",
-  "count": 548,
+  "count": 486,
   "questions": [
     {
       "type": "city-fact",
@@ -2104,83 +2104,13 @@
     },
     {
       "type": "city-fact",
-      "id": "city-fact-population-asc-075469",
-      "prompt": "次のうち人口が一番少ないのは？",
-      "choices": [
-        "双葉町",
-        "楢葉町",
-        "富岡町",
-        "蘂取村"
-      ],
-      "answer": "双葉町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "population",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "017001",
-          "075426",
-          "075434",
-          "075469"
-        ]
-      },
-      "meta": {
-        "蘂取村": "0人",
-        "楢葉町": "0人",
-        "富岡町": "0人",
-        "双葉町": "0人"
-      },
-      "trivia": "人口比較: 蘂取村 0人 / 楢葉町 0人 / 富岡町 0人 / 双葉町 0人（全国下位1〜4位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-population-asc-075647",
-      "prompt": "次のうち人口が一番少ないのは？",
-      "choices": [
-        "浪江町",
-        "葛尾村",
-        "飯舘村",
-        "青ヶ島村"
-      ],
-      "answer": "飯舘村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "population",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "075477",
-          "075485",
-          "075647",
-          "134023"
-        ]
-      },
-      "meta": {
-        "浪江町": "0人",
-        "葛尾村": "0人",
-        "飯舘村": "0人",
-        "青ヶ島村": "177人"
-      },
-      "trivia": "人口比較: 浪江町 0人 / 葛尾村 0人 / 飯舘村 0人 / 青ヶ島村 177人（全国下位5〜8位相当）"
-    },
-    {
-      "type": "city-fact",
       "id": "city-fact-population-asc-075451",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "利島村",
         "野迫川村",
-        "大熊町",
-        "御蔵島村"
+        "御蔵島村",
+        "利島村",
+        "大熊町"
       ],
       "answer": "大熊町",
       "distractorStrategy": "sameCategoryPool",
@@ -2212,10 +2142,10 @@
       "id": "city-fact-population-asc-155861",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "平谷村",
-        "大川村",
         "粟島浦村",
-        "渡名喜村"
+        "大川村",
+        "渡名喜村",
+        "平谷村"
       ],
       "answer": "粟島浦村",
       "distractorStrategy": "sameCategoryPool",
@@ -2247,10 +2177,10 @@
       "id": "city-fact-population-asc-463035",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "北山村",
-        "三島村",
+        "上北山村",
         "売木村",
-        "上北山村"
+        "三島村",
+        "北山村"
       ],
       "answer": "三島村",
       "distractorStrategy": "sameCategoryPool",
@@ -2282,10 +2212,10 @@
       "id": "city-fact-population-asc-194433",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "黒滝村",
-        "丹波山村",
         "北大東村",
-        "檜枝岐村"
+        "檜枝岐村",
+        "丹波山村",
+        "黒滝村"
       ],
       "answer": "丹波山村",
       "distractorStrategy": "sameCategoryPool",
@@ -2319,8 +2249,8 @@
       "choices": [
         "小菅村",
         "知夫村",
-        "北相木村",
-        "音威子府村"
+        "音威子府村",
+        "北相木村"
       ],
       "answer": "知夫村",
       "distractorStrategy": "sameCategoryPool",
@@ -2352,10 +2282,10 @@
       "id": "city-fact-population-asc-473553",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "馬路村",
-        "下北山村",
+        "王滝村",
         "粟国村",
-        "王滝村"
+        "下北山村",
+        "馬路村"
       ],
       "answer": "粟国村",
       "distractorStrategy": "sameCategoryPool",
@@ -2384,48 +2314,13 @@
     },
     {
       "type": "city-fact",
-      "id": "city-fact-population-asc-473537",
-      "prompt": "次のうち人口が一番少ないのは？",
-      "choices": [
-        "十島村",
-        "神恵内村",
-        "新庄村",
-        "渡嘉敷村"
-      ],
-      "answer": "渡嘉敷村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "population",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "463043",
-          "473537",
-          "335860",
-          "014044"
-        ]
-      },
-      "meta": {
-        "十島村": "761人",
-        "渡嘉敷村": "761人",
-        "新庄村": "805人",
-        "神恵内村": "815人"
-      },
-      "trivia": "人口比較: 十島村 761人 / 渡嘉敷村 761人 / 新庄村 805人 / 神恵内村 815人（全国下位33〜36位相当）"
-    },
-    {
-      "type": "city-fact",
       "id": "city-fact-population-asc-204102",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
         "五木村",
         "根羽村",
-        "南相木村",
-        "座間味村"
+        "座間味村",
+        "南相木村"
       ],
       "answer": "根羽村",
       "distractorStrategy": "sameCategoryPool",
@@ -2457,8 +2352,8 @@
       "id": "city-fact-population-asc-204170",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "豊根村",
         "早川町",
+        "豊根村",
         "大鹿村",
         "西米良村"
       ],
@@ -2492,9 +2387,9 @@
       "id": "city-fact-population-asc-015628",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "川上村",
         "西興部村",
         "多良間村",
+        "川上村",
         "上野村"
       ],
       "answer": "西興部村",
@@ -2529,8 +2424,8 @@
       "choices": [
         "初山別村",
         "天龍村",
-        "笠置町",
-        "北川村"
+        "北川村",
+        "笠置町"
       ],
       "answer": "天龍村",
       "distractorStrategy": "sameCategoryPool",
@@ -2562,9 +2457,9 @@
       "id": "city-fact-population-asc-294462",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
+        "伊平屋村",
         "昭和村",
         "天川村",
-        "伊平屋村",
         "赤井川村"
       ],
       "answer": "天川村",
@@ -2597,8 +2492,8 @@
       "id": "city-fact-population-asc-043028",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "七ヶ宿町",
         "占冠村",
+        "七ヶ宿町",
         "南大東村",
         "西目屋村"
       ],
@@ -2632,8 +2527,8 @@
       "id": "city-fact-population-asc-434256",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "産山村",
         "上勝町",
+        "産山村",
         "伊是名村",
         "曽爾村"
       ],
@@ -2668,8 +2563,8 @@
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
         "西粟倉村",
-        "三原村",
         "大和村",
+        "三原村",
         "幌加内町"
       ],
       "answer": "大和村",
@@ -2699,48 +2594,13 @@
     },
     {
       "type": "city-fact",
-      "id": "city-fact-population-asc-074446",
-      "prompt": "次のうち人口が一番少ないのは？",
-      "choices": [
-        "三島町",
-        "東吉野村",
-        "島牧村",
-        "紗那村"
-      ],
-      "answer": "三島町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "population",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "013919",
-          "074446",
-          "016993",
-          "294535"
-        ]
-      },
-      "meta": {
-        "島牧村": "1,407人",
-        "三島町": "1,407人",
-        "紗那村": "1,426人",
-        "東吉野村": "1,428人"
-      },
-      "trivia": "人口比較: 島牧村 1,407人 / 三島町 1,407人 / 紗那村 1,426人 / 東吉野村 1,428人（全国下位69〜72位相当）"
-    },
-    {
-      "type": "city-fact",
       "id": "city-fact-population-asc-014711",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "諸塚村",
-        "白川村",
+        "中川町",
         "御杖村",
-        "中川町"
+        "白川村",
+        "諸塚村"
       ],
       "answer": "中川町",
       "distractorStrategy": "sameCategoryPool",
@@ -2772,10 +2632,10 @@
       "id": "city-fact-population-asc-016951",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "東村",
-        "泊村",
         "色丹村",
-        "泰阜村"
+        "泰阜村",
+        "泊村",
+        "東村"
       ],
       "answer": "色丹村",
       "distractorStrategy": "sameCategoryPool",
@@ -2843,9 +2703,9 @@
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
         "宇検村",
-        "風間浦村",
+        "中頓別町",
         "生坂村",
-        "中頓別町"
+        "風間浦村"
       ],
       "answer": "生坂村",
       "distractorStrategy": "sameCategoryPool",
@@ -2877,10 +2737,10 @@
       "id": "city-fact-population-asc-443221",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "姫島村",
+        "浦臼町",
         "佐井村",
         "北竜町",
-        "浦臼町"
+        "姫島村"
       ],
       "answer": "姫島村",
       "distractorStrategy": "sameCategoryPool",
@@ -2912,10 +2772,10 @@
       "id": "city-fact-population-asc-075442",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
+        "金山町",
         "伊根町",
         "川内村",
-        "神津島村",
-        "金山町"
+        "神津島村"
       ],
       "answer": "川内村",
       "distractorStrategy": "sameCategoryPool",
@@ -2947,9 +2807,9 @@
       "id": "city-fact-population-asc-404489",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "東峰村",
         "留寿都村",
         "檜原村",
+        "東峰村",
         "積丹町"
       ],
       "answer": "東峰村",
@@ -2982,10 +2842,10 @@
       "id": "city-fact-population-asc-015181",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "利尻町",
-        "上小阿仁村",
         "東白川村",
-        "真狩村"
+        "真狩村",
+        "利尻町",
+        "上小阿仁村"
       ],
       "answer": "利尻町",
       "distractorStrategy": "sameCategoryPool",
@@ -3017,10 +2877,10 @@
       "id": "city-fact-population-asc-435074",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "喜茂別町",
-        "佐那河内村",
         "水上村",
-        "与那国町"
+        "喜茂別町",
+        "与那国町",
+        "佐那河内村"
       ],
       "answer": "水上村",
       "distractorStrategy": "sameCategoryPool",
@@ -3052,10 +2912,10 @@
       "id": "city-fact-population-asc-393011",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "新郷村",
+        "海士町",
         "東洋町",
-        "小値賀町",
-        "海士町"
+        "新郷村",
+        "小値賀町"
       ],
       "answer": "東洋町",
       "distractorStrategy": "sameCategoryPool",
@@ -3087,10 +2947,10 @@
       "id": "city-fact-population-asc-014362",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "上関町",
+        "雨竜町",
         "幌延町",
-        "池田町",
-        "雨竜町"
+        "上関町",
+        "池田町"
       ],
       "answer": "雨竜町",
       "distractorStrategy": "sameCategoryPool",
@@ -3122,10 +2982,10 @@
       "id": "city-fact-population-asc-205885",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "陸別町",
-        "今別町",
         "小川村",
-        "南山城村"
+        "南山城村",
+        "今別町",
+        "陸別町"
       ],
       "answer": "小川村",
       "distractorStrategy": "sameCategoryPool",
@@ -3157,10 +3017,10 @@
       "id": "city-fact-population-asc-014346",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
+        "利尻富士町",
         "安田町",
-        "南富良野町",
         "秩父別町",
-        "利尻富士町"
+        "南富良野町"
       ],
       "answer": "秩父別町",
       "distractorStrategy": "sameCategoryPool",
@@ -3193,9 +3053,9 @@
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
         "壮瞥町",
-        "東成瀬村",
         "礼文町",
-        "古座川町"
+        "古座川町",
+        "東成瀬村"
       ],
       "answer": "礼文町",
       "distractorStrategy": "sameCategoryPool",
@@ -3227,10 +3087,10 @@
       "id": "city-fact-population-asc-015601",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "滝上町",
         "奥尻町",
+        "椎葉村",
         "普代村",
-        "椎葉村"
+        "滝上町"
       ],
       "answer": "滝上町",
       "distractorStrategy": "sameCategoryPool",
@@ -3262,10 +3122,10 @@
       "id": "city-fact-population-asc-074021",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "北塩原村",
+        "鶴居村",
         "田野町",
-        "新島村",
-        "鶴居村"
+        "北塩原村",
+        "新島村"
       ],
       "answer": "北塩原村",
       "distractorStrategy": "sameCategoryPool",
@@ -3297,10 +3157,10 @@
       "id": "city-fact-population-asc-204463",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "遠別町",
-        "麻績村",
         "三宅村",
-        "東秩父村"
+        "東秩父村",
+        "麻績村",
+        "遠別町"
       ],
       "answer": "麻績村",
       "distractorStrategy": "sameCategoryPool",
@@ -3332,10 +3192,10 @@
       "id": "city-fact-population-asc-314030",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "木祖村",
-        "小谷村",
         "蓬田村",
-        "江府町"
+        "小谷村",
+        "江府町",
+        "木祖村"
       ],
       "answer": "江府町",
       "distractorStrategy": "sameCategoryPool",
@@ -3367,10 +3227,10 @@
       "id": "city-fact-population-asc-014567",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "猿払村",
+        "愛別町",
         "置戸町",
         "黒松内町",
-        "愛別町"
+        "猿払村"
       ],
       "answer": "愛別町",
       "distractorStrategy": "sameCategoryPool",
@@ -3402,10 +3262,10 @@
       "id": "city-fact-population-asc-325261",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "赤村",
         "西ノ島町",
         "太地町",
-        "日野町"
+        "日野町",
+        "赤村"
       ],
       "answer": "西ノ島町",
       "distractorStrategy": "sameCategoryPool",
@@ -3437,8 +3297,8 @@
       "id": "city-fact-population-asc-014257",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "上砂川町",
         "若桜町",
+        "上砂川町",
         "留別村",
         "妹背牛町"
       ],
@@ -3472,8 +3332,8 @@
       "id": "city-fact-population-asc-053465",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "古平町",
         "高野町",
+        "古平町",
         "寿都町",
         "藤里町"
       ],
@@ -3508,9 +3368,9 @@
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
         "東栄町",
-        "鳴沢村",
+        "大宜味村",
         "京極町",
-        "大宜味村"
+        "鳴沢村"
       ],
       "answer": "鳴沢村",
       "distractorStrategy": "sameCategoryPool",
@@ -3543,9 +3403,9 @@
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
         "大蔵村",
-        "新篠津村",
         "天塩町",
-        "沼田町"
+        "沼田町",
+        "新篠津村"
       ],
       "answer": "天塩町",
       "distractorStrategy": "sameCategoryPool",
@@ -3577,10 +3437,10 @@
       "id": "city-fact-population-asc-074845",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "苫前町",
+        "鮫川村",
         "小平町",
-        "大潟村",
-        "鮫川村"
+        "苫前町",
+        "大潟村"
       ],
       "answer": "鮫川村",
       "distractorStrategy": "sameCategoryPool",
@@ -3647,10 +3507,10 @@
       "id": "city-fact-population-asc-074225",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
+        "小笠原村",
         "湯川村",
         "奈半利町",
-        "川本町",
-        "小笠原村"
+        "川本町"
       ],
       "answer": "湯川村",
       "distractorStrategy": "sameCategoryPool",
@@ -3682,10 +3542,10 @@
       "id": "city-fact-population-asc-355020",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "阿武町",
-        "球磨村",
+        "清川村",
         "十津川村",
-        "清川村"
+        "阿武町",
+        "球磨村"
       ],
       "answer": "阿武町",
       "distractorStrategy": "sameCategoryPool",
@@ -3717,9 +3577,9 @@
       "id": "city-fact-population-asc-074233",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "月形町",
         "南牧村",
         "豊頃町",
+        "月形町",
         "柳津町"
       ],
       "answer": "柳津町",
@@ -3752,10 +3612,10 @@
       "id": "city-fact-population-asc-393444",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "更別村",
+        "舟橋村",
         "下川町",
-        "大豊町",
-        "舟橋村"
+        "更別村",
+        "大豊町"
       ],
       "answer": "大豊町",
       "distractorStrategy": "sameCategoryPool",
@@ -3788,9 +3648,9 @@
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
         "山添村",
-        "山江村",
+        "仁木町",
         "和寒町",
-        "仁木町"
+        "山江村"
       ],
       "answer": "山添村",
       "distractorStrategy": "sameCategoryPool",
@@ -3823,9 +3683,9 @@
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
         "野沢温泉村",
-        "本山町",
         "檮原町",
-        "磐梯町"
+        "磐梯町",
+        "本山町"
       ],
       "answer": "野沢温泉村",
       "distractorStrategy": "sameCategoryPool",
@@ -3893,9 +3753,9 @@
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
         "和束町",
-        "川場村",
+        "高山村",
         "大桑村",
-        "高山村"
+        "川場村"
       ],
       "answer": "大桑村",
       "distractorStrategy": "sameCategoryPool",
@@ -3927,10 +3787,10 @@
       "id": "city-fact-population-asc-015121",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "乙部町",
+        "浜頓別町",
         "日之影町",
         "日吉津村",
-        "浜頓別町"
+        "乙部町"
       ],
       "answer": "浜頓別町",
       "distractorStrategy": "sameCategoryPool",
@@ -3962,10 +3822,10 @@
       "id": "city-fact-population-asc-304069",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "下條村",
         "すさみ町",
-        "比布町",
-        "湯前町"
+        "下條村",
+        "湯前町",
+        "比布町"
       ],
       "answer": "すさみ町",
       "distractorStrategy": "sameCategoryPool",
@@ -3997,10 +3857,10 @@
       "id": "city-fact-population-asc-384844",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "土佐町",
-        "松野町",
         "南小国町",
-        "芸西村"
+        "芸西村",
+        "土佐町",
+        "松野町"
       ],
       "answer": "松野町",
       "distractorStrategy": "sameCategoryPool",
@@ -4032,10 +3892,10 @@
       "id": "city-fact-population-asc-013633",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "豊浦町",
+        "牟岐町",
         "興部町",
         "厚沢部町",
-        "牟岐町"
+        "豊浦町"
       ],
       "answer": "厚沢部町",
       "distractorStrategy": "sameCategoryPool",
@@ -4067,10 +3927,10 @@
       "id": "city-fact-population-asc-063665",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
-        "豊富町",
-        "鮭川村",
         "鹿部町",
-        "九度山町"
+        "九度山町",
+        "豊富町",
+        "鮭川村"
       ],
       "answer": "鮭川村",
       "distractorStrategy": "sameCategoryPool",
@@ -4103,9 +3963,9 @@
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
         "福島町",
-        "野田村",
         "川上村",
-        "南木曽町"
+        "南木曽町",
+        "野田村"
       ],
       "answer": "川上村",
       "distractorStrategy": "sameCategoryPool",
@@ -4137,10 +3997,10 @@
       "id": "city-fact-population-asc-075418",
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
+        "清里町",
         "広野町",
-        "片品村",
         "中札内村",
-        "清里町"
+        "片品村"
       ],
       "answer": "広野町",
       "distractorStrategy": "sameCategoryPool",
@@ -4173,8 +4033,8 @@
       "prompt": "次のうち人口が一番少ないのは？",
       "choices": [
         "只見町",
-        "木古内町",
         "相良村",
+        "木古内町",
         "西桂町"
       ],
       "answer": "木古内町",
@@ -4208,9 +4068,9 @@
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
         "留別村",
-        "浜松市",
+        "高山市",
         "日光市",
-        "高山市"
+        "浜松市"
       ],
       "answer": "高山市",
       "distractorStrategy": "sameCategoryPool",
@@ -4242,10 +4102,10 @@
       "id": "city-fact-areaKm2-desc-012084",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "釧路市",
-        "北見市",
         "足寄町",
-        "静岡市"
+        "静岡市",
+        "北見市",
+        "釧路市"
       ],
       "answer": "北見市",
       "distractorStrategy": "sameCategoryPool",
@@ -4277,10 +4137,10 @@
       "id": "city-fact-areaKm2-desc-015555",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "宮古市",
         "遠軽町",
+        "別海町",
         "鶴岡市",
-        "別海町"
+        "宮古市"
       ],
       "answer": "遠軽町",
       "distractorStrategy": "sameCategoryPool",
@@ -4312,10 +4172,10 @@
       "id": "city-fact-areaKm2-desc-032093",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "富山市",
-        "庄原市",
         "いわき市",
-        "一関市"
+        "一関市",
+        "富山市",
+        "庄原市"
       ],
       "answer": "一関市",
       "distractorStrategy": "sameCategoryPool",
@@ -4347,10 +4207,10 @@
       "id": "city-fact-areaKm2-desc-052108",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
+        "新ひだか町",
         "村上市",
-        "由利本荘市",
         "北秋田市",
-        "新ひだか町"
+        "由利本荘市"
       ],
       "answer": "由利本荘市",
       "distractorStrategy": "sameCategoryPool",
@@ -4384,8 +4244,8 @@
       "choices": [
         "標茶町",
         "札幌市",
-        "士別市",
-        "枝幸町"
+        "枝幸町",
+        "士別市"
       ],
       "answer": "札幌市",
       "distractorStrategy": "sameCategoryPool",
@@ -4417,9 +4277,9 @@
       "id": "city-fact-areaKm2-desc-052159",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "上川町",
-        "仙北市",
         "郡上市",
+        "仙北市",
+        "上川町",
         "新得町"
       ],
       "answer": "仙北市",
@@ -4452,10 +4312,10 @@
       "id": "city-fact-areaKm2-desc-302066",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
+        "奥州市",
         "山口市",
-        "田辺市",
         "岩泉町",
-        "奥州市"
+        "田辺市"
       ],
       "answer": "田辺市",
       "distractorStrategy": "sameCategoryPool",
@@ -4487,10 +4347,10 @@
       "id": "city-fact-areaKm2-desc-016012",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "上越市",
         "松本市",
-        "紗那村",
-        "日高町"
+        "日高町",
+        "上越市",
+        "紗那村"
       ],
       "answer": "日高町",
       "distractorStrategy": "sameCategoryPool",
@@ -4522,10 +4382,10 @@
       "id": "city-fact-areaKm2-desc-013463",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "留夜別村",
-        "阿賀町",
+        "魚沼市",
         "八雲町",
-        "魚沼市"
+        "留夜別村",
+        "阿賀町"
       ],
       "answer": "八雲町",
       "distractorStrategy": "sameCategoryPool",
@@ -4557,10 +4417,10 @@
       "id": "city-fact-areaKm2-desc-232114",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "豊田市",
         "花巻市",
-        "大館市",
-        "秋田市"
+        "豊田市",
+        "秋田市",
+        "大館市"
       ],
       "answer": "豊田市",
       "distractorStrategy": "sameCategoryPool",
@@ -4592,10 +4452,10 @@
       "id": "city-fact-areaKm2-desc-341002",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "盛岡市",
-        "長岡市",
+        "佐伯市",
         "広島市",
-        "佐伯市"
+        "盛岡市",
+        "長岡市"
       ],
       "answer": "広島市",
       "distractorStrategy": "sameCategoryPool",
@@ -4627,10 +4487,10 @@
       "id": "city-fact-areaKm2-desc-073687",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "南会津町",
-        "延岡市",
+        "大野市",
         "岩国市",
-        "大野市"
+        "延岡市",
+        "南会津町"
       ],
       "answer": "南会津町",
       "distractorStrategy": "sameCategoryPool",
@@ -4662,10 +4522,10 @@
       "id": "city-fact-areaKm2-desc-052124",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "大仙市",
-        "八幡平市",
+        "芦別市",
         "むつ市",
-        "芦別市"
+        "大仙市",
+        "八幡平市"
       ],
       "answer": "大仙市",
       "distractorStrategy": "sameCategoryPool",
@@ -4697,10 +4557,10 @@
       "id": "city-fact-areaKm2-desc-152242",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "長野市",
         "佐渡市",
-        "紋別市",
-        "下呂市"
+        "長野市",
+        "下呂市",
+        "紋別市"
       ],
       "answer": "佐渡市",
       "distractorStrategy": "sameCategoryPool",
@@ -4732,10 +4592,10 @@
       "id": "city-fact-areaKm2-desc-332143",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "真庭市",
         "青森市",
-        "京都市",
-        "遠野市"
+        "遠野市",
+        "真庭市",
+        "京都市"
       ],
       "answer": "真庭市",
       "distractorStrategy": "sameCategoryPool",
@@ -4767,10 +4627,10 @@
       "id": "city-fact-areaKm2-desc-016411",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "栗原市",
-        "揖斐川町",
         "大樹町",
-        "大崎市"
+        "大崎市",
+        "栗原市",
+        "揖斐川町"
       ],
       "answer": "大樹町",
       "distractorStrategy": "sameCategoryPool",
@@ -4802,10 +4662,10 @@
       "id": "city-fact-areaKm2-desc-332101",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "湯沢市",
+        "新見市",
         "岡山市",
-        "飛騨市",
-        "新見市"
+        "湯沢市",
+        "飛騨市"
       ],
       "answer": "新見市",
       "distractorStrategy": "sameCategoryPool",
@@ -4839,8 +4699,8 @@
       "choices": [
         "三次市",
         "仙台市",
-        "みなかみ町",
-        "弟子屈町"
+        "弟子屈町",
+        "みなかみ町"
       ],
       "answer": "仙台市",
       "distractorStrategy": "sameCategoryPool",
@@ -4872,10 +4732,10 @@
       "id": "city-fact-areaKm2-desc-016683",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "幌加内町",
-        "福島市",
         "白糠町",
-        "滝上町"
+        "滝上町",
+        "福島市",
+        "幌加内町"
       ],
       "answer": "白糠町",
       "distractorStrategy": "sameCategoryPool",
@@ -4908,8 +4768,8 @@
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
         "夕張市",
-        "鳥取市",
         "稚内市",
+        "鳥取市",
         "郡山市"
       ],
       "answer": "鳥取市",
@@ -4943,9 +4803,9 @@
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
         "旭川市",
+        "只見町",
         "白山市",
-        "蘂取村",
-        "只見町"
+        "蘂取村"
       ],
       "answer": "蘂取村",
       "distractorStrategy": "sameCategoryPool",
@@ -4977,10 +4837,10 @@
       "id": "city-fact-areaKm2-desc-152161",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "糸魚川市",
         "厚岸町",
-        "小国町",
-        "平取町"
+        "糸魚川市",
+        "平取町",
+        "小国町"
       ],
       "answer": "糸魚川市",
       "distractorStrategy": "sameCategoryPool",
@@ -5012,9 +4872,9 @@
       "id": "city-fact-areaKm2-desc-015458",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
+        "浦幌町",
         "益田市",
         "斜里町",
-        "浦幌町",
         "新潟市"
       ],
       "answer": "斜里町",
@@ -5047,10 +4907,10 @@
       "id": "city-fact-areaKm2-desc-022063",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "津別町",
-        "十和田市",
         "石狩市",
-        "三好市"
+        "十和田市",
+        "三好市",
+        "津別町"
       ],
       "answer": "十和田市",
       "distractorStrategy": "sameCategoryPool",
@@ -5082,8 +4942,8 @@
       "id": "city-fact-areaKm2-desc-352012",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "むかわ町",
         "津市",
+        "むかわ町",
         "下関市",
         "対馬市"
       ],
@@ -5117,10 +4977,10 @@
       "id": "city-fact-areaKm2-desc-052094",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "萩市",
-        "那賀町",
+        "鹿角市",
         "豊岡市",
-        "鹿角市"
+        "那賀町",
+        "萩市"
       ],
       "answer": "鹿角市",
       "distractorStrategy": "sameCategoryPool",
@@ -5152,10 +5012,10 @@
       "id": "city-fact-areaKm2-desc-016071",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "浦河町",
-        "横手市",
         "上士幌町",
-        "高島市"
+        "浦河町",
+        "高島市",
+        "横手市"
       ],
       "answer": "浦河町",
       "distractorStrategy": "sameCategoryPool",
@@ -5187,10 +5047,10 @@
       "id": "city-fact-areaKm2-desc-322024",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "天草市",
-        "中標津町",
+        "薩摩川内市",
         "浜田市",
-        "薩摩川内市"
+        "中標津町",
+        "天草市"
       ],
       "answer": "浜田市",
       "distractorStrategy": "sameCategoryPool",
@@ -5222,10 +5082,10 @@
       "id": "city-fact-areaKm2-desc-252034",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "美瑛町",
+        "八代市",
         "函館市",
         "長浜市",
-        "八代市"
+        "美瑛町"
       ],
       "answer": "長浜市",
       "distractorStrategy": "sameCategoryPool",
@@ -5257,9 +5117,9 @@
       "id": "city-fact-areaKm2-desc-212067",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "美深町",
         "十津川村",
         "南砺市",
+        "美深町",
         "中津川市"
       ],
       "answer": "中津川市",
@@ -5292,8 +5152,8 @@
       "id": "city-fact-areaKm2-desc-202096",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "飯田市",
         "伊那市",
+        "飯田市",
         "日田市",
         "南富良野町"
       ],
@@ -5327,10 +5187,10 @@
       "id": "city-fact-areaKm2-desc-282278",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
+        "都城市",
         "周南市",
         "宍粟市",
-        "北広島町",
-        "都城市"
+        "北広島町"
       ],
       "answer": "宍粟市",
       "distractorStrategy": "sameCategoryPool",
@@ -5362,10 +5222,10 @@
       "id": "city-fact-areaKm2-desc-014681",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
+        "せたな町",
         "四万十町",
-        "宮崎市",
         "下川町",
-        "せたな町"
+        "宮崎市"
       ],
       "answer": "下川町",
       "distractorStrategy": "sameCategoryPool",
@@ -5397,9 +5257,9 @@
       "id": "city-fact-areaKm2-desc-015636",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "小平町",
         "四万十市",
         "東広島市",
+        "小平町",
         "雄武町"
       ],
       "answer": "雄武町",
@@ -5433,9 +5293,9 @@
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
         "久慈市",
+        "標津町",
         "出雲市",
-        "松阪市",
-        "標津町"
+        "松阪市"
       ],
       "answer": "標津町",
       "distractorStrategy": "sameCategoryPool",
@@ -5467,10 +5327,10 @@
       "id": "city-fact-areaKm2-desc-012076",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "帯広市",
         "南丹市",
-        "陸別町",
-        "雫石町"
+        "帯広市",
+        "雫石町",
+        "陸別町"
       ],
       "answer": "帯広市",
       "distractorStrategy": "sameCategoryPool",
@@ -5502,10 +5362,10 @@
       "id": "city-fact-areaKm2-desc-442127",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "北杜市",
         "酒田市",
         "霧島市",
-        "豊後大野市"
+        "豊後大野市",
+        "北杜市"
       ],
       "answer": "豊後大野市",
       "distractorStrategy": "sameCategoryPool",
@@ -5537,10 +5397,10 @@
       "id": "city-fact-areaKm2-desc-012297",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "中川町",
         "千歳市",
-        "富良野市",
-        "広尾町"
+        "中川町",
+        "広尾町",
+        "富良野市"
       ],
       "answer": "富良野市",
       "distractorStrategy": "sameCategoryPool",
@@ -5572,10 +5432,10 @@
       "id": "city-fact-areaKm2-desc-092134",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "那須塩原市",
+        "猿払村",
         "遠別町",
         "西和賀町",
-        "猿払村"
+        "那須塩原市"
       ],
       "answer": "那須塩原市",
       "distractorStrategy": "sameCategoryPool",
@@ -5607,10 +5467,10 @@
       "id": "city-fact-areaKm2-desc-152102",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "久万高原町",
-        "新冠町",
         "十日町市",
-        "南魚沼市"
+        "新冠町",
+        "南魚沼市",
+        "久万高原町"
       ],
       "answer": "十日町市",
       "distractorStrategy": "sameCategoryPool",
@@ -5642,10 +5502,10 @@
       "id": "city-fact-areaKm2-desc-112071",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "秩父市",
-        "幌延町",
         "占冠村",
-        "鶴居村"
+        "鶴居村",
+        "幌延町",
+        "秩父市"
       ],
       "answer": "秩父市",
       "distractorStrategy": "sameCategoryPool",
@@ -5677,9 +5537,9 @@
       "id": "city-fact-areaKm2-desc-013706",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "今金町",
-        "苫小牧市",
         "小林市",
+        "苫小牧市",
+        "今金町",
         "大町市"
       ],
       "answer": "今金町",
@@ -5712,9 +5572,9 @@
       "id": "city-fact-areaKm2-desc-242161",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "雲南市",
         "伊賀市",
         "喜多方市",
+        "雲南市",
         "福知山市"
       ],
       "answer": "伊賀市",
@@ -5747,9 +5607,9 @@
       "id": "city-fact-areaKm2-desc-281000",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
+        "上ノ国町",
         "上田市",
         "神戸市",
-        "上ノ国町",
         "米沢市"
       ],
       "answer": "神戸市",
@@ -5782,10 +5642,10 @@
       "id": "city-fact-areaKm2-desc-462012",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "屋久島町",
-        "山都町",
+        "鹿児島市",
         "高梁市",
-        "鹿児島市"
+        "屋久島町",
+        "山都町"
       ],
       "answer": "鹿児島市",
       "distractorStrategy": "sameCategoryPool",
@@ -5819,8 +5679,8 @@
       "choices": [
         "香美市",
         "豊頃町",
-        "安芸高田市",
-        "椎葉村"
+        "椎葉村",
+        "安芸高田市"
       ],
       "answer": "香美市",
       "distractorStrategy": "sameCategoryPool",
@@ -5852,10 +5712,10 @@
       "id": "city-fact-areaKm2-desc-182010",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "泊村",
-        "登米市",
         "日南市",
-        "福井市"
+        "福井市",
+        "登米市",
+        "泊村"
       ],
       "answer": "福井市",
       "distractorStrategy": "sameCategoryPool",
@@ -5887,9 +5747,9 @@
       "id": "city-fact-areaKm2-desc-012211",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "松江市",
-        "名寄市",
         "姫路市",
+        "名寄市",
+        "松江市",
         "新発田市"
       ],
       "answer": "名寄市",
@@ -5923,9 +5783,9 @@
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
         "豊富町",
+        "弘前市",
         "置戸町",
-        "深川市",
-        "弘前市"
+        "深川市"
       ],
       "answer": "深川市",
       "distractorStrategy": "sameCategoryPool",
@@ -5957,10 +5817,10 @@
       "id": "city-fact-areaKm2-desc-342076",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
+        "福山市",
         "西条市",
         "西予市",
-        "芽室町",
-        "福山市"
+        "芽室町"
       ],
       "answer": "福山市",
       "distractorStrategy": "sameCategoryPool",
@@ -5992,10 +5852,10 @@
       "id": "city-fact-areaKm2-desc-332038",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "津山市",
-        "湧別町",
         "京丹後市",
-        "恵那市"
+        "湧別町",
+        "恵那市",
+        "津山市"
       ],
       "answer": "津山市",
       "distractorStrategy": "sameCategoryPool",
@@ -6027,10 +5887,10 @@
       "id": "city-fact-areaKm2-desc-442011",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "大分市",
-        "川根本町",
         "新十津川町",
-        "新城市"
+        "大分市",
+        "新城市",
+        "川根本町"
       ],
       "answer": "大分市",
       "distractorStrategy": "sameCategoryPool",
@@ -6062,10 +5922,10 @@
       "id": "city-fact-areaKm2-desc-282235",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "丹波市",
+        "廿日市市",
         "中津市",
-        "鹿沼市",
-        "廿日市市"
+        "丹波市",
+        "鹿沼市"
       ],
       "answer": "丹波市",
       "distractorStrategy": "sameCategoryPool",
@@ -6097,10 +5957,10 @@
       "id": "city-fact-areaKm2-desc-023230",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "深浦町",
+        "八女市",
         "北九州市",
         "唐津市",
-        "八女市"
+        "深浦町"
       ],
       "answer": "深浦町",
       "distractorStrategy": "sameCategoryPool",
@@ -6133,9 +5993,9 @@
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
         "甲賀市",
-        "幕別町",
+        "岩見沢市",
         "竹田市",
-        "岩見沢市"
+        "幕別町"
       ],
       "answer": "甲賀市",
       "distractorStrategy": "sameCategoryPool",
@@ -6168,9 +6028,9 @@
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
         "木曽町",
+        "美祢市",
         "関市",
-        "羽幌町",
-        "美祢市"
+        "羽幌町"
       ],
       "answer": "木曽町",
       "distractorStrategy": "sameCategoryPool",
@@ -6202,9 +6062,9 @@
       "id": "city-fact-areaKm2-desc-342041",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
+        "三原市",
         "網走市",
         "いの町",
-        "三原市",
         "宇和島市"
       ],
       "answer": "三原市",
@@ -6237,10 +6097,10 @@
       "id": "city-fact-areaKm2-desc-172014",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "加美町",
         "金沢市",
+        "音更町",
         "大津市",
-        "音更町"
+        "加美町"
       ],
       "answer": "金沢市",
       "distractorStrategy": "sameCategoryPool",
@@ -6272,8 +6132,8 @@
       "id": "city-fact-areaKm2-desc-013633",
       "prompt": "次のうち面積が一番多いのは？",
       "choices": [
-        "田村市",
         "厚沢部町",
+        "田村市",
         "苫前町",
         "高崎市"
       ],
@@ -6307,10 +6167,10 @@
       "id": "city-fact-areaKm2-asc-042021",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "渡名喜村",
-        "忠岡町",
         "石巻市",
-        "舟橋村"
+        "忠岡町",
+        "舟橋村",
+        "渡名喜村"
       ],
       "answer": "石巻市",
       "distractorStrategy": "sameCategoryPool",
@@ -6342,10 +6202,10 @@
       "id": "city-fact-areaKm2-asc-293628",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "三宅町",
+        "利島村",
         "日吉津村",
-        "安堵町",
-        "利島村"
+        "三宅町",
+        "安堵町"
       ],
       "answer": "三宅町",
       "distractorStrategy": "sameCategoryPool",
@@ -6377,10 +6237,10 @@
       "id": "city-fact-areaKm2-asc-112232",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "北方町",
         "田尻町",
+        "蕨市",
         "与那原町",
-        "蕨市"
+        "北方町"
       ],
       "answer": "蕨市",
       "distractorStrategy": "sameCategoryPool",
@@ -6412,10 +6272,10 @@
       "id": "city-fact-areaKm2-asc-406422",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "青ヶ島村",
+        "川西町",
         "吉富町",
-        "太地町",
-        "川西町"
+        "青ヶ島村",
+        "太地町"
       ],
       "answer": "吉富町",
       "distractorStrategy": "sameCategoryPool",
@@ -6447,9 +6307,9 @@
       "id": "city-fact-areaKm2-asc-263036",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "大山崎町",
-        "豊山町",
         "上牧町",
+        "豊山町",
+        "大山崎町",
         "朝日町"
       ],
       "answer": "大山崎町",
@@ -6482,9 +6342,9 @@
       "id": "city-fact-areaKm2-asc-132195",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
+        "狛江市",
         "開成町",
         "大治町",
-        "狛江市",
         "田野町"
       ],
       "answer": "狛江市",
@@ -6517,10 +6377,10 @@
       "id": "city-fact-areaKm2-asc-443221",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "姫島村",
-        "早島町",
         "王寺町",
-        "真鶴町"
+        "早島町",
+        "真鶴町",
+        "姫島村"
       ],
       "answer": "姫島村",
       "distractorStrategy": "sameCategoryPool",
@@ -6552,10 +6412,10 @@
       "id": "city-fact-areaKm2-asc-473553",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "豊郷町",
         "岐南町",
+        "粟国村",
         "向日市",
-        "粟国村"
+        "豊郷町"
       ],
       "answer": "粟国村",
       "distractorStrategy": "sameCategoryPool",
@@ -6587,10 +6447,10 @@
       "id": "city-fact-areaKm2-asc-406040",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "宇多津町",
+        "糸田町",
         "河合町",
         "国立市",
-        "糸田町"
+        "宇多津町"
       ],
       "answer": "糸田町",
       "distractorStrategy": "sameCategoryPool",
@@ -6623,9 +6483,9 @@
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
         "川越町",
-        "志免町",
+        "北島町",
         "琴平町",
-        "北島町"
+        "志免町"
       ],
       "answer": "琴平町",
       "distractorStrategy": "sameCategoryPool",
@@ -6657,10 +6517,10 @@
       "id": "city-fact-areaKm2-asc-293431",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "清水町",
         "三郷町",
-        "藤井寺市",
-        "志木市"
+        "志木市",
+        "清水町",
+        "藤井寺市"
       ],
       "answer": "三郷町",
       "distractorStrategy": "sameCategoryPool",
@@ -6692,10 +6552,10 @@
       "id": "city-fact-areaKm2-asc-143421",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "播磨町",
+        "昭和町",
         "粟島浦村",
-        "二宮町",
-        "昭和町"
+        "播磨町",
+        "二宮町"
       ],
       "answer": "二宮町",
       "distractorStrategy": "sameCategoryPool",
@@ -6727,10 +6587,10 @@
       "id": "city-fact-areaKm2-asc-132276",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
+        "台東区",
         "福生市",
-        "羽村市",
         "荒川区",
-        "台東区"
+        "羽村市"
       ],
       "answer": "羽村市",
       "distractorStrategy": "sameCategoryPool",
@@ -6797,10 +6657,10 @@
       "id": "city-fact-areaKm2-asc-232289",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "南風原町",
+        "和木町",
         "岩倉市",
-        "武蔵野市",
-        "和木町"
+        "南風原町",
+        "武蔵野市"
       ],
       "answer": "岩倉市",
       "distractorStrategy": "sameCategoryPool",
@@ -6832,10 +6692,10 @@
       "id": "city-fact-areaKm2-asc-403822",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
+        "和光市",
         "扶桑町",
         "水巻町",
-        "蟹江町",
-        "和光市"
+        "蟹江町"
       ],
       "answer": "水巻町",
       "distractorStrategy": "sameCategoryPool",
@@ -6867,10 +6727,10 @@
       "id": "city-fact-areaKm2-asc-131059",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
+        "国分寺市",
         "文京区",
-        "小金井市",
         "高石市",
-        "国分寺市"
+        "小金井市"
       ],
       "answer": "文京区",
       "distractorStrategy": "sameCategoryPool",
@@ -6902,9 +6762,9 @@
       "id": "city-fact-areaKm2-asc-414239",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "大町町",
         "芦屋町",
         "北中城村",
+        "大町町",
         "千代田区"
       ],
       "answer": "大町町",
@@ -6937,9 +6797,9 @@
       "id": "city-fact-areaKm2-asc-272311",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "守口市",
         "門真市",
         "大阪狭山市",
+        "守口市",
         "里庄町"
       ],
       "answer": "大阪狭山市",
@@ -6972,10 +6832,10 @@
       "id": "city-fact-areaKm2-asc-303810",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "坂祝町",
-        "上峰町",
+        "東久留米市",
         "美浜町",
-        "東久留米市"
+        "坂祝町",
+        "上峰町"
       ],
       "answer": "美浜町",
       "distractorStrategy": "sameCategoryPool",
@@ -7043,8 +6903,8 @@
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
         "七ヶ浜町",
-        "清須市",
         "寒川町",
+        "清須市",
         "東大和市"
       ],
       "answer": "七ヶ浜町",
@@ -7077,10 +6937,10 @@
       "id": "city-fact-areaKm2-asc-172120",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "大口町",
+        "多賀町",
         "甲良町",
         "野々市市",
-        "多賀町"
+        "大口町"
       ],
       "answer": "野々市市",
       "distractorStrategy": "sameCategoryPool",
@@ -7112,10 +6972,10 @@
       "id": "city-fact-areaKm2-asc-325279",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "墨田区",
         "海田町",
-        "久御山町",
-        "知夫村"
+        "墨田区",
+        "知夫村",
+        "久御山町"
       ],
       "answer": "知夫村",
       "distractorStrategy": "sameCategoryPool",
@@ -7147,10 +7007,10 @@
       "id": "city-fact-areaKm2-asc-473260",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "粕屋町",
-        "太子町",
+        "北谷町",
         "春日市",
-        "北谷町"
+        "粕屋町",
+        "太子町"
       ],
       "answer": "北谷町",
       "distractorStrategy": "sameCategoryPool",
@@ -7182,10 +7042,10 @@
       "id": "city-fact-areaKm2-asc-404012",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "大任町",
+        "小竹町",
         "直島町",
         "松茂町",
-        "小竹町"
+        "大任町"
       ],
       "answer": "小竹町",
       "distractorStrategy": "sameCategoryPool",
@@ -7217,10 +7077,10 @@
       "id": "city-fact-areaKm2-asc-293440",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "斑鳩町",
         "大井町",
-        "川北町",
-        "ふじみ野市"
+        "ふじみ野市",
+        "斑鳩町",
+        "川北町"
       ],
       "answer": "斑鳩町",
       "distractorStrategy": "sameCategoryPool",
@@ -7252,10 +7112,10 @@
       "id": "city-fact-areaKm2-asc-131105",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
+        "伊奈町",
         "摂津市",
-        "目黒区",
         "渋谷区",
-        "伊奈町"
+        "目黒区"
       ],
       "answer": "目黒区",
       "distractorStrategy": "sameCategoryPool",
@@ -7288,9 +7148,9 @@
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
         "武蔵村山市",
+        "三芳町",
         "西桂町",
-        "嘉手納町",
-        "三芳町"
+        "嘉手納町"
       ],
       "answer": "嘉手納町",
       "distractorStrategy": "sameCategoryPool",
@@ -7323,9 +7183,9 @@
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
         "中野区",
+        "中城村",
         "西原町",
-        "伊是名村",
-        "中城村"
+        "伊是名村"
       ],
       "answer": "伊是名村",
       "distractorStrategy": "sameCategoryPool",
@@ -7358,9 +7218,9 @@
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
         "坂町",
-        "西東京市",
         "木曽岬町",
-        "宮代町"
+        "宮代町",
+        "西東京市"
       ],
       "answer": "坂町",
       "distractorStrategy": "sameCategoryPool",
@@ -7392,9 +7252,9 @@
       "id": "city-fact-areaKm2-asc-402150",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "広陵町",
         "藍住町",
         "中間市",
+        "広陵町",
         "松伏町"
       ],
       "answer": "中間市",
@@ -7429,8 +7289,8 @@
       "choices": [
         "湯川村",
         "知立市",
-        "三鷹市",
-        "須恵町"
+        "須恵町",
+        "三鷹市"
       ],
       "answer": "須恵町",
       "distractorStrategy": "sameCategoryPool",
@@ -7462,10 +7322,10 @@
       "id": "city-fact-areaKm2-asc-292028",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "松原市",
-        "大和高田市",
         "座間味村",
-        "嘉島町"
+        "嘉島町",
+        "大和高田市",
+        "松原市"
       ],
       "answer": "大和高田市",
       "distractorStrategy": "sameCategoryPool",
@@ -7533,9 +7393,9 @@
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
         "熊取町",
-        "東村山市",
+        "大磯町",
         "葉山町",
-        "大磯町"
+        "東村山市"
       ],
       "answer": "葉山町",
       "distractorStrategy": "sameCategoryPool",
@@ -7567,10 +7427,10 @@
       "id": "city-fact-areaKm2-asc-142085",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "逗子市",
         "昭島市",
+        "浦安市",
         "塩竈市",
-        "浦安市"
+        "逗子市"
       ],
       "answer": "逗子市",
       "distractorStrategy": "sameCategoryPool",
@@ -7602,9 +7462,9 @@
       "id": "city-fact-areaKm2-asc-142166",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "八潮市",
-        "座間市",
         "鶴ヶ島市",
+        "座間市",
+        "八潮市",
         "稲城市"
       ],
       "answer": "座間市",
@@ -7634,48 +7494,13 @@
     },
     {
       "type": "city-fact",
-      "id": "city-fact-areaKm2-asc-233021",
-      "prompt": "次のうち面積が一番少ないのは？",
-      "choices": [
-        "安八町",
-        "東郷町",
-        "井手町",
-        "大泉町"
-      ],
-      "answer": "東郷町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "areaKm2",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "105244",
-          "233021",
-          "263435",
-          "213837"
-        ]
-      },
-      "meta": {
-        "大泉町": "18.03km²",
-        "東郷町": "18.03km²",
-        "井手町": "18.04km²",
-        "安八町": "18.16km²"
-      },
-      "trivia": "面積比較: 大泉町 18.03km² / 東郷町 18.03km² / 井手町 18.04km² / 安八町 18.16km²（全国下位153〜156位相当）"
-    },
-    {
-      "type": "city-fact",
       "id": "city-fact-areaKm2-asc-112241",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "新宿区",
-        "朝霞市",
         "戸田市",
-        "大東市"
+        "大東市",
+        "新宿区",
+        "朝霞市"
       ],
       "answer": "戸田市",
       "distractorStrategy": "sameCategoryPool",
@@ -7707,10 +7532,10 @@
       "id": "city-fact-areaKm2-asc-232343",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
+        "神津島村",
         "大木町",
-        "芦屋市",
         "北名古屋市",
-        "神津島村"
+        "芦屋市"
       ],
       "answer": "北名古屋市",
       "distractorStrategy": "sameCategoryPool",
@@ -7742,9 +7567,9 @@
       "id": "city-fact-areaKm2-asc-272299",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
+        "四條畷市",
         "中島村",
         "新宮町",
-        "四條畷市",
         "神戸町"
       ],
       "answer": "四條畷市",
@@ -7778,9 +7603,9 @@
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
         "豊見城市",
-        "長岡京市",
         "酒々井町",
-        "小布施町"
+        "小布施町",
+        "長岡京市"
       ],
       "answer": "酒々井町",
       "distractorStrategy": "sameCategoryPool",
@@ -7812,10 +7637,10 @@
       "id": "city-fact-areaKm2-asc-473537",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "渡嘉敷村",
+        "明和町",
         "長洲町",
         "浦添市",
-        "明和町"
+        "渡嘉敷村"
       ],
       "answer": "渡嘉敷村",
       "distractorStrategy": "sameCategoryPool",
@@ -7849,8 +7674,8 @@
       "choices": [
         "富士見市",
         "北本市",
-        "宜野湾市",
-        "多賀城市"
+        "多賀城市",
+        "宜野湾市"
       ],
       "answer": "多賀城市",
       "distractorStrategy": "sameCategoryPool",
@@ -7883,9 +7708,9 @@
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
         "中井町",
+        "桂川町",
         "神崎町",
-        "内灘町",
-        "桂川町"
+        "内灘町"
       ],
       "answer": "神崎町",
       "distractorStrategy": "sameCategoryPool",
@@ -7917,10 +7742,10 @@
       "id": "city-fact-areaKm2-asc-131032",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "港区",
+        "吉岡町",
         "小平市",
-        "松前町",
-        "吉岡町"
+        "港区",
+        "松前町"
       ],
       "answer": "港区",
       "distractorStrategy": "sameCategoryPool",
@@ -7952,10 +7777,10 @@
       "id": "city-fact-areaKm2-asc-133825",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "北区",
         "吉田町",
-        "与論町",
-        "御蔵島村"
+        "北区",
+        "御蔵島村",
+        "与論町"
       ],
       "answer": "御蔵島村",
       "distractorStrategy": "sameCategoryPool",
@@ -7987,10 +7812,10 @@
       "id": "city-fact-areaKm2-asc-303615",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "多摩市",
-        "時津町",
         "湯浅町",
-        "習志野市"
+        "時津町",
+        "習志野市",
+        "多摩市"
       ],
       "answer": "湯浅町",
       "distractorStrategy": "sameCategoryPool",
@@ -8022,10 +7847,10 @@
       "id": "city-fact-areaKm2-asc-232262",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "田原本町",
+        "鎌ケ谷市",
         "長久手市",
-        "尾張旭市",
-        "鎌ケ谷市"
+        "田原本町",
+        "尾張旭市"
       ],
       "answer": "尾張旭市",
       "distractorStrategy": "sameCategoryPool",
@@ -8057,10 +7882,10 @@
       "id": "city-fact-areaKm2-asc-132080",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "伊平屋村",
-        "調布市",
         "千代田町",
-        "多良間村"
+        "調布市",
+        "多良間村",
+        "伊平屋村"
       ],
       "answer": "調布市",
       "distractorStrategy": "sameCategoryPool",
@@ -8092,9 +7917,9 @@
       "id": "city-fact-areaKm2-asc-272043",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "綾瀬市",
-        "基山町",
         "池田市",
+        "基山町",
+        "綾瀬市",
         "遠賀町"
       ],
       "answer": "池田市",
@@ -8127,10 +7952,10 @@
       "id": "city-fact-areaKm2-asc-213829",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "田舎館村",
+        "飛島村",
         "東員町",
-        "輪之内町",
-        "飛島村"
+        "田舎館村",
+        "輪之内町"
       ],
       "answer": "輪之内町",
       "distractorStrategy": "sameCategoryPool",
@@ -8162,10 +7987,10 @@
       "id": "city-fact-areaKm2-asc-473154",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "品川区",
-        "伊江村",
         "大刀洗町",
-        "新座市"
+        "新座市",
+        "伊江村",
+        "品川区"
       ],
       "answer": "伊江村",
       "distractorStrategy": "sameCategoryPool",
@@ -8197,10 +8022,10 @@
       "id": "city-fact-areaKm2-asc-124214",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
+        "豊明市",
         "笠置町",
         "一宮町",
-        "五霞町",
-        "豊明市"
+        "五霞町"
       ],
       "answer": "一宮町",
       "distractorStrategy": "sameCategoryPool",
@@ -8233,9 +8058,9 @@
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
         "大洗町",
+        "竜洋町",
         "阿久比町",
-        "平群町",
-        "竜洋町"
+        "平群町"
       ],
       "answer": "竜洋町",
       "distractorStrategy": "sameCategoryPool",
@@ -8267,10 +8092,10 @@
       "id": "city-fact-areaKm2-asc-294021",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "玉東町",
-        "明日香村",
+        "香芝市",
         "立川市",
-        "香芝市"
+        "明日香村",
+        "玉東町"
       ],
       "answer": "明日香村",
       "distractorStrategy": "sameCategoryPool",
@@ -8303,8 +8128,8 @@
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
         "多度津町",
-        "八幡市",
         "江北町",
+        "八幡市",
         "九十九里町"
       ],
       "answer": "八幡市",
@@ -8337,10 +8162,10 @@
       "id": "city-fact-areaKm2-asc-272159",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
+        "利根町",
         "寝屋川市",
-        "御宿町",
         "白岡市",
-        "利根町"
+        "御宿町"
       ],
       "answer": "寝屋川市",
       "distractorStrategy": "sameCategoryPool",
@@ -8372,10 +8197,10 @@
       "id": "city-fact-areaKm2-asc-204501",
       "prompt": "次のうち面積が一番少ないのは？",
       "choices": [
-        "大河原町",
-        "忍野村",
         "津島市",
-        "山形村"
+        "山形村",
+        "大河原町",
+        "忍野村"
       ],
       "answer": "山形村",
       "distractorStrategy": "sameCategoryPool",
@@ -8407,8 +8232,8 @@
       "id": "city-fact-density-desc-042021",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "豊島区",
         "中野区",
+        "豊島区",
         "荒川区",
         "石巻市"
       ],
@@ -8442,10 +8267,10 @@
       "id": "city-fact-density-desc-131059",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "台東区",
         "墨田区",
+        "文京区",
         "目黒区",
-        "文京区"
+        "台東区"
       ],
       "answer": "文京区",
       "distractorStrategy": "sameCategoryPool",
@@ -8477,10 +8302,10 @@
       "id": "city-fact-density-desc-131041",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "板橋区",
-        "杉並区",
         "品川区",
-        "新宿区"
+        "新宿区",
+        "杉並区",
+        "板橋区"
       ],
       "answer": "新宿区",
       "distractorStrategy": "sameCategoryPool",
@@ -8512,10 +8337,10 @@
       "id": "city-fact-density-desc-131172",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "渋谷区",
+        "北区",
         "中央区",
-        "世田谷区",
-        "北区"
+        "渋谷区",
+        "世田谷区"
       ],
       "answer": "北区",
       "distractorStrategy": "sameCategoryPool",
@@ -8548,9 +8373,9 @@
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
         "蕨市",
-        "練馬区",
+        "江戸川区",
         "武蔵野市",
-        "江戸川区"
+        "練馬区"
       ],
       "answer": "練馬区",
       "distractorStrategy": "sameCategoryPool",
@@ -8582,10 +8407,10 @@
       "id": "city-fact-density-desc-132195",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "狛江市",
         "西東京市",
         "葛飾区",
-        "足立区"
+        "足立区",
+        "狛江市"
       ],
       "answer": "狛江市",
       "distractorStrategy": "sameCategoryPool",
@@ -8617,10 +8442,10 @@
       "id": "city-fact-density-desc-131032",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "大田区",
-        "港区",
         "大阪市",
-        "江東区"
+        "江東区",
+        "大田区",
+        "港区"
       ],
       "answer": "港区",
       "distractorStrategy": "sameCategoryPool",
@@ -8652,10 +8477,10 @@
       "id": "city-fact-density-desc-132047",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "国分寺市",
-        "三鷹市",
+        "小金井市",
         "守口市",
-        "小金井市"
+        "国分寺市",
+        "三鷹市"
       ],
       "answer": "三鷹市",
       "distractorStrategy": "sameCategoryPool",
@@ -8687,10 +8512,10 @@
       "id": "city-fact-density-desc-132080",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "調布市",
+        "吹田市",
         "豊中市",
         "川崎市",
-        "吹田市"
+        "調布市"
       ],
       "answer": "調布市",
       "distractorStrategy": "sameCategoryPool",
@@ -8722,9 +8547,9 @@
       "id": "city-fact-density-desc-122271",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
+        "門真市",
         "浦安市",
         "川口市",
-        "門真市",
         "小平市"
       ],
       "answer": "浦安市",
@@ -8754,48 +8579,13 @@
     },
     {
       "type": "city-fact",
-      "id": "city-fact-density-desc-272159",
-      "prompt": "次のうち人口密度が一番多いのは？",
-      "choices": [
-        "国立市",
-        "尼崎市",
-        "寝屋川市",
-        "草加市"
-      ],
-      "answer": "寝屋川市",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "desc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "272159",
-          "132152",
-          "112216",
-          "282022"
-        ]
-      },
-      "meta": {
-        "寝屋川市": "9,219人/km²",
-        "国立市": "9,219人/km²",
-        "草加市": "9,155人/km²",
-        "尼崎市": "9,117人/km²"
-      },
-      "trivia": "人口密度比較: 寝屋川市 9,219人/km² / 国立市 9,219人/km² / 草加市 9,155人/km² / 尼崎市 9,117人/km²（全国上位41〜44位相当）"
-    },
-    {
-      "type": "city-fact",
       "id": "city-fact-density-desc-132225",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "東村山市",
-        "府中市",
         "東久留米市",
-        "大和市"
+        "府中市",
+        "大和市",
+        "東村山市"
       ],
       "answer": "東久留米市",
       "distractorStrategy": "sameCategoryPool",
@@ -8827,10 +8617,10 @@
       "id": "city-fact-density-desc-122033",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
+        "志木市",
         "市川市",
         "横浜市",
-        "習志野市",
-        "志木市"
+        "習志野市"
       ],
       "answer": "市川市",
       "distractorStrategy": "sameCategoryPool",
@@ -8862,9 +8652,9 @@
       "id": "city-fact-density-desc-122076",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
+        "東大阪市",
         "松戸市",
         "伊丹市",
-        "東大阪市",
         "春日市"
       ],
       "answer": "松戸市",
@@ -8897,9 +8687,9 @@
       "id": "city-fact-density-desc-472018",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
+        "那覇市",
         "朝霞市",
         "戸田市",
-        "那覇市",
         "ふじみ野市"
       ],
       "answer": "那覇市",
@@ -8932,9 +8722,9 @@
       "id": "city-fact-density-desc-112291",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "船橋市",
         "和光市",
         "立川市",
+        "船橋市",
         "座間市"
       ],
       "answer": "和光市",
@@ -8967,10 +8757,10 @@
       "id": "city-fact-density-desc-132217",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "新座市",
+        "向日市",
         "名古屋市",
         "清瀬市",
-        "向日市"
+        "新座市"
       ],
       "answer": "清瀬市",
       "distractorStrategy": "sameCategoryPool",
@@ -9002,10 +8792,10 @@
       "id": "city-fact-density-desc-272264",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "藤井寺市",
         "日野市",
-        "多摩市",
-        "松原市"
+        "松原市",
+        "藤井寺市",
+        "多摩市"
       ],
       "answer": "藤井寺市",
       "distractorStrategy": "sameCategoryPool",
@@ -9037,10 +8827,10 @@
       "id": "city-fact-density-desc-112046",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
+        "浦和市",
         "茅ヶ崎市",
-        "昭島市",
         "大東市",
-        "浦和市"
+        "昭島市"
       ],
       "answer": "浦和市",
       "distractorStrategy": "sameCategoryPool",
@@ -9072,10 +8862,10 @@
       "id": "city-fact-density-desc-272124",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "藤沢市",
-        "東大和市",
+        "八尾市",
         "さいたま市",
-        "八尾市"
+        "東大和市",
+        "藤沢市"
       ],
       "answer": "八尾市",
       "distractorStrategy": "sameCategoryPool",
@@ -9107,9 +8897,9 @@
       "id": "city-fact-density-desc-272108",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "枚方市",
-        "明石市",
         "町田市",
+        "明石市",
+        "枚方市",
         "浦添市"
       ],
       "answer": "枚方市",
@@ -9142,10 +8932,10 @@
       "id": "city-fact-density-desc-272248",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "越谷市",
-        "泉大津市",
         "千代田区",
-        "摂津市"
+        "摂津市",
+        "越谷市",
+        "泉大津市"
       ],
       "answer": "摂津市",
       "distractorStrategy": "sameCategoryPool",
@@ -9177,10 +8967,10 @@
       "id": "city-fact-density-desc-122203",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "流山市",
         "福生市",
-        "富士見市",
-        "堺市"
+        "堺市",
+        "流山市",
+        "富士見市"
       ],
       "answer": "流山市",
       "distractorStrategy": "sameCategoryPool",
@@ -9212,10 +9002,10 @@
       "id": "city-fact-density-desc-132276",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "清須市",
-        "志免町",
         "羽村市",
-        "稲城市"
+        "稲城市",
+        "清須市",
+        "志免町"
       ],
       "answer": "羽村市",
       "distractorStrategy": "sameCategoryPool",
@@ -9247,9 +9037,9 @@
       "id": "city-fact-density-desc-122246",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
+        "八潮市",
         "芦屋市",
         "海老名市",
-        "八潮市",
         "鎌ケ谷市"
       ],
       "answer": "鎌ケ谷市",
@@ -9282,10 +9072,10 @@
       "id": "city-fact-density-desc-472051",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "宜野湾市",
-        "上尾市",
         "大治町",
-        "大阪狭山市"
+        "上尾市",
+        "大阪狭山市",
+        "宜野湾市"
       ],
       "answer": "宜野湾市",
       "distractorStrategy": "sameCategoryPool",
@@ -9317,10 +9107,10 @@
       "id": "city-fact-density-desc-272256",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "西宮市",
-        "所沢市",
         "高石市",
-        "府中町"
+        "西宮市",
+        "府中町",
+        "所沢市"
       ],
       "answer": "高石市",
       "distractorStrategy": "sameCategoryPool",
@@ -9352,10 +9142,10 @@
       "id": "city-fact-density-desc-272043",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "三郷市",
         "北名古屋市",
-        "池田市",
-        "福岡市"
+        "三郷市",
+        "福岡市",
+        "池田市"
       ],
       "answer": "池田市",
       "distractorStrategy": "sameCategoryPool",
@@ -9388,8 +9178,8 @@
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
         "武蔵村山市",
-        "岩倉市",
         "知立市",
+        "岩倉市",
         "鎌倉市"
       ],
       "answer": "武蔵村山市",
@@ -9422,10 +9212,10 @@
       "id": "city-fact-density-desc-172120",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "羽曳野市",
         "忠岡町",
+        "長岡京市",
         "野々市市",
-        "長岡京市"
+        "羽曳野市"
       ],
       "answer": "野々市市",
       "distractorStrategy": "sameCategoryPool",
@@ -9457,10 +9247,10 @@
       "id": "city-fact-density-desc-112411",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
+        "横須賀市",
         "八千代市",
         "尾張旭市",
-        "鶴ヶ島市",
-        "横須賀市"
+        "鶴ヶ島市"
       ],
       "answer": "鶴ヶ島市",
       "distractorStrategy": "sameCategoryPool",
@@ -9492,9 +9282,9 @@
       "id": "city-fact-density-desc-473481",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "平塚市",
         "与那原町",
         "綾瀬市",
+        "平塚市",
         "大野城市"
       ],
       "answer": "与那原町",
@@ -9562,10 +9352,10 @@
       "id": "city-fact-density-desc-283827",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "大和高田市",
-        "播磨町",
         "寒川町",
-        "清水町"
+        "清水町",
+        "播磨町",
+        "大和高田市"
       ],
       "answer": "播磨町",
       "distractorStrategy": "sameCategoryPool",
@@ -9597,10 +9387,10 @@
       "id": "city-fact-density-desc-121002",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "上牧町",
         "千葉市",
         "北方町",
-        "春日部市"
+        "春日部市",
+        "上牧町"
       ],
       "answer": "千葉市",
       "distractorStrategy": "sameCategoryPool",
@@ -9633,9 +9423,9 @@
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
         "一宮市",
+        "豊見城市",
         "粕屋町",
-        "王寺町",
-        "豊見城市"
+        "王寺町"
       ],
       "answer": "粕屋町",
       "distractorStrategy": "sameCategoryPool",
@@ -9669,8 +9459,8 @@
       "choices": [
         "高槻市",
         "春日井市",
-        "逗子市",
-        "蟹江町"
+        "蟹江町",
+        "逗子市"
       ],
       "answer": "蟹江町",
       "distractorStrategy": "sameCategoryPool",
@@ -9702,10 +9492,10 @@
       "id": "city-fact-density-desc-112330",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "川越市",
-        "北本市",
         "入間市",
-        "岐南町"
+        "北本市",
+        "岐南町",
+        "川越市"
       ],
       "answer": "北本市",
       "distractorStrategy": "sameCategoryPool",
@@ -9737,10 +9527,10 @@
       "id": "city-fact-density-desc-232173",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "多賀城市",
         "あま市",
-        "香芝市",
-        "江南市"
+        "多賀城市",
+        "江南市",
+        "香芝市"
       ],
       "answer": "江南市",
       "distractorStrategy": "sameCategoryPool",
@@ -9772,9 +9562,9 @@
       "id": "city-fact-density-desc-132012",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "扶桑町",
-        "八王子市",
         "橿原市",
+        "八王子市",
+        "扶桑町",
         "伊奈町"
       ],
       "answer": "八王子市",
@@ -9808,9 +9598,9 @@
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
         "我孫子市",
-        "狭山市",
+        "刈谷市",
         "二宮町",
-        "刈谷市"
+        "狭山市"
       ],
       "answer": "刈谷市",
       "distractorStrategy": "sameCategoryPool",
@@ -9842,9 +9632,9 @@
       "id": "city-fact-density-desc-042030",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "豊明市",
-        "塩竈市",
         "四條畷市",
+        "塩竈市",
+        "豊明市",
         "交野市"
       ],
       "answer": "塩竈市",
@@ -9877,10 +9667,10 @@
       "id": "city-fact-density-desc-112313",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
+        "八幡市",
         "長久手市",
-        "桶川市",
         "沖縄市",
-        "八幡市"
+        "桶川市"
       ],
       "answer": "桶川市",
       "distractorStrategy": "sameCategoryPool",
@@ -9912,10 +9702,10 @@
       "id": "city-fact-density-desc-282171",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
+        "大府市",
         "川西市",
-        "開成町",
         "神戸市",
-        "大府市"
+        "開成町"
       ],
       "answer": "川西市",
       "distractorStrategy": "sameCategoryPool",
@@ -9947,10 +9737,10 @@
       "id": "city-fact-density-desc-272141",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
+        "柏原市",
         "大山崎町",
-        "富田林市",
         "四街道市",
-        "柏原市"
+        "富田林市"
       ],
       "answer": "富田林市",
       "distractorStrategy": "sameCategoryPool",
@@ -9979,47 +9769,12 @@
     },
     {
       "type": "city-fact",
-      "id": "city-fact-density-desc-262048",
-      "prompt": "次のうち人口密度が一番多いのは？",
-      "choices": [
-        "東海市",
-        "宇治市",
-        "三郷町",
-        "日進市"
-      ],
-      "answer": "宇治市",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "desc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "262048",
-          "232301",
-          "293431",
-          "232220"
-        ]
-      },
-      "meta": {
-        "宇治市": "2,659人/km²",
-        "日進市": "2,659人/km²",
-        "三郷町": "2,647人/km²",
-        "東海市": "2,609人/km²"
-      },
-      "trivia": "人口密度比較: 宇治市 2,659人/km² / 日進市 2,659人/km² / 三郷町 2,647人/km² / 東海市 2,609人/km²（全国上位181〜184位相当）"
-    },
-    {
-      "type": "city-fact",
       "id": "city-fact-density-desc-272027",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
         "豊山町",
-        "北島町",
         "岸和田市",
+        "北島町",
         "高砂市"
       ],
       "answer": "岸和田市",
@@ -10049,48 +9804,13 @@
     },
     {
       "type": "city-fact",
-      "id": "city-fact-density-desc-273619",
-      "prompt": "次のうち人口密度が一番多いのは？",
-      "choices": [
-        "箕面市",
-        "三芳町",
-        "水巻町",
-        "熊取町"
-      ],
-      "answer": "熊取町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "desc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "273619",
-          "403822",
-          "113247",
-          "272205"
-        ]
-      },
-      "meta": {
-        "熊取町": "2,527人/km²",
-        "水巻町": "2,527人/km²",
-        "三芳町": "2,502人/km²",
-        "箕面市": "2,489人/km²"
-      },
-      "trivia": "人口密度比較: 熊取町 2,527人/km² / 水巻町 2,527人/km² / 三芳町 2,502人/km² / 箕面市 2,489人/km²（全国上位189〜192位相当）"
-    },
-    {
-      "type": "city-fact",
       "id": "city-fact-density-desc-402150",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "坂戸市",
-        "中間市",
         "太宰府市",
-        "半田市"
+        "坂戸市",
+        "半田市",
+        "中間市"
       ],
       "answer": "中間市",
       "distractorStrategy": "sameCategoryPool",
@@ -10122,10 +9842,10 @@
       "id": "city-fact-density-desc-233021",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "小牧市",
+        "津島市",
         "東郷町",
-        "厚木市",
-        "津島市"
+        "小牧市",
+        "厚木市"
       ],
       "answer": "東郷町",
       "distractorStrategy": "sameCategoryPool",
@@ -10157,10 +9877,10 @@
       "id": "city-fact-density-desc-373869",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
+        "大泉町",
         "宇多津町",
-        "昭和町",
         "吉川市",
-        "大泉町"
+        "昭和町"
       ],
       "answer": "宇多津町",
       "distractorStrategy": "sameCategoryPool",
@@ -10192,10 +9912,10 @@
       "id": "city-fact-density-desc-262072",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "宝塚市",
-        "蓮田市",
         "城陽市",
-        "西原町"
+        "蓮田市",
+        "西原町",
+        "宝塚市"
       ],
       "answer": "城陽市",
       "distractorStrategy": "sameCategoryPool",
@@ -10228,9 +9948,9 @@
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
         "生駒市",
+        "相模原市",
         "安城市",
-        "笠松町",
-        "相模原市"
+        "笠松町"
       ],
       "answer": "相模原市",
       "distractorStrategy": "sameCategoryPool",
@@ -10262,10 +9982,10 @@
       "id": "city-fact-density-desc-272191",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "海田町",
-        "藍住町",
+        "宮代町",
         "和泉市",
-        "宮代町"
+        "海田町",
+        "藍住町"
       ],
       "answer": "和泉市",
       "distractorStrategy": "sameCategoryPool",
@@ -10297,10 +10017,10 @@
       "id": "city-fact-density-desc-252069",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "草津市",
+        "河合町",
         "白岡市",
-        "広陵町",
-        "河合町"
+        "草津市",
+        "広陵町"
       ],
       "answer": "草津市",
       "distractorStrategy": "sameCategoryPool",
@@ -10332,10 +10052,10 @@
       "id": "city-fact-density-desc-473260",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "北谷町",
+        "大和郡山市",
         "瑞穂市",
         "碧南市",
-        "大和郡山市"
+        "北谷町"
       ],
       "answer": "北谷町",
       "distractorStrategy": "sameCategoryPool",
@@ -10367,10 +10087,10 @@
       "id": "city-fact-density-desc-212016",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "みよし市",
+        "松前町",
         "岐阜市",
         "守谷市",
-        "松前町"
+        "みよし市"
       ],
       "answer": "岐阜市",
       "distractorStrategy": "sameCategoryPool",
@@ -10403,9 +10123,9 @@
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
         "瑞穂町",
+        "貝塚市",
         "斑鳩町",
-        "北九州市",
-        "貝塚市"
+        "北九州市"
       ],
       "answer": "貝塚市",
       "distractorStrategy": "sameCategoryPool",
@@ -10438,9 +10158,9 @@
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
         "熊本市",
-        "加古川市",
+        "島本町",
         "葉山町",
-        "島本町"
+        "加古川市"
       ],
       "answer": "熊本市",
       "distractorStrategy": "sameCategoryPool",
@@ -10472,10 +10192,10 @@
       "id": "city-fact-density-desc-243434",
       "prompt": "次のうち人口密度が一番多いのは？",
       "choices": [
-        "知多市",
-        "伊勢原市",
         "久喜市",
-        "朝日町"
+        "伊勢原市",
+        "朝日町",
+        "知多市"
       ],
       "answer": "朝日町",
       "distractorStrategy": "sameCategoryPool",
@@ -10504,83 +10224,13 @@
     },
     {
       "type": "city-fact",
-      "id": "city-fact-density-asc-075469",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "富岡町",
-        "蘂取村",
-        "楢葉町",
-        "双葉町"
-      ],
-      "answer": "双葉町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "017001",
-          "075426",
-          "075434",
-          "075469"
-        ]
-      },
-      "meta": {
-        "蘂取村": "0.00人/km²",
-        "楢葉町": "0.00人/km²",
-        "富岡町": "0.00人/km²",
-        "双葉町": "0.00人/km²"
-      },
-      "trivia": "人口密度比較: 蘂取村 0.00人/km² / 楢葉町 0.00人/km² / 富岡町 0.00人/km² / 双葉町 0.00人/km²（全国下位1〜4位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-075647",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "葛尾村",
-        "飯舘村",
-        "檜枝岐村",
-        "浪江町"
-      ],
-      "answer": "飯舘村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "075477",
-          "075485",
-          "075647",
-          "073644"
-        ]
-      },
-      "meta": {
-        "浪江町": "0.00人/km²",
-        "葛尾村": "0.00人/km²",
-        "飯舘村": "0.00人/km²",
-        "檜枝岐村": "1人/km²"
-      },
-      "trivia": "人口密度比較: 浪江町 0.00人/km² / 葛尾村 0.00人/km² / 飯舘村 0.00人/km² / 檜枝岐村 1人/km²（全国下位5〜8位相当）"
-    },
-    {
-      "type": "city-fact",
       "id": "city-fact-density-asc-016993",
       "prompt": "次のうち人口密度が一番少ないのは？",
       "choices": [
         "幌加内町",
-        "紗那村",
         "上北山村",
-        "留別村"
+        "留別村",
+        "紗那村"
       ],
       "answer": "紗那村",
       "distractorStrategy": "sameCategoryPool",
@@ -10609,47 +10259,12 @@
     },
     {
       "type": "city-fact",
-      "id": "city-fact-density-asc-294471",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "占冠村",
-        "王滝村",
-        "中川町",
-        "野迫川村"
-      ],
-      "answer": "野迫川村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "294471",
-          "014630",
-          "204293",
-          "014711"
-        ]
-      },
-      "meta": {
-        "野迫川村": "2人/km²",
-        "占冠村": "2人/km²",
-        "王滝村": "2人/km²",
-        "中川町": "2人/km²"
-      },
-      "trivia": "人口密度比較: 野迫川村 2人/km² / 占冠村 2人/km² / 王滝村 2人/km² / 中川町 2人/km²（全国下位13〜16位相当）"
-    },
-    {
-      "type": "city-fact",
       "id": "city-fact-density-asc-075451",
       "prompt": "次のうち人口密度が一番少ないのは？",
       "choices": [
-        "大熊町",
         "音威子府村",
         "早川町",
+        "大熊町",
         "島牧村"
       ],
       "answer": "大熊町",
@@ -10679,293 +10294,13 @@
     },
     {
       "type": "city-fact",
-      "id": "city-fact-density-asc-015601",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "西興部村",
-        "上川町",
-        "滝上町",
-        "五木村"
-      ],
-      "answer": "滝上町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "015601",
-          "014575",
-          "015628",
-          "435112"
-        ]
-      },
-      "meta": {
-        "滝上町": "3人/km²",
-        "上川町": "3人/km²",
-        "西興部村": "3人/km²",
-        "五木村": "4人/km²"
-      },
-      "trivia": "人口密度比較: 滝上町 3人/km² / 上川町 3人/km² / 西興部村 3人/km² / 五木村 4人/km²（全国下位21〜24位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-016977",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "大川村",
-        "西米良村",
-        "留夜別村",
-        "南富良野町"
-      ],
-      "answer": "留夜別村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "016977",
-          "014621",
-          "454036",
-          "393649"
-        ]
-      },
-      "meta": {
-        "留夜別村": "4人/km²",
-        "南富良野町": "4人/km²",
-        "西米良村": "4人/km²",
-        "大川村": "4人/km²"
-      },
-      "trivia": "人口密度比較: 留夜別村 4人/km² / 南富良野町 4人/km² / 西米良村 4人/km² / 大川村 4人/km²（全国下位25〜28位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-204170",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "川上村",
-        "幌延町",
-        "陸別町",
-        "大鹿村"
-      ],
-      "answer": "大鹿村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "204170",
-          "016489",
-          "015202",
-          "294527"
-        ]
-      },
-      "meta": {
-        "大鹿村": "4人/km²",
-        "陸別町": "4人/km²",
-        "幌延町": "4人/km²",
-        "川上村": "4人/km²"
-      },
-      "trivia": "人口密度比較: 大鹿村 4人/km² / 陸別町 4人/km² / 幌延町 4人/km² / 川上村 4人/km²（全国下位29〜32位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-014851",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "初山別村",
-        "赤井川村",
-        "中頓別町",
-        "白川村"
-      ],
-      "answer": "初山別村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "014851",
-          "015130",
-          "216046",
-          "014095"
-        ]
-      },
-      "meta": {
-        "初山別村": "4人/km²",
-        "中頓別町": "4人/km²",
-        "白川村": "4人/km²",
-        "赤井川村": "4人/km²"
-      },
-      "trivia": "人口密度比較: 初山別村 4人/km² / 中頓別町 4人/km² / 白川村 4人/km² / 赤井川村 4人/km²（全国下位33〜36位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-393061",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "遠別町",
-        "十津川村",
-        "馬路村",
-        "鶴居村"
-      ],
-      "answer": "馬路村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "393061",
-          "014869",
-          "016675",
-          "294497"
-        ]
-      },
-      "meta": {
-        "馬路村": "4人/km²",
-        "遠別町": "4人/km²",
-        "鶴居村": "4人/km²",
-        "十津川村": "5人/km²"
-      },
-      "trivia": "人口密度比較: 馬路村 4人/km² / 遠別町 4人/km² / 鶴居村 4人/km² / 十津川村 5人/km²（全国下位37〜40位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-015113",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "猿払村",
-        "足寄町",
-        "椎葉村",
-        "七ヶ宿町"
-      ],
-      "answer": "猿払村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "015113",
-          "454303",
-          "043028",
-          "016471"
-        ]
-      },
-      "meta": {
-        "猿払村": "5人/km²",
-        "椎葉村": "5人/km²",
-        "七ヶ宿町": "5人/km²",
-        "足寄町": "5人/km²"
-      },
-      "trivia": "人口密度比較: 猿払村 5人/km² / 椎葉村 5人/km² / 七ヶ宿町 5人/km² / 足寄町 5人/km²（全国下位41〜44位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-014826",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "小平町",
-        "下川町",
-        "平谷村",
-        "丹波山村"
-      ],
-      "answer": "小平町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "014826",
-          "014681",
-          "194433",
-          "204099"
-        ]
-      },
-      "meta": {
-        "小平町": "5人/km²",
-        "下川町": "5人/km²",
-        "丹波山村": "5人/km²",
-        "平谷村": "5人/km²"
-      },
-      "trivia": "人口密度比較: 小平町 5人/km² / 下川町 5人/km² / 丹波山村 5人/km² / 平谷村 5人/km²（全国下位45〜48位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-015504",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "西目屋村",
-        "新得町",
-        "置戸町",
-        "只見町"
-      ],
-      "answer": "置戸町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "015504",
-          "023434",
-          "073679",
-          "016357"
-        ]
-      },
-      "meta": {
-        "置戸町": "5人/km²",
-        "西目屋村": "5人/km²",
-        "只見町": "5人/km²",
-        "新得町": "5人/km²"
-      },
-      "trivia": "人口密度比較: 置戸町 5人/km² / 西目屋村 5人/km² / 只見町 5人/km² / 新得町 5人/km²（全国下位49〜52位相当）"
-    },
-    {
-      "type": "city-fact",
       "id": "city-fact-density-asc-294501",
       "prompt": "次のうち人口密度が一番少ないのは？",
       "choices": [
-        "昭和村",
         "下北山村",
+        "神恵内村",
         "豊頃町",
-        "神恵内村"
+        "昭和村"
       ],
       "answer": "下北山村",
       "distractorStrategy": "sameCategoryPool",
@@ -10994,256 +10329,11 @@
     },
     {
       "type": "city-fact",
-      "id": "city-fact-density-asc-393053",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "上野村",
-        "色丹村",
-        "北川村",
-        "栄村"
-      ],
-      "answer": "北川村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "393053",
-          "103667",
-          "206024",
-          "016951"
-        ]
-      },
-      "meta": {
-        "北川村": "6人/km²",
-        "上野村": "6人/km²",
-        "栄村": "6人/km²",
-        "色丹村": "6人/km²"
-      },
-      "trivia": "人口密度比較: 北川村 6人/km² / 上野村 6人/km² / 栄村 6人/km² / 色丹村 6人/km²（全国下位57〜60位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-014699",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "浦幌町",
-        "豊根村",
-        "美深町",
-        "津別町"
-      ],
-      "answer": "美深町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "014699",
-          "016497",
-          "015440",
-          "235636"
-        ]
-      },
-      "meta": {
-        "美深町": "6人/km²",
-        "浦幌町": "6人/km²",
-        "津別町": "6人/km²",
-        "豊根村": "6人/km²"
-      },
-      "trivia": "人口密度比較: 美深町 6人/km² / 浦幌町 6人/km² / 津別町 6人/km² / 豊根村 6人/km²（全国下位61〜64位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-074454",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "天川村",
-        "苫前町",
-        "金山町",
-        "平取町"
-      ],
-      "answer": "金山町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "074454",
-          "016021",
-          "294462",
-          "014834"
-        ]
-      },
-      "meta": {
-        "金山町": "6人/km²",
-        "平取町": "6人/km²",
-        "天川村": "7人/km²",
-        "苫前町": "7人/km²"
-      },
-      "trivia": "人口密度比較: 金山町 6人/km² / 平取町 6人/km² / 天川村 7人/km² / 苫前町 7人/km²（全国下位65〜68位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-016411",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "雄武町",
-        "標茶町",
-        "枝幸町",
-        "大樹町"
-      ],
-      "answer": "大樹町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "016411",
-          "016641",
-          "015636",
-          "015148"
-        ]
-      },
-      "meta": {
-        "大樹町": "7人/km²",
-        "標茶町": "7人/km²",
-        "雄武町": "7人/km²",
-        "枝幸町": "7人/km²"
-      },
-      "trivia": "人口密度比較: 大樹町 7人/km² / 標茶町 7人/km² / 雄武町 7人/km² / 枝幸町 7人/km²（全国下位69〜72位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-016331",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "諸塚村",
-        "豊富町",
-        "上士幌町",
-        "十島村"
-      ],
-      "answer": "上士幌町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "016331",
-          "015164",
-          "463043",
-          "454290"
-        ]
-      },
-      "meta": {
-        "上士幌町": "7人/km²",
-        "豊富町": "7人/km²",
-        "十島村": "8人/km²",
-        "諸塚村": "8人/km²"
-      },
-      "trivia": "人口密度比較: 上士幌町 7人/km² / 豊富町 7人/km² / 十島村 8人/km² / 諸塚村 8人/km²（全国下位73〜76位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-053279",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "厚沢部町",
-        "黒松内町",
-        "積丹町",
-        "上小阿仁村"
-      ],
-      "answer": "上小阿仁村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "053279",
-          "013935",
-          "013633",
-          "014052"
-        ]
-      },
-      "meta": {
-        "上小阿仁村": "8人/km²",
-        "黒松内町": "8人/km²",
-        "厚沢部町": "8人/km²",
-        "積丹町": "8人/km²"
-      },
-      "trivia": "人口密度比較: 上小阿仁村 8人/km² / 黒松内町 8人/km² / 厚沢部町 8人/km² / 積丹町 8人/km²（全国下位77〜80位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-016934",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "古座川町",
-        "標津町",
-        "天塩町",
-        "上ノ国町"
-      ],
-      "answer": "標津町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "016934",
-          "304247",
-          "014877",
-          "013625"
-        ]
-      },
-      "meta": {
-        "標津町": "8人/km²",
-        "古座川町": "8人/km²",
-        "天塩町": "8人/km²",
-        "上ノ国町": "8人/km²"
-      },
-      "trivia": "人口密度比較: 標津町 8人/km² / 古座川町 8人/km² / 天塩町 8人/km² / 上ノ国町 8人/km²（全国下位81〜84位相当）"
-    },
-    {
-      "type": "city-fact",
       "id": "city-fact-density-asc-304271",
       "prompt": "次のうち人口密度が一番少ないのは？",
       "choices": [
-        "岩泉町",
         "北山村",
+        "岩泉町",
         "西和賀町",
         "浜頓別町"
       ],
@@ -11274,188 +10364,13 @@
     },
     {
       "type": "city-fact",
-      "id": "city-fact-density-asc-013706",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "新冠町",
-        "弟子屈町",
-        "川内村",
-        "今金町"
-      ],
-      "answer": "今金町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "013706",
-          "016659",
-          "075442",
-          "016047"
-        ]
-      },
-      "meta": {
-        "今金町": "9人/km²",
-        "弟子屈町": "9人/km²",
-        "川内村": "9人/km²",
-        "新冠町": "9人/km²"
-      },
-      "trivia": "人口密度比較: 今金町 9人/km² / 弟子屈町 9人/km² / 川内村 9人/km² / 新冠町 9人/km²（全国下位89〜92位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-204102",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "根羽村",
-        "夕張市",
-        "小国町",
-        "小谷村"
-      ],
-      "answer": "根羽村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "204102",
-          "064017",
-          "204862",
-          "012092"
-        ]
-      },
-      "meta": {
-        "根羽村": "9人/km²",
-        "小国町": "9人/km²",
-        "小谷村": "10人/km²",
-        "夕張市": "10人/km²"
-      },
-      "trivia": "人口密度比較: 根羽村 9人/km² / 小国町 9人/km² / 小谷村 10人/km² / 夕張市 10人/km²（全国下位93〜96位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-016683",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "白糠町",
-        "大豊町",
-        "清里町",
-        "片品村"
-      ],
-      "answer": "白糠町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "016683",
-          "015466",
-          "393444",
-          "104434"
-        ]
-      },
-      "meta": {
-        "白糠町": "10人/km²",
-        "清里町": "10人/km²",
-        "大豊町": "10人/km²",
-        "片品村": "10人/km²"
-      },
-      "trivia": "人口密度比較: 白糠町 10人/km² / 清里町 10人/km² / 大豊町 10人/km² / 片品村 10人/km²（全国下位97〜100位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-053465",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "蘭越町",
-        "美郷町",
-        "藤里町",
-        "天龍村"
-      ],
-      "answer": "藤里町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "053465",
-          "204137",
-          "013943",
-          "454311"
-        ]
-      },
-      "meta": {
-        "藤里町": "10人/km²",
-        "天龍村": "10人/km²",
-        "蘭越町": "10人/km²",
-        "美郷町": "10人/km²"
-      },
-      "trivia": "人口密度比較: 藤里町 10人/km² / 天龍村 10人/km² / 蘭越町 10人/km² / 美郷町 10人/km²（全国下位101〜104位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-153851",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "興部町",
-        "泊村",
-        "阿賀町",
-        "那賀町"
-      ],
-      "answer": "阿賀町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "153851",
-          "015610",
-          "363685",
-          "016969"
-        ]
-      },
-      "meta": {
-        "阿賀町": "10人/km²",
-        "興部町": "10人/km²",
-        "那賀町": "10人/km²",
-        "泊村": "10人/km²"
-      },
-      "trivia": "人口密度比較: 阿賀町 10人/km² / 興部町 10人/km² / 那賀町 10人/km² / 泊村 10人/km²（全国下位105〜108位相当）"
-    },
-    {
-      "type": "city-fact",
       "id": "city-fact-density-asc-014389",
       "prompt": "次のうち人口密度が一番少ないのは？",
       "choices": [
-        "愛別町",
+        "水上村",
         "沼田町",
-        "北塩原村",
-        "水上村"
+        "愛別町",
+        "北塩原村"
       ],
       "answer": "沼田町",
       "distractorStrategy": "sameCategoryPool",
@@ -11484,433 +10399,13 @@
     },
     {
       "type": "city-fact",
-      "id": "city-fact-density-asc-294535",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "東吉野村",
-        "広尾町",
-        "むかわ町",
-        "厚真町"
-      ],
-      "answer": "東吉野村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "294535",
-          "015865",
-          "015814",
-          "016420"
-        ]
-      },
-      "meta": {
-        "東吉野村": "11人/km²",
-        "むかわ町": "11人/km²",
-        "厚真町": "11人/km²",
-        "広尾町": "11人/km²"
-      },
-      "trivia": "人口密度比較: 東吉野村 11人/km² / むかわ町 11人/km² / 厚真町 11人/km² / 広尾町 11人/km²（全国下位113〜116位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-014371",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "喜茂別町",
-        "別海町",
-        "北竜町",
-        "増毛町"
-      ],
-      "answer": "北竜町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "014371",
-          "014818",
-          "016918",
-          "013986"
-        ]
-      },
-      "meta": {
-        "北竜町": "11人/km²",
-        "増毛町": "11人/km²",
-        "別海町": "11人/km²",
-        "喜茂別町": "11人/km²"
-      },
-      "trivia": "人口密度比較: 北竜町 11人/km² / 増毛町 11人/km² / 別海町 11人/km² / 喜茂別町 11人/km²（全国下位117〜120位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-204129",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "池田町",
-        "売木村",
-        "黒滝村",
-        "様似町"
-      ],
-      "answer": "売木村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "204129",
-          "016080",
-          "294446",
-          "183822"
-        ]
-      },
-      "meta": {
-        "売木村": "11人/km²",
-        "様似町": "11人/km²",
-        "黒滝村": "12人/km²",
-        "池田町": "12人/km²"
-      },
-      "trivia": "人口密度比較: 売木村 11人/km² / 様似町 11人/km² / 黒滝村 12人/km² / 池田町 12人/km²（全国下位121〜124位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-016012",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "日高町",
-        "せたな町",
-        "雨竜町",
-        "日南町"
-      ],
-      "answer": "日高町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "016012",
-          "014362",
-          "314013",
-          "013714"
-        ]
-      },
-      "meta": {
-        "日高町": "12人/km²",
-        "雨竜町": "12人/km²",
-        "日南町": "12人/km²",
-        "せたな町": "12人/km²"
-      },
-      "trivia": "人口密度比較: 日高町 12人/km² / 雨竜町 12人/km² / 日南町 12人/km² / せたな町 12人/km²（全国下位125〜128位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-015750",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "羅臼町",
-        "壮瞥町",
-        "新庄村",
-        "東成瀬村"
-      ],
-      "answer": "壮瞥町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "015750",
-          "016942",
-          "335860",
-          "054640"
-        ]
-      },
-      "meta": {
-        "壮瞥町": "12人/km²",
-        "羅臼町": "12人/km²",
-        "新庄村": "12人/km²",
-        "東成瀬村": "12人/km²"
-      },
-      "trivia": "人口密度比較: 壮瞥町 12人/km² / 羅臼町 12人/km² / 新庄村 12人/km² / 東成瀬村 12人/km²（全国下位129〜132位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-473812",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "竹富町",
-        "佐呂間町",
-        "厚岸町",
-        "西川町"
-      ],
-      "answer": "竹富町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "473812",
-          "015521",
-          "063223",
-          "016624"
-        ]
-      },
-      "meta": {
-        "竹富町": "12人/km²",
-        "佐呂間町": "12人/km²",
-        "西川町": "12人/km²",
-        "厚岸町": "12人/km²"
-      },
-      "trivia": "人口密度比較: 竹富町 12人/km² / 佐呂間町 12人/km² / 西川町 12人/km² / 厚岸町 12人/km²（全国下位133〜136位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-363022",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "北相木村",
-        "上勝町",
-        "久万高原町",
-        "川根本町"
-      ],
-      "answer": "上勝町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "363022",
-          "224294",
-          "203076",
-          "383864"
-        ]
-      },
-      "meta": {
-        "上勝町": "12人/km²",
-        "川根本町": "12人/km²",
-        "北相木村": "12人/km²",
-        "久万高原町": "13人/km²"
-      },
-      "trivia": "人口密度比較: 上勝町 12人/km² / 川根本町 12人/km² / 北相木村 12人/km² / 久万高原町 13人/km²（全国下位137〜140位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-033022",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "日之影町",
-        "京極町",
-        "葛巻町",
-        "小菅村"
-      ],
-      "answer": "葛巻町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "033022",
-          "013994",
-          "454427",
-          "194425"
-        ]
-      },
-      "meta": {
-        "葛巻町": "13人/km²",
-        "京極町": "13人/km²",
-        "日之影町": "13人/km²",
-        "小菅村": "13人/km²"
-      },
-      "trivia": "人口密度比較: 葛巻町 13人/km² / 京極町 13人/km² / 日之影町 13人/km² / 小菅村 13人/km²（全国下位141〜144位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-463035",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "新十津川町",
-        "南牧村",
-        "三島村",
-        "鹿追町"
-      ],
-      "answer": "三島村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "463035",
-          "016349",
-          "103837",
-          "014320"
-        ]
-      },
-      "meta": {
-        "三島村": "13人/km²",
-        "鹿追町": "13人/km²",
-        "南牧村": "13人/km²",
-        "新十津川町": "13人/km²"
-      },
-      "trivia": "人口密度比較: 三島村 13人/km² / 鹿追町 13人/km² / 南牧村 13人/km² / 新十津川町 13人/km²（全国下位145〜148位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-024261",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "浜中町",
-        "中札内村",
-        "佐井村",
-        "神流町"
-      ],
-      "answer": "佐井村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "024261",
-          "016632",
-          "016381",
-          "103675"
-        ]
-      },
-      "meta": {
-        "佐井村": "13人/km²",
-        "浜中町": "13人/km²",
-        "中札内村": "13人/km²",
-        "神流町": "14人/km²"
-      },
-      "trivia": "人口密度比較: 佐井村 13人/km² / 浜中町 13人/km² / 中札内村 13人/km² / 神流町 14人/km²（全国下位149〜152位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-393878",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "檮原町",
-        "大蔵村",
-        "仁淀川町",
-        "南相木村"
-      ],
-      "answer": "仁淀川町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "393878",
-          "203068",
-          "063657",
-          "394050"
-        ]
-      },
-      "meta": {
-        "仁淀川町": "14人/km²",
-        "南相木村": "14人/km²",
-        "大蔵村": "14人/km²",
-        "檮原町": "14人/km²"
-      },
-      "trivia": "人口密度比較: 仁淀川町 14人/km² / 南相木村 14人/km² / 大蔵村 14人/km² / 檮原町 14人/km²（全国下位153〜156位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-014842",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "若桜町",
-        "羽幌町",
-        "和寒町",
-        "美瑛町"
-      ],
-      "answer": "羽幌町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "014842",
-          "313254",
-          "014648",
-          "014591"
-        ]
-      },
-      "meta": {
-        "羽幌町": "14人/km²",
-        "若桜町": "14人/km²",
-        "和寒町": "14人/km²",
-        "美瑛町": "14人/km²"
-      },
-      "trivia": "人口密度比較: 羽幌町 14人/km² / 若桜町 14人/km² / 和寒町 14人/km² / 美瑛町 14人/km²（全国下位157〜160位相当）"
-    },
-    {
-      "type": "city-fact",
       "id": "city-fact-density-asc-024503",
       "prompt": "次のうち人口密度が一番少ないのは？",
       "choices": [
-        "新郷村",
-        "遠軽町",
+        "球磨村",
         "大桑村",
-        "球磨村"
+        "遠軽町",
+        "新郷村"
       ],
       "answer": "新郷村",
       "distractorStrategy": "sameCategoryPool",
@@ -11939,678 +10434,13 @@
     },
     {
       "type": "city-fact",
-      "id": "city-fact-density-asc-023230",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "住田町",
-        "芦別市",
-        "美郷町",
-        "深浦町"
-      ],
-      "answer": "深浦町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "023230",
-          "012165",
-          "034410",
-          "324485"
-        ]
-      },
-      "meta": {
-        "深浦町": "15人/km²",
-        "芦別市": "15人/km²",
-        "住田町": "15人/km²",
-        "美郷町": "15人/km²"
-      },
-      "trivia": "人口密度比較: 深浦町 15人/km² / 芦別市 15人/km² / 住田町 15人/km² / 美郷町 15人/km²（全国下位165〜168位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-015458",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "大和村",
-        "古平町",
-        "三島町",
-        "斜里町"
-      ],
-      "answer": "斜里町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "015458",
-          "465232",
-          "014061",
-          "074446"
-        ]
-      },
-      "meta": {
-        "斜里町": "15人/km²",
-        "大和村": "15人/km²",
-        "古平町": "15人/km²",
-        "三島町": "15人/km²"
-      },
-      "trivia": "人口密度比較: 斜里町 15人/km² / 大和村 15人/km² / 古平町 15人/km² / 三島町 15人/km²（全国下位169〜172位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-063673",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "下郷町",
-        "えりも町",
-        "御蔵島村",
-        "戸沢村"
-      ],
-      "answer": "戸沢村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "063673",
-          "133825",
-          "016098",
-          "073628"
-        ]
-      },
-      "meta": {
-        "戸沢村": "16人/km²",
-        "御蔵島村": "16人/km²",
-        "えりも町": "16人/km²",
-        "下郷町": "16人/km²"
-      },
-      "trivia": "人口密度比較: 戸沢村 16人/km² / 御蔵島村 16人/km² / えりも町 16人/km² / 下郷町 16人/km²（全国下位173〜176位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-465241",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "設楽町",
-        "南会津町",
-        "宇検村",
-        "留寿都村"
-      ],
-      "answer": "宇検村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "465241",
-          "013978",
-          "073687",
-          "235610"
-        ]
-      },
-      "meta": {
-        "宇検村": "16人/km²",
-        "留寿都村": "16人/km²",
-        "南会津町": "16人/km²",
-        "設楽町": "16人/km²"
-      },
-      "trivia": "人口密度比較: 宇検村 16人/km² / 留寿都村 16人/km² / 南会津町 16人/km² / 設楽町 16人/km²（全国下位177〜180位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-015717",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "豊浦町",
-        "三原村",
-        "士別市",
-        "小清水町"
-      ],
-      "answer": "豊浦町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "015717",
-          "012203",
-          "394271",
-          "015474"
-        ]
-      },
-      "meta": {
-        "豊浦町": "16人/km²",
-        "士別市": "16人/km²",
-        "三原村": "16人/km²",
-        "小清水町": "16人/km²"
-      },
-      "trivia": "人口密度比較: 豊浦町 16人/km² / 士別市 16人/km² / 三原村 16人/km² / 小清水町 16人/km²（全国下位181〜184位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-013463",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "安芸太田町",
-        "長万部町",
-        "湧別町",
-        "八雲町"
-      ],
-      "answer": "八雲町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "013463",
-          "013471",
-          "343684",
-          "015598"
-        ]
-      },
-      "meta": {
-        "八雲町": "16人/km²",
-        "長万部町": "16人/km²",
-        "安芸太田町": "16人/km²",
-        "湧別町": "17人/km²"
-      },
-      "trivia": "人口密度比較: 八雲町 16人/km² / 長万部町 16人/km² / 安芸太田町 16人/km² / 湧別町 17人/km²（全国下位185〜188位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-155811",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "浦河町",
-        "関川村",
-        "本別町",
-        "浦臼町"
-      ],
-      "answer": "関川村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "155811",
-          "014311",
-          "016462",
-          "016071"
-        ]
-      },
-      "meta": {
-        "関川村": "17人/km²",
-        "浦臼町": "17人/km²",
-        "本別町": "17人/km²",
-        "浦河町": "17人/km²"
-      },
-      "trivia": "人口密度比較: 関川村 17人/km² / 浦臼町 17人/km² / 本別町 17人/km² / 浦河町 17人/km²（全国下位189〜192位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-016446",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "柳津町",
-        "土佐町",
-        "奥尻町",
-        "池田町"
-      ],
-      "answer": "池田町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "016446",
-          "393631",
-          "074233",
-          "013676"
-        ]
-      },
-      "meta": {
-        "池田町": "17人/km²",
-        "土佐町": "17人/km²",
-        "柳津町": "17人/km²",
-        "奥尻町": "17人/km²"
-      },
-      "trivia": "人口密度比較: 池田町 17人/km² / 土佐町 17人/km² / 柳津町 17人/km² / 奥尻町 17人/km²（全国下位193〜196位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-053686",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "大潟村",
-        "吉賀町",
-        "木古内町",
-        "真狩村"
-      ],
-      "answer": "大潟村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "053686",
-          "013960",
-          "325058",
-          "013340"
-        ]
-      },
-      "meta": {
-        "大潟村": "18人/km²",
-        "真狩村": "18人/km²",
-        "吉賀町": "18人/km²",
-        "木古内町": "18人/km²"
-      },
-      "trivia": "人口密度比較: 大潟村 18人/km² / 真狩村 18人/km² / 吉賀町 18人/km² / 木古内町 18人/km²（全国下位197〜200位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-016390",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "今別町",
-        "南木曽町",
-        "更別村",
-        "川上村"
-      ],
-      "answer": "更別村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "016390",
-          "204234",
-          "203041",
-          "023035"
-        ]
-      },
-      "meta": {
-        "更別村": "18人/km²",
-        "南木曽町": "18人/km²",
-        "川上村": "18人/km²",
-        "今別町": "18人/km²"
-      },
-      "trivia": "人口密度比較: 更別村 18人/km² / 南木曽町 18人/km² / 川上村 18人/km² / 今別町 18人/km²（全国下位201〜204位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-293865",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "檜原村",
-        "木祖村",
-        "西会津町",
-        "御杖村"
-      ],
-      "answer": "御杖村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "293865",
-          "133078",
-          "204251",
-          "074055"
-        ]
-      },
-      "meta": {
-        "御杖村": "19人/km²",
-        "檜原村": "19人/km²",
-        "木祖村": "19人/km²",
-        "西会津町": "19人/km²"
-      },
-      "trivia": "人口密度比較: 御杖村 19人/km² / 檜原村 19人/km² / 木祖村 19人/km² / 西会津町 19人/km²（全国下位205〜208位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-014010",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "共和町",
-        "泊村",
-        "真室川町",
-        "飯南町"
-      ],
-      "answer": "共和町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "014010",
-          "323861",
-          "063649",
-          "014036"
-        ]
-      },
-      "meta": {
-        "共和町": "19人/km²",
-        "飯南町": "19人/km²",
-        "真室川町": "19人/km²",
-        "泊村": "19人/km²"
-      },
-      "trivia": "人口密度比較: 共和町 19人/km² / 飯南町 19人/km² / 真室川町 19人/km² / 泊村 19人/km²（全国下位209〜212位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-016101",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "東村",
-        "仁木町",
-        "田野畑村",
-        "新ひだか町"
-      ],
-      "answer": "新ひだか町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "016101",
-          "473031",
-          "014079",
-          "034843"
-        ]
-      },
-      "meta": {
-        "新ひだか町": "19人/km²",
-        "東村": "19人/km²",
-        "仁木町": "19人/km²",
-        "田野畑村": "19人/km²"
-      },
-      "trivia": "人口密度比較: 新ひだか町 19人/km² / 東村 19人/km² / 仁木町 19人/km² / 田野畑村 19人/km²（全国下位213〜216位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-024244",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "東通村",
-        "道志村",
-        "田子町",
-        "五ヶ瀬町"
-      ],
-      "answer": "東通村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "024244",
-          "454435",
-          "194221",
-          "024431"
-        ]
-      },
-      "meta": {
-        "東通村": "20人/km²",
-        "五ヶ瀬町": "20人/km²",
-        "道志村": "20人/km²",
-        "田子町": "20人/km²"
-      },
-      "trivia": "人口密度比較: 東通村 20人/km² / 五ヶ瀬町 20人/km² / 道志村 20人/km² / 田子町 20人/km²（全国下位217〜220位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-064033",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "すさみ町",
-        "月形町",
-        "大空町",
-        "飯豊町"
-      ],
-      "answer": "飯豊町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "064033",
-          "015644",
-          "304069",
-          "014303"
-        ]
-      },
-      "meta": {
-        "飯豊町": "20人/km²",
-        "大空町": "20人/km²",
-        "すさみ町": "20人/km²",
-        "月形町": "20人/km²"
-      },
-      "trivia": "人口密度比較: 飯豊町 20人/km² / 大空町 20人/km² / すさみ町 20人/km² / 月形町 20人/km²（全国下位221〜224位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-013323",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "日野町",
-        "江府町",
-        "福島町",
-        "神石高原町"
-      ],
-      "answer": "福島町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "013323",
-          "314030",
-          "314021",
-          "345458"
-        ]
-      },
-      "meta": {
-        "福島町": "21人/km²",
-        "江府町": "21人/km²",
-        "日野町": "21人/km²",
-        "神石高原町": "21人/km²"
-      },
-      "trivia": "人口密度比較: 福島町 21人/km² / 江府町 21人/km² / 日野町 21人/km² / 神石高原町 21人/km²（全国下位225〜228位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-303445",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "高野町",
-        "乙部町",
-        "知内町",
-        "奥多摩町"
-      ],
-      "answer": "高野町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "303445",
-          "133086",
-          "013331",
-          "013641"
-        ]
-      },
-      "meta": {
-        "高野町": "21人/km²",
-        "奥多摩町": "21人/km²",
-        "知内町": "21人/km²",
-        "乙部町": "22人/km²"
-      },
-      "trivia": "人口密度比較: 高野町 21人/km² / 奥多摩町 21人/km² / 知内町 21人/km² / 乙部町 22人/km²（全国下位229〜232位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-465054",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "屋久島町",
-        "みなかみ町",
-        "木曽町",
-        "津和野町"
-      ],
-      "answer": "屋久島町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "465054",
-          "204323",
-          "104493",
-          "325015"
-        ]
-      },
-      "meta": {
-        "屋久島町": "22人/km²",
-        "木曽町": "22人/km²",
-        "みなかみ町": "22人/km²",
-        "津和野町": "22人/km²"
-      },
-      "trivia": "人口密度比較: 屋久島町 22人/km² / 木曽町 22人/km² / みなかみ町 22人/km² / 津和野町 22人/km²（全国下位233〜236位相当）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-density-asc-434256",
-      "prompt": "次のうち人口密度が一番少ないのは？",
-      "choices": [
-        "仙北市",
-        "産山村",
-        "湯沢町",
-        "利尻富士町"
-      ],
-      "answer": "産山村",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "density",
-        "asc"
-      ],
-      "difficulty": 0.55,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "434256",
-          "154610",
-          "052159",
-          "015199"
-        ]
-      },
-      "meta": {
-        "産山村": "22人/km²",
-        "湯沢町": "22人/km²",
-        "仙北市": "22人/km²",
-        "利尻富士町": "23人/km²"
-      },
-      "trivia": "人口密度比較: 産山村 22人/km² / 湯沢町 22人/km² / 仙北市 22人/km² / 利尻富士町 23人/km²（全国下位237〜240位相当）"
-    },
-    {
-      "type": "city-fact",
       "id": "city-fact-pref-population-desc-北海道",
       "prompt": "北海道で人口が一番多い市区町村は？",
       "choices": [
-        "北斗市",
-        "網走市",
-        "浜頓別町",
-        "札幌市"
+        "東川町",
+        "札幌市",
+        "石狩市",
+        "大空町"
       ],
       "answer": "札幌市",
       "distractorStrategy": "sameCategoryPool",
@@ -12635,9 +10465,9 @@
       "id": "city-fact-pref-population-desc-青森県",
       "prompt": "青森県で人口が一番多い市区町村は？",
       "choices": [
-        "横浜町",
-        "東北町",
-        "新郷村",
+        "今別町",
+        "大鰐町",
+        "深浦町",
         "青森市"
       ],
       "answer": "青森市",
@@ -12663,10 +10493,10 @@
       "id": "city-fact-pref-population-desc-岩手県",
       "prompt": "岩手県で人口が一番多い市区町村は？",
       "choices": [
-        "住田町",
+        "滝沢市",
+        "一関市",
         "盛岡市",
-        "紫波町",
-        "八幡平市"
+        "岩手町"
       ],
       "answer": "盛岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -12691,10 +10521,10 @@
       "id": "city-fact-pref-population-desc-宮城県",
       "prompt": "宮城県で人口が一番多い市区町村は？",
       "choices": [
-        "七ヶ宿町",
         "仙台市",
-        "大崎市",
-        "南三陸町"
+        "村田町",
+        "栗原市",
+        "美里町"
       ],
       "answer": "仙台市",
       "distractorStrategy": "sameCategoryPool",
@@ -12719,10 +10549,10 @@
       "id": "city-fact-pref-population-desc-秋田県",
       "prompt": "秋田県で人口が一番多い市区町村は？",
       "choices": [
-        "八峰町",
-        "横手市",
-        "秋田市",
-        "鹿角市"
+        "井川町",
+        "北秋田市",
+        "男鹿市",
+        "秋田市"
       ],
       "answer": "秋田市",
       "distractorStrategy": "sameCategoryPool",
@@ -12747,9 +10577,9 @@
       "id": "city-fact-pref-population-desc-山形県",
       "prompt": "山形県で人口が一番多い市区町村は？",
       "choices": [
-        "三川町",
-        "飯豊町",
+        "遊佐町",
         "鮭川村",
+        "高畠町",
         "山形市"
       ],
       "answer": "山形市",
@@ -12775,10 +10605,10 @@
       "id": "city-fact-pref-population-desc-福島県",
       "prompt": "福島県で人口が一番多い市区町村は？",
       "choices": [
-        "国見町",
-        "広野町",
-        "矢祭町",
-        "いわき市"
+        "浪江町",
+        "いわき市",
+        "飯舘村",
+        "大玉村"
       ],
       "answer": "いわき市",
       "distractorStrategy": "sameCategoryPool",
@@ -12803,10 +10633,10 @@
       "id": "city-fact-pref-population-desc-茨城県",
       "prompt": "茨城県で人口が一番多い市区町村は？",
       "choices": [
-        "常陸太田市",
+        "八千代町",
         "水戸市",
-        "美浦村",
-        "下妻市"
+        "鉾田市",
+        "河内町"
       ],
       "answer": "水戸市",
       "distractorStrategy": "sameCategoryPool",
@@ -12832,9 +10662,9 @@
       "prompt": "栃木県で人口が一番多い市区町村は？",
       "choices": [
         "佐野市",
+        "市貝町",
         "宇都宮市",
-        "那須町",
-        "那須塩原市"
+        "塩谷町"
       ],
       "answer": "宇都宮市",
       "distractorStrategy": "sameCategoryPool",
@@ -12859,10 +10689,10 @@
       "id": "city-fact-pref-population-desc-群馬県",
       "prompt": "群馬県で人口が一番多い市区町村は？",
       "choices": [
-        "昭和村",
-        "下仁田町",
+        "高山村",
         "高崎市",
-        "上野村"
+        "川場村",
+        "草津町"
       ],
       "answer": "高崎市",
       "distractorStrategy": "sameCategoryPool",
@@ -12887,10 +10717,10 @@
       "id": "city-fact-pref-population-desc-埼玉県",
       "prompt": "埼玉県で人口が一番多い市区町村は？",
       "choices": [
-        "小鹿野町",
-        "さいたま市",
-        "長瀞町",
-        "小川町"
+        "入間市",
+        "浦和市",
+        "志木市",
+        "さいたま市"
       ],
       "answer": "さいたま市",
       "distractorStrategy": "sameCategoryPool",
@@ -12915,9 +10745,9 @@
       "id": "city-fact-pref-population-desc-千葉県",
       "prompt": "千葉県で人口が一番多い市区町村は？",
       "choices": [
-        "東庄町",
-        "鴨川市",
-        "神崎町",
+        "大網白里市",
+        "長南町",
+        "浦安市",
         "千葉市"
       ],
       "answer": "千葉市",
@@ -12943,9 +10773,9 @@
       "id": "city-fact-pref-population-desc-東京都",
       "prompt": "東京都で人口が一番多い市区町村は？",
       "choices": [
-        "日野市",
-        "青ヶ島村",
-        "東久留米市",
+        "府中市",
+        "港区",
+        "千代田区",
         "世田谷区"
       ],
       "answer": "世田谷区",
@@ -12971,10 +10801,10 @@
       "id": "city-fact-pref-population-desc-神奈川県",
       "prompt": "神奈川県で人口が一番多い市区町村は？",
       "choices": [
-        "横浜市",
-        "座間市",
         "大磯町",
-        "二宮町"
+        "海老名市",
+        "横浜市",
+        "箱根町"
       ],
       "answer": "横浜市",
       "distractorStrategy": "sameCategoryPool",
@@ -12999,10 +10829,10 @@
       "id": "city-fact-pref-population-desc-新潟県",
       "prompt": "新潟県で人口が一番多い市区町村は？",
       "choices": [
-        "粟島浦村",
-        "新潟市",
+        "十日町市",
+        "南魚沼市",
         "五泉市",
-        "妙高市"
+        "新潟市"
       ],
       "answer": "新潟市",
       "distractorStrategy": "sameCategoryPool",
@@ -13029,8 +10859,8 @@
       "choices": [
         "富山市",
         "砺波市",
-        "上市町",
-        "黒部市"
+        "入善町",
+        "魚津市"
       ],
       "answer": "富山市",
       "distractorStrategy": "sameCategoryPool",
@@ -13056,9 +10886,9 @@
       "prompt": "石川県で人口が一番多い市区町村は？",
       "choices": [
         "金沢市",
-        "野々市市",
-        "能登町",
-        "宝達志水町"
+        "能美市",
+        "七尾市",
+        "能登町"
       ],
       "answer": "金沢市",
       "distractorStrategy": "sameCategoryPool",
@@ -13083,10 +10913,10 @@
       "id": "city-fact-pref-population-desc-福井県",
       "prompt": "福井県で人口が一番多い市区町村は？",
       "choices": [
-        "美浜町",
-        "勝山市",
-        "若狭町",
-        "福井市"
+        "越前町",
+        "福井市",
+        "敦賀市",
+        "美浜町"
       ],
       "answer": "福井市",
       "distractorStrategy": "sameCategoryPool",
@@ -13111,10 +10941,10 @@
       "id": "city-fact-pref-population-desc-山梨県",
       "prompt": "山梨県で人口が一番多い市区町村は？",
       "choices": [
-        "小菅村",
-        "富士川町",
-        "韮崎市",
-        "甲府市"
+        "富士吉田市",
+        "鳴沢村",
+        "甲府市",
+        "身延町"
       ],
       "answer": "甲府市",
       "distractorStrategy": "sameCategoryPool",
@@ -13139,10 +10969,10 @@
       "id": "city-fact-pref-population-desc-長野県",
       "prompt": "長野県で人口が一番多い市区町村は？",
       "choices": [
+        "小川村",
+        "南牧村",
         "長野市",
-        "佐久市",
-        "高山村",
-        "青木村"
+        "南木曽町"
       ],
       "answer": "長野市",
       "distractorStrategy": "sameCategoryPool",
@@ -13167,10 +10997,10 @@
       "id": "city-fact-pref-population-desc-岐阜県",
       "prompt": "岐阜県で人口が一番多い市区町村は？",
       "choices": [
-        "恵那市",
-        "白川町",
+        "飛騨市",
         "岐阜市",
-        "美濃市"
+        "羽島市",
+        "白川町"
       ],
       "answer": "岐阜市",
       "distractorStrategy": "sameCategoryPool",
@@ -13195,10 +11025,10 @@
       "id": "city-fact-pref-population-desc-静岡県",
       "prompt": "静岡県で人口が一番多い市区町村は？",
       "choices": [
-        "浜松市",
-        "熱海市",
-        "函南町",
-        "東伊豆町"
+        "湖西市",
+        "西伊豆町",
+        "河津町",
+        "浜松市"
       ],
       "answer": "浜松市",
       "distractorStrategy": "sameCategoryPool",
@@ -13223,10 +11053,10 @@
       "id": "city-fact-pref-population-desc-愛知県",
       "prompt": "愛知県で人口が一番多い市区町村は？",
       "choices": [
-        "名古屋市",
-        "東海市",
-        "武豊町",
-        "美浜町"
+        "高浜市",
+        "稲沢市",
+        "新城市",
+        "名古屋市"
       ],
       "answer": "名古屋市",
       "distractorStrategy": "sameCategoryPool",
@@ -13251,10 +11081,10 @@
       "id": "city-fact-pref-population-desc-三重県",
       "prompt": "三重県で人口が一番多い市区町村は？",
       "choices": [
-        "伊勢市",
-        "玉城町",
         "四日市市",
-        "名張市"
+        "玉城町",
+        "東員町",
+        "伊勢市"
       ],
       "answer": "四日市市",
       "distractorStrategy": "sameCategoryPool",
@@ -13279,10 +11109,10 @@
       "id": "city-fact-pref-population-desc-滋賀県",
       "prompt": "滋賀県で人口が一番多い市区町村は？",
       "choices": [
-        "大津市",
-        "竜王町",
+        "長浜市",
         "彦根市",
-        "米原市"
+        "東近江市",
+        "大津市"
       ],
       "answer": "大津市",
       "distractorStrategy": "sameCategoryPool",
@@ -13307,10 +11137,10 @@
       "id": "city-fact-pref-population-desc-京都府",
       "prompt": "京都府で人口が一番多い市区町村は？",
       "choices": [
-        "城陽市",
-        "長岡京市",
-        "福知山市",
-        "京都市"
+        "八幡市",
+        "宇治田原町",
+        "京都市",
+        "京丹波町"
       ],
       "answer": "京都市",
       "distractorStrategy": "sameCategoryPool",
@@ -13335,10 +11165,10 @@
       "id": "city-fact-pref-population-desc-大阪府",
       "prompt": "大阪府で人口が一番多い市区町村は？",
       "choices": [
-        "河南町",
-        "河内長野市",
+        "池田市",
         "大阪市",
-        "太子町"
+        "島本町",
+        "枚方市"
       ],
       "answer": "大阪市",
       "distractorStrategy": "sameCategoryPool",
@@ -13363,10 +11193,10 @@
       "id": "city-fact-pref-population-desc-兵庫県",
       "prompt": "兵庫県で人口が一番多い市区町村は？",
       "choices": [
-        "南あわじ市",
+        "神戸市",
         "赤穂市",
-        "宝塚市",
-        "神戸市"
+        "上郡町",
+        "明石市"
       ],
       "answer": "神戸市",
       "distractorStrategy": "sameCategoryPool",
@@ -13391,10 +11221,10 @@
       "id": "city-fact-pref-population-desc-奈良県",
       "prompt": "奈良県で人口が一番多い市区町村は？",
       "choices": [
-        "生駒市",
-        "高取町",
         "奈良市",
-        "下市町"
+        "曽爾村",
+        "天川村",
+        "広陵町"
       ],
       "answer": "奈良市",
       "distractorStrategy": "sameCategoryPool",
@@ -13419,10 +11249,10 @@
       "id": "city-fact-pref-population-desc-和歌山県",
       "prompt": "和歌山県で人口が一番多い市区町村は？",
       "choices": [
-        "田辺市",
-        "和歌山市",
-        "岩出市",
-        "高野町"
+        "美浜町",
+        "新宮市",
+        "古座川町",
+        "和歌山市"
       ],
       "answer": "和歌山市",
       "distractorStrategy": "sameCategoryPool",
@@ -13447,9 +11277,9 @@
       "id": "city-fact-pref-population-desc-鳥取県",
       "prompt": "鳥取県で人口が一番多い市区町村は？",
       "choices": [
-        "大山町",
+        "境港市",
+        "伯耆町",
         "鳥取市",
-        "日吉津村",
         "江府町"
       ],
       "answer": "鳥取市",
@@ -13475,10 +11305,10 @@
       "id": "city-fact-pref-population-desc-島根県",
       "prompt": "島根県で人口が一番多い市区町村は？",
       "choices": [
-        "雲南市",
         "松江市",
-        "知夫村",
-        "隠岐の島町"
+        "大田市",
+        "雲南市",
+        "知夫村"
       ],
       "answer": "松江市",
       "distractorStrategy": "sameCategoryPool",
@@ -13503,10 +11333,10 @@
       "id": "city-fact-pref-population-desc-岡山県",
       "prompt": "岡山県で人口が一番多い市区町村は？",
       "choices": [
+        "新見市",
+        "西粟倉村",
         "岡山市",
-        "美作市",
-        "倉敷市",
-        "西粟倉村"
+        "奈義町"
       ],
       "answer": "岡山市",
       "distractorStrategy": "sameCategoryPool",
@@ -13531,10 +11361,10 @@
       "id": "city-fact-pref-population-desc-広島県",
       "prompt": "広島県で人口が一番多い市区町村は？",
       "choices": [
+        "安芸太田町",
         "広島市",
-        "世羅町",
-        "大竹市",
-        "大崎上島町"
+        "呉市",
+        "東広島市"
       ],
       "answer": "広島市",
       "distractorStrategy": "sameCategoryPool",
@@ -13559,10 +11389,10 @@
       "id": "city-fact-pref-population-desc-山口県",
       "prompt": "山口県で人口が一番多い市区町村は？",
       "choices": [
-        "阿武町",
-        "柳井市",
-        "周防大島町",
-        "下関市"
+        "光市",
+        "下関市",
+        "平生町",
+        "和木町"
       ],
       "answer": "下関市",
       "distractorStrategy": "sameCategoryPool",
@@ -13588,9 +11418,9 @@
       "prompt": "徳島県で人口が一番多い市区町村は？",
       "choices": [
         "徳島市",
-        "三好市",
-        "板野町",
-        "つるぎ町"
+        "上勝町",
+        "牟岐町",
+        "阿南市"
       ],
       "answer": "徳島市",
       "distractorStrategy": "sameCategoryPool",
@@ -13615,10 +11445,10 @@
       "id": "city-fact-pref-population-desc-香川県",
       "prompt": "香川県で人口が一番多い市区町村は？",
       "choices": [
-        "直島町",
-        "善通寺市",
+        "三豊市",
+        "東かがわ市",
         "高松市",
-        "綾川町"
+        "丸亀市"
       ],
       "answer": "高松市",
       "distractorStrategy": "sameCategoryPool",
@@ -13643,10 +11473,10 @@
       "id": "city-fact-pref-population-desc-愛媛県",
       "prompt": "愛媛県で人口が一番多い市区町村は？",
       "choices": [
+        "新居浜市",
+        "今治市",
         "松山市",
-        "内子町",
-        "愛南町",
-        "伊方町"
+        "伊予市"
       ],
       "answer": "松山市",
       "distractorStrategy": "sameCategoryPool",
@@ -13672,9 +11502,9 @@
       "prompt": "高知県で人口が一番多い市区町村は？",
       "choices": [
         "高知市",
-        "大月町",
-        "室戸市",
-        "奈半利町"
+        "本山町",
+        "檮原町",
+        "三原村"
       ],
       "answer": "高知市",
       "distractorStrategy": "sameCategoryPool",
@@ -13699,10 +11529,10 @@
       "id": "city-fact-pref-population-desc-福岡県",
       "prompt": "福岡県で人口が一番多い市区町村は？",
       "choices": [
-        "須恵町",
-        "大木町",
-        "大野城市",
-        "福岡市"
+        "那珂川市",
+        "福岡市",
+        "行橋市",
+        "直方市"
       ],
       "answer": "福岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -13727,9 +11557,9 @@
       "id": "city-fact-pref-population-desc-佐賀県",
       "prompt": "佐賀県で人口が一番多い市区町村は？",
       "choices": [
-        "太良町",
         "佐賀市",
-        "有田町",
+        "江北町",
+        "鹿島市",
         "みやき町"
       ],
       "answer": "佐賀市",
@@ -13755,10 +11585,10 @@
       "id": "city-fact-pref-population-desc-長崎県",
       "prompt": "長崎県で人口が一番多い市区町村は？",
       "choices": [
-        "西海市",
-        "川棚町",
         "長崎市",
-        "諫早市"
+        "雲仙市",
+        "松浦市",
+        "新上五島町"
       ],
       "answer": "長崎市",
       "distractorStrategy": "sameCategoryPool",
@@ -13783,10 +11613,10 @@
       "id": "city-fact-pref-population-desc-熊本県",
       "prompt": "熊本県で人口が一番多い市区町村は？",
       "choices": [
-        "熊本市",
-        "津奈木町",
-        "合志市",
-        "南阿蘇村"
+        "相良村",
+        "小国町",
+        "氷川町",
+        "熊本市"
       ],
       "answer": "熊本市",
       "distractorStrategy": "sameCategoryPool",
@@ -13812,9 +11642,9 @@
       "prompt": "大分県で人口が一番多い市区町村は？",
       "choices": [
         "大分市",
-        "竹田市",
-        "津久見市",
-        "中津市"
+        "杵築市",
+        "佐伯市",
+        "九重町"
       ],
       "answer": "大分市",
       "distractorStrategy": "sameCategoryPool",
@@ -13839,10 +11669,10 @@
       "id": "city-fact-pref-population-desc-宮崎県",
       "prompt": "宮崎県で人口が一番多い市区町村は？",
       "choices": [
-        "椎葉村",
-        "西都市",
         "宮崎市",
-        "三股町"
+        "西米良村",
+        "延岡市",
+        "えびの市"
       ],
       "answer": "宮崎市",
       "distractorStrategy": "sameCategoryPool",
@@ -13867,10 +11697,10 @@
       "id": "city-fact-pref-population-desc-鹿児島県",
       "prompt": "鹿児島県で人口が一番多い市区町村は？",
       "choices": [
-        "指宿市",
         "鹿児島市",
-        "霧島市",
-        "天城町"
+        "十島村",
+        "和泊町",
+        "湧水町"
       ],
       "answer": "鹿児島市",
       "distractorStrategy": "sameCategoryPool",
@@ -13895,10 +11725,10 @@
       "id": "city-fact-pref-population-desc-沖縄県",
       "prompt": "沖縄県で人口が一番多い市区町村は？",
       "choices": [
-        "渡嘉敷村",
-        "恩納村",
-        "伊江村",
-        "那覇市"
+        "那覇市",
+        "与那国町",
+        "八重瀬町",
+        "渡嘉敷村"
       ],
       "answer": "那覇市",
       "distractorStrategy": "sameCategoryPool",
@@ -13923,10 +11753,10 @@
       "id": "city-fact-pref-population-asc-北海道",
       "prompt": "北海道で人口が一番少ない市区町村は？",
       "choices": [
-        "蘂取村",
-        "知内町",
-        "大空町",
-        "森町"
+        "遠軽町",
+        "幌延町",
+        "新ひだか町",
+        "蘂取村"
       ],
       "answer": "蘂取村",
       "distractorStrategy": "sameCategoryPool",
@@ -13951,10 +11781,10 @@
       "id": "city-fact-pref-population-asc-青森県",
       "prompt": "青森県で人口が一番少ない市区町村は？",
       "choices": [
-        "西目屋村",
-        "横浜町",
-        "弘前市",
-        "青森市"
+        "十和田市",
+        "鶴田町",
+        "南部町",
+        "西目屋村"
       ],
       "answer": "西目屋村",
       "distractorStrategy": "sameCategoryPool",
@@ -13979,10 +11809,10 @@
       "id": "city-fact-pref-population-asc-岩手県",
       "prompt": "岩手県で人口が一番少ない市区町村は？",
       "choices": [
-        "宮古市",
+        "釜石市",
         "岩泉町",
         "普代村",
-        "一関市"
+        "金ケ崎町"
       ],
       "answer": "普代村",
       "distractorStrategy": "sameCategoryPool",
@@ -14007,10 +11837,10 @@
       "id": "city-fact-pref-population-asc-宮城県",
       "prompt": "宮城県で人口が一番少ない市区町村は？",
       "choices": [
-        "七ヶ宿町",
-        "東松島市",
-        "石巻市",
-        "塩竈市"
+        "利府町",
+        "登米市",
+        "山元町",
+        "七ヶ宿町"
       ],
       "answer": "七ヶ宿町",
       "distractorStrategy": "sameCategoryPool",
@@ -14035,9 +11865,9 @@
       "id": "city-fact-pref-population-asc-秋田県",
       "prompt": "秋田県で人口が一番少ない市区町村は？",
       "choices": [
+        "八峰町",
         "上小阿仁村",
-        "横手市",
-        "東成瀬村",
+        "由利本荘市",
         "潟上市"
       ],
       "answer": "上小阿仁村",
@@ -14063,10 +11893,10 @@
       "id": "city-fact-pref-population-asc-山形県",
       "prompt": "山形県で人口が一番少ない市区町村は？",
       "choices": [
-        "真室川町",
-        "三川町",
+        "山辺町",
+        "酒田市",
         "大蔵村",
-        "尾花沢市"
+        "鮭川村"
       ],
       "answer": "大蔵村",
       "distractorStrategy": "sameCategoryPool",
@@ -14091,10 +11921,10 @@
       "id": "city-fact-pref-population-asc-福島県",
       "prompt": "福島県で人口が一番少ない市区町村は？",
       "choices": [
+        "須賀川市",
         "楢葉町",
-        "大玉村",
-        "葛尾村",
-        "いわき市"
+        "西郷村",
+        "三春町"
       ],
       "answer": "楢葉町",
       "distractorStrategy": "sameCategoryPool",
@@ -14119,10 +11949,10 @@
       "id": "city-fact-pref-population-asc-茨城県",
       "prompt": "茨城県で人口が一番少ない市区町村は？",
       "choices": [
-        "つくばみらい市",
-        "取手市",
+        "阿見町",
         "五霞町",
-        "大洗町"
+        "坂東市",
+        "行方市"
       ],
       "answer": "五霞町",
       "distractorStrategy": "sameCategoryPool",
@@ -14147,10 +11977,10 @@
       "id": "city-fact-pref-population-asc-栃木県",
       "prompt": "栃木県で人口が一番少ない市区町村は？",
       "choices": [
-        "芳賀町",
-        "真岡市",
-        "上三川町",
-        "塩谷町"
+        "さくら市",
+        "塩谷町",
+        "益子町",
+        "日光市"
       ],
       "answer": "塩谷町",
       "distractorStrategy": "sameCategoryPool",
@@ -14175,10 +12005,10 @@
       "id": "city-fact-pref-population-asc-群馬県",
       "prompt": "群馬県で人口が一番少ない市区町村は？",
       "choices": [
-        "昭和村",
+        "大泉町",
         "上野村",
-        "安中市",
-        "南牧村"
+        "渋川市",
+        "嬬恋村"
       ],
       "answer": "上野村",
       "distractorStrategy": "sameCategoryPool",
@@ -14203,10 +12033,10 @@
       "id": "city-fact-pref-population-asc-埼玉県",
       "prompt": "埼玉県で人口が一番少ない市区町村は？",
       "choices": [
-        "東秩父村",
-        "入間市",
-        "坂戸市",
-        "行田市"
+        "三郷市",
+        "深谷市",
+        "羽生市",
+        "東秩父村"
       ],
       "answer": "東秩父村",
       "distractorStrategy": "sameCategoryPool",
@@ -14231,10 +12061,10 @@
       "id": "city-fact-pref-population-asc-千葉県",
       "prompt": "千葉県で人口が一番少ない市区町村は？",
       "choices": [
-        "浦安市",
-        "市川市",
+        "白子町",
+        "横芝光町",
         "神崎町",
-        "木更津市"
+        "鋸南町"
       ],
       "answer": "神崎町",
       "distractorStrategy": "sameCategoryPool",
@@ -14259,10 +12089,10 @@
       "id": "city-fact-pref-population-asc-東京都",
       "prompt": "東京都で人口が一番少ない市区町村は？",
       "choices": [
-        "武蔵村山市",
-        "新宿区",
+        "豊島区",
         "青ヶ島村",
-        "八王子市"
+        "国分寺市",
+        "武蔵野市"
       ],
       "answer": "青ヶ島村",
       "distractorStrategy": "sameCategoryPool",
@@ -14287,10 +12117,10 @@
       "id": "city-fact-pref-population-asc-神奈川県",
       "prompt": "神奈川県で人口が一番少ない市区町村は？",
       "choices": [
+        "茅ヶ崎市",
+        "寒川町",
         "清川村",
-        "大井町",
-        "横須賀市",
-        "大和市"
+        "平塚市"
       ],
       "answer": "清川村",
       "distractorStrategy": "sameCategoryPool",
@@ -14315,10 +12145,10 @@
       "id": "city-fact-pref-population-asc-新潟県",
       "prompt": "新潟県で人口が一番少ない市区町村は？",
       "choices": [
-        "田上町",
         "小千谷市",
-        "新潟市",
-        "粟島浦村"
+        "関川村",
+        "粟島浦村",
+        "阿賀野市"
       ],
       "answer": "粟島浦村",
       "distractorStrategy": "sameCategoryPool",
@@ -14343,9 +12173,9 @@
       "id": "city-fact-pref-population-asc-富山県",
       "prompt": "富山県で人口が一番少ない市区町村は？",
       "choices": [
-        "黒部市",
-        "富山市",
-        "立山町",
+        "小矢部市",
+        "上市町",
+        "氷見市",
         "舟橋村"
       ],
       "answer": "舟橋村",
@@ -14371,10 +12201,10 @@
       "id": "city-fact-pref-population-asc-石川県",
       "prompt": "石川県で人口が一番少ない市区町村は？",
       "choices": [
-        "小松市",
-        "能美市",
-        "野々市市",
-        "川北町"
+        "能登町",
+        "珠洲市",
+        "川北町",
+        "白山市"
       ],
       "answer": "川北町",
       "distractorStrategy": "sameCategoryPool",
@@ -14399,10 +12229,10 @@
       "id": "city-fact-pref-population-asc-福井県",
       "prompt": "福井県で人口が一番少ない市区町村は？",
       "choices": [
-        "敦賀市",
-        "おおい町",
-        "永平寺町",
-        "池田町"
+        "南越前町",
+        "坂井市",
+        "池田町",
+        "高浜町"
       ],
       "answer": "池田町",
       "distractorStrategy": "sameCategoryPool",
@@ -14427,10 +12257,10 @@
       "id": "city-fact-pref-population-asc-山梨県",
       "prompt": "山梨県で人口が一番少ない市区町村は？",
       "choices": [
-        "丹波山村",
-        "小菅村",
+        "市川三郷町",
         "身延町",
-        "昭和町"
+        "道志村",
+        "丹波山村"
       ],
       "answer": "丹波山村",
       "distractorStrategy": "sameCategoryPool",
@@ -14455,10 +12285,10 @@
       "id": "city-fact-pref-population-asc-長野県",
       "prompt": "長野県で人口が一番少ない市区町村は？",
       "choices": [
-        "富士見町",
-        "小諸市",
         "平谷村",
-        "松川村"
+        "大鹿村",
+        "中川村",
+        "東御市"
       ],
       "answer": "平谷村",
       "distractorStrategy": "sameCategoryPool",
@@ -14483,10 +12313,10 @@
       "id": "city-fact-pref-population-asc-岐阜県",
       "prompt": "岐阜県で人口が一番少ない市区町村は？",
       "choices": [
+        "美濃市",
+        "海津市",
         "白川村",
-        "安八町",
-        "可児市",
-        "瑞浪市"
+        "大垣市"
       ],
       "answer": "白川村",
       "distractorStrategy": "sameCategoryPool",
@@ -14511,10 +12341,10 @@
       "id": "city-fact-pref-population-asc-静岡県",
       "prompt": "静岡県で人口が一番少ない市区町村は？",
       "choices": [
-        "伊豆市",
+        "菊川市",
         "松崎町",
-        "東伊豆町",
-        "磐田市"
+        "吉田町",
+        "三島市"
       ],
       "answer": "松崎町",
       "distractorStrategy": "sameCategoryPool",
@@ -14539,10 +12369,10 @@
       "id": "city-fact-pref-population-asc-愛知県",
       "prompt": "愛知県で人口が一番少ない市区町村は？",
       "choices": [
-        "知多市",
-        "新城市",
+        "東浦町",
+        "刈谷市",
         "豊根村",
-        "東海市"
+        "蟹江町"
       ],
       "answer": "豊根村",
       "distractorStrategy": "sameCategoryPool",
@@ -14567,10 +12397,10 @@
       "id": "city-fact-pref-population-asc-三重県",
       "prompt": "三重県で人口が一番少ない市区町村は？",
       "choices": [
-        "鳥羽市",
+        "多気町",
+        "度会町",
         "木曽岬町",
-        "桑名市",
-        "四日市市"
+        "御浜町"
       ],
       "answer": "木曽岬町",
       "distractorStrategy": "sameCategoryPool",
@@ -14595,10 +12425,10 @@
       "id": "city-fact-pref-population-asc-滋賀県",
       "prompt": "滋賀県で人口が一番少ない市区町村は？",
       "choices": [
-        "甲良町",
-        "長浜市",
-        "守山市",
-        "野洲市"
+        "米原市",
+        "甲賀市",
+        "豊郷町",
+        "甲良町"
       ],
       "answer": "甲良町",
       "distractorStrategy": "sameCategoryPool",
@@ -14623,10 +12453,10 @@
       "id": "city-fact-pref-population-asc-京都府",
       "prompt": "京都府で人口が一番少ない市区町村は？",
       "choices": [
-        "宮津市",
-        "伊根町",
-        "福知山市",
-        "笠置町"
+        "笠置町",
+        "南丹市",
+        "南山城村",
+        "八幡市"
       ],
       "answer": "笠置町",
       "distractorStrategy": "sameCategoryPool",
@@ -14651,10 +12481,10 @@
       "id": "city-fact-pref-population-asc-大阪府",
       "prompt": "大阪府で人口が一番少ない市区町村は？",
       "choices": [
-        "島本町",
         "千早赤阪村",
-        "羽曳野市",
-        "泉佐野市"
+        "吹田市",
+        "箕面市",
+        "茨木市"
       ],
       "answer": "千早赤阪村",
       "distractorStrategy": "sameCategoryPool",
@@ -14679,10 +12509,10 @@
       "id": "city-fact-pref-population-asc-兵庫県",
       "prompt": "兵庫県で人口が一番少ない市区町村は？",
       "choices": [
-        "三田市",
-        "朝来市",
-        "明石市",
-        "神河町"
+        "姫路市",
+        "佐用町",
+        "神河町",
+        "小野市"
       ],
       "answer": "神河町",
       "distractorStrategy": "sameCategoryPool",
@@ -14707,10 +12537,10 @@
       "id": "city-fact-pref-population-asc-奈良県",
       "prompt": "奈良県で人口が一番少ない市区町村は？",
       "choices": [
-        "宇陀市",
-        "上牧町",
         "野迫川村",
-        "桜井市"
+        "大和郡山市",
+        "山添村",
+        "河合町"
       ],
       "answer": "野迫川村",
       "distractorStrategy": "sameCategoryPool",
@@ -14735,10 +12565,10 @@
       "id": "city-fact-pref-population-asc-和歌山県",
       "prompt": "和歌山県で人口が一番少ない市区町村は？",
       "choices": [
-        "橋本市",
-        "新宮市",
         "北山村",
-        "印南町"
+        "美浜町",
+        "那智勝浦町",
+        "和歌山市"
       ],
       "answer": "北山村",
       "distractorStrategy": "sameCategoryPool",
@@ -14763,10 +12593,10 @@
       "id": "city-fact-pref-population-asc-鳥取県",
       "prompt": "鳥取県で人口が一番少ない市区町村は？",
       "choices": [
+        "鳥取市",
         "江府町",
-        "倉吉市",
-        "岩美町",
-        "日吉津村"
+        "琴浦町",
+        "岩美町"
       ],
       "answer": "江府町",
       "distractorStrategy": "sameCategoryPool",
@@ -14791,9 +12621,9 @@
       "id": "city-fact-pref-population-asc-島根県",
       "prompt": "島根県で人口が一番少ない市区町村は？",
       "choices": [
-        "西ノ島町",
-        "美郷町",
-        "川本町",
+        "飯南町",
+        "益田市",
+        "安来市",
         "知夫村"
       ],
       "answer": "知夫村",
@@ -14819,10 +12649,10 @@
       "id": "city-fact-pref-population-asc-岡山県",
       "prompt": "岡山県で人口が一番少ない市区町村は？",
       "choices": [
-        "里庄町",
-        "高梁市",
-        "和気町",
-        "新庄村"
+        "早島町",
+        "新庄村",
+        "矢掛町",
+        "備前市"
       ],
       "answer": "新庄村",
       "distractorStrategy": "sameCategoryPool",
@@ -14847,10 +12677,10 @@
       "id": "city-fact-pref-population-asc-広島県",
       "prompt": "広島県で人口が一番少ない市区町村は？",
       "choices": [
-        "熊野町",
-        "大崎上島町",
-        "庄原市",
-        "安芸太田町"
+        "安芸太田町",
+        "東広島市",
+        "海田町",
+        "広島市"
       ],
       "answer": "安芸太田町",
       "distractorStrategy": "sameCategoryPool",
@@ -14875,9 +12705,9 @@
       "id": "city-fact-pref-population-asc-山口県",
       "prompt": "山口県で人口が一番少ない市区町村は？",
       "choices": [
+        "平生町",
         "柳井市",
-        "山口市",
-        "萩市",
+        "田布施町",
         "上関町"
       ],
       "answer": "上関町",
@@ -14903,10 +12733,10 @@
       "id": "city-fact-pref-population-asc-徳島県",
       "prompt": "徳島県で人口が一番少ない市区町村は？",
       "choices": [
+        "海陽町",
+        "東みよし町",
         "上勝町",
-        "三好市",
-        "吉野川市",
-        "海陽町"
+        "神山町"
       ],
       "answer": "上勝町",
       "distractorStrategy": "sameCategoryPool",
@@ -14931,10 +12761,10 @@
       "id": "city-fact-pref-population-asc-香川県",
       "prompt": "香川県で人口が一番少ない市区町村は？",
       "choices": [
-        "三木町",
-        "綾川町",
+        "土庄町",
         "直島町",
-        "観音寺市"
+        "高松市",
+        "丸亀市"
       ],
       "answer": "直島町",
       "distractorStrategy": "sameCategoryPool",
@@ -14960,9 +12790,9 @@
       "prompt": "愛媛県で人口が一番少ない市区町村は？",
       "choices": [
         "鬼北町",
+        "伊方町",
         "松野町",
-        "内子町",
-        "宇和島市"
+        "新居浜市"
       ],
       "answer": "松野町",
       "distractorStrategy": "sameCategoryPool",
@@ -14987,10 +12817,10 @@
       "id": "city-fact-pref-population-asc-高知県",
       "prompt": "高知県で人口が一番少ない市区町村は？",
       "choices": [
-        "津野町",
         "大川村",
-        "土佐市",
-        "馬路村"
+        "越知町",
+        "香南市",
+        "土佐市"
       ],
       "answer": "大川村",
       "distractorStrategy": "sameCategoryPool",
@@ -15015,10 +12845,10 @@
       "id": "city-fact-pref-population-asc-福岡県",
       "prompt": "福岡県で人口が一番少ない市区町村は？",
       "choices": [
+        "宮若市",
+        "川崎町",
         "東峰村",
-        "添田町",
-        "志免町",
-        "岡垣町"
+        "大川市"
       ],
       "answer": "東峰村",
       "distractorStrategy": "sameCategoryPool",
@@ -15044,9 +12874,9 @@
       "prompt": "佐賀県で人口が一番少ない市区町村は？",
       "choices": [
         "玄海町",
-        "白石町",
-        "唐津市",
-        "佐賀市"
+        "みやき町",
+        "上峰町",
+        "基山町"
       ],
       "answer": "玄海町",
       "distractorStrategy": "sameCategoryPool",
@@ -15071,10 +12901,10 @@
       "id": "city-fact-pref-population-asc-長崎県",
       "prompt": "長崎県で人口が一番少ない市区町村は？",
       "choices": [
-        "壱岐市",
-        "佐世保市",
-        "新上五島町",
-        "小値賀町"
+        "波佐見町",
+        "時津町",
+        "小値賀町",
+        "対馬市"
       ],
       "answer": "小値賀町",
       "distractorStrategy": "sameCategoryPool",
@@ -15099,10 +12929,10 @@
       "id": "city-fact-pref-population-asc-熊本県",
       "prompt": "熊本県で人口が一番少ない市区町村は？",
       "choices": [
+        "相良村",
         "五木村",
-        "産山村",
-        "美里町",
-        "天草市"
+        "人吉市",
+        "阿蘇市"
       ],
       "answer": "五木村",
       "distractorStrategy": "sameCategoryPool",
@@ -15127,9 +12957,9 @@
       "id": "city-fact-pref-population-asc-大分県",
       "prompt": "大分県で人口が一番少ない市区町村は？",
       "choices": [
-        "宇佐市",
-        "豊後高田市",
+        "豊後大野市",
         "中津市",
+        "九重町",
         "姫島村"
       ],
       "answer": "姫島村",
@@ -15155,10 +12985,10 @@
       "id": "city-fact-pref-population-asc-宮崎県",
       "prompt": "宮崎県で人口が一番少ない市区町村は？",
       "choices": [
-        "門川町",
-        "新富町",
+        "延岡市",
         "西米良村",
-        "綾町"
+        "えびの市",
+        "椎葉村"
       ],
       "answer": "西米良村",
       "distractorStrategy": "sameCategoryPool",
@@ -15184,9 +13014,9 @@
       "prompt": "鹿児島県で人口が一番少ない市区町村は？",
       "choices": [
         "三島村",
+        "長島町",
         "瀬戸内町",
-        "姶良市",
-        "西之表市"
+        "指宿市"
       ],
       "answer": "三島村",
       "distractorStrategy": "sameCategoryPool",
@@ -15211,10 +13041,10 @@
       "id": "city-fact-pref-population-asc-沖縄県",
       "prompt": "沖縄県で人口が一番少ない市区町村は？",
       "choices": [
-        "うるま市",
+        "今帰仁村",
         "渡名喜村",
-        "名護市",
-        "宜野座村"
+        "久米島町",
+        "浦添市"
       ],
       "answer": "渡名喜村",
       "distractorStrategy": "sameCategoryPool",
@@ -15239,10 +13069,10 @@
       "id": "city-fact-pref-areaKm2-desc-北海道",
       "prompt": "北海道で面積が一番多い市区町村は？",
       "choices": [
-        "大空町",
-        "北斗市",
-        "美唄市",
-        "留別村"
+        "京極町",
+        "幌延町",
+        "留別村",
+        "美瑛町"
       ],
       "answer": "留別村",
       "distractorStrategy": "sameCategoryPool",
@@ -15267,10 +13097,10 @@
       "id": "city-fact-pref-areaKm2-desc-青森県",
       "prompt": "青森県で面積が一番多い市区町村は？",
       "choices": [
-        "黒石市",
-        "南部町",
+        "三戸町",
+        "鰺ヶ沢町",
         "むつ市",
-        "外ヶ浜町"
+        "黒石市"
       ],
       "answer": "むつ市",
       "distractorStrategy": "sameCategoryPool",
@@ -15295,10 +13125,10 @@
       "id": "city-fact-pref-areaKm2-desc-岩手県",
       "prompt": "岩手県で面積が一番多い市区町村は？",
       "choices": [
-        "陸前高田市",
-        "宮古市",
-        "花巻市",
-        "一戸町"
+        "釜石市",
+        "大槌町",
+        "北上市",
+        "宮古市"
       ],
       "answer": "宮古市",
       "distractorStrategy": "sameCategoryPool",
@@ -15323,10 +13153,10 @@
       "id": "city-fact-pref-areaKm2-desc-宮城県",
       "prompt": "宮城県で面積が一番多い市区町村は？",
       "choices": [
-        "大河原町",
-        "涌谷町",
-        "名取市",
-        "栗原市"
+        "蔵王町",
+        "多賀城市",
+        "栗原市",
+        "涌谷町"
       ],
       "answer": "栗原市",
       "distractorStrategy": "sameCategoryPool",
@@ -15352,9 +13182,9 @@
       "prompt": "秋田県で面積が一番多い市区町村は？",
       "choices": [
         "由利本荘市",
-        "八峰町",
-        "東成瀬村",
-        "大館市"
+        "大仙市",
+        "横手市",
+        "美郷町"
       ],
       "answer": "由利本荘市",
       "distractorStrategy": "sameCategoryPool",
@@ -15379,10 +13209,10 @@
       "id": "city-fact-pref-areaKm2-desc-山形県",
       "prompt": "山形県で面積が一番多い市区町村は？",
       "choices": [
-        "尾花沢市",
-        "大蔵村",
+        "川西町",
+        "山辺町",
         "鶴岡市",
-        "大石田町"
+        "村山市"
       ],
       "answer": "鶴岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -15407,10 +13237,10 @@
       "id": "city-fact-pref-areaKm2-desc-福島県",
       "prompt": "福島県で面積が一番多い市区町村は？",
       "choices": [
-        "猪苗代町",
-        "三春町",
-        "会津若松市",
-        "いわき市"
+        "いわき市",
+        "郡山市",
+        "浪江町",
+        "会津坂下町"
       ],
       "answer": "いわき市",
       "distractorStrategy": "sameCategoryPool",
@@ -15435,10 +13265,10 @@
       "id": "city-fact-pref-areaKm2-desc-茨城県",
       "prompt": "茨城県で面積が一番多い市区町村は？",
       "choices": [
-        "茨城町",
+        "東海村",
         "常陸太田市",
-        "土浦市",
-        "利根町"
+        "かすみがうら市",
+        "常総市"
       ],
       "answer": "常陸太田市",
       "distractorStrategy": "sameCategoryPool",
@@ -15463,10 +13293,10 @@
       "id": "city-fact-pref-areaKm2-desc-栃木県",
       "prompt": "栃木県で面積が一番多い市区町村は？",
       "choices": [
-        "小山市",
-        "宇都宮市",
+        "那珂川町",
         "日光市",
-        "塩谷町"
+        "高根沢町",
+        "佐野市"
       ],
       "answer": "日光市",
       "distractorStrategy": "sameCategoryPool",
@@ -15491,10 +13321,10 @@
       "id": "city-fact-pref-areaKm2-desc-群馬県",
       "prompt": "群馬県で面積が一番多い市区町村は？",
       "choices": [
-        "甘楽町",
-        "みなかみ町",
+        "富岡市",
         "嬬恋村",
-        "神流町"
+        "みなかみ町",
+        "大泉町"
       ],
       "answer": "みなかみ町",
       "distractorStrategy": "sameCategoryPool",
@@ -15519,9 +13349,9 @@
       "id": "city-fact-pref-areaKm2-desc-埼玉県",
       "prompt": "埼玉県で面積が一番多い市区町村は？",
       "choices": [
-        "狭山市",
-        "杉戸町",
-        "東松山市",
+        "入間市",
+        "春日部市",
+        "長瀞町",
         "秩父市"
       ],
       "answer": "秩父市",
@@ -15547,10 +13377,10 @@
       "id": "city-fact-pref-areaKm2-desc-千葉県",
       "prompt": "千葉県で面積が一番多い市区町村は？",
       "choices": [
-        "袖ケ浦市",
-        "匝瑳市",
-        "富里市",
-        "市原市"
+        "市原市",
+        "勝浦市",
+        "鴨川市",
+        "銚子市"
       ],
       "answer": "市原市",
       "distractorStrategy": "sameCategoryPool",
@@ -15575,10 +13405,10 @@
       "id": "city-fact-pref-areaKm2-desc-東京都",
       "prompt": "東京都で面積が一番多い市区町村は？",
       "choices": [
-        "墨田区",
-        "羽村市",
-        "奥多摩町",
-        "東村山市"
+        "板橋区",
+        "目黒区",
+        "三鷹市",
+        "奥多摩町"
       ],
       "answer": "奥多摩町",
       "distractorStrategy": "sameCategoryPool",
@@ -15603,10 +13433,10 @@
       "id": "city-fact-pref-areaKm2-desc-神奈川県",
       "prompt": "神奈川県で面積が一番多い市区町村は？",
       "choices": [
-        "大和市",
         "横浜市",
-        "二宮町",
-        "大磯町"
+        "厚木市",
+        "座間市",
+        "箱根町"
       ],
       "answer": "横浜市",
       "distractorStrategy": "sameCategoryPool",
@@ -15632,9 +13462,9 @@
       "prompt": "新潟県で面積が一番多い市区町村は？",
       "choices": [
         "南魚沼市",
-        "十日町市",
-        "村上市",
-        "津南町"
+        "新潟市",
+        "刈羽村",
+        "村上市"
       ],
       "answer": "村上市",
       "distractorStrategy": "sameCategoryPool",
@@ -15659,10 +13489,10 @@
       "id": "city-fact-pref-areaKm2-desc-富山県",
       "prompt": "富山県で面積が一番多い市区町村は？",
       "choices": [
+        "舟橋村",
         "富山市",
-        "射水市",
-        "上市町",
-        "氷見市"
+        "滑川市",
+        "立山町"
       ],
       "answer": "富山市",
       "distractorStrategy": "sameCategoryPool",
@@ -15687,10 +13517,10 @@
       "id": "city-fact-pref-areaKm2-desc-石川県",
       "prompt": "石川県で面積が一番多い市区町村は？",
       "choices": [
-        "珠洲市",
+        "川北町",
         "穴水町",
         "白山市",
-        "能美市"
+        "内灘町"
       ],
       "answer": "白山市",
       "distractorStrategy": "sameCategoryPool",
@@ -15715,10 +13545,10 @@
       "id": "city-fact-pref-areaKm2-desc-福井県",
       "prompt": "福井県で面積が一番多い市区町村は？",
       "choices": [
-        "敦賀市",
+        "越前町",
         "大野市",
         "南越前町",
-        "池田町"
+        "福井市"
       ],
       "answer": "大野市",
       "distractorStrategy": "sameCategoryPool",
@@ -15744,9 +13574,9 @@
       "prompt": "山梨県で面積が一番多い市区町村は？",
       "choices": [
         "丹波山村",
-        "大月市",
+        "昭和町",
         "北杜市",
-        "上野原市"
+        "市川三郷町"
       ],
       "answer": "北杜市",
       "distractorStrategy": "sameCategoryPool",
@@ -15771,10 +13601,10 @@
       "id": "city-fact-pref-areaKm2-desc-長野県",
       "prompt": "長野県で面積が一番多い市区町村は？",
       "choices": [
-        "飯綱町",
-        "平谷村",
-        "小谷村",
-        "松本市"
+        "飯山市",
+        "松本市",
+        "野沢温泉村",
+        "駒ヶ根市"
       ],
       "answer": "松本市",
       "distractorStrategy": "sameCategoryPool",
@@ -15800,9 +13630,9 @@
       "prompt": "岐阜県で面積が一番多い市区町村は？",
       "choices": [
         "高山市",
-        "安八町",
-        "中津川市",
-        "白川町"
+        "大垣市",
+        "関ケ原町",
+        "岐阜市"
       ],
       "answer": "高山市",
       "distractorStrategy": "sameCategoryPool",
@@ -15827,10 +13657,10 @@
       "id": "city-fact-pref-areaKm2-desc-静岡県",
       "prompt": "静岡県で面積が一番多い市区町村は？",
       "choices": [
-        "掛川市",
-        "伊豆の国市",
-        "浜松市",
-        "川根本町"
+        "御前崎市",
+        "牧之原市",
+        "河津町",
+        "浜松市"
       ],
       "answer": "浜松市",
       "distractorStrategy": "sameCategoryPool",
@@ -15856,9 +13686,9 @@
       "prompt": "愛知県で面積が一番多い市区町村は？",
       "choices": [
         "豊田市",
-        "東郷町",
-        "愛西市",
-        "豊明市"
+        "扶桑町",
+        "日進市",
+        "蒲郡市"
       ],
       "answer": "豊田市",
       "distractorStrategy": "sameCategoryPool",
@@ -15883,10 +13713,10 @@
       "id": "city-fact-pref-areaKm2-desc-三重県",
       "prompt": "三重県で面積が一番多い市区町村は？",
       "choices": [
+        "桑名市",
+        "尾鷲市",
         "津市",
-        "菰野町",
-        "玉城町",
-        "伊賀市"
+        "紀北町"
       ],
       "answer": "津市",
       "distractorStrategy": "sameCategoryPool",
@@ -15911,9 +13741,9 @@
       "id": "city-fact-pref-areaKm2-desc-滋賀県",
       "prompt": "滋賀県で面積が一番多い市区町村は？",
       "choices": [
-        "東近江市",
-        "米原市",
-        "大津市",
+        "甲良町",
+        "彦根市",
+        "野洲市",
         "高島市"
       ],
       "answer": "高島市",
@@ -15939,10 +13769,10 @@
       "id": "city-fact-pref-areaKm2-desc-京都府",
       "prompt": "京都府で面積が一番多い市区町村は？",
       "choices": [
-        "与謝野町",
+        "京都市",
         "長岡京市",
-        "八幡市",
-        "京都市"
+        "舞鶴市",
+        "笠置町"
       ],
       "answer": "京都市",
       "distractorStrategy": "sameCategoryPool",
@@ -15967,9 +13797,9 @@
       "id": "city-fact-pref-areaKm2-desc-大阪府",
       "prompt": "大阪府で面積が一番多い市区町村は？",
       "choices": [
-        "四條畷市",
-        "忠岡町",
         "大阪市",
+        "茨木市",
+        "忠岡町",
         "大東市"
       ],
       "answer": "大阪市",
@@ -15995,10 +13825,10 @@
       "id": "city-fact-pref-areaKm2-desc-兵庫県",
       "prompt": "兵庫県で面積が一番多い市区町村は？",
       "choices": [
-        "三木市",
         "豊岡市",
-        "加西市",
-        "朝来市"
+        "多可町",
+        "市川町",
+        "三田市"
       ],
       "answer": "豊岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -16023,10 +13853,10 @@
       "id": "city-fact-pref-areaKm2-desc-奈良県",
       "prompt": "奈良県で面積が一番多い市区町村は？",
       "choices": [
-        "三郷町",
-        "上北山村",
-        "天川村",
-        "十津川村"
+        "田原本町",
+        "十津川村",
+        "広陵町",
+        "御杖村"
       ],
       "answer": "十津川村",
       "distractorStrategy": "sameCategoryPool",
@@ -16051,10 +13881,10 @@
       "id": "city-fact-pref-areaKm2-desc-和歌山県",
       "prompt": "和歌山県で面積が一番多い市区町村は？",
       "choices": [
-        "太地町",
-        "海南市",
+        "古座川町",
+        "日高川町",
         "田辺市",
-        "御坊市"
+        "有田市"
       ],
       "answer": "田辺市",
       "distractorStrategy": "sameCategoryPool",
@@ -16079,10 +13909,10 @@
       "id": "city-fact-pref-areaKm2-desc-鳥取県",
       "prompt": "鳥取県で面積が一番多い市区町村は？",
       "choices": [
-        "日吉津村",
+        "江府町",
+        "日南町",
         "鳥取市",
-        "湯梨浜町",
-        "若桜町"
+        "岩美町"
       ],
       "answer": "鳥取市",
       "distractorStrategy": "sameCategoryPool",
@@ -16107,10 +13937,10 @@
       "id": "city-fact-pref-areaKm2-desc-島根県",
       "prompt": "島根県で面積が一番多い市区町村は？",
       "choices": [
-        "江津市",
-        "吉賀町",
+        "飯南町",
         "益田市",
-        "知夫村"
+        "江津市",
+        "美郷町"
       ],
       "answer": "益田市",
       "distractorStrategy": "sameCategoryPool",
@@ -16135,10 +13965,10 @@
       "id": "city-fact-pref-areaKm2-desc-岡山県",
       "prompt": "岡山県で面積が一番多い市区町村は？",
       "choices": [
-        "勝央町",
         "美咲町",
         "真庭市",
-        "赤磐市"
+        "吉備中央町",
+        "岡山市"
       ],
       "answer": "真庭市",
       "distractorStrategy": "sameCategoryPool",
@@ -16163,9 +13993,9 @@
       "id": "city-fact-pref-areaKm2-desc-広島県",
       "prompt": "広島県で面積が一番多い市区町村は？",
       "choices": [
-        "熊野町",
-        "廿日市市",
-        "海田町",
+        "江田島市",
+        "福山市",
+        "尾道市",
         "庄原市"
       ],
       "answer": "庄原市",
@@ -16191,10 +14021,10 @@
       "id": "city-fact-pref-areaKm2-desc-山口県",
       "prompt": "山口県で面積が一番多い市区町村は？",
       "choices": [
-        "光市",
+        "阿武町",
         "山口市",
-        "周南市",
-        "防府市"
+        "田布施町",
+        "光市"
       ],
       "answer": "山口市",
       "distractorStrategy": "sameCategoryPool",
@@ -16219,10 +14049,10 @@
       "id": "city-fact-pref-areaKm2-desc-徳島県",
       "prompt": "徳島県で面積が一番多い市区町村は？",
       "choices": [
-        "阿波市",
-        "神山町",
-        "北島町",
-        "三好市"
+        "三好市",
+        "鳴門市",
+        "徳島市",
+        "上板町"
       ],
       "answer": "三好市",
       "distractorStrategy": "sameCategoryPool",
@@ -16247,10 +14077,10 @@
       "id": "city-fact-pref-areaKm2-desc-香川県",
       "prompt": "香川県で面積が一番多い市区町村は？",
       "choices": [
-        "三木町",
+        "まんのう町",
         "高松市",
         "観音寺市",
-        "丸亀市"
+        "土庄町"
       ],
       "answer": "高松市",
       "distractorStrategy": "sameCategoryPool",
@@ -16275,10 +14105,10 @@
       "id": "city-fact-pref-areaKm2-desc-愛媛県",
       "prompt": "愛媛県で面積が一番多い市区町村は？",
       "choices": [
+        "内子町",
         "久万高原町",
-        "八幡浜市",
-        "鬼北町",
-        "今治市"
+        "新居浜市",
+        "伊方町"
       ],
       "answer": "久万高原町",
       "distractorStrategy": "sameCategoryPool",
@@ -16303,10 +14133,10 @@
       "id": "city-fact-pref-areaKm2-desc-高知県",
       "prompt": "高知県で面積が一番多い市区町村は？",
       "choices": [
-        "三原村",
-        "黒潮町",
-        "土佐清水市",
-        "四万十町"
+        "須崎市",
+        "四万十町",
+        "佐川町",
+        "大豊町"
       ],
       "answer": "四万十町",
       "distractorStrategy": "sameCategoryPool",
@@ -16331,10 +14161,10 @@
       "id": "city-fact-pref-areaKm2-desc-福岡県",
       "prompt": "福岡県で面積が一番多い市区町村は？",
       "choices": [
-        "八女市",
-        "北九州市",
-        "苅田町",
-        "小郡市"
+        "福岡市",
+        "桂川町",
+        "大刀洗町",
+        "北九州市"
       ],
       "answer": "北九州市",
       "distractorStrategy": "sameCategoryPool",
@@ -16359,10 +14189,10 @@
       "id": "city-fact-pref-areaKm2-desc-佐賀県",
       "prompt": "佐賀県で面積が一番多い市区町村は？",
       "choices": [
-        "武雄市",
-        "吉野ヶ里町",
+        "神埼市",
+        "伊万里市",
         "唐津市",
-        "白石町"
+        "玄海町"
       ],
       "answer": "唐津市",
       "distractorStrategy": "sameCategoryPool",
@@ -16387,10 +14217,10 @@
       "id": "city-fact-pref-areaKm2-desc-長崎県",
       "prompt": "長崎県で面積が一番多い市区町村は？",
       "choices": [
-        "島原市",
+        "南島原市",
+        "時津町",
         "対馬市",
-        "長崎市",
-        "東彼杵町"
+        "川棚町"
       ],
       "answer": "対馬市",
       "distractorStrategy": "sameCategoryPool",
@@ -16415,10 +14245,10 @@
       "id": "city-fact-pref-areaKm2-desc-熊本県",
       "prompt": "熊本県で面積が一番多い市区町村は？",
       "choices": [
-        "南阿蘇村",
-        "合志市",
-        "天草市",
-        "八代市"
+        "美里町",
+        "苓北町",
+        "菊池市",
+        "天草市"
       ],
       "answer": "天草市",
       "distractorStrategy": "sameCategoryPool",
@@ -16443,10 +14273,10 @@
       "id": "city-fact-pref-areaKm2-desc-大分県",
       "prompt": "大分県で面積が一番多い市区町村は？",
       "choices": [
-        "玖珠町",
         "豊後高田市",
         "佐伯市",
-        "津久見市"
+        "中津市",
+        "臼杵市"
       ],
       "answer": "佐伯市",
       "distractorStrategy": "sameCategoryPool",
@@ -16471,10 +14301,10 @@
       "id": "city-fact-pref-areaKm2-desc-宮崎県",
       "prompt": "宮崎県で面積が一番多い市区町村は？",
       "choices": [
-        "日向市",
+        "西米良村",
+        "五ヶ瀬町",
         "延岡市",
-        "日南市",
-        "美郷町"
+        "西都市"
       ],
       "answer": "延岡市",
       "distractorStrategy": "sameCategoryPool",
@@ -16499,10 +14329,10 @@
       "id": "city-fact-pref-areaKm2-desc-鹿児島県",
       "prompt": "鹿児島県で面積が一番多い市区町村は？",
       "choices": [
-        "南種子町",
-        "湧水町",
+        "南大隅町",
         "薩摩川内市",
-        "和泊町"
+        "徳之島町",
+        "さつま町"
       ],
       "answer": "薩摩川内市",
       "distractorStrategy": "sameCategoryPool",
@@ -16527,10 +14357,10 @@
       "id": "city-fact-pref-areaKm2-desc-沖縄県",
       "prompt": "沖縄県で面積が一番多い市区町村は？",
       "choices": [
-        "うるま市",
-        "竹富町",
-        "伊江村",
-        "粟国村"
+        "恩納村",
+        "糸満市",
+        "読谷村",
+        "竹富町"
       ],
       "answer": "竹富町",
       "distractorStrategy": "sameCategoryPool",
@@ -16555,10 +14385,10 @@
       "id": "city-fact-pref-areaKm2-asc-北海道",
       "prompt": "北海道で面積が一番少ない市区町村は？",
       "choices": [
-        "中標津町",
-        "上砂川町",
-        "留寿都村",
-        "苫前町"
+        "広尾町",
+        "倶知安町",
+        "恵庭市",
+        "上砂川町"
       ],
       "answer": "上砂川町",
       "distractorStrategy": "sameCategoryPool",
@@ -16583,10 +14413,10 @@
       "id": "city-fact-pref-areaKm2-asc-青森県",
       "prompt": "青森県で面積が一番少ない市区町村は？",
       "choices": [
-        "蓬田村",
+        "今別町",
         "田舎館村",
-        "大鰐町",
-        "弘前市"
+        "三沢市",
+        "階上町"
       ],
       "answer": "田舎館村",
       "distractorStrategy": "sameCategoryPool",
@@ -16611,10 +14441,10 @@
       "id": "city-fact-pref-areaKm2-asc-岩手県",
       "prompt": "岩手県で面積が一番少ない市区町村は？",
       "choices": [
-        "宮古市",
         "平泉町",
-        "岩手町",
-        "葛巻町"
+        "金ケ崎町",
+        "軽米町",
+        "矢巾町"
       ],
       "answer": "平泉町",
       "distractorStrategy": "sameCategoryPool",
@@ -16639,10 +14469,10 @@
       "id": "city-fact-pref-areaKm2-asc-宮城県",
       "prompt": "宮城県で面積が一番少ない市区町村は？",
       "choices": [
-        "大崎市",
-        "村田町",
-        "登米市",
-        "石巻市"
+        "塩竈市",
+        "石巻市",
+        "大河原町",
+        "南三陸町"
       ],
       "answer": "石巻市",
       "distractorStrategy": "sameCategoryPool",
@@ -16667,10 +14497,10 @@
       "id": "city-fact-pref-areaKm2-asc-秋田県",
       "prompt": "秋田県で面積が一番少ない市区町村は？",
       "choices": [
-        "男鹿市",
-        "湯沢市",
-        "北秋田市",
-        "八郎潟町"
+        "由利本荘市",
+        "羽後町",
+        "八郎潟町",
+        "五城目町"
       ],
       "answer": "八郎潟町",
       "distractorStrategy": "sameCategoryPool",
@@ -16695,10 +14525,10 @@
       "id": "city-fact-pref-areaKm2-asc-山形県",
       "prompt": "山形県で面積が一番少ない市区町村は？",
       "choices": [
+        "三川町",
         "中山町",
-        "尾花沢市",
-        "米沢市",
-        "天童市"
+        "南陽市",
+        "山辺町"
       ],
       "answer": "中山町",
       "distractorStrategy": "sameCategoryPool",
@@ -16723,10 +14553,10 @@
       "id": "city-fact-pref-areaKm2-asc-福島県",
       "prompt": "福島県で面積が一番少ない市区町村は？",
       "choices": [
-        "喜多方市",
-        "飯舘村",
-        "猪苗代町",
-        "湯川村"
+        "本宮市",
+        "新地町",
+        "湯川村",
+        "鮫川村"
       ],
       "answer": "湯川村",
       "distractorStrategy": "sameCategoryPool",
@@ -16751,10 +14581,10 @@
       "id": "city-fact-pref-areaKm2-asc-茨城県",
       "prompt": "茨城県で面積が一番少ない市区町村は？",
       "choices": [
-        "阿見町",
-        "土浦市",
-        "鉾田市",
-        "五霞町"
+        "水戸市",
+        "結城市",
+        "五霞町",
+        "笠間市"
       ],
       "answer": "五霞町",
       "distractorStrategy": "sameCategoryPool",
@@ -16779,10 +14609,10 @@
       "id": "city-fact-pref-areaKm2-asc-栃木県",
       "prompt": "栃木県で面積が一番少ない市区町村は？",
       "choices": [
-        "日光市",
         "野木町",
         "栃木市",
-        "岩舟町"
+        "市貝町",
+        "下野市"
       ],
       "answer": "野木町",
       "distractorStrategy": "sameCategoryPool",
@@ -16807,10 +14637,10 @@
       "id": "city-fact-pref-areaKm2-asc-群馬県",
       "prompt": "群馬県で面積が一番少ない市区町村は？",
       "choices": [
-        "上野村",
-        "板倉町",
+        "館林市",
         "大泉町",
-        "玉村町"
+        "中之条町",
+        "邑楽町"
       ],
       "answer": "大泉町",
       "distractorStrategy": "sameCategoryPool",
@@ -16836,9 +14666,9 @@
       "prompt": "埼玉県で面積が一番少ない市区町村は？",
       "choices": [
         "蕨市",
-        "深谷市",
-        "加須市",
-        "所沢市"
+        "杉戸町",
+        "行田市",
+        "熊谷市"
       ],
       "answer": "蕨市",
       "distractorStrategy": "sameCategoryPool",
@@ -16863,10 +14693,10 @@
       "id": "city-fact-pref-areaKm2-asc-千葉県",
       "prompt": "千葉県で面積が一番少ない市区町村は？",
       "choices": [
-        "八街市",
-        "長生村",
-        "睦沢町",
-        "浦安市"
+        "我孫子市",
+        "浦安市",
+        "市川市",
+        "流山市"
       ],
       "answer": "浦安市",
       "distractorStrategy": "sameCategoryPool",
@@ -16891,10 +14721,10 @@
       "id": "city-fact-pref-areaKm2-asc-東京都",
       "prompt": "東京都で面積が一番少ない市区町村は？",
       "choices": [
-        "東大和市",
-        "東久留米市",
-        "江東区",
-        "利島村"
+        "日野市",
+        "狛江市",
+        "利島村",
+        "国分寺市"
       ],
       "answer": "利島村",
       "distractorStrategy": "sameCategoryPool",
@@ -16920,9 +14750,9 @@
       "prompt": "神奈川県で面積が一番少ない市区町村は？",
       "choices": [
         "開成町",
-        "松田町",
-        "箱根町",
-        "藤沢市"
+        "愛川町",
+        "横須賀市",
+        "座間市"
       ],
       "answer": "開成町",
       "distractorStrategy": "sameCategoryPool",
@@ -16947,10 +14777,10 @@
       "id": "city-fact-pref-areaKm2-asc-新潟県",
       "prompt": "新潟県で面積が一番少ない市区町村は？",
       "choices": [
-        "関川村",
-        "聖籠町",
+        "湯沢町",
+        "南魚沼市",
         "粟島浦村",
-        "田上町"
+        "魚沼市"
       ],
       "answer": "粟島浦村",
       "distractorStrategy": "sameCategoryPool",
@@ -16975,10 +14805,10 @@
       "id": "city-fact-pref-areaKm2-asc-富山県",
       "prompt": "富山県で面積が一番少ない市区町村は？",
       "choices": [
-        "富山市",
-        "黒部市",
-        "魚津市",
-        "舟橋村"
+        "上市町",
+        "舟橋村",
+        "氷見市",
+        "南砺市"
       ],
       "answer": "舟橋村",
       "distractorStrategy": "sameCategoryPool",
@@ -17003,10 +14833,10 @@
       "id": "city-fact-pref-areaKm2-asc-石川県",
       "prompt": "石川県で面積が一番少ない市区町村は？",
       "choices": [
-        "金沢市",
-        "珠洲市",
+        "中能登町",
+        "羽咋市",
         "野々市市",
-        "かほく市"
+        "珠洲市"
       ],
       "answer": "野々市市",
       "distractorStrategy": "sameCategoryPool",
@@ -17031,9 +14861,9 @@
       "id": "city-fact-pref-areaKm2-asc-福井県",
       "prompt": "福井県で面積が一番少ない市区町村は？",
       "choices": [
-        "坂井市",
-        "おおい町",
+        "越前町",
         "池田町",
+        "大野市",
         "高浜町"
       ],
       "answer": "高浜町",
@@ -17059,10 +14889,10 @@
       "id": "city-fact-pref-areaKm2-asc-山梨県",
       "prompt": "山梨県で面積が一番少ない市区町村は？",
       "choices": [
-        "昭和町",
-        "南アルプス市",
-        "都留市",
-        "上野原市"
+        "大月市",
+        "甲府市",
+        "中央市",
+        "昭和町"
       ],
       "answer": "昭和町",
       "distractorStrategy": "sameCategoryPool",
@@ -17088,9 +14918,9 @@
       "prompt": "長野県で面積が一番少ない市区町村は？",
       "choices": [
         "小布施町",
-        "木島平村",
-        "生坂村",
-        "大鹿村"
+        "松本市",
+        "佐久穂町",
+        "軽井沢町"
       ],
       "answer": "小布施町",
       "distractorStrategy": "sameCategoryPool",
@@ -17115,10 +14945,10 @@
       "id": "city-fact-pref-areaKm2-asc-岐阜県",
       "prompt": "岐阜県で面積が一番少ない市区町村は？",
       "choices": [
-        "白川村",
-        "大野町",
-        "美濃加茂市",
-        "北方町"
+        "神戸町",
+        "北方町",
+        "輪之内町",
+        "土岐市"
       ],
       "answer": "北方町",
       "distractorStrategy": "sameCategoryPool",
@@ -17143,9 +14973,9 @@
       "id": "city-fact-pref-areaKm2-asc-静岡県",
       "prompt": "静岡県で面積が一番少ない市区町村は？",
       "choices": [
+        "南伊豆町",
         "清水町",
-        "御殿場市",
-        "湖西市",
+        "掛川市",
         "下田市"
       ],
       "answer": "清水町",
@@ -17171,10 +15001,10 @@
       "id": "city-fact-pref-areaKm2-asc-愛知県",
       "prompt": "愛知県で面積が一番少ない市区町村は？",
       "choices": [
+        "阿久比町",
+        "津島市",
         "豊山町",
-        "清須市",
-        "瀬戸市",
-        "武豊町"
+        "東海市"
       ],
       "answer": "豊山町",
       "distractorStrategy": "sameCategoryPool",
@@ -17199,9 +15029,9 @@
       "id": "city-fact-pref-areaKm2-asc-三重県",
       "prompt": "三重県で面積が一番少ない市区町村は？",
       "choices": [
-        "紀北町",
-        "志摩市",
-        "亀山市",
+        "多気町",
+        "松阪市",
+        "鳥羽市",
         "朝日町"
       ],
       "answer": "朝日町",
@@ -17227,10 +15057,10 @@
       "id": "city-fact-pref-areaKm2-asc-滋賀県",
       "prompt": "滋賀県で面積が一番少ない市区町村は？",
       "choices": [
+        "甲良町",
+        "甲賀市",
         "豊郷町",
-        "愛荘町",
-        "野洲市",
-        "日野町"
+        "高島市"
       ],
       "answer": "豊郷町",
       "distractorStrategy": "sameCategoryPool",
@@ -17255,10 +15085,10 @@
       "id": "city-fact-pref-areaKm2-asc-京都府",
       "prompt": "京都府で面積が一番少ない市区町村は？",
       "choices": [
-        "向日市",
-        "京丹後市",
-        "大山崎町",
-        "宇治市"
+        "京丹波町",
+        "福知山市",
+        "久御山町",
+        "大山崎町"
       ],
       "answer": "大山崎町",
       "distractorStrategy": "sameCategoryPool",
@@ -17283,10 +15113,10 @@
       "id": "city-fact-pref-areaKm2-asc-大阪府",
       "prompt": "大阪府で面積が一番少ない市区町村は？",
       "choices": [
-        "茨木市",
-        "田尻町",
+        "泉佐野市",
+        "大阪市",
         "忠岡町",
-        "大東市"
+        "岸和田市"
       ],
       "answer": "忠岡町",
       "distractorStrategy": "sameCategoryPool",
@@ -17312,9 +15142,9 @@
       "prompt": "兵庫県で面積が一番少ない市区町村は？",
       "choices": [
         "播磨町",
-        "芦屋市",
-        "相生市",
-        "西宮市"
+        "赤穂市",
+        "三田市",
+        "伊丹市"
       ],
       "answer": "播磨町",
       "distractorStrategy": "sameCategoryPool",
@@ -17339,10 +15169,10 @@
       "id": "city-fact-pref-areaKm2-asc-奈良県",
       "prompt": "奈良県で面積が一番少ない市区町村は？",
       "choices": [
-        "明日香村",
+        "御杖村",
+        "平群町",
         "三宅町",
-        "斑鳩町",
-        "生駒市"
+        "上牧町"
       ],
       "answer": "三宅町",
       "distractorStrategy": "sameCategoryPool",
@@ -17367,10 +15197,10 @@
       "id": "city-fact-pref-areaKm2-asc-和歌山県",
       "prompt": "和歌山県で面積が一番少ない市区町村は？",
       "choices": [
-        "紀美野町",
-        "那智勝浦町",
+        "田辺市",
         "太地町",
-        "印南町"
+        "御坊市",
+        "新宮市"
       ],
       "answer": "太地町",
       "distractorStrategy": "sameCategoryPool",
@@ -17395,10 +15225,10 @@
       "id": "city-fact-pref-areaKm2-asc-鳥取県",
       "prompt": "鳥取県で面積が一番少ない市区町村は？",
       "choices": [
+        "境港市",
+        "若桜町",
         "日吉津村",
-        "伯耆町",
-        "日南町",
-        "境港市"
+        "岩美町"
       ],
       "answer": "日吉津村",
       "distractorStrategy": "sameCategoryPool",
@@ -17424,9 +15254,9 @@
       "prompt": "島根県で面積が一番少ない市区町村は？",
       "choices": [
         "知夫村",
-        "雲南市",
         "安来市",
-        "松江市"
+        "飯南町",
+        "浜田市"
       ],
       "answer": "知夫村",
       "distractorStrategy": "sameCategoryPool",
@@ -17451,10 +15281,10 @@
       "id": "city-fact-pref-areaKm2-asc-岡山県",
       "prompt": "岡山県で面積が一番少ない市区町村は？",
       "choices": [
-        "玉野市",
-        "西粟倉村",
+        "奈義町",
         "早島町",
-        "瀬戸内市"
+        "西粟倉村",
+        "美作市"
       ],
       "answer": "早島町",
       "distractorStrategy": "sameCategoryPool",
@@ -17479,10 +15309,10 @@
       "id": "city-fact-pref-areaKm2-asc-広島県",
       "prompt": "広島県で面積が一番少ない市区町村は？",
       "choices": [
+        "竹原市",
+        "大崎上島町",
         "府中町",
-        "庄原市",
-        "広島市",
-        "熊野町"
+        "尾道市"
       ],
       "answer": "府中町",
       "distractorStrategy": "sameCategoryPool",
@@ -17507,10 +15337,10 @@
       "id": "city-fact-pref-areaKm2-asc-山口県",
       "prompt": "山口県で面積が一番少ない市区町村は？",
       "choices": [
+        "美祢市",
+        "光市",
         "和木町",
-        "田布施町",
-        "下松市",
-        "上関町"
+        "平生町"
       ],
       "answer": "和木町",
       "distractorStrategy": "sameCategoryPool",
@@ -17537,8 +15367,8 @@
       "choices": [
         "神山町",
         "北島町",
-        "上勝町",
-        "つるぎ町"
+        "石井町",
+        "板野町"
       ],
       "answer": "北島町",
       "distractorStrategy": "sameCategoryPool",
@@ -17563,10 +15393,10 @@
       "id": "city-fact-pref-areaKm2-asc-香川県",
       "prompt": "香川県で面積が一番少ない市区町村は？",
       "choices": [
-        "三豊市",
-        "観音寺市",
+        "直島町",
         "宇多津町",
-        "坂出市"
+        "綾川町",
+        "小豆島町"
       ],
       "answer": "宇多津町",
       "distractorStrategy": "sameCategoryPool",
@@ -17591,10 +15421,10 @@
       "id": "city-fact-pref-areaKm2-asc-愛媛県",
       "prompt": "愛媛県で面積が一番少ない市区町村は？",
       "choices": [
-        "今治市",
+        "西条市",
+        "松山市",
         "松前町",
-        "砥部町",
-        "上島町"
+        "砥部町"
       ],
       "answer": "松前町",
       "distractorStrategy": "sameCategoryPool",
@@ -17619,10 +15449,10 @@
       "id": "city-fact-pref-areaKm2-asc-高知県",
       "prompt": "高知県で面積が一番少ない市区町村は？",
       "choices": [
-        "土佐清水市",
         "田野町",
-        "中土佐町",
-        "土佐市"
+        "北川村",
+        "黒潮町",
+        "津野町"
       ],
       "answer": "田野町",
       "distractorStrategy": "sameCategoryPool",
@@ -17647,10 +15477,10 @@
       "id": "city-fact-pref-areaKm2-asc-福岡県",
       "prompt": "福岡県で面積が一番少ない市区町村は？",
       "choices": [
-        "宮若市",
         "吉富町",
-        "篠栗町",
-        "みやま市"
+        "行橋市",
+        "遠賀町",
+        "桂川町"
       ],
       "answer": "吉富町",
       "distractorStrategy": "sameCategoryPool",
@@ -17675,10 +15505,10 @@
       "id": "city-fact-pref-areaKm2-asc-佐賀県",
       "prompt": "佐賀県で面積が一番少ない市区町村は？",
       "choices": [
-        "太良町",
-        "多久市",
+        "基山町",
         "大町町",
-        "伊万里市"
+        "鳥栖市",
+        "鹿島市"
       ],
       "answer": "大町町",
       "distractorStrategy": "sameCategoryPool",
@@ -17703,10 +15533,10 @@
       "id": "city-fact-pref-areaKm2-asc-長崎県",
       "prompt": "長崎県で面積が一番少ない市区町村は？",
       "choices": [
-        "東彼杵町",
+        "時津町",
+        "川棚町",
         "諫早市",
-        "雲仙市",
-        "時津町"
+        "平戸市"
       ],
       "answer": "時津町",
       "distractorStrategy": "sameCategoryPool",
@@ -17731,10 +15561,10 @@
       "id": "city-fact-pref-areaKm2-asc-熊本県",
       "prompt": "熊本県で面積が一番少ない市区町村は？",
       "choices": [
-        "嘉島町",
-        "熊本市",
-        "五木村",
-        "産山村"
+        "長洲町",
+        "南関町",
+        "八代市",
+        "嘉島町"
       ],
       "answer": "嘉島町",
       "distractorStrategy": "sameCategoryPool",
@@ -17759,10 +15589,10 @@
       "id": "city-fact-pref-areaKm2-asc-大分県",
       "prompt": "大分県で面積が一番少ない市区町村は？",
       "choices": [
-        "国東市",
-        "玖珠町",
         "姫島村",
-        "九重町"
+        "杵築市",
+        "日出町",
+        "津久見市"
       ],
       "answer": "姫島村",
       "distractorStrategy": "sameCategoryPool",
@@ -17787,10 +15617,10 @@
       "id": "city-fact-pref-areaKm2-asc-宮崎県",
       "prompt": "宮崎県で面積が一番少ない市区町村は？",
       "choices": [
-        "日之影町",
-        "高鍋町",
-        "宮崎市",
-        "串間市"
+        "都農町",
+        "椎葉村",
+        "諸塚村",
+        "高鍋町"
       ],
       "answer": "高鍋町",
       "distractorStrategy": "sameCategoryPool",
@@ -17815,10 +15645,10 @@
       "id": "city-fact-pref-areaKm2-asc-鹿児島県",
       "prompt": "鹿児島県で面積が一番少ない市区町村は？",
       "choices": [
-        "南大隅町",
+        "南種子町",
+        "肝付町",
         "与論町",
-        "宇検村",
-        "南種子町"
+        "指宿市"
       ],
       "answer": "与論町",
       "distractorStrategy": "sameCategoryPool",
@@ -17843,10 +15673,10 @@
       "id": "city-fact-pref-areaKm2-asc-沖縄県",
       "prompt": "沖縄県で面積が一番少ない市区町村は？",
       "choices": [
-        "渡名喜村",
-        "八重瀬町",
-        "伊江村",
-        "与那国町"
+        "渡嘉敷村",
+        "東村",
+        "西原町",
+        "渡名喜村"
       ],
       "answer": "渡名喜村",
       "distractorStrategy": "sameCategoryPool",
