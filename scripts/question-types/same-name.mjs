@@ -27,7 +27,13 @@ export function generate(municipalities, seed) {
     // 一致した都道府県それぞれを正解にした問題を1問ずつ作る（府中なら東京都版・広島県版の2問）
     for (const answerPref of g.prefectures) {
       const givenPrefs = g.prefectures.filter((p) => p !== answerPref);
-      const givenPref = givenPrefs[0]; // 3県以上またぐ稀ケースは先頭のみ出題文に使う
+      // 従来は givenPrefs[0] で固定だったため、3県以上またぐグループで answerPref が異なっても
+      // 同じ givenPref が選ばれ、同じ prompt 文字列に複数の正解が存在した（issue #9）。
+      // answerPref 自身の g.prefectures 内インデックス i を使い、givenPrefs[(i-1+N)%N] を
+      // 選ぶことで answerPref ごとに異なる givenPref を機械的に決定する。
+      // 2県グループ（N=1）では常にインデックス0で従来と同じ振る舞い。
+      const i = g.prefectures.indexOf(answerPref);
+      const givenPref = givenPrefs[(i - 1 + givenPrefs.length) % givenPrefs.length];
       const exclude = new Set(g.prefectures);
       const distractors = sameCategoryPoolPrefectures(exclude, 3, rng);
       const choices = shuffle([answerPref, ...distractors], rng);
