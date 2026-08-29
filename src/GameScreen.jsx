@@ -80,7 +80,7 @@ export function GameScreen({ questions, onFinish }) {
 
   const advanceAfterTrivia = useCallback(() => {
     if (index + 1 >= questions.length) {
-      onFinish({ score: score + (lastResult?.scoreGained ?? 0), maxCombo, total: questions.length });
+      onFinish({ score, maxCombo, total: questions.length });
       return;
     }
     setIndex((i) => i + 1);
