@@ -9,7 +9,7 @@
     "dev": "vite",
     "build": "vite build",
     "start": "node server.js",
-    "test": "node --test test/"
+    "test": "node --test test/*.test.mjs"
   },
   "license": "MIT",
   "engines": {
