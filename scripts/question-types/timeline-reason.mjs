@@ -17,12 +17,34 @@ export function generate(changes, currentMunicipalities, seed) {
     const oldsLabel = ev.olds.map((o) => o.name).join("・");
 
     if (ev.kind === "merge") {
+      // 新設合併では、新自治体名が旧自治体名のどれかと同一になることがある（吸収的新設合併）。
+      // 例: 釧路市・阿寒町・音別町 → 釧路市。旧自治体名をそのまま列挙すると正解が問題文に露出し、
+      // 読むだけで解ける（741問中189問＝25.5%が該当していた、issue #20）。
+      // 同じmergeイベントを扱う portmanteau.mjs は findBrandNewMerges で同じケースを弾いている。
+      //
+      // 判定に === ではなく includes を使うのは、完全一致しないのに正解が現れるケースがあるため。
+      // 例: 「鷲敷町・相生町・上那賀町・木沢村・木頭村が合併して誕生したのは？」→ 那賀町
+      // （上那賀町 が 那賀町 を部分文字列として含む）。includes なら
+      // 「生成した全設問で prompt.includes(answer) が偽」を不変条件として保証できる。
+      const visibleOlds = ev.olds.filter((o) => !o.name.includes(ev.new.name));
+      // 全ての旧名が正解を含むイベント（上湧別町・湧別町 → 湧別町 / 有田町・西有田町 → 有田町）は
+      // どう書いても答えが問題文に出るので出題できない。
+      if (visibleOlds.length === 0) continue;
+      const visibleLabel = visibleOlds.map((o) => o.name).join("・");
+      // 旧自治体を隠したときは「が」ではなく「と」にする。正解の自治体も合併の当事者だったことを示し、
+      // 「隠された当事者がいる」と読めるようにするため。
+      const mergePrompt =
+        visibleOlds.length === ev.olds.length
+          ? `${visibleLabel}が合併して誕生したのは？`
+          : `${visibleLabel}と合併して誕生したのは？`;
+
+      // 誤答の除外集合は隠した分も含めて全oldsを使う（表示していない自治体名が誤答に出ると紛らわしいため）。
       const distractors = sameCategoryPool(currentNameList, new Set([ev.new.name, ...ev.olds.map((o) => o.name)]), 3, rng);
       const choices = shuffle([ev.new.name, ...distractors], rng);
       questions.push({
         type: "timeline-reason",
         id: `timeline-merge-${ev.new.name}-${ev.effectiveDate}`,
-        prompt: `${oldsLabel}が合併して誕生したのは？`,
+        prompt: mergePrompt,
         choices,
         answer: ev.new.name,
         distractorStrategy: "sameCategoryPool",
