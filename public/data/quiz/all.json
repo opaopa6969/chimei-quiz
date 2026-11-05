@@ -1,5 +1,5 @@
 {
-  "count": 3776,
+  "count": 3773,
   "questions": [
     {
       "type": "same-name",
@@ -106254,34 +106254,6 @@
     },
     {
       "type": "city-fact",
-      "id": "city-fact-pref-population-desc-埼玉県",
-      "prompt": "埼玉県で人口が一番多い市区町村は？",
-      "choices": [
-        "さいたま市",
-        "日高市",
-        "松伏町",
-        "羽生市"
-      ],
-      "answer": "さいたま市",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "pref-extreme",
-        "population",
-        "desc",
-        "埼玉県"
-      ],
-      "difficulty": 0.4,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "111007"
-        ]
-      },
-      "trivia": "埼玉県内の人口上位: さいたま市 1,325,843人 / 川口市 593,900人 / 浦和市 486,538人 / 川越市 354,598人（埼玉県には市区町村が64ある）"
-    },
-    {
-      "type": "city-fact",
       "id": "city-fact-pref-population-desc-千葉県",
       "prompt": "千葉県で人口が一番多い市区町村は？",
       "choices": [
@@ -110090,34 +110062,6 @@
     },
     {
       "type": "city-fact",
-      "id": "city-fact-pref-areaKm2-asc-栃木県",
-      "prompt": "栃木県で面積が一番少ない市区町村は？",
-      "choices": [
-        "栃木市",
-        "茂木町",
-        "下野市",
-        "野木町"
-      ],
-      "answer": "野木町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "pref-extreme",
-        "areaKm2",
-        "asc",
-        "栃木県"
-      ],
-      "difficulty": 0.4,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "093645"
-        ]
-      },
-      "trivia": "栃木県内の面積下位: 野木町 30.27km² / 岩舟町 46.74km² / 上三川町 54.39km² / 壬生町 61.06km²（栃木県には市区町村が26ある）"
-    },
-    {
-      "type": "city-fact",
       "id": "city-fact-pref-areaKm2-asc-群馬県",
       "prompt": "群馬県で面積が一番少ない市区町村は？",
       "choices": [
@@ -110451,34 +110395,6 @@
         ]
       },
       "trivia": "岐阜県内の面積下位: 北方町 5.18km² / 岐南町 7.91km² / 笠松町 10.3km² / 坂祝町 12.87km²（岐阜県には市区町村が42ある）"
-    },
-    {
-      "type": "city-fact",
-      "id": "city-fact-pref-areaKm2-asc-静岡県",
-      "prompt": "静岡県で面積が一番少ない市区町村は？",
-      "choices": [
-        "吉田町",
-        "藤枝市",
-        "松崎町",
-        "清水町"
-      ],
-      "answer": "清水町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "city-fact",
-        "pref-extreme",
-        "areaKm2",
-        "asc",
-        "静岡県"
-      ],
-      "difficulty": 0.4,
-      "source": {
-        "dataset": "wikidata-municipality-master",
-        "refs": [
-          "223417"
-        ]
-      },
-      "trivia": "静岡県内の面積下位: 清水町 8.81km² / 吉田町 20.73km² / 竜洋町 23.62km² / 長泉町 26.63km²（静岡県には市区町村が36ある）"
     },
     {
       "type": "city-fact",

@@ -32,13 +32,35 @@ test("赤泊村・小泊村は保持し、残す設問の内容と順序を変�
   assert.deepEqual(questions, original);
 });
 
+test("city-factの解説ランキングだけに除外自治体が出る設問も丸ごと除外する", () => {
+  const questions = excludedNames.flatMap((name) => [
+    `${name} 1人 / 札幌市 2人`,
+    `札幌市 1人 / ${name} 2人 / 函館市 3人`,
+    `札幌市 1人 / ${name} 2人`,
+  ].map((ranking) => ({
+    type: "city-fact", choices: ["札幌市", "函館市"], answer: "札幌市",
+    source: { refs: ["011002"] }, trivia: `北海道内の人口上位: ${ranking}`,
+  })));
+  assert.deepEqual(excludeMunicipalityQuestions(questions), []);
+});
+
+test("解説にある赤泊村・小泊村と、他カテゴリの歴史的な自治体名は保持する", () => {
+  const questions = [
+    { type: "city-fact", choices: ["新潟市"], answer: "新潟市",
+      trivia: "人口比較: 赤泊村 1人 / 小泊村 2人 / 新潟市 3人" },
+    { type: "vanished", choices: ["さいたま市"], answer: "さいたま市",
+      trivia: "旧自治体: 浦和市 / 大宮市 / 与野市" },
+  ];
+  assert.deepEqual(excludeMunicipalityQuestions(questions), questions);
+});
+
 const quizDir = new URL("../public/data/quiz/", import.meta.url);
 const sets = readdirSync(quizDir).filter((name) => name.endsWith(".json")).map((name) => [
   name, JSON.parse(readFileSync(new URL(name, quizDir), "utf8")),
 ]);
 
 for (const [name, set] of sets) {
-  test(`${name}: 全設問のchoices・answer・コード参照に除外自治体が無い`, () => {
+  test(`${name}: choices・answer・コード参照・現在ランキングに除外自治体が無い`, () => {
     assert.equal(set.count, set.questions.length);
     assert.ok(set.questions.length > 0);
     for (const question of set.questions) {
@@ -47,9 +69,26 @@ for (const [name, set] of sets) {
         assert.ok(!value.split("・").some((part) => excluded.has(part)), `${question.id}: ${value}`);
       }
       assert.ok(!question.source?.refs?.some((ref) => excludedCodes.includes(ref)), question.id);
+      if (question.type === "city-fact") {
+        for (const municipality of excludedNames) {
+          assert.doesNotMatch(question.trivia ?? "", new RegExp(`(?:^|[:：/]\\s*)${municipality} `), question.id);
+        }
+      }
     }
   });
 }
+
+test("city-factとallに旧自治体の解説ランキング3問を残さない", () => {
+  const removedIds = [
+    "city-fact-pref-population-desc-埼玉県",
+    "city-fact-pref-areaKm2-asc-栃木県",
+    "city-fact-pref-areaKm2-asc-静岡県",
+  ];
+  for (const name of ["city-fact.json", "all.json"]) {
+    const set = sets.find(([file]) => file === name)[1];
+    assert.ok(!set.questions.some((question) => removedIds.includes(question.id)), name);
+  }
+});
 
 test("all.jsonは除外済みカテゴリを同じ順序・内容で連結する", () => {
   const all = sets.find(([name]) => name === "all.json")[1];

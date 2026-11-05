@@ -22,6 +22,12 @@ export function excludeMunicipalityQuestions(questions) {
   // 選択肢にコードが無いカテゴリは、#23の受入条件に合わせ同名の歴史的自治体も保守的に除外。
   return questions.filter((question) => {
     const values = [...question.choices, ...[question.answer].flat()];
+    // 県内順位の解説には、選択肢にもsource.refsにも無い自治体が登場する。
+    // city-factの「自治体名 数値」も検査し、他カテゴリの合併史は保持する。
+    if (question.type === "city-fact") {
+      values.push(...(question.trivia ?? "").split(/[:：/]/)
+        .map((entry) => entry.trim().split(" ")[0]));
+    }
     return !values.some((value) => value.split("・").some((part) => excludedValues.has(part)))
       && !question.source?.refs?.some((ref) => excludedCodes.has(ref));
   });
