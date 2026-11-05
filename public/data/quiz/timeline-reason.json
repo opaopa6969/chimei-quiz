@@ -1,6 +1,6 @@
 {
   "type": "timeline-reason",
-  "count": 739,
+  "count": 729,
   "questions": [
     {
       "type": "timeline-reason",
@@ -571,33 +571,6 @@
     },
     {
       "type": "timeline-reason",
-      "id": "timeline-merge-日高町-2006-03-01",
-      "prompt": "門別町と合併して誕生したのは？",
-      "choices": [
-        "成田市",
-        "日高町",
-        "留夜別村",
-        "宮古島市"
-      ],
-      "answer": "日高町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "timeline-reason",
-        "merge",
-        "北海道",
-        "2006"
-      ],
-      "difficulty": 0.54,
-      "source": {
-        "dataset": "municipality-history",
-        "refs": [
-          "日高町(01601)、門別町(01603)が合併し、日高町を新設"
-        ]
-      },
-      "trivia": "平成18年（2006年）、北海道。「平成の大合併」（2003〜2010年）の一つ。日高町(01601)、門別町(01603)が合併し、日高町を新設"
-    },
-    {
-      "type": "timeline-reason",
       "id": "timeline-merge-新ひだか町-2006-03-31",
       "prompt": "静内町・三石町が合併して誕生したのは？",
       "choices": [
@@ -622,33 +595,6 @@
         ]
       },
       "trivia": "平成18年（2006年）、北海道。「平成の大合併」（2003〜2010年）の一つ。静内町(01605)、三石町(01606)が合併し、新ひだか町(01610)を新設"
-    },
-    {
-      "type": "timeline-reason",
-      "id": "timeline-absorb-忠類村-2006-02-06",
-      "prompt": "「忠類村」が編入されたのはどこ？",
-      "choices": [
-        "阿蘇市",
-        "会津若松市",
-        "宮城村",
-        "幕別町"
-      ],
-      "answer": "幕別町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "timeline-reason",
-        "absorb",
-        "北海道",
-        "2006"
-      ],
-      "difficulty": 0.5700000000000001,
-      "source": {
-        "dataset": "municipality-history",
-        "refs": [
-          "忠類村(01640)が幕別町(01643)に編入"
-        ]
-      },
-      "trivia": "平成18年（2006年）、北海道。「平成の大合併」（2003〜2010年）の一つ。忠類村(01640)が幕別町(01643)に編入"
     },
     {
       "type": "timeline-reason",
@@ -2218,33 +2164,6 @@
     },
     {
       "type": "timeline-reason",
-      "id": "timeline-merge-にかほ市-2005-10-01",
-      "prompt": "仁賀保町・金浦町・象潟町が合併して誕生したのは？",
-      "choices": [
-        "下呂市",
-        "蘂取村",
-        "にかほ市",
-        "草津市"
-      ],
-      "answer": "にかほ市",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "timeline-reason",
-        "merge",
-        "秋田県",
-        "2005"
-      ],
-      "difficulty": 0.51,
-      "source": {
-        "dataset": "municipality-history",
-        "refs": [
-          "仁賀保町(05401)、金浦町(05402)、象潟町(05403)が合併し、にかほ市(05214)を新設"
-        ]
-      },
-      "trivia": "平成17年（2005年）、秋田県。「平成の大合併」（2003〜2010年）の一つ。仁賀保町(05401)、金浦町(05402)、象潟町(05403)が合併し、にかほ市(05214)を新設"
-    },
-    {
-      "type": "timeline-reason",
       "id": "timeline-merge-仙北市-2005-09-20",
       "prompt": "角館町・田沢湖町・西木村が合併して誕生したのは？",
       "choices": [
@@ -2323,33 +2242,6 @@
         ]
       },
       "trivia": "平成18年（2006年）、秋田県。「平成の大合併」（2003〜2010年）の一つ。八森町(05343)、峰浜村(05347)が合併し、八峰町(05349)を新設"
-    },
-    {
-      "type": "timeline-reason",
-      "id": "timeline-merge-美郷町-2004-11-01",
-      "prompt": "六郷町・千畑町・仙南村が合併して誕生したのは？",
-      "choices": [
-        "加須市",
-        "美郷町",
-        "三郷市",
-        "留別村"
-      ],
-      "answer": "美郷町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "timeline-reason",
-        "merge",
-        "秋田県",
-        "2004"
-      ],
-      "difficulty": 0.51,
-      "source": {
-        "dataset": "municipality-history",
-        "refs": [
-          "六郷町(05424)、千畑町(05432)、仙南村(05433)が合併し、美郷町(05434)を新設"
-        ]
-      },
-      "trivia": "平成16年（2004年）、秋田県。「平成の大合併」（2003〜2010年）の一つ。六郷町(05424)、千畑町(05432)、仙南村(05433)が合併し、美郷町(05434)を新設"
     },
     {
       "type": "timeline-reason",
@@ -4945,33 +4837,6 @@
     },
     {
       "type": "timeline-reason",
-      "id": "timeline-merge-小鹿野町-2005-10-01",
-      "prompt": "両神村と合併して誕生したのは？",
-      "choices": [
-        "阿賀野市",
-        "留別村",
-        "小鹿野町",
-        "伊江村"
-      ],
-      "answer": "小鹿野町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "timeline-reason",
-        "merge",
-        "埼玉県",
-        "2005"
-      ],
-      "difficulty": 0.54,
-      "source": {
-        "dataset": "municipality-history",
-        "refs": [
-          "小鹿野町(11365)、両神村(11366)が合併し、小鹿野町を新設"
-        ]
-      },
-      "trivia": "平成17年（2005年）、埼玉県。「平成の大合併」（2003〜2010年）の一つ。小鹿野町(11365)、両神村(11366)が合併し、小鹿野町を新設"
-    },
-    {
-      "type": "timeline-reason",
       "id": "timeline-merge-神川町-2006-01-01",
       "prompt": "神泉村と合併して誕生したのは？",
       "choices": [
@@ -5617,33 +5482,6 @@
         ]
       },
       "trivia": "平成19年（2007年）、神奈川県。「平成の大合併」（2003〜2010年）の一つ。藤野町(14424)が相模原市(14209)に編入"
-    },
-    {
-      "type": "timeline-reason",
-      "id": "timeline-absorb-城山町-2007-03-11",
-      "prompt": "「城山町」が編入されたのはどこ？",
-      "choices": [
-        "留別村",
-        "南さつま市",
-        "日高川町",
-        "相模原市"
-      ],
-      "answer": "相模原市",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "timeline-reason",
-        "absorb",
-        "神奈川県",
-        "2007"
-      ],
-      "difficulty": 0.5700000000000001,
-      "source": {
-        "dataset": "municipality-history",
-        "refs": [
-          "城山町(14421)が相模原市(14209)に編入"
-        ]
-      },
-      "trivia": "平成19年（2007年）、神奈川県。「平成の大合併」（2003〜2010年）の一つ。城山町(14421)が相模原市(14209)に編入"
     },
     {
       "type": "timeline-reason",
@@ -8779,33 +8617,6 @@
     },
     {
       "type": "timeline-reason",
-      "id": "timeline-merge-郡上市-2004-03-01",
-      "prompt": "八幡町・大和町・白鳥町・高鷲村・美並村・明宝村・和良村が合併して誕生したのは？",
-      "choices": [
-        "植木町",
-        "勝浦市",
-        "日出町",
-        "郡上市"
-      ],
-      "answer": "郡上市",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "timeline-reason",
-        "merge",
-        "岐阜県",
-        "2004"
-      ],
-      "difficulty": 0.4,
-      "source": {
-        "dataset": "municipality-history",
-        "refs": [
-          "八幡町(21481)、大和町(21482)、白鳥町(21483)、高鷲村(21484)、美並村(21485)、明宝村(21486)、和良村(21487)が合併し、郡上市(21219)を新設"
-        ]
-      },
-      "trivia": "平成16年（2004年）、岐阜県。「平成の大合併」（2003〜2010年）の一つ。八幡町(21481)、大和町(21482)、白鳥町(21483)、高鷲村(21484)、美並村(21485)、明宝村(21486)、和良村(21487)が合併し、郡上市(21219)を新設"
-    },
-    {
-      "type": "timeline-reason",
       "id": "timeline-merge-下呂市-2004-03-01",
       "prompt": "萩原町・小坂町・下呂町・金山町・馬瀬村が合併して誕生したのは？",
       "choices": [
@@ -11020,33 +10831,6 @@
     },
     {
       "type": "timeline-reason",
-      "id": "timeline-merge-京丹波町-2005-10-11",
-      "prompt": "丹波町・瑞穂町・和知町が合併して誕生したのは？",
-      "choices": [
-        "京丹波町",
-        "蘂取村",
-        "宜野座村",
-        "相良村"
-      ],
-      "answer": "京丹波町",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "timeline-reason",
-        "merge",
-        "京都府",
-        "2005"
-      ],
-      "difficulty": 0.51,
-      "source": {
-        "dataset": "municipality-history",
-        "refs": [
-          "丹波町(26403)、瑞穂町(26405)、和知町(26406)が合併し、京丹波町(26407)を新設"
-        ]
-      },
-      "trivia": "平成17年（2005年）、京都府。「平成の大合併」（2003〜2010年）の一つ。丹波町(26403)、瑞穂町(26405)、和知町(26406)が合併し、京丹波町(26407)を新設"
-    },
-    {
-      "type": "timeline-reason",
       "id": "timeline-merge-与謝野町-2006-03-01",
       "prompt": "加悦町・岩滝町・野田川町が合併して誕生したのは？",
       "choices": [
@@ -12964,33 +12748,6 @@
     },
     {
       "type": "timeline-reason",
-      "id": "timeline-absorb-吉備町・妹尾町・福田村-1971-03-08",
-      "prompt": "「吉備町・妹尾町・福田村」が編入されたのはどこ？",
-      "choices": [
-        "和歌山市",
-        "色丹村",
-        "山添村",
-        "岡山市"
-      ],
-      "answer": "岡山市",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "timeline-reason",
-        "absorb",
-        "岡山県",
-        "1971"
-      ],
-      "difficulty": 0.71,
-      "source": {
-        "dataset": "municipality-history",
-        "refs": [
-          "吉備町(33421)、妹尾町(33424)、福田村(33426)が岡山市(33201)に編入"
-        ]
-      },
-      "trivia": "昭和46年（1971年）、岡山県。吉備町(33421)、妹尾町(33424)、福田村(33426)が岡山市(33201)に編入"
-    },
-    {
-      "type": "timeline-reason",
       "id": "timeline-absorb-上道町・興除村・足守町-1971-05-01",
       "prompt": "「上道町・興除村・足守町」が編入されたのはどこ？",
       "choices": [
@@ -13177,33 +12934,6 @@
         ]
       },
       "trivia": "平成17年（2005年）、岡山県。「平成の大合併」（2003〜2010年）の一つ。船穂町(33441)、真備町(33503)が倉敷市(33202)に編入"
-    },
-    {
-      "type": "timeline-reason",
-      "id": "timeline-absorb-加茂町・阿波村・勝北町・久米町-2005-02-28",
-      "prompt": "「加茂町・阿波村・勝北町・久米町」が編入されたのはどこ？",
-      "choices": [
-        "浦和市",
-        "津山市",
-        "二戸市",
-        "おおい町"
-      ],
-      "answer": "津山市",
-      "distractorStrategy": "sameCategoryPool",
-      "tags": [
-        "timeline-reason",
-        "absorb",
-        "岡山県",
-        "2005"
-      ],
-      "difficulty": 0.48000000000000004,
-      "source": {
-        "dataset": "municipality-history",
-        "refs": [
-          "加茂町(33601)、阿波村(33605)、勝北町(33624)、久米町(33664)が津山市(33203)に編入"
-        ]
-      },
-      "trivia": "平成17年（2005年）、岡山県。「平成の大合併」（2003〜2010年）の一つ。加茂町(33601)、阿波村(33605)、勝北町(33624)、久米町(33664)が津山市(33203)に編入"
     },
     {
       "type": "timeline-reason",

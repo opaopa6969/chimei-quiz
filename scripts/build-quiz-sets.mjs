@@ -13,6 +13,7 @@ import * as cityFact from "./question-types/city-fact.mjs";
 import * as loreTrivia from "./question-types/lore-trivia.mjs";
 import * as parserStructure from "./question-types/parser-structure.mjs";
 import * as districtReading from "./question-types/district-reading.mjs";
+import { excludeMunicipalityQuestions } from "./quiz-exclusions.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.join(__dirname, "..", "data");
@@ -47,7 +48,9 @@ const SETS = {
 };
 
 let total = 0;
-for (const [name, questions] of Object.entries(SETS)) {
+for (const [name, generated] of Object.entries(SETS)) {
+  const questions = excludeMunicipalityQuestions(generated);
+  SETS[name] = questions;
   writeFileSync(
     path.join(QUIZ_DIR, `${name}.json`),
     JSON.stringify({ type: name, count: questions.length, questions }, null, 2) + "\n"

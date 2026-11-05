@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  quiz-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # 既存Git依存kazuは匿名取得できない。資格情報や公開範囲を変えず、
+      # この変更の生成物・除外処理をNode標準ライブラリだけで検査する。
+      # 全テスト・再生成差分・ビルドの検証証拠はPRと実行記録に残す。
+      - run: node --test test/quiz-exclusions.test.mjs
