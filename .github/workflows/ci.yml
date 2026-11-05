@@ -18,6 +18,11 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci --no-audit --no-fund
+        env:
+          # npmがGit依存をSSHで解決する場合も、公開repoは認証不要のHTTPSで取得する。
+          GIT_CONFIG_COUNT: 1
+          GIT_CONFIG_KEY_0: url.https://github.com/.insteadOf
+          GIT_CONFIG_VALUE_0: ssh://git@github.com/
       - run: npm test
       - name: Verify offline quiz generation
         run: |
