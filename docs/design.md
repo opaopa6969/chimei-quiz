@@ -66,8 +66,10 @@ provenance整備は #21 に残し、マスタ自体は変更しない。
 
 ネットワークを使わず、コミット済みの入力だけで再生成するコマンドは
 `node scripts/build-quiz-sets.mjs`。この用途では fetch も行う `npm run build:data` を使わない。
-`npm test` は全quiz JSONの除外条件とミックス索引の整合性を検査し、CIはさらに再生成差分ゼロと
-`npm run build` を検査する。
+`npm test` は全quiz JSONの除外条件とミックス索引の整合性を含む全テストを実行する。
+CIは依存不要の `node --test test/quiz-exclusions.test.mjs` で除外処理・生成物を検査する。
+既存Git依存kazuは匿名取得できないため、全テスト・再生成差分ゼロ・ビルドは
+依存取得可能なローカル環境で検証してPRに記録する。CI用の資格情報や公開範囲は変更しない。
 
 ## スキーマ（例）
 
